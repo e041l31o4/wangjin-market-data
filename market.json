@@ -1,4 +1,5 @@
 {
+  "schemaVersion": 3,
   "updatedAt": "2026-10-08",
   "year": 2026,
   "period": "2026年官方已收集揭露批次（非全年完整統計；已涵蓋交易月份：2026-01, 2026-02, 2026-03, 2026-04, 2026-05, 2026-06, 2026-07, 2026-08, 2026-09）",
@@ -9529,5 +9530,9 @@
       "avgUnitPriceWanPing": 37.156,
       "rankInMonth": 28
     }
-  ]
+  ],
+  "buildingRankings": [],
+  "communityMatchCount": 0,
+  "communityUnmatchedCount": 4512,
+  "buildingRankingNote": "成屋社區排行只統計官方直接具名或經完整建物門牌人工核實的案件；未辨識社區不納入排名。"
 }
