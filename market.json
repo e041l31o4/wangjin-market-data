@@ -1,1 +1,233 @@
-{}
+{
+  "updatedAt": "2026-10-08",
+  "period": "官方已收集批次（非全年完整統計；涵蓋交易月份：2025-07, 2026-02, 2026-03, 2026-04, 2026-05, 2026-06, 2026-07, 2026-08, 2026-09）",
+  "sourceLabel": "內政部不動產交易實價登錄 Open Data（住宅大樓、住家用、排除部分特殊交易）",
+  "sourceUrl": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+  "yearMonths": {},
+  "records": [
+    {
+      "year": 2025,
+      "district": "前鎮區",
+      "category": "成屋",
+      "count": 1,
+      "totalPriceWan": 1900.002,
+      "totalAreaPing": 58.9573
+    },
+    {
+      "year": 2026,
+      "district": "三民區",
+      "category": "成屋",
+      "count": 51,
+      "totalPriceWan": 74919.981,
+      "totalAreaPing": 2176.3182
+    },
+    {
+      "year": 2026,
+      "district": "三民區",
+      "category": "預售屋",
+      "count": 4,
+      "totalPriceWan": 7553.987,
+      "totalAreaPing": 161.0964
+    },
+    {
+      "year": 2026,
+      "district": "仁武區",
+      "category": "成屋",
+      "count": 23,
+      "totalPriceWan": 30749.024,
+      "totalAreaPing": 1018.5175
+    },
+    {
+      "year": 2026,
+      "district": "仁武區",
+      "category": "預售屋",
+      "count": 3,
+      "totalPriceWan": 2780.0,
+      "totalAreaPing": 83.6382
+    },
+    {
+      "year": 2026,
+      "district": "前金區",
+      "category": "成屋",
+      "count": 4,
+      "totalPriceWan": 3829.952,
+      "totalAreaPing": 150.2548
+    },
+    {
+      "year": 2026,
+      "district": "前鎮區",
+      "category": "成屋",
+      "count": 12,
+      "totalPriceWan": 29695.986,
+      "totalAreaPing": 783.5658
+    },
+    {
+      "year": 2026,
+      "district": "前鎮區",
+      "category": "預售屋",
+      "count": 14,
+      "totalPriceWan": 16239.006,
+      "totalAreaPing": 409.0738
+    },
+    {
+      "year": 2026,
+      "district": "大寮區",
+      "category": "成屋",
+      "count": 9,
+      "totalPriceWan": 9452.999,
+      "totalAreaPing": 339.6682
+    },
+    {
+      "year": 2026,
+      "district": "大寮區",
+      "category": "預售屋",
+      "count": 1,
+      "totalPriceWan": 1067.996,
+      "totalAreaPing": 36.1941
+    },
+    {
+      "year": 2026,
+      "district": "小港區",
+      "category": "成屋",
+      "count": 15,
+      "totalPriceWan": 14486.004,
+      "totalAreaPing": 533.1109
+    },
+    {
+      "year": 2026,
+      "district": "岡山區",
+      "category": "成屋",
+      "count": 4,
+      "totalPriceWan": 2633.01,
+      "totalAreaPing": 98.01
+    },
+    {
+      "year": 2026,
+      "district": "左營區",
+      "category": "成屋",
+      "count": 34,
+      "totalPriceWan": 53047.037,
+      "totalAreaPing": 1523.5141
+    },
+    {
+      "year": 2026,
+      "district": "新興區",
+      "category": "成屋",
+      "count": 10,
+      "totalPriceWan": 8357.988,
+      "totalAreaPing": 295.0404
+    },
+    {
+      "year": 2026,
+      "district": "楠梓區",
+      "category": "成屋",
+      "count": 31,
+      "totalPriceWan": 32923.011,
+      "totalAreaPing": 1161.5879
+    },
+    {
+      "year": 2026,
+      "district": "楠梓區",
+      "category": "預售屋",
+      "count": 5,
+      "totalPriceWan": 5936.009,
+      "totalAreaPing": 138.6751
+    },
+    {
+      "year": 2026,
+      "district": "橋頭區",
+      "category": "成屋",
+      "count": 9,
+      "totalPriceWan": 13456.991,
+      "totalAreaPing": 403.3989
+    },
+    {
+      "year": 2026,
+      "district": "橋頭區",
+      "category": "預售屋",
+      "count": 1,
+      "totalPriceWan": 1235.0,
+      "totalAreaPing": 26.9709
+    },
+    {
+      "year": 2026,
+      "district": "湖內區",
+      "category": "成屋",
+      "count": 1,
+      "totalPriceWan": 439.993,
+      "totalAreaPing": 35.084
+    },
+    {
+      "year": 2026,
+      "district": "苓雅區",
+      "category": "成屋",
+      "count": 15,
+      "totalPriceWan": 21651.029,
+      "totalAreaPing": 653.9596
+    },
+    {
+      "year": 2026,
+      "district": "阿蓮區",
+      "category": "成屋",
+      "count": 1,
+      "totalPriceWan": 380.004,
+      "totalAreaPing": 32.0136
+    },
+    {
+      "year": 2026,
+      "district": "鳥松區",
+      "category": "成屋",
+      "count": 2,
+      "totalPriceWan": 3125.013,
+      "totalAreaPing": 124.4062
+    },
+    {
+      "year": 2026,
+      "district": "鳥松區",
+      "category": "預售屋",
+      "count": 1,
+      "totalPriceWan": 895.0,
+      "totalAreaPing": 23.2865
+    },
+    {
+      "year": 2026,
+      "district": "鳳山區",
+      "category": "成屋",
+      "count": 33,
+      "totalPriceWan": 40942.96,
+      "totalAreaPing": 1378.8556
+    },
+    {
+      "year": 2026,
+      "district": "鳳山區",
+      "category": "預售屋",
+      "count": 3,
+      "totalPriceWan": 2801.999,
+      "totalAreaPing": 92.5922
+    },
+    {
+      "year": 2026,
+      "district": "鹽埕區",
+      "category": "成屋",
+      "count": 3,
+      "totalPriceWan": 2410.996,
+      "totalAreaPing": 78.1388
+    },
+    {
+      "year": 2026,
+      "district": "鼓山區",
+      "category": "成屋",
+      "count": 31,
+      "totalPriceWan": 74940.99,
+      "totalAreaPing": 1829.4747
+    },
+    {
+      "year": 2026,
+      "district": "鼓山區",
+      "category": "預售屋",
+      "count": 4,
+      "totalPriceWan": 8788.996,
+      "totalAreaPing": 139.5765
+    }
+  ]
+}
