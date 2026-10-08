@@ -15,6 +15,7 @@ import json
 from pathlib import Path
 import re
 import sys
+import unicodedata
 import time
 import urllib.request
 import zipfile
@@ -24,6 +25,8 @@ from datetime import date, datetime, timezone, timedelta
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / 'data' / 'transactions.json'
 OUTPUT = ROOT / 'market.json'
+COMMUNITY_MAP = ROOT / 'data' / 'community_mapping.csv'
+SCHEMA_VERSION = 3
 SOURCE = 'https://plvr.land.moi.gov.tw/DownloadOpenData'
 CURRENT = 'https://plvr.land.moi.gov.tw/Download?type=zip&fileName=lvr_landcsv.zip'
 SEASON_URL = 'https://plvr.land.moi.gov.tw/DownloadSeason?season={season}&type=zip&fileName=lvr_landcsv.zip'
@@ -117,6 +120,54 @@ def clean_project_name(value):
     return name[:120]
 
 
+def address_key(value, district):
+    """Extract a *building-number* address for verified community mapping.
+
+    Never use street-only matching: one road can contain multiple communities.
+    No apartment floor/unit number is retained in the public JSON.
+    """
+    value = unicodedata.normalize('NFKC', str(value or ''))
+    value = re.sub(r'(號(?:之\d+)?)\s+.*$', r'\1', value)
+    value = re.sub(r'\s+', '', value).replace('臺', '台')
+    value = re.sub(r'^台灣(?:省)?', '', value)
+    value = re.sub(r'^高雄市', '', value)
+    if value.startswith(district):
+        value = value[len(district):]
+    # Only match addresses with a complete building number, not a road name.
+    match = re.match(r'^(.+?號(?:之\d+)?)', value)
+    return match.group(1) if match else None
+
+
+def load_community_mapping():
+    """Optional hand-verified exact-address-to-community table.
+
+    Columns: district,addressKey,buildingName,source. source is a human
+    verification note; absence of a source means the mapping is not trusted.
+    """
+    if not COMMUNITY_MAP.exists():
+        return {}
+    result = {}
+    with COMMUNITY_MAP.open('r', encoding='utf-8-sig', newline='') as file:
+        reader = csv.DictReader(file)
+        required = {'district', 'addressKey', 'buildingName', 'source'}
+        if not required.issubset(reader.fieldnames or []):
+            raise RuntimeError('community_mapping.csv 缺少欄位：district,addressKey,buildingName,source')
+        for index, row in enumerate(reader, start=2):
+            if not any((v or '').strip() for v in row.values() if isinstance(v, str)):
+                continue
+            district = (row.get('district') or '').strip()
+            address = address_key(row.get('addressKey'), district)
+            name = clean_project_name(row.get('buildingName'))
+            source = (row.get('source') or '').strip()
+            if district not in DISTRICTS or not address or not name or not source:
+                raise RuntimeError(f'社區對照表第 {index} 列不完整；需區域、完整門牌、社區名稱與查證來源')
+            key = (district, address)
+            if key in result and result[key] != name:
+                raise RuntimeError(f'社區對照表門牌重複且名稱衝突：{district} {address}')
+            result[key] = name
+    return result
+
+
 def normalize(row, kind):
     district = (row.get('鄉鎮市區') or '').strip()
     if district not in DISTRICTS or (row.get('主要用途') or '').strip() != '住家用':
@@ -162,9 +213,16 @@ def normalize(row, kind):
         if traded_day.year == built_day.year + 5 and traded_day.month == built_day.month:
             completed = None
     project = clean_project_name(row.get('建案名稱') or row.get('預售屋建案名稱')) if kind == '預售屋' else None
+    # Some official datasets explicitly contain community/project names for
+    # completed homes; most do not. Never invent names from the street address.
+    community = (clean_project_name(row.get('社區名稱') or row.get('建案名稱'))
+                 if kind == '成屋' else None)
+    location = (row.get('土地位置建物門牌') or row.get('建物門牌') or row.get('門牌'))
+    address = address_key(location, district) if kind == '成屋' else None
     return key, {'date': traded, 'district': district, 'category': kind,
                  'areaM2': round(adjusted_area, 4), 'unitPriceM2': round(unit, 4),
-                 'completedAt': completed, 'projectName': project}
+                 'completedAt': completed, 'projectName': project,
+                 'addressKey': address, 'communityName': community}
 
 
 def decode_csv(data):
@@ -228,7 +286,7 @@ def aggregate_rows(rows, key_fn):
     return result
 
 
-def build_payload(records, today, imported_seasons=None, attempted_seasons=None):
+def build_payload(records, today, imported_seasons=None, attempted_seasons=None, community_map=None, schema_version=SCHEMA_VERSION):
     rows = [row for row in records.values()
             if row.get('date', '').startswith(f'{YEAR}-')
             and row.get('category') in ('成屋', '預售屋')]
@@ -256,10 +314,37 @@ def build_payload(records, today, imported_seasons=None, attempted_seasons=None)
             if project['month'] == month:
                 rank += 1
                 project['rankInMonth'] = rank
+    # Community rankings: a transaction is counted only when its community
+    # name is explicitly present in the official record or has an exact,
+    # manually verified building-number address match. The '成屋' rollup and
+    # age-specific rollups are alternative views, never summed together.
+    community_map = community_map or {}
+    named_completed = []
+    total_completed = 0
+    for r in rows:
+        if r['category'] != '成屋':
+            continue
+        total_completed += 1
+        name = (clean_project_name(r.get('communityName')) or
+                community_map.get((r['district'], r.get('addressKey'))))
+        if not name:
+            continue
+        for label in ('成屋', age_category(r['date'], r.get('completedAt'))):
+            copy = dict(r)
+            copy['buildingName'] = name
+            copy['rankingCategory'] = label
+            named_completed.append(copy)
+    buildings = aggregate_rows(named_completed, lambda r: (
+        ('month', r['date'][:7]), ('district', r['district']),
+        ('category', r['rankingCategory']), ('buildingName', r['buildingName'])))
+    buildings.sort(key=lambda r: (r['month'], r['category'], -r['count'],
+                                  r['district'], r['buildingName']))
+    identified_completed = len(named_completed) // 2
     unknown_age = sum(r['category'] == '成屋' and
                       age_category(r['date'], r.get('completedAt')) == UNKNOWN_AGE
                       for r in rows)
     return {
+        'schemaVersion': schema_version,
         'updatedAt': today, 'year': YEAR,
         'period': f'{YEAR}年官方已收集揭露批次（非全年完整統計；已涵蓋交易月份：' +
                   (', '.join(months) if months else '尚無') + '）',
@@ -280,6 +365,10 @@ def build_payload(records, today, imported_seasons=None, attempted_seasons=None)
         'monthlyRecords': monthly,
         'ageMonthlyRecords': age_monthly,
         'projectRankings': projects,
+        'buildingRankings': buildings,
+        'communityMatchCount': identified_completed,
+        'communityUnmatchedCount': total_completed - identified_completed,
+        'buildingRankingNote': '成屋社區排行只統計官方直接具名或經完整建物門牌人工核實的案件；未辨識社區不納入排名。',
     }
 
 
@@ -312,10 +401,20 @@ def seasons_to_attempt(today):
     return result
 
 
+def previous_schema_version():
+    if not OUTPUT.exists():
+        return 0
+    try:
+        obj = json.loads(OUTPUT.read_text(encoding='utf-8'))
+        return int(obj.get('schemaVersion', 0))
+    except (OSError, ValueError, TypeError):
+        return 0
+
+
 def merge_records(existing, incoming):
     for key, row in incoming.items():
         previous = existing.get(key, {})
-        for field in ('completedAt', 'projectName'):
+        for field in ('completedAt', 'projectName', 'addressKey', 'communityName'):
             if not row.get(field) and previous.get(field):
                 row[field] = previous[field]
         existing[key] = row
@@ -328,6 +427,8 @@ def main():
     parser.add_argument('--zip-dir', help='從資料夾匯入所有官方 ZIP')
     parser.add_argument('--no-backfill', action='store_true',
                         help='僅更新當期，不補歷史季度')
+    parser.add_argument('--refresh-history', action='store_true',
+                         help='強制重新下載已匯入季度，以補齊社區名稱與門牌欄位')
     parser.add_argument('--dry-run', action='store_true')
     args = parser.parse_args()
     today_date = datetime.now(timezone(timedelta(hours=8))).date()
@@ -335,6 +436,11 @@ def main():
     imported = imported_seasons_from_previous_output()
     attempted = set()
     incoming_count = 0
+    # First run after this schema upgrade refreshes imported seasons to add
+    # addresses/community names to transactions stored by the old script.
+    refresh_history = args.refresh_history or previous_schema_version() < SCHEMA_VERSION
+    refresh_failed = False
+    community_map = load_community_mapping()
 
     zip_paths = [Path(p) for p in args.zip]
     if args.zip_dir:
@@ -351,7 +457,7 @@ def main():
 
     if not args.no_backfill:
         for season in seasons_to_attempt(today_date):
-            if season in imported:
+            if season in imported and not refresh_history:
                 continue
             attempted.add(season)
             try:
@@ -365,6 +471,7 @@ def main():
                 imported.add(season)
                 print(f'歷史季度 {season}：匯入符合2026年條件 {len(batch)} 筆', flush=True)
             except Exception as exc:
+                refresh_failed = True
                 print(f'警告：歷史季度 {season} 暫時無法匯入，未標記完成；下次會重試：{exc}',
                       file=sys.stderr, flush=True)
 
@@ -378,7 +485,9 @@ def main():
 
     if not existing:
         raise RuntimeError('沒有任何符合2026年條件的紀錄，停止更新，避免清空既有資料')
-    payload = build_payload(existing, today_date.isoformat(), imported, attempted)
+    payload = build_payload(existing, today_date.isoformat(), imported, attempted,
+                            community_map=community_map,
+                            schema_version=(SCHEMA_VERSION if not refresh_failed else previous_schema_version()))
     if not args.dry_run:
         DB.parent.mkdir(parents=True, exist_ok=True)
         DB.write_text(json.dumps(existing, ensure_ascii=False, sort_keys=True,
@@ -389,7 +498,10 @@ def main():
           f'涵蓋交易月份={len(payload["availableMonths"])}；'
           f'已匯入歷史季度={len(imported)}；'
           f'屋齡不明成屋={payload["unknownAgeCount"]}；'
-          f'具名預售建案排名列數={len(payload["projectRankings"])}')
+          f'具名預售建案排名列數={len(payload["projectRankings"])}；'
+          f'可辨識成屋社區交易={payload["communityMatchCount"]}；'
+          f'未辨識成屋社區交易={payload["communityUnmatchedCount"]}；'
+          f'成屋社區排名列數={len(payload["buildingRankings"])}')
     print(payload['period'])
     if args.dry_run:
         print('dry-run：未寫入任何檔案')
