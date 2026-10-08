@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
-"""WANGJIN Kaohsiung high-rise transaction summaries from MOI official CSV ZIPs.
+"""WANGJIN 2026 Kaohsiung housing market data, based on MOI disclosed batches.
 
-Data limitation: public release batches are NOT a full-year transaction census.
-The output always identifies the release-based coverage and never labels it a
-complete year or computes year-over-year rates without verified coverage.
+The feed is NOT a complete census of 2026 transactions. Months without loaded
+records are unknown, not zero. Backfill archived quarterly releases automatically on the first scheduled run;
+subsequent runs skip successfully imported quarters.
+Keep the existing records schema for the current Framer dashboard, while adding
+monthlyRecords, ageMonthlyRecords, and projectRankings for the new dashboard.
 """
 import argparse
 import csv
 import hashlib
 import io
 import json
-import os
 from pathlib import Path
 import re
 import sys
@@ -18,15 +19,17 @@ import time
 import urllib.request
 import zipfile
 from collections import defaultdict
-from datetime import datetime, timezone, timedelta
+from datetime import date, datetime, timezone, timedelta
 
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / 'data' / 'transactions.json'
 OUTPUT = ROOT / 'market.json'
 SOURCE = 'https://plvr.land.moi.gov.tw/DownloadOpenData'
 CURRENT = 'https://plvr.land.moi.gov.tw/Download?type=zip&fileName=lvr_landcsv.zip'
-# The archived quarterly releases are a separate optional backfill and need
-# validation before claiming full-year coverage.
+SEASON_URL = 'https://plvr.land.moi.gov.tw/DownloadSeason?season={season}&type=zip&fileName=lvr_landcsv.zip'
+# 115S1/2/3 are official *release* quarters, not necessarily transaction quarters.
+# Store successfully imported seasons inside market.json, which the existing workflow already commits.
+YEAR = 2026
 PING_M2 = 3.305785
 DISTRICTS = {'楠梓區','橋頭區','左營區','鼓山區','鳳山區','三民區','前鎮區','苓雅區',
 '新興區','前金區','鹽埕區','小港區','旗津區','岡山區','仁武區','鳥松區','大寮區',
@@ -36,10 +39,13 @@ DISTRICTS = {'楠梓區','橋頭區','左營區','鼓山區','鳳山區','三民
 EXCLUDE_NOTES = ('親友、員工、共有人或其他特殊關係', '特殊關係', '協議價購',
  '債權債務', '急買急賣', '瑕疵', '含增建', '含未登記建物', '地上權',
  '法拍', '拍賣', '親屬', '政府機關', '建商與地主')
+UNKNOWN_AGE = '屋齡未明成屋'
 
 
 def download_zip(url):
-    request = urllib.request.Request(url, headers={'User-Agent': 'WANGJIN-Market-Data/1.0 (public research)', 'Accept': 'application/zip,application/octet-stream,*/*'})
+    request = urllib.request.Request(url, headers={
+        'User-Agent': 'WANGJIN-Market-Data/2.0 (public research)',
+        'Accept': 'application/zip,application/octet-stream,*/*'})
     for attempt in range(3):
         try:
             with urllib.request.urlopen(request, timeout=75) as response:
@@ -64,12 +70,20 @@ def number(value):
 
 
 def parse_date(raw):
+    """Convert ROC 7-digit YYYYMMDD or 5-digit YYYYMM dates to ISO.
+
+    A month-only building completion date is assigned day 1 for internal
+    calculation; borderline 5-year classifications are left unknown below.
+    """
     s = str(raw or '').strip()
-    if not re.fullmatch(r'\d{7}', s):
+    if re.fullmatch(r'\d{7}', s):
+        y, m, d = int(s[:3]) + 1911, int(s[3:5]), int(s[5:7])
+    elif re.fullmatch(r'\d{5}', s):
+        y, m, d = int(s[:3]) + 1911, int(s[3:5]), 1
+    else:
         return None
-    year, month, day = int(s[:3]) + 1911, int(s[3:5]), int(s[5:7])
     try:
-        return datetime(year, month, day).date().isoformat()
+        return date(y, m, d).isoformat()
     except ValueError:
         return None
 
@@ -79,75 +93,103 @@ def is_single_unit(s):
     return bool(m and int(m.group(1)) == 1)
 
 
+def age_category(transaction_date, completed):
+    if not completed:
+        return UNKNOWN_AGE
+    try:
+        traded = date.fromisoformat(transaction_date)
+        built = date.fromisoformat(completed)
+        if built > traded:
+            return UNKNOWN_AGE
+        try:
+            fifth_anniversary = built.replace(year=built.year + 5)
+        except ValueError:  # February 29 -> February 28
+            fifth_anniversary = built.replace(year=built.year + 5, day=28)
+        return '5年內成屋' if traded <= fifth_anniversary else '中古屋'
+    except (TypeError, ValueError):
+        return UNKNOWN_AGE
+
+
+def clean_project_name(value):
+    name = re.sub(r'\s+', ' ', str(value or '')).strip()
+    if name in ('', '無', '未提供', '不詳', '其他', 'NA', 'N/A', '－', '-'):
+        return None
+    return name[:120]
+
+
 def normalize(row, kind):
-    district = row.get('鄉鎮市區', '').strip()
-    if district not in DISTRICTS or row.get('主要用途', '').strip() != '住家用':
+    district = (row.get('鄉鎮市區') or '').strip()
+    if district not in DISTRICTS or (row.get('主要用途') or '').strip() != '住家用':
         return None
-    if row.get('建物型態', '').strip() != '住宅大樓(11層含以上有電梯)':
+    if (row.get('建物型態') or '').strip() != '住宅大樓(11層含以上有電梯)':
         return None
-    if not row.get('交易標的', '').startswith('房地('):
+    if not (row.get('交易標的') or '').startswith('房地('):
         return None
     if not is_single_unit(row.get('交易筆棟數', '')):
         return None
     note = row.get('備註', '') or ''
     if any(term in note for term in EXCLUDE_NOTES):
         return None
-    # Do not misrepresent registration of an already presold home as a new
-    # contemporaneous finished-building purchase.
     if kind == '成屋' and '預售屋' in note:
         return None
     if kind == '預售屋' and (row.get('解約情形', '') or '').strip():
         return None
-    date = parse_date(row.get('交易年月日'))
-    if not date or not (2025 <= int(date[:4]) <= 2026):
+    traded = parse_date(row.get('交易年月日'))
+    if not traded or int(traded[:4]) != YEAR:
         return None
     area = number(row.get('建物移轉總面積平方公尺'))
     unit = number(row.get('單價元平方公尺'))
-    if not area or not unit or area <= 0 or unit <= 0:
+    if not area or not unit:
         return None
-    park_area = number(row.get('車位移轉總面積平方公尺')) or 0
-    park_price = number(row.get('車位總價元')) or 0
-    # MOI's official per-m² price excludes separately priced parking area.
-    # When a parking price is supplied, weight the unit price by building
-    # area excluding parking; otherwise use the official reported area.
-    adjusted_area = area - park_area if park_price > 0 and park_area < area else area
+    parking_area = number(row.get('車位移轉總面積平方公尺')) or 0
+    parking_price = number(row.get('車位總價元')) or 0
+    adjusted_area = area - parking_area if parking_price > 0 and parking_area < area else area
     if adjusted_area <= 0:
         return None
-    price_ping = unit * PING_M2 / 10_000
-    # Broad plausibility guard only, not a substitute for human review.
-    if not 2 <= price_ping <= 300:
+    if not 2 <= unit * PING_M2 / 10_000 <= 300:
         return None
     identity = (row.get('編號') or '').strip()
     if not identity:
         return None
     key = hashlib.sha256(f'{kind}:{identity}'.encode()).hexdigest()[:24]
-    return key, {'date': date, 'district': district, 'category': kind,
-                 'areaM2': round(adjusted_area, 4), 'unitPriceM2': round(unit, 4)}
+    completed_raw = (row.get('建築完成年月') or row.get('建築完成日期') or '').strip()
+    completed = parse_date(completed_raw) if kind == '成屋' else None
+    completion_month_only = bool(re.fullmatch(r'\d{5}', completed_raw))
+    if kind == '成屋' and completion_month_only and completed:
+        # When exactly on the 5-year boundary, month-only data cannot decide.
+        traded_day = date.fromisoformat(traded)
+        built_day = date.fromisoformat(completed)
+        if traded_day.year == built_day.year + 5 and traded_day.month == built_day.month:
+            completed = None
+    project = clean_project_name(row.get('建案名稱') or row.get('預售屋建案名稱')) if kind == '預售屋' else None
+    return key, {'date': traded, 'district': district, 'category': kind,
+                 'areaM2': round(adjusted_area, 4), 'unitPriceM2': round(unit, 4),
+                 'completedAt': completed, 'projectName': project}
 
 
 def decode_csv(data):
-    for enc in ('utf-8-sig', 'cp950', 'big5'):
+    for encoding in ('utf-8-sig', 'cp950', 'big5'):
         try:
-            return data.decode(enc)
+            return data.decode(encoding)
         except UnicodeError:
-            continue
+            pass
     raise RuntimeError('官方 CSV 編碼無法辨識')
 
 
 def extract(archive):
     records = {}
     with zipfile.ZipFile(io.BytesIO(archive)) as z:
-        names = {Path(name).name.lower(): name for name in z.namelist()}
+        names = {Path(n).name.lower(): n for n in z.namelist()}
         found = 0
         for suffix, kind in [('a', '成屋'), ('b', '預售屋')]:
             filename = f'e_lvr_land_{suffix}.csv'
             if filename not in names:
                 raise RuntimeError(f'下載 ZIP 缺少高雄市檔案：{filename}')
-            rows = list(csv.DictReader(io.StringIO(decode_csv(z.read(names[filename])))))
-            if not rows or '鄉鎮市區' not in rows[0] or '編號' not in rows[0]:
+            rows = csv.DictReader(io.StringIO(decode_csv(z.read(names[filename]))))
+            if not {'鄉鎮市區', '編號'}.issubset(rows.fieldnames or []):
                 raise RuntimeError(f'官方 CSV 欄位已改變：{filename}')
-            found += len(rows)
             for row in rows:
+                found += 1
                 item = normalize(row, kind)
                 if item:
                     records[item[0]] = item[1]
@@ -162,55 +204,195 @@ def load_existing():
     obj = json.loads(DB.read_text(encoding='utf-8'))
     if not isinstance(obj, dict):
         raise RuntimeError('交易資料庫格式異常')
-    return obj
+    return {key: row for key, row in obj.items()
+            if isinstance(row, dict) and str(row.get('date', '')).startswith(f'{YEAR}-')
+            and row.get('category') in ('成屋', '預售屋')}
 
 
-def build_payload(records, today):
-    grouped = defaultdict(lambda: [0, 0.0, 0.0])
-    months = set()
-    for row in records.values():
-        y = int(row['date'][:4]); d = row['district']; k = row['category']
-        area_ping = row['areaM2'] / PING_M2
-        total_wan = row['unitPriceM2'] * row['areaM2'] / 10_000
-        key = (y, d, k)
-        grouped[key][0] += 1
-        grouped[key][1] += total_wan
-        grouped[key][2] += area_ping
-        months.add(row['date'][:7])
-    output = []
-    for (y, d, k), (count, price, area) in sorted(grouped.items()):
-        output.append({'year': y, 'district': d, 'category': k, 'count': count,
-                       'totalPriceWan': round(price, 3), 'totalAreaPing': round(area, 4)})
-    return {'updatedAt': today, 'period': '官方已收集批次（非全年完整統計；涵蓋交易月份：' +
-            (', '.join(sorted(months)) if months else '尚無') + '）',
-            'sourceLabel': '內政部不動產交易實價登錄 Open Data（住宅大樓、住家用、排除部分特殊交易）',
-            'sourceUrl': SOURCE,
-            # No comparable yearMonths: the published batches do not prove
-            # the same completeness across years. Disable misleading YoY.
-            'yearMonths': {}, 'records': output}
+def aggregate_rows(rows, key_fn):
+    groups = defaultdict(lambda: [0, 0.0, 0.0])
+    for row in rows:
+        key = key_fn(row)
+        area = float(row['areaM2'])
+        unit = float(row['unitPriceM2'])
+        groups[key][0] += 1
+        groups[key][1] += unit * area / 10_000
+        groups[key][2] += area / PING_M2
+    result = []
+    for key, (count, price, area) in sorted(groups.items()):
+        entry = dict(key)
+        entry.update(count=count, totalPriceWan=round(price, 3),
+                     totalAreaPing=round(area, 4),
+                     avgUnitPriceWanPing=round(price / area, 3) if area else None)
+        result.append(entry)
+    return result
+
+
+def build_payload(records, today, imported_seasons=None, attempted_seasons=None):
+    rows = [row for row in records.values()
+            if row.get('date', '').startswith(f'{YEAR}-')
+            and row.get('category') in ('成屋', '預售屋')]
+    months = sorted({r['date'][:7] for r in rows})
+    # Legacy yearly records remain to avoid breaking the existing Framer UI.
+    yearly = aggregate_rows(rows, lambda r: (
+        ('year', YEAR), ('district', r['district']), ('category', r['category'])))
+    monthly = aggregate_rows(rows, lambda r: (
+        ('month', r['date'][:7]), ('district', r['district']), ('category', r['category'])))
+    aged_rows = []
+    for r in rows:
+        copy = dict(r)
+        copy['ageCategory'] = ('預售屋' if r['category'] == '預售屋' else
+                               age_category(r['date'], r.get('completedAt')))
+        aged_rows.append(copy)
+    age_monthly = aggregate_rows(aged_rows, lambda r: (
+        ('month', r['date'][:7]), ('district', r['district']), ('category', r['ageCategory'])))
+    projects = aggregate_rows([r for r in rows if r['category'] == '預售屋' and r.get('projectName')],
+        lambda r: (('month', r['date'][:7]), ('district', r['district']),
+                   ('projectName', r['projectName'])))
+    projects.sort(key=lambda r: (r['month'], -r['count'], r['district'], r['projectName']))
+    for month in months:
+        rank = 0
+        for project in projects:
+            if project['month'] == month:
+                rank += 1
+                project['rankInMonth'] = rank
+    unknown_age = sum(r['category'] == '成屋' and
+                      age_category(r['date'], r.get('completedAt')) == UNKNOWN_AGE
+                      for r in rows)
+    return {
+        'updatedAt': today, 'year': YEAR,
+        'period': f'{YEAR}年官方已收集揭露批次（非全年完整統計；已涵蓋交易月份：' +
+                  (', '.join(months) if months else '尚無') + '）',
+        'sourceLabel': '內政部不動產交易實價登錄 Open Data（高雄住宅大樓、住家用、排除部分特殊交易）',
+        'sourceUrl': SOURCE,
+        'coverageNote': '僅代表已收集的官方揭露資料，非全年完整成交量；未出現的月份不代表零成交。近期交易可能尚未揭露。',
+        'availableMonths': months,
+        'importedSeasons': sorted(imported_seasons or []),
+        'attemptedSeasons': sorted(attempted_seasons or []),
+        'backfillNote': '已匯入的季度為資料「發布季度」，不等於交易月份完整覆蓋；近期及補報案件可能仍未揭露。',
+        'missingMonths': [f'{YEAR}-{m:02d}' for m in range(1, 13)
+                          if f'{YEAR}-{m:02d}' not in months],
+        'unknownAgeCount': unknown_age,
+        'rankingBasis': '已揭露預售屋成交筆數，僅納入有建案名稱的案件；非實際總銷售量。',
+        'projectRankingNote': '若官方批次 CSV 未提供建案名稱，排行榜會留空，不能以路名或地址冒充建案。',
+        'yearMonths': {},
+        'records': yearly,
+        'monthlyRecords': monthly,
+        'ageMonthlyRecords': age_monthly,
+        'projectRankings': projects,
+    }
+
+
+def imported_seasons_from_previous_output():
+    if not OUTPUT.exists():
+        return set()
+    try:
+        data = json.loads(OUTPUT.read_text(encoding='utf-8'))
+        return {s for s in data.get('importedSeasons', [])
+                if isinstance(s, str) and re.fullmatch(r'\d{3}S[1-4]', s)}
+    except (OSError, ValueError, TypeError):
+        return set()
+
+
+def seasons_to_attempt(today):
+    """Historical release quarters for 2026, including early 2027 late reports.
+
+    Only *finished* quarters are candidates. The archive may not yet be
+    published immediately after a quarter closes; that is nonfatal and is
+    retried on the next scheduled run.
+    """
+    start_year = 2026
+    final_year = min(today.year, 2027)
+    result = []
+    for year in range(start_year, final_year + 1):
+        for quarter in range(1, 5):
+            if (year, quarter * 3) >= (today.year, today.month):
+                continue
+            result.append(f'{year - 1911}S{quarter}')
+    return result
+
+
+def merge_records(existing, incoming):
+    for key, row in incoming.items():
+        previous = existing.get(key, {})
+        for field in ('completedAt', 'projectName'):
+            if not row.get(field) and previous.get(field):
+                row[field] = previous[field]
+        existing[key] = row
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--zip', help='使用已下載官方 ZIP 進行初始匯入／測試')
+    parser.add_argument('--zip', action='append', default=[],
+                        help='手動匯入官方歷史 ZIP，可重複使用')
+    parser.add_argument('--zip-dir', help='從資料夾匯入所有官方 ZIP')
+    parser.add_argument('--no-backfill', action='store_true',
+                        help='僅更新當期，不補歷史季度')
     parser.add_argument('--dry-run', action='store_true')
     args = parser.parse_args()
-    raw = Path(args.zip).read_bytes() if args.zip else download_zip(CURRENT)
-    incoming = extract(raw)
-    if not incoming:
-        raise RuntimeError('沒有通過住宅大樓資料檢查的交易，為安全起見停止更新')
+    today_date = datetime.now(timezone(timedelta(hours=8))).date()
     existing = load_existing()
-    existing.update(incoming)
-    today = datetime.now(timezone(timedelta(hours=8))).date().isoformat()
-    payload = build_payload(existing, today)
+    imported = imported_seasons_from_previous_output()
+    attempted = set()
+    incoming_count = 0
+
+    zip_paths = [Path(p) for p in args.zip]
+    if args.zip_dir:
+        directory = Path(args.zip_dir)
+        if not directory.is_dir():
+            raise RuntimeError(f'找不到 ZIP 資料夾：{directory}')
+        zip_paths.extend(sorted(directory.glob('*.zip')))
+
+    for path in zip_paths:
+        batch = extract(path.read_bytes())
+        merge_records(existing, batch)
+        incoming_count += len(batch)
+        print(f'手動匯入 {path.name}：符合2026年條件 {len(batch)} 筆', flush=True)
+
+    if not args.no_backfill:
+        for season in seasons_to_attempt(today_date):
+            if season in imported:
+                continue
+            attempted.add(season)
+            try:
+                # Failures (e.g. 115S3 not published yet) do NOT mark imported.
+                archive = download_zip(SEASON_URL.format(season=season))
+                batch = extract(archive)
+                # A valid archive may have zero qualifying 2026 transactions,
+                # especially if it is a very early release quarter.
+                merge_records(existing, batch)
+                incoming_count += len(batch)
+                imported.add(season)
+                print(f'歷史季度 {season}：匯入符合2026年條件 {len(batch)} 筆', flush=True)
+            except Exception as exc:
+                print(f'警告：歷史季度 {season} 暫時無法匯入，未標記完成；下次會重試：{exc}',
+                      file=sys.stderr, flush=True)
+
+    # Still retrieve the current release on each scheduled run.
+    # For manual ZIP-only dry-runs avoid network and keep tests reproducible.
+    if not zip_paths:
+        batch = extract(download_zip(CURRENT))
+        merge_records(existing, batch)
+        incoming_count += len(batch)
+        print(f'當期：符合2026年條件 {len(batch)} 筆', flush=True)
+
+    if not existing:
+        raise RuntimeError('沒有任何符合2026年條件的紀錄，停止更新，避免清空既有資料')
+    payload = build_payload(existing, today_date.isoformat(), imported, attempted)
     if not args.dry_run:
         DB.parent.mkdir(parents=True, exist_ok=True)
-        DB.write_text(json.dumps(existing, ensure_ascii=False, sort_keys=True, separators=(',', ':')) + '\n', encoding='utf-8')
-        OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(f'官方本批合格筆數={len(incoming)}, 累積去重筆數={len(existing)}, 統計列數={len(payload["records"])}')
-    print(f'期間={payload["period"]}')
+        DB.write_text(json.dumps(existing, ensure_ascii=False, sort_keys=True,
+                                 separators=(',', ':')) + '\n', encoding='utf-8')
+        OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n',
+                          encoding='utf-8')
+    print(f'本次讀入2026年合格筆數={incoming_count}；2026累積去重={len(existing)}；'
+          f'涵蓋交易月份={len(payload["availableMonths"])}；'
+          f'已匯入歷史季度={len(imported)}；'
+          f'屋齡不明成屋={payload["unknownAgeCount"]}；'
+          f'具名預售建案排名列數={len(payload["projectRankings"])}')
+    print(payload['period'])
     if args.dry_run:
-        print('dry-run: 未寫入任何檔案')
+        print('dry-run：未寫入任何檔案')
 
 
 if __name__ == '__main__':
