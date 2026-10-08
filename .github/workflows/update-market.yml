@@ -1,0 +1,28 @@
+name: Update Kaohsiung Market Data
+on:
+  workflow_dispatch:
+  schedule:
+    # 10:20 Taiwan time on the 2nd, 12th and 22nd each month
+    - cron: '20 2 2,12,22 * *'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch official MOI ZIP and update statistics
+        run: python scripts/update_market.py
+      - name: Commit only when statistics changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add market.json data/transactions.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update official Kaohsiung market snapshot'
+            git push
+          fi
