@@ -24,6 +24,9 @@ from datetime import date, datetime, timezone, timedelta
 
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / 'data' / 'transactions.json'
+
+PROJECT_TRANSACTIONS = ROOT / 'data' / 'project_transactions.json'
+
 OUTPUT = ROOT / 'market.json'
 COMMUNITY_MAP = ROOT / 'data' / 'community_mapping.csv'
 SCHEMA_VERSION = 3
