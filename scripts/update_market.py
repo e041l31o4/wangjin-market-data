@@ -493,6 +493,26 @@ def main():
                             schema_version=(SCHEMA_VERSION if not refresh_failed else previous_schema_version()))
     if not args.dry_run:
         DB.parent.mkdir(parents=True, exist_ok=True)
+        
+        project_transactions = [
+            {
+                'date': row['date'],
+                'district': row['district'],
+                'projectName': row['projectName'],
+                'areaPing': round(row['areaM2'] / PING_M2, 2),
+                'unitPriceWanPing': round(row['unitPriceM2'] * PING_M2 / 10000, 2)
+            }
+            for row in existing.values()
+            if row.get('category') == '預售屋' and row.get('projectName')
+        ]
+        project_transactions.sort(
+            key=lambda row: row['date'], reverse=True
+        )
+        PROJECT_TRANSACTIONS.write_text(
+            json.dumps(project_transactions, ensure_ascii=False, separators=(',', ':')) + '\n',
+            encoding='utf-8'
+        )
+
         DB.write_text(json.dumps(existing, ensure_ascii=False, sort_keys=True,
                                  separators=(',', ':')) + '\n', encoding='utf-8')
         OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n',
