@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-08",
+  "updatedAt": "2026-10-10",
   "year": 2026,
   "period": "2026年官方已收集揭露批次（非全年完整統計；已涵蓋交易月份：2026-01, 2026-02, 2026-03, 2026-04, 2026-05, 2026-06, 2026-07, 2026-08, 2026-09）",
   "sourceLabel": "內政部不動產交易實價登錄 Open Data（高雄住宅大樓、住家用、排除部分特殊交易）",
@@ -22,11 +22,7 @@
     "115S2",
     "115S3"
   ],
-  "attemptedSeasons": [
-    "115S1",
-    "115S2",
-    "115S3"
-  ],
+  "attemptedSeasons": [],
   "backfillNote": "已匯入的季度為資料「發布季度」，不等於交易月份完整覆蓋；近期及補報案件可能仍未揭露。",
   "missingMonths": [
     "2026-10",
@@ -105,10 +101,10 @@
       "year": 2026,
       "district": "前鎮區",
       "category": "預售屋",
-      "count": 244,
-      "totalPriceWan": 285406.981,
-      "totalAreaPing": 7450.6872,
-      "avgUnitPriceWanPing": 38.306
+      "count": 245,
+      "totalPriceWan": 286384.978,
+      "totalAreaPing": 7475.9066,
+      "avgUnitPriceWanPing": 38.308
     },
     {
       "year": 2026,
@@ -411,10 +407,10 @@
       "year": 2026,
       "district": "鼓山區",
       "category": "成屋",
-      "count": 394,
-      "totalPriceWan": 731361.573,
-      "totalAreaPing": 20089.171,
-      "avgUnitPriceWanPing": 36.406
+      "count": 396,
+      "totalPriceWan": 735165.573,
+      "totalAreaPing": 20174.8662,
+      "avgUnitPriceWanPing": 36.44
     },
     {
       "year": 2026,
@@ -2330,10 +2326,10 @@
       "month": "2026-06",
       "district": "鼓山區",
       "category": "成屋",
-      "count": 53,
-      "totalPriceWan": 92174.851,
-      "totalAreaPing": 2453.1087,
-      "avgUnitPriceWanPing": 37.575
+      "count": 54,
+      "totalPriceWan": 94197.847,
+      "totalAreaPing": 2498.0421,
+      "avgUnitPriceWanPing": 37.709
     },
     {
       "month": "2026-06",
@@ -2636,10 +2632,10 @@
       "month": "2026-07",
       "district": "鼓山區",
       "category": "成屋",
-      "count": 45,
-      "totalPriceWan": 84194.301,
-      "totalAreaPing": 2344.2813,
-      "avgUnitPriceWanPing": 35.915
+      "count": 46,
+      "totalPriceWan": 85975.306,
+      "totalAreaPing": 2385.0432,
+      "avgUnitPriceWanPing": 36.048
     },
     {
       "month": "2026-07",
@@ -2708,10 +2704,10 @@
       "month": "2026-08",
       "district": "前鎮區",
       "category": "預售屋",
-      "count": 43,
-      "totalPriceWan": 51749.01,
-      "totalAreaPing": 1309.341,
-      "avgUnitPriceWanPing": 39.523
+      "count": 44,
+      "totalPriceWan": 52727.006,
+      "totalAreaPing": 1334.5605,
+      "avgUnitPriceWanPing": 39.509
     },
     {
       "month": "2026-08",
@@ -5680,10 +5676,10 @@
       "month": "2026-06",
       "district": "鼓山區",
       "category": "5年內成屋",
-      "count": 13,
-      "totalPriceWan": 27895.981,
-      "totalAreaPing": 537.0585,
-      "avgUnitPriceWanPing": 51.942
+      "count": 14,
+      "totalPriceWan": 29918.977,
+      "totalAreaPing": 581.9919,
+      "avgUnitPriceWanPing": 51.408
     },
     {
       "month": "2026-06",
@@ -6121,10 +6117,10 @@
       "month": "2026-07",
       "district": "鼓山區",
       "category": "5年內成屋",
-      "count": 9,
-      "totalPriceWan": 19253.006,
-      "totalAreaPing": 417.7344,
-      "avgUnitPriceWanPing": 46.089
+      "count": 10,
+      "totalPriceWan": 21034.01,
+      "totalAreaPing": 458.4962,
+      "avgUnitPriceWanPing": 45.876
     },
     {
       "month": "2026-07",
@@ -6229,10 +6225,10 @@
       "month": "2026-08",
       "district": "前鎮區",
       "category": "預售屋",
-      "count": 43,
-      "totalPriceWan": 51749.01,
-      "totalAreaPing": 1309.341,
-      "avgUnitPriceWanPing": 39.523
+      "count": 44,
+      "totalPriceWan": 52727.006,
+      "totalAreaPing": 1334.5605,
+      "avgUnitPriceWanPing": 39.509
     },
     {
       "month": "2026-08",
@@ -9254,10 +9250,10 @@
       "month": "2026-08",
       "district": "前鎮區",
       "projectName": "亞灣205",
-      "count": 42,
-      "totalPriceWan": 50693.006,
-      "totalAreaPing": 1274.13,
-      "avgUnitPriceWanPing": 39.786,
+      "count": 43,
+      "totalPriceWan": 51671.002,
+      "totalAreaPing": 1299.3495,
+      "avgUnitPriceWanPing": 39.767,
       "rankInMonth": 1
     },
     {
@@ -9533,6 +9529,6 @@
   ],
   "buildingRankings": [],
   "communityMatchCount": 0,
-  "communityUnmatchedCount": 4512,
+  "communityUnmatchedCount": 4514,
   "buildingRankingNote": "成屋社區排行只統計官方直接具名或經完整建物門牌人工核實的案件；未辨識社區不納入排名。"
 }
