@@ -29,7 +29,8 @@ PROJECT_TRANSACTIONS = ROOT / 'data' / 'project_transactions.json'
 
 OUTPUT = ROOT / 'market.json'
 COMMUNITY_MAP = ROOT / 'data' / 'community_mapping.csv'
-SCHEMA_VERSION = 3
+FIRST_SALE_MAP = ROOT / 'data' / 'developer_first_sales.csv'
+SCHEMA_VERSION = 4
 SOURCE = 'https://plvr.land.moi.gov.tw/DownloadOpenData'
 CURRENT = 'https://plvr.land.moi.gov.tw/Download?type=zip&fileName=lvr_landcsv.zip'
 SEASON_URL = 'https://plvr.land.moi.gov.tw/DownloadSeason?season={season}&type=zip&fileName=lvr_landcsv.zip'
@@ -171,6 +172,37 @@ def load_community_mapping():
     return result
 
 
+
+def load_verified_first_sales():
+    """Manually verified transaction IDs. No inference from building age or bulk transfers.
+
+    CSV: transactionId,projectName,source
+    transactionId is the 24-character SHA-256 key already used in transactions.json.
+    Each row needs documentary evidence that this particular completed-home transfer
+    was a developer's direct first sale, not presale handover or owner resale.
+    """
+    if not FIRST_SALE_MAP.exists():
+        return {}
+    result = {}
+    with FIRST_SALE_MAP.open('r', encoding='utf-8-sig', newline='') as file:
+        reader = csv.DictReader(file)
+        required = {'transactionId', 'projectName', 'source'}
+        if not required.issubset(reader.fieldnames or []):
+            raise RuntimeError('developer_first_sales.csv 缺少欄位：transactionId,projectName,source')
+        for line, row in enumerate(reader, start=2):
+            if not any(str(v or '').strip() for v in row.values()):
+                continue
+            txid = str(row.get('transactionId') or '').strip()
+            name = clean_project_name(row.get('projectName'))
+            source = str(row.get('source') or '').strip()
+            if not re.fullmatch(r'[0-9a-f]{24}', txid) or not name or not source:
+                raise RuntimeError(f'建商首售對照表第 {line} 列不完整或交易ID格式錯誤')
+            if txid in result and result[txid] != name:
+                raise RuntimeError(f'建商首售對照表交易ID重複且名稱衝突：{txid}')
+            result[txid] = name
+    return result
+
+
 def normalize(row, kind):
     district = (row.get('鄉鎮市區') or '').strip()
     if district not in DISTRICTS or (row.get('主要用途') or '').strip() != '住家用':
@@ -289,7 +321,7 @@ def aggregate_rows(rows, key_fn):
     return result
 
 
-def build_payload(records, today, imported_seasons=None, attempted_seasons=None, community_map=None, schema_version=SCHEMA_VERSION):
+def build_payload(records, today, imported_seasons=None, attempted_seasons=None, community_map=None, first_sale_map=None, schema_version=SCHEMA_VERSION):
     rows = [row for row in records.values()
             if row.get('date', '').startswith(f'{YEAR}-')
             and row.get('category') in ('成屋', '預售屋')]
@@ -343,6 +375,27 @@ def build_payload(records, today, imported_seasons=None, attempted_seasons=None,
     buildings.sort(key=lambda r: (r['month'], r['category'], -r['count'],
                                   r['district'], r['buildingName']))
     identified_completed = len(named_completed) // 2
+    # Verified developer-first-sale rankings are independent of building age.
+    # Never infer first sale from completion year, repeated transfers or address.
+    first_sale_map = first_sale_map or {}
+    verified_first_sales = []
+    for transaction_id, r in records.items():
+        if (transaction_id in first_sale_map and r.get('category') == '成屋'
+                and str(r.get('date', '')).startswith(f'{YEAR}-')):
+            copy = dict(r)
+            copy['projectName'] = first_sale_map[transaction_id]
+            verified_first_sales.append(copy)
+    first_sale_rankings = aggregate_rows(verified_first_sales, lambda r: (
+        ('month', r['date'][:7]), ('district', r['district']),
+        ('projectName', r['projectName'])))
+    first_sale_rankings.sort(key=lambda r: (
+        r['month'], -r['count'], r['district'], r['projectName']))
+    for month in months:
+        rank = 0
+        for project in first_sale_rankings:
+            if project['month'] == month:
+                rank += 1
+                project['rankInMonth'] = rank
     unknown_age = sum(r['category'] == '成屋' and
                       age_category(r['date'], r.get('completedAt')) == UNKNOWN_AGE
                       for r in rows)
@@ -369,6 +422,9 @@ def build_payload(records, today, imported_seasons=None, attempted_seasons=None,
         'ageMonthlyRecords': age_monthly,
         'projectRankings': projects,
         'buildingRankings': buildings,
+        'developerFirstSaleRankings': first_sale_rankings,
+        'developerFirstSaleMatchCount': len(verified_first_sales),
+        'developerFirstSaleRankingNote': '僅統計逐筆核實為建商完工後直接首售的成屋交易；不以屋齡、門牌或大量交屋推定首售，未核實者不納入。',
         'communityMatchCount': identified_completed,
         'communityUnmatchedCount': total_completed - identified_completed,
         'buildingRankingNote': '成屋社區排行只統計官方直接具名或經完整建物門牌人工核實的案件；未辨識社區不納入排名。',
@@ -444,6 +500,7 @@ def main():
     refresh_history = args.refresh_history or previous_schema_version() < SCHEMA_VERSION
     refresh_failed = False
     community_map = load_community_mapping()
+    first_sale_map = load_verified_first_sales()
 
     zip_paths = [Path(p) for p in args.zip]
     if args.zip_dir:
@@ -489,7 +546,7 @@ def main():
     if not existing:
         raise RuntimeError('沒有任何符合2026年條件的紀錄，停止更新，避免清空既有資料')
     payload = build_payload(existing, today_date.isoformat(), imported, attempted,
-                            community_map=community_map,
+                            community_map=community_map, first_sale_map=first_sale_map,
                             schema_version=(SCHEMA_VERSION if not refresh_failed else previous_schema_version()))
     if not args.dry_run:
         DB.parent.mkdir(parents=True, exist_ok=True)
@@ -524,7 +581,9 @@ def main():
           f'具名預售建案排名列數={len(payload["projectRankings"])}；'
           f'可辨識成屋社區交易={payload["communityMatchCount"]}；'
           f'未辨識成屋社區交易={payload["communityUnmatchedCount"]}；'
-          f'成屋社區排名列數={len(payload["buildingRankings"])}')
+          f'成屋社區排名列數={len(payload["buildingRankings"])}；'
+           f'建商首售核實交易={payload["developerFirstSaleMatchCount"]}；'
+           f'建商首售排名列數={len(payload["developerFirstSaleRankings"])}')
     print(payload['period'])
     if args.dry_run:
         print('dry-run：未寫入任何檔案')
