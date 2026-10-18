@@ -41,6 +41,10 @@ jobs:
           x=json.load(open('/tmp/project-map-feed.json'))
           assert x['totalProjects']==386
           assert x['verifiedPriceProjects']==0
+          public=json.load(open('data/verified_project_price_feed.json'))
+          assert public['feedKind']=='public_verified_only'
+          assert public['totalProjects']==386
+          assert public['verifiedPriceProjects']==0
           for row in x['projects']:
               if row['priceStatus']!='verified':
                   assert all(row[f] is None for f in (
