@@ -31,6 +31,11 @@ def recalculate(register, transactions, market):
     ids = [str(p["projectId"]) for p in baseline]
     if len(set(ids)) != len(ids):
         raise ValueError("建案ID重複")
+    registry_keys = [(str(p["district"]).strip(), normalize_name(p["projectName"])) for p in baseline]
+    if any(not district or not name for district, name in registry_keys):
+        raise ValueError("建案名稱或行政區不可為空")
+    if len(set(registry_keys)) != len(registry_keys):
+        raise ValueError("存在同行政區同名稱建案，成交不可重複歸屬；須先人工拆分")
     lookup = defaultdict(list)
     for index, row in enumerate(transactions, start=1):
         try:
