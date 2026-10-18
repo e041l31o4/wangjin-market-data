@@ -1,4 +1,18 @@
 {
+  "166": {
+    "verified": true,
+    "projectName": "國泰明誠",
+    "district": "三民區",
+    "officialEvidence": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+    "reviewedBy": "Codex：官方逐筆與開發商一手資料交叉核對（非人工簽核）",
+    "verifiedOn": "2026-10-18",
+    "transactionFingerprint": "2410a1083abf029a60c2399a8c26c804d9ebcc40efcb8b35f770b4178d43f8ef",
+    "approvedTransactionCount": 58,
+    "supportingEvidence": [
+      "https://www.cathay-red.com.tw/tw/Cases/Detail/26020909331507"
+    ],
+    "evidenceRecord": "analysis/verified-project-batch-02-evidence-20261018.json"
+  },
   "213": {
     "verified": true,
     "projectName": "郡都大成",
@@ -13,5 +27,19 @@
       "https://judogroup.com.tw/hotcase/郡都大成/"
     ],
     "evidenceRecord": "analysis/verified-project-213-evidence-20261018.json"
+  },
+  "364": {
+    "verified": true,
+    "projectName": "佳鋐雄匯",
+    "district": "仁武區",
+    "officialEvidence": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+    "reviewedBy": "Codex：官方逐筆與開發商一手資料交叉核對（非人工簽核）",
+    "verifiedOn": "2026-10-18",
+    "transactionFingerprint": "c1605f23fc264cba3e5c75b92de7d6fa9666b92208f214e24a56f3ddfd252cf5",
+    "approvedTransactionCount": 52,
+    "supportingEvidence": [
+      "https://syong-huei.tw/"
+    ],
+    "evidenceRecord": "analysis/verified-project-batch-02-evidence-20261018.json"
   }
 }
