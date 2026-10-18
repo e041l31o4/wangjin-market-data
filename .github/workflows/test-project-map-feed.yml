@@ -1,0 +1,37 @@
+name: Test project map feed export
+on:
+  pull_request:
+    paths:
+      - 'scripts/build_project_map_feed.py'
+      - 'tests/test_build_project_map_feed.py'
+      - '.github/workflows/test-project-map-feed.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Unit test public feed safety
+        run: python -m unittest discover -s tests -p 'test_build_project_map_feed.py' -v
+      - name: Generate preview feed
+        run: python scripts/build_project_map_feed.py --output /tmp/project-map-feed.json
+      - name: Assert no pending price leaked
+        run: |
+          python - <<'PY'
+          import json
+          x=json.load(open('/tmp/project-map-feed.json'))
+          assert x['totalProjects']==386
+          assert x['verifiedPriceProjects']==0
+          for row in x['projects']:
+              if row['priceStatus']!='verified':
+                  assert all(row[f] is None for f in (
+                      'transactionCount','latestTransactionDate','latestUnitPriceWanPing',
+                      'averageUnitPriceWanPing','minUnitPriceWanPing','maxUnitPriceWanPing'))
+          print('PASS: 386 projects; no unverified prices')
+          PY
