@@ -5,6 +5,10 @@ on:
       - 'scripts/build_presale_project_feed.py'
       - 'tests/test_build_presale_project_feed.py'
       - 'data/project_identity_register.json'
+      - 'data/approved_project_aliases.json'
+      - 'data/community_mapping.csv'
+      - 'scripts/build_completed_home_review.py'
+      - 'tests/test_build_completed_home_review.py'
       - 'data/official_presale_project_feed.json'
       - 'data/verified_project_matches.json'
       - 'data/verified_project_price_feed.json'
@@ -37,6 +41,10 @@ jobs:
         run: |
           python -m unittest discover -s tests -p 'test_build_presale_project_feed.py' -v
           python scripts/build_presale_project_feed.py
+      - name: Test completed-home review
+        run: |
+          python -m unittest discover -s tests -p 'test_build_completed_home_review.py' -v
+          python scripts/build_completed_home_review.py
       - name: Validate public presale contract
         run: |
           python - <<'PY'
@@ -86,3 +94,4 @@ jobs:
                       'averageUnitPriceWanPing','minUnitPriceWanPing','maxUnitPriceWanPing'))
           print('PASS: 386 projects; no unverified prices; verified counts consistent')
           PY
+

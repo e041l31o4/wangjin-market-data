@@ -27,6 +27,44 @@ def transaction(official_id="ONE", **changes):
     return {**row, **changes}
 
 
+class ReviewedAliasTests(unittest.TestCase):
+    def aliases(self, **changes):
+        return {"aliases": [{"projectId": "1", "projectName": "以學 MDT", "district": "楠梓區",
+                              "officialName": "華友聯以學MDT", "officialLocation": "高雄市楠梓區大學西路",
+                              "primaryEvidence": ["https://example.com/official"], **changes}]}
+
+    def build(self, records, aliases=None):
+        return m.build_feed(registry(), records, {"updatedAt": "2026-10-18"}, aliases or self.aliases())
+
+    def test_reviewed_alias_accepts_new_records_at_fixed_location(self):
+        records = [transaction(projectName="華友聯以學MDT"), transaction("TWO", projectName="華友聯以學MDT")]
+        f, audit = self.build(records)
+        self.assertEqual(f["includedTransactionCount"], 2)
+        self.assertEqual(f["projects"][0]["approvedAliasNames"], ["華友聯以學MDT"])
+
+    def test_changed_location_holds_alias(self):
+        f, audit = self.build([transaction(projectName="華友聯以學MDT", officialLocation="高雄市楠梓區藍田路")])
+        self.assertEqual(f["includedTransactionCount"], 0)
+        self.assertIn("reviewed_alias_location_changed", audit["projects"][0]["reasons"])
+
+    def test_only_explicit_floor_suffix_is_normalized(self):
+        f, _ = self.build([transaction(projectName="華友聯以學MDT", officialLocation="高雄市楠梓區大學西路A09棟F07樓"),
+                           transaction("TWO", projectName="華友聯以學MDT", officialLocation="高雄市楠梓區大學西路B01棟F12樓")])
+        self.assertEqual(f["includedTransactionCount"], 2)
+        self.assertEqual(f["projects"][0]["officialLocations"], ["高雄市楠梓區大學西路"])
+        for value in ("高雄市楠梓區大學西路12號", "高雄市楠梓區大學西路12地號", "高雄市楠梓區大學西路A09棟地下1樓"):
+            self.assertEqual(m.official_base_location(value), value)
+
+    def test_alias_evidence_and_registry_ownership_required(self):
+        for changes in ({"primaryEvidence": []}, {"projectName": "另案"}, {"officialName": "建案2"}, {"projectId": "2"}):
+            with self.subTest(changes=changes), self.assertRaises(ValueError):
+                self.build([], self.aliases(**changes))
+
+    def test_alias_location_conflict_holds_exact_name_records_too(self):
+        f, _ = self.build([transaction(), transaction("TWO", projectName="華友聯以學MDT", officialLocation="高雄市楠梓區藍田路")])
+        self.assertEqual(f["includedTransactionCount"], 0)
+
+
 class RecurringPresaleTests(unittest.TestCase):
     def build(self, records, reg=None):
         return m.build_feed(reg or registry(), records, {"updatedAt": "2026-10-18"})[0]
@@ -101,3 +139,4 @@ class RecurringPresaleTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
