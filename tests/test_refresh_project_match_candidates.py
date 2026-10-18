@@ -46,6 +46,12 @@ class RefreshCandidateTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             refresh.recalculate(b, [], {})
 
+    def test_same_district_normalized_name_collision_rejected(self):
+        b = baseline()
+        b["projects"][1]["projectName"] = "以學MDT"
+        with self.assertRaises(ValueError):
+            refresh.recalculate(b, [], {})
+
     def test_bad_transaction_rejected(self):
         bad = [{"date": "2026-08-31", "district": "楠梓區", "projectName": "以學MDT",
                 "areaPing": 30, "unitPriceWanPing": -5}]
