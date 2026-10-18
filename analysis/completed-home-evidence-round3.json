@@ -1,0 +1,180 @@
+{
+  "reviewedOn": "2026-10-18",
+  "scope": "缺完整門牌的成屋建案補查；來源只確認列出的特定門牌，所有成交數值仍取內政部，不推定建商首售",
+  "projects": [
+    {
+      "projectId": "4",
+      "name": "原旭",
+      "district": "楠梓區",
+      "addresses": [
+        "大學南路691號"
+      ],
+      "evidenceKind": "government_directory",
+      "source": "https://orgws.kcg.gov.tw/001/KcgOrgUploadFiles/422/RelFile/74948/68280/cba23a52-979a-449f-b44d-c2b58b46f2b0.pdf",
+      "note": "政府PDF第23頁明列原旭大樓；僅此門牌。"
+    },
+    {
+      "projectId": "11",
+      "name": "河左岸",
+      "district": "楠梓區",
+      "addresses": [
+        "援中路2巷2號",
+        "援中路2巷8號",
+        "援中路2巷10號",
+        "援中路2巷16號",
+        "援中路2巷18號"
+      ],
+      "evidenceKind": "reviewed_directory_and_community",
+      "source": "https://market.591.com.tw/5950631/price?guide=1",
+      "supportingSources": [
+        "https://orgws.kcg.gov.tw/001/KcgOrgUploadFiles/422/RelFile/74948/68280/cba23a52-979a-449f-b44d-c2b58b46f2b0.pdf"
+      ],
+      "note": "政府PDF第24頁芳崗河左案列2號；社區逐筆頁另明列8、10、16、18號。名單河左岸省略芳崗冠名。"
+    },
+    {
+      "projectId": "14",
+      "name": "UI",
+      "district": "楠梓區",
+      "addresses": [
+        "大學三十八街65號"
+      ],
+      "evidenceKind": "government_directory",
+      "source": "https://orgws.kcg.gov.tw/001/KcgOrgUploadFiles/422/RelFile/74948/68280/cba23a52-979a-449f-b44d-c2b58b46f2b0.pdf",
+      "note": "政府PDF第24頁冠傑Ui大樓；名單UI與同區大學三十八街相符。"
+    },
+    {
+      "projectId": "17",
+      "name": "都薈綻",
+      "district": "楠梓區",
+      "addresses": [
+        "監理南街1號",
+        "監理南街3號",
+        "監理南街5號",
+        "監理南街7號",
+        "監理南街9號",
+        "監理南街11號",
+        "監理南街13號",
+        "監理南街15號",
+        "監理南街17號"
+      ],
+      "evidenceKind": "community_listing",
+      "source": "https://market.591.com.tw/6013455/price?guide=1",
+      "note": "逐筆頁分別明列這9個門牌；不因數列自動延伸19號。"
+    },
+    {
+      "projectId": "19",
+      "name": "蒙瑪特",
+      "district": "楠梓區",
+      "addresses": [
+        "大學二十二街52號",
+        "大學二十二街60號"
+      ],
+      "evidenceKind": "developer_site",
+      "source": "https://www.amplebc.com.tw/",
+      "supportingSources": [
+        "https://newhouse.591.com.tw/139600/detail"
+      ],
+      "note": "官網明列52至60號範圍；本次只錄明示兩端52、60號，不自動展開中間門牌。原始市場篩選不含所有低樓層建物。"
+    },
+    {
+      "projectId": "22",
+      "name": "翊城晶綻",
+      "district": "楠梓區",
+      "addresses": [
+        "大學十六街298號",
+        "大學十六街306號",
+        "大學十六街308號"
+      ],
+      "evidenceKind": "community_listing",
+      "source": "https://market.591.com.tw/5973849/price?trans_type=1",
+      "supportingSources": [
+        "https://newhouse.591.com.tw/138413"
+      ],
+      "note": "來源逐筆頁明列298、306、308號；來源特殊交易不匯入，只採地址歸屬，成交仍按既有內政部篩選。"
+    },
+    {
+      "projectId": "23",
+      "name": "辰旭",
+      "district": "楠梓區",
+      "addresses": [
+        "大學一街132號",
+        "大學一街136號"
+      ],
+      "evidenceKind": "project_and_community_listing",
+      "source": "https://newhouse.591.com.tw/139857/detail",
+      "supportingSources": [
+        "https://market.591.com.tw/6023483"
+      ],
+      "note": "基地132號、社區136號分別查證，不推估134號。"
+    },
+    {
+      "projectId": "25",
+      "name": "璞境",
+      "district": "楠梓區",
+      "addresses": [
+        "大學東路3號",
+        "大學東路7號",
+        "大學東路13號",
+        "大學東路19號"
+      ],
+      "evidenceKind": "project_and_community_listing",
+      "source": "https://market.591.com.tw/6527234/price?trans_type=1",
+      "supportingSources": [
+        "https://newhouse.591.com.tw/140718/detail"
+      ],
+      "note": "刊登案名日大璞境，基地3號；社區逐筆明列7、13、19號，不作路名模糊配對。"
+    },
+    {
+      "projectId": "27",
+      "name": "遠見禾悅",
+      "district": "楠梓區",
+      "addresses": [
+        "大學南路168號"
+      ],
+      "evidenceKind": "project_listing",
+      "source": "https://newhouse.591.com.tw/137479/detail",
+      "note": "基地完整門牌168號；沒有對到今年已收錄樣本不代表零成交。"
+    },
+    {
+      "projectId": "28",
+      "name": "四季心",
+      "district": "楠梓區",
+      "addresses": [
+        "右昌街356號",
+        "右昌街358號"
+      ],
+      "evidenceKind": "project_and_community_listing",
+      "source": "https://market.591.com.tw/5933798/price?guide=1&id=6295383",
+      "supportingSources": [
+        "https://newhouse.591.com.tw/134202/detail"
+      ],
+      "note": "基地356號、逐筆358號分開核對，不展開其他門牌。"
+    },
+    {
+      "projectId": "29",
+      "name": "欣苑",
+      "district": "楠梓區",
+      "addresses": [
+        "芎林二街30號"
+      ],
+      "evidenceKind": "broker_community_listing",
+      "source": "https://community.yungching.com.tw/building/98280/price",
+      "note": "社區逐筆頁明列欣苑與芎林二街30號，核對多筆樓層地址一致。"
+    },
+    {
+      "projectId": "369",
+      "name": "森林之星",
+      "district": "橋頭區",
+      "addresses": [
+        "橋新一路680號",
+        "橋新一路688號"
+      ],
+      "evidenceKind": "reviewed_directory_and_community",
+      "source": "https://community.yungching.com.tw/building/88676/price",
+      "supportingSources": [
+        "https://orgws.kcg.gov.tw/001/KcgOrgUploadFiles/422/RelFile/74948/68280/a6a4bb97-9b6a-4d2c-9f6d-1693aa6fc465.pdf"
+      ],
+      "note": "政府PDF第4頁森林之星列680號；永慶社區逐筆明列688號，不擴張至相鄰樓號。"
+    }
+  ]
+}

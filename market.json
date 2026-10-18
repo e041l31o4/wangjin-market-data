@@ -9745,6 +9745,26 @@
     },
     {
       "month": "2026-01",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "都薈綻",
+      "count": 5,
+      "totalPriceWan": 7657.005,
+      "totalAreaPing": 199.1388,
+      "avgUnitPriceWanPing": 38.451
+    },
+    {
+      "month": "2026-01",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "辰旭",
+      "count": 3,
+      "totalPriceWan": 4759.006,
+      "totalAreaPing": 139.1742,
+      "avgUnitPriceWanPing": 34.195
+    },
+    {
+      "month": "2026-01",
       "district": "三民區",
       "category": "5年內成屋",
       "buildingName": "日大擁河",
@@ -9772,6 +9792,36 @@
       "totalPriceWan": 854.996,
       "totalAreaPing": 28.5288,
       "avgUnitPriceWanPing": 29.97
+    },
+    {
+      "month": "2026-01",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "欣苑",
+      "count": 1,
+      "totalPriceWan": 767.999,
+      "totalAreaPing": 21.1085,
+      "avgUnitPriceWanPing": 36.383
+    },
+    {
+      "month": "2026-01",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "河左岸",
+      "count": 1,
+      "totalPriceWan": 1060.004,
+      "totalAreaPing": 29.1913,
+      "avgUnitPriceWanPing": 36.312
+    },
+    {
+      "month": "2026-01",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "璞境",
+      "count": 1,
+      "totalPriceWan": 1237.004,
+      "totalAreaPing": 35.5498,
+      "avgUnitPriceWanPing": 34.796
     },
     {
       "month": "2026-01",
@@ -9795,6 +9845,26 @@
     },
     {
       "month": "2026-01",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "都薈綻",
+      "count": 5,
+      "totalPriceWan": 7657.005,
+      "totalAreaPing": 199.1388,
+      "avgUnitPriceWanPing": 38.451
+    },
+    {
+      "month": "2026-01",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "辰旭",
+      "count": 3,
+      "totalPriceWan": 4759.006,
+      "totalAreaPing": 139.1742,
+      "avgUnitPriceWanPing": 34.195
+    },
+    {
+      "month": "2026-01",
       "district": "三民區",
       "category": "成屋",
       "buildingName": "日大擁河",
@@ -9825,6 +9895,36 @@
     },
     {
       "month": "2026-01",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "欣苑",
+      "count": 1,
+      "totalPriceWan": 767.999,
+      "totalAreaPing": 21.1085,
+      "avgUnitPriceWanPing": 36.383
+    },
+    {
+      "month": "2026-01",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "河左岸",
+      "count": 1,
+      "totalPriceWan": 1060.004,
+      "totalAreaPing": 29.1913,
+      "avgUnitPriceWanPing": 36.312
+    },
+    {
+      "month": "2026-01",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "璞境",
+      "count": 1,
+      "totalPriceWan": 1237.004,
+      "totalAreaPing": 35.5498,
+      "avgUnitPriceWanPing": 34.796
+    },
+    {
+      "month": "2026-01",
       "district": "苓雅區",
       "category": "成屋",
       "buildingName": "璟Light",
@@ -9835,6 +9935,16 @@
     },
     {
       "month": "2026-02",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "都薈綻",
+      "count": 4,
+      "totalPriceWan": 5825.017,
+      "totalAreaPing": 167.1464,
+      "avgUnitPriceWanPing": 34.85
+    },
+    {
+      "month": "2026-02",
       "district": "三民區",
       "category": "5年內成屋",
       "buildingName": "藏三豐",
@@ -9865,6 +9975,36 @@
     },
     {
       "month": "2026-02",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "璞境",
+      "count": 1,
+      "totalPriceWan": 1290.005,
+      "totalAreaPing": 35.5498,
+      "avgUnitPriceWanPing": 36.287
+    },
+    {
+      "month": "2026-02",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "翊城晶綻",
+      "count": 1,
+      "totalPriceWan": 1078.002,
+      "totalAreaPing": 28.2354,
+      "avgUnitPriceWanPing": 38.179
+    },
+    {
+      "month": "2026-02",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "都薈綻",
+      "count": 4,
+      "totalPriceWan": 5825.017,
+      "totalAreaPing": 167.1464,
+      "avgUnitPriceWanPing": 34.85
+    },
+    {
+      "month": "2026-02",
       "district": "三民區",
       "category": "成屋",
       "buildingName": "藏三豐",
@@ -9892,6 +10032,66 @@
       "totalPriceWan": 1021.0,
       "totalAreaPing": 28.5288,
       "avgUnitPriceWanPing": 35.788
+    },
+    {
+      "month": "2026-02",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "璞境",
+      "count": 1,
+      "totalPriceWan": 1290.005,
+      "totalAreaPing": 35.5498,
+      "avgUnitPriceWanPing": 36.287
+    },
+    {
+      "month": "2026-02",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "翊城晶綻",
+      "count": 1,
+      "totalPriceWan": 1078.002,
+      "totalAreaPing": 28.2354,
+      "avgUnitPriceWanPing": 38.179
+    },
+    {
+      "month": "2026-03",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "璞境",
+      "count": 2,
+      "totalPriceWan": 3012.0,
+      "totalAreaPing": 82.4766,
+      "avgUnitPriceWanPing": 36.519
+    },
+    {
+      "month": "2026-03",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "翊城晶綻",
+      "count": 2,
+      "totalPriceWan": 2210.006,
+      "totalAreaPing": 56.2953,
+      "avgUnitPriceWanPing": 39.257
+    },
+    {
+      "month": "2026-03",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "辰旭",
+      "count": 2,
+      "totalPriceWan": 3731.986,
+      "totalAreaPing": 106.595,
+      "avgUnitPriceWanPing": 35.011
+    },
+    {
+      "month": "2026-03",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "都薈綻",
+      "count": 2,
+      "totalPriceWan": 3541.001,
+      "totalAreaPing": 86.3002,
+      "avgUnitPriceWanPing": 41.031
     },
     {
       "month": "2026-03",
@@ -9925,6 +10125,16 @@
     },
     {
       "month": "2026-03",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "欣苑",
+      "count": 1,
+      "totalPriceWan": 745.001,
+      "totalAreaPing": 21.1115,
+      "avgUnitPriceWanPing": 35.289
+    },
+    {
+      "month": "2026-03",
       "district": "苓雅區",
       "category": "5年內成屋",
       "buildingName": "璟Light",
@@ -9932,6 +10142,46 @@
       "totalPriceWan": 1097.002,
       "totalAreaPing": 25.286,
       "avgUnitPriceWanPing": 43.384
+    },
+    {
+      "month": "2026-03",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "璞境",
+      "count": 2,
+      "totalPriceWan": 3012.0,
+      "totalAreaPing": 82.4766,
+      "avgUnitPriceWanPing": 36.519
+    },
+    {
+      "month": "2026-03",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "翊城晶綻",
+      "count": 2,
+      "totalPriceWan": 2210.006,
+      "totalAreaPing": 56.2953,
+      "avgUnitPriceWanPing": 39.257
+    },
+    {
+      "month": "2026-03",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "辰旭",
+      "count": 2,
+      "totalPriceWan": 3731.986,
+      "totalAreaPing": 106.595,
+      "avgUnitPriceWanPing": 35.011
+    },
+    {
+      "month": "2026-03",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "都薈綻",
+      "count": 2,
+      "totalPriceWan": 3541.001,
+      "totalAreaPing": 86.3002,
+      "avgUnitPriceWanPing": 41.031
     },
     {
       "month": "2026-03",
@@ -9965,6 +10215,16 @@
     },
     {
       "month": "2026-03",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "欣苑",
+      "count": 1,
+      "totalPriceWan": 745.001,
+      "totalAreaPing": 21.1115,
+      "avgUnitPriceWanPing": 35.289
+    },
+    {
+      "month": "2026-03",
       "district": "苓雅區",
       "category": "成屋",
       "buildingName": "璟Light",
@@ -9972,6 +10232,26 @@
       "totalPriceWan": 1097.002,
       "totalAreaPing": 25.286,
       "avgUnitPriceWanPing": 43.384
+    },
+    {
+      "month": "2026-04",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "都薈綻",
+      "count": 8,
+      "totalPriceWan": 13215.989,
+      "totalAreaPing": 338.2222,
+      "avgUnitPriceWanPing": 39.075
+    },
+    {
+      "month": "2026-04",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "璞境",
+      "count": 1,
+      "totalPriceWan": 1277.995,
+      "totalAreaPing": 35.5498,
+      "avgUnitPriceWanPing": 35.949
     },
     {
       "month": "2026-04",
@@ -10005,6 +10285,26 @@
     },
     {
       "month": "2026-04",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "都薈綻",
+      "count": 8,
+      "totalPriceWan": 13215.989,
+      "totalAreaPing": 338.2222,
+      "avgUnitPriceWanPing": 39.075
+    },
+    {
+      "month": "2026-04",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "璞境",
+      "count": 1,
+      "totalPriceWan": 1277.995,
+      "totalAreaPing": 35.5498,
+      "avgUnitPriceWanPing": 35.949
+    },
+    {
+      "month": "2026-04",
       "district": "苓雅區",
       "category": "成屋",
       "buildingName": "璟Light",
@@ -10035,6 +10335,16 @@
     },
     {
       "month": "2026-05",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "都薈綻",
+      "count": 12,
+      "totalPriceWan": 19082.006,
+      "totalAreaPing": 457.9215,
+      "avgUnitPriceWanPing": 41.671
+    },
+    {
+      "month": "2026-05",
       "district": "三民區",
       "category": "5年內成屋",
       "buildingName": "藏三豐",
@@ -10042,6 +10352,16 @@
       "totalPriceWan": 2842.998,
       "totalAreaPing": 76.3692,
       "avgUnitPriceWanPing": 37.227
+    },
+    {
+      "month": "2026-05",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "翊城晶綻",
+      "count": 2,
+      "totalPriceWan": 2379.992,
+      "totalAreaPing": 64.372,
+      "avgUnitPriceWanPing": 36.972
     },
     {
       "month": "2026-05",
@@ -10075,6 +10395,16 @@
     },
     {
       "month": "2026-05",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "欣苑",
+      "count": 1,
+      "totalPriceWan": 767.999,
+      "totalAreaPing": 21.1085,
+      "avgUnitPriceWanPing": 36.383
+    },
+    {
+      "month": "2026-05",
       "district": "苓雅區",
       "category": "5年內成屋",
       "buildingName": "璟Light",
@@ -10095,6 +10425,16 @@
     },
     {
       "month": "2026-05",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "都薈綻",
+      "count": 12,
+      "totalPriceWan": 19082.006,
+      "totalAreaPing": 457.9215,
+      "avgUnitPriceWanPing": 41.671
+    },
+    {
+      "month": "2026-05",
       "district": "三民區",
       "category": "成屋",
       "buildingName": "藏三豐",
@@ -10102,6 +10442,16 @@
       "totalPriceWan": 2842.998,
       "totalAreaPing": 76.3692,
       "avgUnitPriceWanPing": 37.227
+    },
+    {
+      "month": "2026-05",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "翊城晶綻",
+      "count": 2,
+      "totalPriceWan": 2379.992,
+      "totalAreaPing": 64.372,
+      "avgUnitPriceWanPing": 36.972
     },
     {
       "month": "2026-05",
@@ -10135,6 +10485,16 @@
     },
     {
       "month": "2026-05",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "欣苑",
+      "count": 1,
+      "totalPriceWan": 767.999,
+      "totalAreaPing": 21.1085,
+      "avgUnitPriceWanPing": 36.383
+    },
+    {
+      "month": "2026-05",
       "district": "苓雅區",
       "category": "成屋",
       "buildingName": "璟Light",
@@ -10152,6 +10512,26 @@
       "totalPriceWan": 1293.003,
       "totalAreaPing": 40.3505,
       "avgUnitPriceWanPing": 32.044
+    },
+    {
+      "month": "2026-06",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "都薈綻",
+      "count": 4,
+      "totalPriceWan": 6970.003,
+      "totalAreaPing": 181.137,
+      "avgUnitPriceWanPing": 38.479
+    },
+    {
+      "month": "2026-06",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "河左岸",
+      "count": 3,
+      "totalPriceWan": 5477.001,
+      "totalAreaPing": 149.3382,
+      "avgUnitPriceWanPing": 36.675
     },
     {
       "month": "2026-06",
@@ -10182,6 +10562,26 @@
       "totalPriceWan": 999.996,
       "totalAreaPing": 31.1091,
       "avgUnitPriceWanPing": 32.145
+    },
+    {
+      "month": "2026-06",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "璞境",
+      "count": 1,
+      "totalPriceWan": 1247.005,
+      "totalAreaPing": 35.5498,
+      "avgUnitPriceWanPing": 35.078
+    },
+    {
+      "month": "2026-06",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "辰旭",
+      "count": 1,
+      "totalPriceWan": 1650.997,
+      "totalAreaPing": 46.3914,
+      "avgUnitPriceWanPing": 35.588
     },
     {
       "month": "2026-06",
@@ -10215,6 +10615,26 @@
     },
     {
       "month": "2026-06",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "都薈綻",
+      "count": 4,
+      "totalPriceWan": 6970.003,
+      "totalAreaPing": 181.137,
+      "avgUnitPriceWanPing": 38.479
+    },
+    {
+      "month": "2026-06",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "河左岸",
+      "count": 3,
+      "totalPriceWan": 5477.001,
+      "totalAreaPing": 149.3382,
+      "avgUnitPriceWanPing": 36.675
+    },
+    {
+      "month": "2026-06",
       "district": "三民區",
       "category": "成屋",
       "buildingName": "藏三豐",
@@ -10242,6 +10662,26 @@
       "totalPriceWan": 999.996,
       "totalAreaPing": 31.1091,
       "avgUnitPriceWanPing": 32.145
+    },
+    {
+      "month": "2026-06",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "璞境",
+      "count": 1,
+      "totalPriceWan": 1247.005,
+      "totalAreaPing": 35.5498,
+      "avgUnitPriceWanPing": 35.078
+    },
+    {
+      "month": "2026-06",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "辰旭",
+      "count": 1,
+      "totalPriceWan": 1650.997,
+      "totalAreaPing": 46.3914,
+      "avgUnitPriceWanPing": 35.588
     },
     {
       "month": "2026-06",
@@ -10282,6 +10722,46 @@
       "totalPriceWan": 2861.0,
       "totalAreaPing": 75.5857,
       "avgUnitPriceWanPing": 37.851
+    },
+    {
+      "month": "2026-07",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "四季心",
+      "count": 3,
+      "totalPriceWan": 3053.005,
+      "totalAreaPing": 112.5451,
+      "avgUnitPriceWanPing": 27.127
+    },
+    {
+      "month": "2026-07",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "翊城晶綻",
+      "count": 2,
+      "totalPriceWan": 2172.997,
+      "totalAreaPing": 56.2983,
+      "avgUnitPriceWanPing": 38.598
+    },
+    {
+      "month": "2026-07",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "都薈綻",
+      "count": 2,
+      "totalPriceWan": 2950.992,
+      "totalAreaPing": 77.9694,
+      "avgUnitPriceWanPing": 37.848
+    },
+    {
+      "month": "2026-07",
+      "district": "橋頭區",
+      "category": "5年內成屋",
+      "buildingName": "森林之星",
+      "count": 1,
+      "totalPriceWan": 3549.995,
+      "totalAreaPing": 91.839,
+      "avgUnitPriceWanPing": 38.655
     },
     {
       "month": "2026-07",
@@ -10302,6 +10782,46 @@
       "totalPriceWan": 2861.0,
       "totalAreaPing": 75.5857,
       "avgUnitPriceWanPing": 37.851
+    },
+    {
+      "month": "2026-07",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "四季心",
+      "count": 3,
+      "totalPriceWan": 3053.005,
+      "totalAreaPing": 112.5451,
+      "avgUnitPriceWanPing": 27.127
+    },
+    {
+      "month": "2026-07",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "翊城晶綻",
+      "count": 2,
+      "totalPriceWan": 2172.997,
+      "totalAreaPing": 56.2983,
+      "avgUnitPriceWanPing": 38.598
+    },
+    {
+      "month": "2026-07",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "都薈綻",
+      "count": 2,
+      "totalPriceWan": 2950.992,
+      "totalAreaPing": 77.9694,
+      "avgUnitPriceWanPing": 37.848
+    },
+    {
+      "month": "2026-07",
+      "district": "橋頭區",
+      "category": "成屋",
+      "buildingName": "森林之星",
+      "count": 1,
+      "totalPriceWan": 3549.995,
+      "totalAreaPing": 91.839,
+      "avgUnitPriceWanPing": 38.655
     },
     {
       "month": "2026-07",
@@ -10315,6 +10835,46 @@
     },
     {
       "month": "2026-08",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "都薈綻",
+      "count": 2,
+      "totalPriceWan": 3981.013,
+      "totalAreaPing": 94.4163,
+      "avgUnitPriceWanPing": 42.164
+    },
+    {
+      "month": "2026-08",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "河左岸",
+      "count": 1,
+      "totalPriceWan": 1040.0,
+      "totalAreaPing": 29.1913,
+      "avgUnitPriceWanPing": 35.627
+    },
+    {
+      "month": "2026-08",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "璞境",
+      "count": 1,
+      "totalPriceWan": 1160.005,
+      "totalAreaPing": 35.5498,
+      "avgUnitPriceWanPing": 32.63
+    },
+    {
+      "month": "2026-08",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "辰旭",
+      "count": 1,
+      "totalPriceWan": 1669.998,
+      "totalAreaPing": 46.3914,
+      "avgUnitPriceWanPing": 35.998
+    },
+    {
+      "month": "2026-08",
       "district": "鳳山區",
       "category": "5年內成屋",
       "buildingName": "清朗",
@@ -10322,6 +10882,46 @@
       "totalPriceWan": 1349.994,
       "totalAreaPing": 50.0789,
       "avgUnitPriceWanPing": 26.957
+    },
+    {
+      "month": "2026-08",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "都薈綻",
+      "count": 2,
+      "totalPriceWan": 3981.013,
+      "totalAreaPing": 94.4163,
+      "avgUnitPriceWanPing": 42.164
+    },
+    {
+      "month": "2026-08",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "河左岸",
+      "count": 1,
+      "totalPriceWan": 1040.0,
+      "totalAreaPing": 29.1913,
+      "avgUnitPriceWanPing": 35.627
+    },
+    {
+      "month": "2026-08",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "璞境",
+      "count": 1,
+      "totalPriceWan": 1160.005,
+      "totalAreaPing": 35.5498,
+      "avgUnitPriceWanPing": 32.63
+    },
+    {
+      "month": "2026-08",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "辰旭",
+      "count": 1,
+      "totalPriceWan": 1669.998,
+      "totalAreaPing": 46.3914,
+      "avgUnitPriceWanPing": 35.998
     },
     {
       "month": "2026-08",
@@ -10337,7 +10937,7 @@
   "developerFirstSaleRankings": [],
   "developerFirstSaleMatchCount": 0,
   "developerFirstSaleRankingNote": "僅統計逐筆核實為建商完工後直接首售的成屋交易；不以屋齡、門牌或大量交屋推定首售，未核實者不納入。",
-  "communityMatchCount": 41,
-  "communityUnmatchedCount": 4693,
+  "communityMatchCount": 113,
+  "communityUnmatchedCount": 4621,
   "buildingRankingNote": "成屋社區排行只統計官方直接具名或經完整建物門牌人工核實的案件；未辨識社區不納入排名。"
 }
