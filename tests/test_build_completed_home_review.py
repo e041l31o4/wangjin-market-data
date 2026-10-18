@@ -11,6 +11,38 @@ spec.loader.exec_module(m)
 
 
 class CompletedHomeReviewTests(unittest.TestCase):
+    def test_reviewed_multiple_addresses_fill_missing_registry_house_number(self):
+        reg = {"projects": [{"projectId": "1", "name": "一案", "district": "楠梓區", "kind": "成屋", "address": "大學路"}]}
+        mapping = [{"district": "楠梓區", "addressKey": f"大學路{n}號", "buildingName": "一案", "source": "review"} for n in [1, 3]]
+        records = {str(n): {"category": "成屋", "district": "楠梓區", "addressKey": f"大學路{n}號", "date": "2026-01-01"} for n in [1, 2, 3, 13]}
+        row = m.build_review(reg, records, mapping, 2026)["cases"][0]
+        self.assertEqual(row["status"], "verified_community_address")
+        self.assertEqual(row["verifiedAddresses"], ["大學路1號", "大學路3號"])
+        self.assertEqual(row["verifiedCommunityTransactionCount"], 2)
+        self.assertEqual(row["transactionCountAtAddress"], 2)
+        self.assertFalse(row["developerFirstSaleVerified"])
+
+    def test_mapping_does_not_guess_brand_prefix_or_other_district(self):
+        reg = {"projects": [{"projectId": "1", "name": "一案", "district": "楠梓區", "kind": "成屋", "address": "大學路"}]}
+        mapping = [{"district": "楠梓區", "addressKey": "大學路1號", "buildingName": "建商一案", "source": "review"},
+                   {"district": "橋頭區", "addressKey": "大學路1號", "buildingName": "一案", "source": "review"}]
+        row = m.build_review(reg, {}, mapping, 2026)["cases"][0]
+        self.assertEqual(row["status"], "registry_needs_full_address")
+        self.assertEqual(row["verifiedAddresses"], [])
+
+    def test_unreviewed_registry_address_is_not_counted_as_verified(self):
+        mapping = [{"district": "楠梓區", "addressKey": "大學路3號", "buildingName": "一案", "source": "review"}]
+        row = self.build(mapping=mapping)["cases"][0]
+        self.assertEqual(row["transactionCountAtAddress"], 1)
+        self.assertEqual(row["verifiedCommunityTransactionCount"], 0)
+
+    def test_reviewed_mapping_cannot_steal_another_registry_address(self):
+        reg = {"projects": [{"projectId": "1", "name": "一案", "district": "楠梓區", "kind": "成屋", "address": "大學路"},
+                            {"projectId": "2", "name": "二案", "district": "楠梓區", "kind": "成屋", "address": "大學路1號"}]}
+        mapping = [{"district": "楠梓區", "addressKey": "大學路1號", "buildingName": "一案", "source": "review"}]
+        report = m.build_review(reg, {}, mapping, 2026)
+        self.assertTrue(all(r["status"] == "address_conflict" and not r["communityMappingVerified"] for r in report["cases"]))
+
     def build(self, *, second=False, rows=None, year=2026, mapping=None):
         projects = [{"projectId": "1", "name": "一案", "district": "楠梓區", "kind": "成屋", "address": "大學路1號"}]
         if second:
