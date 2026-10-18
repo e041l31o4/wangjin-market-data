@@ -1,0 +1,162 @@
+{
+  "reviewedOn": "2026-10-18",
+  "scope": "社區門牌人工核對；來源等級分開紀錄；成交金額只來自內政部逐筆資料；不認定建商首售",
+  "approved": [
+    {
+      "projectId": "8",
+      "name": "COME INN",
+      "district": "楠梓區",
+      "addressKey": "青埔街70巷31弄1號",
+      "evidenceKind": "project_listing",
+      "url": "https://newhouse.591.com.tw/135905",
+      "developer": "大運統聯合建設有限公司",
+      "note": "刊登案名COME INN康茵大樓，完整基地門牌與名單相符。",
+      "reviewedOn": "2026-10-18",
+      "scope": "exact_house_number_community_only",
+      "developerFirstSaleVerified": false
+    },
+    {
+      "projectId": "34",
+      "name": "得意居5期",
+      "district": "楠梓區",
+      "addressKey": "加昌路279巷3號",
+      "evidenceKind": "project_listing",
+      "url": "https://newhouse.591.com.tw/141036",
+      "developer": "寶藤建設",
+      "note": "僅核對3號，不擴張到3之3或3之5號。",
+      "reviewedOn": "2026-10-18",
+      "scope": "exact_house_number_community_only",
+      "developerFirstSaleVerified": false
+    },
+    {
+      "projectId": "81",
+      "name": "靜の界",
+      "district": "左營區",
+      "addressKey": "文育路2號",
+      "evidenceKind": "project_listing",
+      "url": "https://newhouse.591.com.tw/140122",
+      "developer": "善寬建設",
+      "note": "官網另確認善寬靜の界；完整門牌取自建案刊登頁。",
+      "reviewedOn": "2026-10-18",
+      "scope": "exact_house_number_community_only",
+      "developerFirstSaleVerified": false,
+      "supportingSources": [
+        "https://shankuan.com.tw/project-detail/7"
+      ]
+    },
+    {
+      "projectId": "134",
+      "name": "日大擁河",
+      "district": "三民區",
+      "addressKey": "河北二路113號",
+      "evidenceKind": "project_listing",
+      "url": "https://newhouse.591.com.tw/137457",
+      "developer": "日大建設事業股份有限公司",
+      "note": "刊登建案名稱與完整門牌相符。",
+      "reviewedOn": "2026-10-18",
+      "scope": "exact_house_number_community_only",
+      "developerFirstSaleVerified": false
+    },
+    {
+      "projectId": "136",
+      "name": "藏三豐",
+      "district": "三民區",
+      "addressKey": "大豐一路181號",
+      "evidenceKind": "project_listing",
+      "url": "https://newhouse.591.com.tw/136822/detail",
+      "developer": "寶象建設股份有限公司",
+      "note": "刊登案名寶象藏三豐；使照113高市工建築使字01952，保留來源建商冠名。",
+      "reviewedOn": "2026-10-18",
+      "scope": "exact_house_number_community_only",
+      "developerFirstSaleVerified": false
+    },
+    {
+      "projectId": "200",
+      "name": "璟Light",
+      "district": "苓雅區",
+      "addressKey": "二聖一路30號",
+      "evidenceKind": "developer_site",
+      "url": "https://sinji-land.com/portfolio/JL.html",
+      "developer": "宏居開發有限公司",
+      "note": "建商官網明列基地位置，不擴張至鄰近32號。",
+      "reviewedOn": "2026-10-18",
+      "scope": "exact_house_number_community_only",
+      "developerFirstSaleVerified": false
+    },
+    {
+      "projectId": "235",
+      "name": "鳳凰悦",
+      "district": "前鎮區",
+      "addressKey": "翠亨北路195號",
+      "evidenceKind": "community_listing",
+      "url": "https://market.591.com.tw/6009164/overview",
+      "developer": "隆大營建事業股份有限公司",
+      "note": "社區頁明列基地195號；隆大官網另列195號2樓接待中心，接待中心本身不作唯一基地證據。",
+      "reviewedOn": "2026-10-18",
+      "scope": "exact_house_number_community_only",
+      "developerFirstSaleVerified": false,
+      "supportingSources": [
+        "https://www.longda.com.tw/phoenix6/"
+      ]
+    },
+    {
+      "projectId": "301",
+      "name": "百達耘邸",
+      "district": "鳳山區",
+      "addressKey": "鳳東七街77號",
+      "evidenceKind": "project_listing",
+      "url": "https://newhouse.591.com.tw/138786/detail",
+      "developer": "友友開發建設股份有限公司",
+      "note": "基地77號與接待77號9樓分開列示；使照114高市工建築使字00179。",
+      "reviewedOn": "2026-10-18",
+      "scope": "exact_house_number_community_only",
+      "developerFirstSaleVerified": false
+    },
+    {
+      "projectId": "310",
+      "name": "清朗",
+      "district": "鳳山區",
+      "addressKey": "中山東路192巷208號",
+      "evidenceKind": "project_listing",
+      "url": "https://newhouse.591.com.tw/141325?s=t",
+      "developer": "永信建設開發股份有限公司",
+      "note": "刊登頁基地208號；永信官網接待202號不拿來推估地址範圍。",
+      "reviewedOn": "2026-10-18",
+      "scope": "exact_house_number_community_only",
+      "developerFirstSaleVerified": false,
+      "supportingSources": [
+        "https://www.ys-construction.com.tw/product/熱銷個案/公司個案/清朗"
+      ]
+    },
+    {
+      "projectId": "315",
+      "name": "光知序",
+      "district": "鳳山區",
+      "addressKey": "文鳳路26號",
+      "evidenceKind": "project_listing",
+      "url": "https://newhouse.591.com.tw/137410?gtmType=Periphery",
+      "developer": "光森建設有限公司",
+      "note": "刊登建案名稱與完整門牌相符。",
+      "reviewedOn": "2026-10-18",
+      "scope": "exact_house_number_community_only",
+      "developerFirstSaleVerified": false
+    }
+  ],
+  "held": [
+    {
+      "projectId": "24",
+      "name": "琢萃",
+      "registryAddress": "高雄大學路500號",
+      "listedBaseAddress": "高雄大學路506號",
+      "reason": "基地代表門牌不一致；需取得完整建物門牌表後再擴張",
+      "sources": [
+        "https://newhouse.591.com.tw/140264/detail"
+      ]
+    },
+    {
+      "projectId": "220",
+      "name": "京城凱悅",
+      "reason": "已收錄成交建物完成日2010-06-02，不列入5年內成屋補查優先案"
+    }
+  ]
+}
