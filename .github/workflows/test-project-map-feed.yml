@@ -2,6 +2,9 @@ name: Test project map feed export
 on:
   pull_request:
     paths:
+      - 'data/verified_project_matches.json'
+      - 'data/verified_project_price_feed.json'
+      - 'analysis/verified-project-213-evidence-20261018.json'
       - 'scripts/update_market.py'
       - 'tests/test_official_project_evidence.py'
       - 'scripts/build_project_map_feed.py'
@@ -44,15 +47,16 @@ jobs:
           import json
           x=json.load(open('/tmp/project-map-feed.json'))
           assert x['totalProjects']==386
-          assert x['verifiedPriceProjects']==0
+          assert x['verifiedPriceProjects']==sum(r['priceStatus']=='verified' for r in x['projects'])
           public=json.load(open('data/verified_project_price_feed.json'))
           assert public['feedKind']=='public_verified_only'
           assert public['totalProjects']==386
-          assert public['verifiedPriceProjects']==0
+          assert public['verifiedPriceProjects']==x['verifiedPriceProjects']
+          assert public['projects']==x['projects']
           for row in x['projects']:
               if row['priceStatus']!='verified':
                   assert all(row[f] is None for f in (
                       'transactionCount','latestTransactionDate','latestUnitPriceWanPing',
                       'averageUnitPriceWanPing','minUnitPriceWanPing','maxUnitPriceWanPing'))
-          print('PASS: 386 projects; no unverified prices')
+          print('PASS: 386 projects; no unverified prices; verified counts consistent')
           PY

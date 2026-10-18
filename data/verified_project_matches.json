@@ -1,0 +1,17 @@
+{
+  "213": {
+    "verified": true,
+    "projectName": "郡都大成",
+    "district": "苓雅區",
+    "officialEvidence": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+    "reviewedBy": "Codex：官方逐筆與開發商一手資料交叉核對（非人工簽核）",
+    "verifiedOn": "2026-10-18",
+    "transactionFingerprint": "a3d5694bae193604b9cfd3c86279a2de7c8569ff8c65a4a5b09746f838c0b7cf",
+    "approvedTransactionCount": 68,
+    "supportingEvidence": [
+      "https://www.mectw.tw/jp/news/-OXxjDAhiCYjA1kjCZ_J",
+      "https://judogroup.com.tw/hotcase/郡都大成/"
+    ],
+    "evidenceRecord": "analysis/verified-project-213-evidence-20261018.json"
+  }
+}
