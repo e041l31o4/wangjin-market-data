@@ -3,12 +3,12 @@
   "feedKind": "public_official_completed",
   "year": 2026,
   "source": "https://plvr.land.moi.gov.tw/DownloadOpenData",
-  "sourceDataUpdatedAt": "2026-10-18",
+  "sourceDataUpdatedAt": "2026-10-19",
   "totalProjects": 386,
   "matchedPriceProjects": 76,
   "includedTransactionCount": 413,
   "importantNotes": [
-    "只含今年成交、成交時屋齡5年內且具官方追溯資料的已核對門牌樣本。",
+    "只含今年成交。成交時屋齡限5年內。僅限已核對門牌且具官方追溯的樣本。",
     "社區歸屬不等於建商首售，也不代表全案所有門牌或全部成交。",
     "無樣本不是零成交；低於11層華廈不在原始市場收錄範圍。",
     "平均單價採逐筆單價算術平均；每次官方資料更新後依相同條件重建。"
