@@ -3,8 +3,10 @@ on:
   pull_request:
     paths:
       - 'scripts/build_project_map_feed.py'
+      - 'scripts/build_project_review_queue.py'
       - 'scripts/refresh_project_match_candidates.py'
       - 'tests/test_build_project_map_feed.py'
+      - 'tests/test_build_project_review_queue.py'
       - 'tests/test_refresh_project_match_candidates.py'
       - '.github/workflows/update-market.yml'
       - '.github/workflows/test-project-map-feed.yml'
@@ -24,6 +26,10 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_refresh_project_match_candidates.py' -v
       - name: Refresh candidate matches without a web download
         run: python scripts/refresh_project_match_candidates.py
+      - name: Unit test verification review queue
+        run: python -m unittest discover -s tests -p 'test_build_project_review_queue.py' -v
+      - name: Generate verification queue
+        run: python scripts/build_project_review_queue.py
       - name: Unit test public feed safety
         run: python -m unittest discover -s tests -p 'test_build_project_map_feed.py' -v
       - name: Generate preview feed
