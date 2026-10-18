@@ -8,6 +8,7 @@ This script does not touch market.json or the live website.
 """
 import argparse
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -28,8 +29,16 @@ def build_feed(review, approvals=None):
         verified = (
             isinstance(approval, dict)
             and approval.get("verified") is True
-            and approval.get("officialEvidence")
-            and approval.get("verifiedOn")
+            and isinstance(approval.get("officialEvidence"), str)
+            and approval["officialEvidence"].startswith(("https://", "http://"))
+            and isinstance(approval.get("reviewedBy"), str)
+            and bool(approval["reviewedBy"].strip())
+            and isinstance(approval.get("verifiedOn"), str)
+            and bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", approval["verifiedOn"]))
+            and approval.get("transactionFingerprint") == row.get("transactionFingerprint")
+            and isinstance(row.get("transactionFingerprint"), str)
+            and bool(re.fullmatch(r"[0-9a-f]{64}", row["transactionFingerprint"]))
+            and approval.get("approvedTransactionCount") == row.get("transactionCount")
             and approval.get("projectName") == row["projectName"]
             and approval.get("district") == row["district"]
             and row.get("matchLevel") == "name_district_exact"
@@ -52,6 +61,7 @@ def build_feed(review, approvals=None):
             "maxUnitPriceWanPing": row["maxUnitPriceWanPing"] if verified else None,
             "verificationSource": approval.get("officialEvidence") if verified else None,
             "verifiedOn": approval.get("verifiedOn") if verified else None,
+            "reviewedBy": approval.get("reviewedBy") if verified else None,
         }
         items.append(entry)
     return {
