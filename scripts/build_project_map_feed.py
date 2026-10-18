@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-REVIEW_PATH = ROOT / "analysis/project-pre-sale-price-review-20261018.json"
+REVIEW_PATH = ROOT / "analysis/project-pre-sale-price-latest.json"
 APPROVAL_PATH = ROOT / "data/verified_project_matches.json"
 DEFAULT_OUTPUT = ROOT / "analysis/project-map-feed-preview.json"
 
@@ -42,7 +42,7 @@ def build_feed(review, approvals=None):
             "name": row["projectName"],
             "district": row["district"],
             "transactionSource": "內政部實價登錄（目前已收錄逐筆資料）",
-            "sourceDataUpdatedAt": review.get("dataUpdatedAt"),
+            "sourceDataUpdatedAt": (review.get("sourceDataUpdatedAt") or review.get("dataUpdatedAt")),
             "priceStatus": "verified" if verified else "pending_verification",
             "transactionCount": row["transactionCount"] if verified else None,
             "latestTransactionDate": row["latestTransactionDate"] if verified else None,
@@ -58,7 +58,7 @@ def build_feed(review, approvals=None):
         "schemaVersion": 1,
         "feedKind": "review_only_not_live",
         "source": "內政部不動產交易實價登錄 Open Data",
-        "sourceDataUpdatedAt": review.get("dataUpdatedAt"),
+        "sourceDataUpdatedAt": (review.get("sourceDataUpdatedAt") or review.get("dataUpdatedAt")),
         "importantNotes": [
             "未顯示價格不代表無成交，而是尚未完成建案與逐筆官方資料核實。",
             "成交資料非完整市場全集，近期交易可能尚未揭露。",
