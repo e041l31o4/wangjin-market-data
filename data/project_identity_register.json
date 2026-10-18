@@ -747,10 +747,10 @@
     },
     {
       "projectId": "107",
-      "name": "裕誠路",
+      "name": "雄崗信義美術館",
       "district": "鼓山區",
       "kind": "成屋",
-      "address": "自售"
+      "address": "富農路328號"
     },
     {
       "projectId": "108",
@@ -2119,10 +2119,10 @@
     },
     {
       "projectId": "303",
-      "name": "福誠三街",
+      "name": "城揚大家",
       "district": "鳳山區",
       "kind": "成屋",
-      "address": "廣誠"
+      "address": "福誠三街31號"
     },
     {
       "projectId": "304",
@@ -2465,7 +2465,7 @@
       "name": "澄境",
       "district": "仁武區",
       "kind": "成屋",
-      "address": "赤德街50號"
+      "address": "赤德街82號"
     },
     {
       "projectId": "353",
@@ -2665,10 +2665,10 @@
     },
     {
       "projectId": "381",
-      "name": "棠宇實中首席 新南一街、新南二街口",
+      "name": "棠宇實中首席",
       "district": "橋頭區",
       "kind": "成屋",
-      "address": "自售"
+      "address": "新南一街107號"
     },
     {
       "projectId": "382",
@@ -2705,5 +2705,6 @@
       "kind": "預售屋",
       "address": "鹽田路vs南北路"
     }
-  ]
+  ],
+  "manualCorrections": "analysis/completed-home-identity-corrections.json"
 }

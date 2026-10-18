@@ -1,0 +1,76 @@
+{
+  "scope": "資料端人工更正；前端名單尚未同步更正",
+  "corrections": [
+    {
+      "projectId": "107",
+      "original": {
+        "projectId": "107",
+        "name": "裕誠路",
+        "district": "鼓山區",
+        "kind": "成屋",
+        "address": "自售"
+      },
+      "correction": {
+        "name": "雄崗信義美術館",
+        "address": "富農路328號"
+      },
+      "sources": [
+        "https://market.591.com.tw/51921/overview"
+      ],
+      "reviewedOn": "2026-10-18"
+    },
+    {
+      "projectId": "303",
+      "original": {
+        "projectId": "303",
+        "name": "福誠三街",
+        "district": "鳳山區",
+        "kind": "成屋",
+        "address": "廣誠"
+      },
+      "correction": {
+        "name": "城揚大家",
+        "address": "福誠三街31號"
+      },
+      "sources": [
+        "https://market.591.com.tw/5888943"
+      ],
+      "reviewedOn": "2026-10-18"
+    },
+    {
+      "projectId": "352",
+      "original": {
+        "projectId": "352",
+        "name": "澄境",
+        "district": "仁武區",
+        "kind": "成屋",
+        "address": "赤德街50號"
+      },
+      "correction": {
+        "address": "赤德街82號"
+      },
+      "sources": [
+        "https://market.591.com.tw/6525173/price?trans_type=1"
+      ],
+      "reviewedOn": "2026-10-18"
+    },
+    {
+      "projectId": "381",
+      "original": {
+        "projectId": "381",
+        "name": "棠宇實中首席 新南一街、新南二街口",
+        "district": "橋頭區",
+        "kind": "成屋",
+        "address": "自售"
+      },
+      "correction": {
+        "name": "棠宇實中首席",
+        "address": "新南一街107號"
+      },
+      "sources": [
+        "https://newhouse.591.com.tw/122914/detail"
+      ],
+      "reviewedOn": "2026-10-18"
+    }
+  ]
+}
