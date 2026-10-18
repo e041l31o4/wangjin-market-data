@@ -3,11 +3,11 @@
   "completedProjectCount": 244,
   "officialCompletedTransactionCount": 4734,
   "statusCounts": {
-    "address_candidate_needs_evidence": 12,
+    "address_candidate_needs_evidence": 2,
     "address_conflict": 2,
     "no_exact_address_sample": 57,
     "registry_needs_full_address": 172,
-    "verified_community_address": 1
+    "verified_community_address": 11
   },
   "note": "門牌候選不等同建案成交或建商首售。屋齡另行列出；本清單不輸出價格，不自動建立首售對照。",
   "cases": [
@@ -108,10 +108,10 @@
       "district": "楠梓區",
       "registryAddress": "青埔街70巷31弄1號",
       "addressKey": "青埔街70巷31弄1號",
-      "status": "address_candidate_needs_evidence",
+      "status": "verified_community_address",
       "transactionCountAtAddress": 1,
       "traceableRecentTransactionCount": 1,
-      "communityMappingVerified": false,
+      "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
         {
@@ -515,10 +515,10 @@
       "district": "楠梓區",
       "registryAddress": "加昌路279巷3號",
       "addressKey": "加昌路279巷3號",
-      "status": "address_candidate_needs_evidence",
+      "status": "verified_community_address",
       "transactionCountAtAddress": 2,
       "traceableRecentTransactionCount": 2,
-      "communityMappingVerified": false,
+      "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
         {
@@ -876,10 +876,10 @@
       "district": "左營區",
       "registryAddress": "文育路2號",
       "addressKey": "文育路2號",
-      "status": "address_candidate_needs_evidence",
+      "status": "verified_community_address",
       "transactionCountAtAddress": 2,
       "traceableRecentTransactionCount": 2,
-      "communityMappingVerified": false,
+      "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
         {
@@ -1263,10 +1263,10 @@
       "district": "三民區",
       "registryAddress": "河北二路113號",
       "addressKey": "河北二路113號",
-      "status": "address_candidate_needs_evidence",
+      "status": "verified_community_address",
       "transactionCountAtAddress": 3,
       "traceableRecentTransactionCount": 3,
-      "communityMappingVerified": false,
+      "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
         {
@@ -1323,10 +1323,10 @@
       "district": "三民區",
       "registryAddress": "大豐一路181號",
       "addressKey": "大豐一路181號",
-      "status": "address_candidate_needs_evidence",
+      "status": "verified_community_address",
       "transactionCountAtAddress": 8,
       "traceableRecentTransactionCount": 6,
-      "communityMappingVerified": false,
+      "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
         {
@@ -1893,10 +1893,10 @@
       "district": "苓雅區",
       "registryAddress": "二聖一路30號",
       "addressKey": "二聖一路30號",
-      "status": "address_candidate_needs_evidence",
+      "status": "verified_community_address",
       "transactionCountAtAddress": 4,
       "traceableRecentTransactionCount": 4,
-      "communityMappingVerified": false,
+      "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
         {
@@ -2080,10 +2080,10 @@
       "district": "前鎮區",
       "registryAddress": "翠亨北路195號",
       "addressKey": "翠亨北路195號",
-      "status": "address_candidate_needs_evidence",
+      "status": "verified_community_address",
       "transactionCountAtAddress": 9,
       "traceableRecentTransactionCount": 9,
-      "communityMappingVerified": false,
+      "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
         {
@@ -2856,10 +2856,10 @@
       "district": "鳳山區",
       "registryAddress": "鳳東七街77號",
       "addressKey": "鳳東七街77號",
-      "status": "address_candidate_needs_evidence",
+      "status": "verified_community_address",
       "transactionCountAtAddress": 3,
       "traceableRecentTransactionCount": 3,
-      "communityMappingVerified": false,
+      "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
         {
@@ -3007,10 +3007,10 @@
       "district": "鳳山區",
       "registryAddress": "中山東路192巷208號",
       "addressKey": "中山東路192巷208號",
-      "status": "address_candidate_needs_evidence",
+      "status": "verified_community_address",
       "transactionCountAtAddress": 4,
       "traceableRecentTransactionCount": 4,
-      "communityMappingVerified": false,
+      "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
         {
@@ -3117,10 +3117,10 @@
       "district": "鳳山區",
       "registryAddress": "文鳳路26號",
       "addressKey": "文鳳路26號",
-      "status": "address_candidate_needs_evidence",
+      "status": "verified_community_address",
       "transactionCountAtAddress": 3,
       "traceableRecentTransactionCount": 3,
-      "communityMappingVerified": false,
+      "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
         {

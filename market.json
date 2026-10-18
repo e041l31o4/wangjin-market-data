@@ -9734,6 +9734,186 @@
   ],
   "buildingRankings": [
     {
+      "month": "2026-01",
+      "district": "前鎮區",
+      "category": "5年內成屋",
+      "buildingName": "鳳凰悦",
+      "count": 8,
+      "totalPriceWan": 9461.994,
+      "totalAreaPing": 242.3207,
+      "avgUnitPriceWanPing": 39.047
+    },
+    {
+      "month": "2026-01",
+      "district": "三民區",
+      "category": "5年內成屋",
+      "buildingName": "日大擁河",
+      "count": 1,
+      "totalPriceWan": 1799.999,
+      "totalAreaPing": 50.935,
+      "avgUnitPriceWanPing": 35.339
+    },
+    {
+      "month": "2026-01",
+      "district": "左營區",
+      "category": "5年內成屋",
+      "buildingName": "靜の界",
+      "count": 1,
+      "totalPriceWan": 1862.997,
+      "totalAreaPing": 34.972,
+      "avgUnitPriceWanPing": 53.271
+    },
+    {
+      "month": "2026-01",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "得意居5期",
+      "count": 1,
+      "totalPriceWan": 854.996,
+      "totalAreaPing": 28.5288,
+      "avgUnitPriceWanPing": 29.97
+    },
+    {
+      "month": "2026-01",
+      "district": "苓雅區",
+      "category": "5年內成屋",
+      "buildingName": "璟Light",
+      "count": 1,
+      "totalPriceWan": 1148.0,
+      "totalAreaPing": 25.286,
+      "avgUnitPriceWanPing": 45.401
+    },
+    {
+      "month": "2026-01",
+      "district": "前鎮區",
+      "category": "成屋",
+      "buildingName": "鳳凰悦",
+      "count": 8,
+      "totalPriceWan": 9461.994,
+      "totalAreaPing": 242.3207,
+      "avgUnitPriceWanPing": 39.047
+    },
+    {
+      "month": "2026-01",
+      "district": "三民區",
+      "category": "成屋",
+      "buildingName": "日大擁河",
+      "count": 1,
+      "totalPriceWan": 1799.999,
+      "totalAreaPing": 50.935,
+      "avgUnitPriceWanPing": 35.339
+    },
+    {
+      "month": "2026-01",
+      "district": "左營區",
+      "category": "成屋",
+      "buildingName": "靜の界",
+      "count": 1,
+      "totalPriceWan": 1862.997,
+      "totalAreaPing": 34.972,
+      "avgUnitPriceWanPing": 53.271
+    },
+    {
+      "month": "2026-01",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "得意居5期",
+      "count": 1,
+      "totalPriceWan": 854.996,
+      "totalAreaPing": 28.5288,
+      "avgUnitPriceWanPing": 29.97
+    },
+    {
+      "month": "2026-01",
+      "district": "苓雅區",
+      "category": "成屋",
+      "buildingName": "璟Light",
+      "count": 1,
+      "totalPriceWan": 1148.0,
+      "totalAreaPing": 25.286,
+      "avgUnitPriceWanPing": 45.401
+    },
+    {
+      "month": "2026-02",
+      "district": "三民區",
+      "category": "5年內成屋",
+      "buildingName": "藏三豐",
+      "count": 1,
+      "totalPriceWan": 1319.996,
+      "totalAreaPing": 35.9703,
+      "avgUnitPriceWanPing": 36.697
+    },
+    {
+      "month": "2026-02",
+      "district": "前鎮區",
+      "category": "5年內成屋",
+      "buildingName": "鳳凰悦",
+      "count": 1,
+      "totalPriceWan": 1240.005,
+      "totalAreaPing": 34.9569,
+      "avgUnitPriceWanPing": 35.472
+    },
+    {
+      "month": "2026-02",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "得意居5期",
+      "count": 1,
+      "totalPriceWan": 1021.0,
+      "totalAreaPing": 28.5288,
+      "avgUnitPriceWanPing": 35.788
+    },
+    {
+      "month": "2026-02",
+      "district": "三民區",
+      "category": "成屋",
+      "buildingName": "藏三豐",
+      "count": 1,
+      "totalPriceWan": 1319.996,
+      "totalAreaPing": 35.9703,
+      "avgUnitPriceWanPing": 36.697
+    },
+    {
+      "month": "2026-02",
+      "district": "前鎮區",
+      "category": "成屋",
+      "buildingName": "鳳凰悦",
+      "count": 1,
+      "totalPriceWan": 1240.005,
+      "totalAreaPing": 34.9569,
+      "avgUnitPriceWanPing": 35.472
+    },
+    {
+      "month": "2026-02",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "得意居5期",
+      "count": 1,
+      "totalPriceWan": 1021.0,
+      "totalAreaPing": 28.5288,
+      "avgUnitPriceWanPing": 35.788
+    },
+    {
+      "month": "2026-03",
+      "district": "三民區",
+      "category": "5年內成屋",
+      "buildingName": "日大擁河",
+      "count": 1,
+      "totalPriceWan": 2000.002,
+      "totalAreaPing": 51.0106,
+      "avgUnitPriceWanPing": 39.208
+    },
+    {
+      "month": "2026-03",
+      "district": "三民區",
+      "category": "5年內成屋",
+      "buildingName": "藏三豐",
+      "count": 1,
+      "totalPriceWan": 1549.995,
+      "totalAreaPing": 40.3989,
+      "avgUnitPriceWanPing": 38.367
+    },
+    {
       "month": "2026-03",
       "district": "楠梓區",
       "category": "5年內成屋",
@@ -9745,6 +9925,36 @@
     },
     {
       "month": "2026-03",
+      "district": "苓雅區",
+      "category": "5年內成屋",
+      "buildingName": "璟Light",
+      "count": 1,
+      "totalPriceWan": 1097.002,
+      "totalAreaPing": 25.286,
+      "avgUnitPriceWanPing": 43.384
+    },
+    {
+      "month": "2026-03",
+      "district": "三民區",
+      "category": "成屋",
+      "buildingName": "日大擁河",
+      "count": 1,
+      "totalPriceWan": 2000.002,
+      "totalAreaPing": 51.0106,
+      "avgUnitPriceWanPing": 39.208
+    },
+    {
+      "month": "2026-03",
+      "district": "三民區",
+      "category": "成屋",
+      "buildingName": "藏三豐",
+      "count": 1,
+      "totalPriceWan": 1549.995,
+      "totalAreaPing": 40.3989,
+      "avgUnitPriceWanPing": 38.367
+    },
+    {
+      "month": "2026-03",
       "district": "楠梓區",
       "category": "成屋",
       "buildingName": "博市陞",
@@ -9752,6 +9962,106 @@
       "totalPriceWan": 1280.0,
       "totalAreaPing": 34.8722,
       "avgUnitPriceWanPing": 36.705
+    },
+    {
+      "month": "2026-03",
+      "district": "苓雅區",
+      "category": "成屋",
+      "buildingName": "璟Light",
+      "count": 1,
+      "totalPriceWan": 1097.002,
+      "totalAreaPing": 25.286,
+      "avgUnitPriceWanPing": 43.384
+    },
+    {
+      "month": "2026-04",
+      "district": "苓雅區",
+      "category": "5年內成屋",
+      "buildingName": "璟Light",
+      "count": 1,
+      "totalPriceWan": 1097.002,
+      "totalAreaPing": 25.286,
+      "avgUnitPriceWanPing": 43.384
+    },
+    {
+      "month": "2026-04",
+      "district": "鳳山區",
+      "category": "5年內成屋",
+      "buildingName": "清朗",
+      "count": 1,
+      "totalPriceWan": 1485.0,
+      "totalAreaPing": 50.0789,
+      "avgUnitPriceWanPing": 29.653
+    },
+    {
+      "month": "2026-04",
+      "district": "鳳山區",
+      "category": "5年內成屋",
+      "buildingName": "百達耘邸",
+      "count": 1,
+      "totalPriceWan": 1232.003,
+      "totalAreaPing": 40.3505,
+      "avgUnitPriceWanPing": 30.533
+    },
+    {
+      "month": "2026-04",
+      "district": "苓雅區",
+      "category": "成屋",
+      "buildingName": "璟Light",
+      "count": 1,
+      "totalPriceWan": 1097.002,
+      "totalAreaPing": 25.286,
+      "avgUnitPriceWanPing": 43.384
+    },
+    {
+      "month": "2026-04",
+      "district": "鳳山區",
+      "category": "成屋",
+      "buildingName": "清朗",
+      "count": 1,
+      "totalPriceWan": 1485.0,
+      "totalAreaPing": 50.0789,
+      "avgUnitPriceWanPing": 29.653
+    },
+    {
+      "month": "2026-04",
+      "district": "鳳山區",
+      "category": "成屋",
+      "buildingName": "百達耘邸",
+      "count": 1,
+      "totalPriceWan": 1232.003,
+      "totalAreaPing": 40.3505,
+      "avgUnitPriceWanPing": 30.533
+    },
+    {
+      "month": "2026-05",
+      "district": "三民區",
+      "category": "5年內成屋",
+      "buildingName": "藏三豐",
+      "count": 2,
+      "totalPriceWan": 2842.998,
+      "totalAreaPing": 76.3692,
+      "avgUnitPriceWanPing": 37.227
+    },
+    {
+      "month": "2026-05",
+      "district": "鳳山區",
+      "category": "5年內成屋",
+      "buildingName": "光知序",
+      "count": 2,
+      "totalPriceWan": 3905.012,
+      "totalAreaPing": 83.7018,
+      "avgUnitPriceWanPing": 46.654
+    },
+    {
+      "month": "2026-05",
+      "district": "三民區",
+      "category": "5年內成屋",
+      "buildingName": "日大擁河",
+      "count": 1,
+      "totalPriceWan": 1880.005,
+      "totalAreaPing": 51.0106,
+      "avgUnitPriceWanPing": 36.855
     },
     {
       "month": "2026-05",
@@ -9765,6 +10075,56 @@
     },
     {
       "month": "2026-05",
+      "district": "苓雅區",
+      "category": "5年內成屋",
+      "buildingName": "璟Light",
+      "count": 1,
+      "totalPriceWan": 1072.0,
+      "totalAreaPing": 25.286,
+      "avgUnitPriceWanPing": 42.395
+    },
+    {
+      "month": "2026-05",
+      "district": "鳳山區",
+      "category": "5年內成屋",
+      "buildingName": "百達耘邸",
+      "count": 1,
+      "totalPriceWan": 1293.003,
+      "totalAreaPing": 40.3505,
+      "avgUnitPriceWanPing": 32.044
+    },
+    {
+      "month": "2026-05",
+      "district": "三民區",
+      "category": "成屋",
+      "buildingName": "藏三豐",
+      "count": 2,
+      "totalPriceWan": 2842.998,
+      "totalAreaPing": 76.3692,
+      "avgUnitPriceWanPing": 37.227
+    },
+    {
+      "month": "2026-05",
+      "district": "鳳山區",
+      "category": "成屋",
+      "buildingName": "光知序",
+      "count": 2,
+      "totalPriceWan": 3905.012,
+      "totalAreaPing": 83.7018,
+      "avgUnitPriceWanPing": 46.654
+    },
+    {
+      "month": "2026-05",
+      "district": "三民區",
+      "category": "成屋",
+      "buildingName": "日大擁河",
+      "count": 1,
+      "totalPriceWan": 1880.005,
+      "totalAreaPing": 51.0106,
+      "avgUnitPriceWanPing": 36.855
+    },
+    {
+      "month": "2026-05",
       "district": "楠梓區",
       "category": "成屋",
       "buildingName": "博市陞",
@@ -9772,12 +10132,212 @@
       "totalPriceWan": 1272.0,
       "totalAreaPing": 34.8722,
       "avgUnitPriceWanPing": 36.476
+    },
+    {
+      "month": "2026-05",
+      "district": "苓雅區",
+      "category": "成屋",
+      "buildingName": "璟Light",
+      "count": 1,
+      "totalPriceWan": 1072.0,
+      "totalAreaPing": 25.286,
+      "avgUnitPriceWanPing": 42.395
+    },
+    {
+      "month": "2026-05",
+      "district": "鳳山區",
+      "category": "成屋",
+      "buildingName": "百達耘邸",
+      "count": 1,
+      "totalPriceWan": 1293.003,
+      "totalAreaPing": 40.3505,
+      "avgUnitPriceWanPing": 32.044
+    },
+    {
+      "month": "2026-06",
+      "district": "三民區",
+      "category": "5年內成屋",
+      "buildingName": "藏三豐",
+      "count": 1,
+      "totalPriceWan": 1580.003,
+      "totalAreaPing": 40.3989,
+      "avgUnitPriceWanPing": 39.11
+    },
+    {
+      "month": "2026-06",
+      "district": "左營區",
+      "category": "5年內成屋",
+      "buildingName": "靜の界",
+      "count": 1,
+      "totalPriceWan": 1709.997,
+      "totalAreaPing": 34.9751,
+      "avgUnitPriceWanPing": 48.892
+    },
+    {
+      "month": "2026-06",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "COME INN",
+      "count": 1,
+      "totalPriceWan": 999.996,
+      "totalAreaPing": 31.1091,
+      "avgUnitPriceWanPing": 32.145
+    },
+    {
+      "month": "2026-06",
+      "district": "鳳山區",
+      "category": "5年內成屋",
+      "buildingName": "光知序",
+      "count": 1,
+      "totalPriceWan": 1936.997,
+      "totalAreaPing": 41.8509,
+      "avgUnitPriceWanPing": 46.283
+    },
+    {
+      "month": "2026-06",
+      "district": "鳳山區",
+      "category": "5年內成屋",
+      "buildingName": "清朗",
+      "count": 1,
+      "totalPriceWan": 1445.003,
+      "totalAreaPing": 50.0789,
+      "avgUnitPriceWanPing": 28.855
+    },
+    {
+      "month": "2026-06",
+      "district": "鳳山區",
+      "category": "5年內成屋",
+      "buildingName": "百達耘邸",
+      "count": 1,
+      "totalPriceWan": 1271.007,
+      "totalAreaPing": 40.3505,
+      "avgUnitPriceWanPing": 31.499
+    },
+    {
+      "month": "2026-06",
+      "district": "三民區",
+      "category": "成屋",
+      "buildingName": "藏三豐",
+      "count": 1,
+      "totalPriceWan": 1580.003,
+      "totalAreaPing": 40.3989,
+      "avgUnitPriceWanPing": 39.11
+    },
+    {
+      "month": "2026-06",
+      "district": "左營區",
+      "category": "成屋",
+      "buildingName": "靜の界",
+      "count": 1,
+      "totalPriceWan": 1709.997,
+      "totalAreaPing": 34.9751,
+      "avgUnitPriceWanPing": 48.892
+    },
+    {
+      "month": "2026-06",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "COME INN",
+      "count": 1,
+      "totalPriceWan": 999.996,
+      "totalAreaPing": 31.1091,
+      "avgUnitPriceWanPing": 32.145
+    },
+    {
+      "month": "2026-06",
+      "district": "鳳山區",
+      "category": "成屋",
+      "buildingName": "光知序",
+      "count": 1,
+      "totalPriceWan": 1936.997,
+      "totalAreaPing": 41.8509,
+      "avgUnitPriceWanPing": 46.283
+    },
+    {
+      "month": "2026-06",
+      "district": "鳳山區",
+      "category": "成屋",
+      "buildingName": "清朗",
+      "count": 1,
+      "totalPriceWan": 1445.003,
+      "totalAreaPing": 50.0789,
+      "avgUnitPriceWanPing": 28.855
+    },
+    {
+      "month": "2026-06",
+      "district": "鳳山區",
+      "category": "成屋",
+      "buildingName": "百達耘邸",
+      "count": 1,
+      "totalPriceWan": 1271.007,
+      "totalAreaPing": 40.3505,
+      "avgUnitPriceWanPing": 31.499
+    },
+    {
+      "month": "2026-07",
+      "district": "三民區",
+      "category": "5年內成屋",
+      "buildingName": "藏三豐",
+      "count": 3,
+      "totalPriceWan": 2861.0,
+      "totalAreaPing": 75.5857,
+      "avgUnitPriceWanPing": 37.851
+    },
+    {
+      "month": "2026-07",
+      "district": "鳳山區",
+      "category": "5年內成屋",
+      "buildingName": "清朗",
+      "count": 1,
+      "totalPriceWan": 1403.003,
+      "totalAreaPing": 50.0789,
+      "avgUnitPriceWanPing": 28.016
+    },
+    {
+      "month": "2026-07",
+      "district": "三民區",
+      "category": "成屋",
+      "buildingName": "藏三豐",
+      "count": 3,
+      "totalPriceWan": 2861.0,
+      "totalAreaPing": 75.5857,
+      "avgUnitPriceWanPing": 37.851
+    },
+    {
+      "month": "2026-07",
+      "district": "鳳山區",
+      "category": "成屋",
+      "buildingName": "清朗",
+      "count": 1,
+      "totalPriceWan": 1403.003,
+      "totalAreaPing": 50.0789,
+      "avgUnitPriceWanPing": 28.016
+    },
+    {
+      "month": "2026-08",
+      "district": "鳳山區",
+      "category": "5年內成屋",
+      "buildingName": "清朗",
+      "count": 1,
+      "totalPriceWan": 1349.994,
+      "totalAreaPing": 50.0789,
+      "avgUnitPriceWanPing": 26.957
+    },
+    {
+      "month": "2026-08",
+      "district": "鳳山區",
+      "category": "成屋",
+      "buildingName": "清朗",
+      "count": 1,
+      "totalPriceWan": 1349.994,
+      "totalAreaPing": 50.0789,
+      "avgUnitPriceWanPing": 26.957
     }
   ],
   "developerFirstSaleRankings": [],
   "developerFirstSaleMatchCount": 0,
   "developerFirstSaleRankingNote": "僅統計逐筆核實為建商完工後直接首售的成屋交易；不以屋齡、門牌或大量交屋推定首售，未核實者不納入。",
-  "communityMatchCount": 2,
-  "communityUnmatchedCount": 4732,
+  "communityMatchCount": 41,
+  "communityUnmatchedCount": 4693,
   "buildingRankingNote": "成屋社區排行只統計官方直接具名或經完整建物門牌人工核實的案件；未辨識社區不納入排名。"
 }
