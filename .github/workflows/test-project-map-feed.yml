@@ -2,6 +2,8 @@ name: Test project map feed export
 on:
   pull_request:
     paths:
+      - 'scripts/update_market.py'
+      - 'tests/test_official_project_evidence.py'
       - 'scripts/build_project_map_feed.py'
       - 'scripts/build_project_review_queue.py'
       - 'scripts/refresh_project_match_candidates.py'
@@ -22,6 +24,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Test official project evidence retention
+        run: python -m unittest discover -s tests -p 'test_official_project_evidence.py' -v
       - name: Unit test scheduled transaction matching
         run: python -m unittest discover -s tests -p 'test_refresh_project_match_candidates.py' -v
       - name: Refresh candidate matches without a web download
