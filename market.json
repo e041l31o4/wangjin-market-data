@@ -9732,11 +9732,52 @@
       "rankInMonth": 35
     }
   ],
-  "buildingRankings": [],
+  "buildingRankings": [
+    {
+      "month": "2026-03",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "博市陞",
+      "count": 1,
+      "totalPriceWan": 1280.0,
+      "totalAreaPing": 34.8722,
+      "avgUnitPriceWanPing": 36.705
+    },
+    {
+      "month": "2026-03",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "博市陞",
+      "count": 1,
+      "totalPriceWan": 1280.0,
+      "totalAreaPing": 34.8722,
+      "avgUnitPriceWanPing": 36.705
+    },
+    {
+      "month": "2026-05",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "博市陞",
+      "count": 1,
+      "totalPriceWan": 1272.0,
+      "totalAreaPing": 34.8722,
+      "avgUnitPriceWanPing": 36.476
+    },
+    {
+      "month": "2026-05",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "博市陞",
+      "count": 1,
+      "totalPriceWan": 1272.0,
+      "totalAreaPing": 34.8722,
+      "avgUnitPriceWanPing": 36.476
+    }
+  ],
   "developerFirstSaleRankings": [],
   "developerFirstSaleMatchCount": 0,
   "developerFirstSaleRankingNote": "僅統計逐筆核實為建商完工後直接首售的成屋交易；不以屋齡、門牌或大量交屋推定首售，未核實者不納入。",
-  "communityMatchCount": 0,
-  "communityUnmatchedCount": 4734,
+  "communityMatchCount": 2,
+  "communityUnmatchedCount": 4732,
   "buildingRankingNote": "成屋社區排行只統計官方直接具名或經完整建物門牌人工核實的案件；未辨識社區不納入排名。"
 }

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-18",
+  "reviewedBy": "Codex：官方成交原始案名、名單與一手建案資料交叉核對",
+  "aliases": [
+    {
+      "projectId": "58",
+      "projectName": "一靚",
+      "district": "楠梓區",
+      "officialName": "遠雄一靚",
+      "officialLocation": "高雄市楠梓區大學二十三街及二十六街口",
+      "primaryEvidence": [
+        "https://www.farglory-realty.com.tw/buildings/eh2/"
+      ],
+      "note": "遠雄官方列同案名、楠梓區及大學二十三街／二十六街基地，名單為省略建商冠名。"
+    },
+    {
+      "projectId": "155",
+      "projectName": "峰蘊",
+      "district": "三民區",
+      "officialName": "遠雄峰蘊",
+      "officialLocation": "高雄市三民區九如一路",
+      "primaryEvidence": [
+        "https://www.farglory-realty.com.tw/buildings/eh1/"
+      ],
+      "note": "遠雄官方列三民區九如一路；官方位置的A09棟F07樓等尾碼只屬棟樓，原始字串仍保留。"
+    },
+    {
+      "projectId": "384",
+      "projectName": "世界學",
+      "district": "橋頭區",
+      "officialName": "達麗世界學",
+      "officialLocation": "高雄市橋頭區橋新三路",
+      "primaryEvidence": [
+        "https://case.hiyes.tw/newgeneration/index.html"
+      ],
+      "note": "海悅官方建案頁列達鉅、海悅及橋新三路基地，名單省略達麗冠名。"
+    },
+    {
+      "projectId": "161",
+      "projectName": "UNI",
+      "district": "三民區",
+      "officialName": "善寬UNI",
+      "officialLocation": "高雄市三民區中華二路157巷",
+      "primaryEvidence": [
+        "https://shankuan.com.tw/project-detail/8"
+      ],
+      "note": "善寬官網明列善寬UNI；名單建商善寬、地址中華二路157巷與官方逐筆相符。"
+    }
+  ]
+}
+

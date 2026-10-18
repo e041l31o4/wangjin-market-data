@@ -2,8 +2,9 @@
 """Build recurring official-name-matched PRESALE samples, separately from reviewed v1 prices.
 
 Only an explicit official project name + district matches a unique presale registry
-entry. No alias, address guess, completed-home first-sale inference or manual price
-approval is applied. Every published transaction must retain its official identity,
+entry, or a reviewed alias with primary evidence and a fixed official location.
+No address guess or completed-home first-sale inference is applied.
+Every published transaction must retain its official identity,
 location and MOI source. Missing evidence is excluded and disclosed.
 """
 import argparse
@@ -33,7 +34,33 @@ def usable_name(value):
     return bool(value) and not any(c in value for c in ("?", "？", "\ufffd"))
 
 
-def build_feed(registry, transactions, market):
+def official_base_location(value):
+    value = unicodedata.normalize("NFKC", str(value or "")).strip()
+    # Explicit trailing building/floor tokens only. Do not remove house numbers,
+    # parcels, lanes, phase digits or arbitrary text.
+    return re.sub(r"\s*[A-Z]\d+棟F?\d+樓$", "", value, flags=re.IGNORECASE).strip()
+
+
+def reviewed_alias_lookup(projects, aliases):
+    by_id = {str(p["projectId"]): p for p in projects}
+    owners = {(p["district"].strip(), identity_name(p["name"])): str(p["projectId"]) for p in projects}
+    lookup = {}
+    for entry in (aliases or {}).get("aliases", []):
+        project = by_id.get(str(entry.get("projectId")))
+        key = (str(entry.get("district") or "").strip(), identity_name(entry.get("officialName")))
+        if (not project or project["kind"] != "預售屋" or
+                project["name"] != entry.get("projectName") or project["district"] != key[0] or
+                not usable_name(key[1]) or not entry.get("primaryEvidence") or
+                any(not isinstance(u, str) or not u.startswith("https://") for u in entry["primaryEvidence"]) or
+                not str(entry.get("officialLocation") or "").startswith("高雄市" + key[0])):
+            raise ValueError("核對別名缺少相符建案、預售類型、位置或一手來源")
+        if key in lookup or (key in owners and owners[key] != str(project["projectId"])):
+            raise ValueError("核對別名與其他建案衝突")
+        lookup[key] = entry
+    return lookup
+
+
+def build_feed(registry, transactions, market, aliases=None):
     projects = registry["projects"]
     if len(projects) != 386 or len({str(p["projectId"]) for p in projects}) != 386:
         raise ValueError("建案名單必須有386筆唯一ID")
@@ -46,10 +73,14 @@ def build_feed(registry, transactions, market):
     if not isinstance(updated, str):
         raise ValueError("缺少官方資料更新日")
     updated_day = date.fromisoformat(updated)
+    alias_lookup = reviewed_alias_lookup(projects, aliases)
     groups = defaultdict(list)
     official_ids = defaultdict(list)
     for tx in transactions:
         key = (str(tx.get("district") or "").strip(), identity_name(tx.get("projectName")))
+        alias = alias_lookup.get(key)
+        if alias:
+            key = (alias["district"], identity_name(alias["projectName"]))
         groups[key].append(tx)
         if tx.get("officialTransactionId"):
             official_ids[tx["officialTransactionId"]].append(tx)
@@ -72,6 +103,10 @@ def build_feed(registry, transactions, market):
                         tx.get("officialSource") == MOI):
                     reasons.add("missing_official_provenance")
                     continue
+                alias = alias_lookup.get((key[0], identity_name(tx.get("projectName"))))
+                if alias and official_base_location(location) != official_base_location(alias["officialLocation"]):
+                    reasons.add("reviewed_alias_location_changed")
+                    continue
                 expected_id = hashlib.sha256(("預售屋:" + official_id).encode()).hexdigest()[:24]
                 if tx.get("transactionId") != expected_id or official_id in repeated:
                     reasons.add("duplicate_or_conflicting_transaction_identity")
@@ -89,7 +124,7 @@ def build_feed(registry, transactions, market):
                 accepted.append(tx)
             # A same-name project in two different official locations is ambiguous.
             # Do not guess that street names and parcels represent the same site.
-            all_locations = {t.get("officialLocation") for t in found if t.get("officialLocation")}
+            all_locations = {official_base_location(t.get("officialLocation")) for t in found if t.get("officialLocation")}
             if len(all_locations) > 1:
                 reasons.add("conflicting_official_locations")
                 accepted = []
@@ -101,7 +136,9 @@ def build_feed(registry, transactions, market):
             "transactionKind": "預售屋", "matchingRule": RULE if accepted else None,
             "sourceRecordCount": len(found),
             "excludedRecordCount": len(found) - len(accepted),
-            "officialLocations": sorted({t["officialLocation"] for t in accepted}),
+            "officialLocations": sorted({official_base_location(t["officialLocation"]) for t in accepted}),
+            "officialNames": sorted({t["projectName"] for t in accepted}),
+            "approvedAliasNames": sorted({t["projectName"] for t in accepted if (key[0], identity_name(t["projectName"])) in alias_lookup}),
             "officialIdentityCount": len(accepted),
             "verificationSource": MOI if accepted else None,
             "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
@@ -138,7 +175,7 @@ def build_feed(registry, transactions, market):
             "價格為已收錄且可追溯的預售成交樣本，不是全案完整成交紀錄。",
             "依官方案名與行政區配對；不等同基地或座標逐案核實。",
             "平均單價採收錄逐筆單價的算術平均；缺少官方編號或位置的紀錄不列入。",
-            "不自動套用別名；目前列為成屋的建案不以預售紀錄當成成屋首售。",
+            "僅套用有一手來源與固定位置的核對別名；不猜測別名，成屋不以預售紀錄當成首售。",
             "新成交通過同一配對規則後自動計入；歧義與缺失資料維持待確認。",
         ],
         "projects": entries,
@@ -148,6 +185,7 @@ def build_feed(registry, transactions, market):
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--registry", type=Path, default=ROOT / "data/project_identity_register.json")
+    p.add_argument("--aliases", type=Path, default=ROOT / "data/approved_project_aliases.json")
     p.add_argument("--transactions", type=Path, default=ROOT / "data/project_transactions.json")
     p.add_argument("--market", type=Path, default=ROOT / "market.json")
     p.add_argument("--output", type=Path, default=ROOT / "data/official_presale_project_feed.json")
@@ -157,6 +195,7 @@ def main():
         json.loads(args.registry.read_text(encoding="utf-8")),
         json.loads(args.transactions.read_text(encoding="utf-8")),
         json.loads(args.market.read_text(encoding="utf-8")),
+        json.loads(args.aliases.read_text(encoding="utf-8")) if args.aliases.exists() else None,
     )
     for path, data in ((args.output, feed), (args.audit, audit)):
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -167,3 +206,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

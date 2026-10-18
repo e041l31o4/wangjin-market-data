@@ -627,10 +627,10 @@
       "name": "一靚",
       "district": "楠梓區",
       "kind": "預售屋",
-      "sourceRecords": 0,
-      "includedRecords": 0,
+      "sourceRecords": 62,
+      "includedRecords": 61,
       "reasons": [
-        "no_exact_official_sample"
+        "missing_official_provenance"
       ]
     },
     {
@@ -1668,10 +1668,10 @@
       "name": "峰蘊",
       "district": "三民區",
       "kind": "預售屋",
-      "sourceRecords": 0,
-      "includedRecords": 0,
+      "sourceRecords": 21,
+      "includedRecords": 20,
       "reasons": [
-        "no_exact_official_sample"
+        "missing_official_provenance"
       ]
     },
     {
@@ -1730,11 +1730,9 @@
       "name": "UNI",
       "district": "三民區",
       "kind": "預售屋",
-      "sourceRecords": 0,
-      "includedRecords": 0,
-      "reasons": [
-        "no_exact_official_sample"
-      ]
+      "sourceRecords": 17,
+      "includedRecords": 17,
+      "reasons": []
     },
     {
       "projectId": "162",
@@ -4129,10 +4127,10 @@
       "name": "世界學",
       "district": "橋頭區",
       "kind": "預售屋",
-      "sourceRecords": 0,
-      "includedRecords": 0,
+      "sourceRecords": 13,
+      "includedRecords": 12,
       "reasons": [
-        "no_exact_official_sample"
+        "missing_official_provenance"
       ]
     },
     {
