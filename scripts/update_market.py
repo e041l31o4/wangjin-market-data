@@ -30,7 +30,7 @@ PROJECT_TRANSACTIONS = ROOT / 'data' / 'project_transactions.json'
 OUTPUT = ROOT / 'market.json'
 COMMUNITY_MAP = ROOT / 'data' / 'community_mapping.csv'
 FIRST_SALE_MAP = ROOT / 'data' / 'developer_first_sales.csv'
-SCHEMA_VERSION = 4
+SCHEMA_VERSION = 5
 SOURCE = 'https://plvr.land.moi.gov.tw/DownloadOpenData'
 CURRENT = 'https://plvr.land.moi.gov.tw/Download?type=zip&fileName=lvr_landcsv.zip'
 SEASON_URL = 'https://plvr.land.moi.gov.tw/DownloadSeason?season={season}&type=zip&fileName=lvr_landcsv.zip'
@@ -257,7 +257,10 @@ def normalize(row, kind):
     return key, {'date': traded, 'district': district, 'category': kind,
                  'areaM2': round(adjusted_area, 4), 'unitPriceM2': round(unit, 4),
                  'completedAt': completed, 'projectName': project,
-                 'addressKey': address, 'communityName': community}
+                 'addressKey': address, 'communityName': community,
+                 'officialTransactionId': identity,
+                 'officialLocation': str(location or '').strip() or None,
+                 'officialSource': SOURCE}
 
 
 def decode_csv(data):
@@ -473,7 +476,8 @@ def previous_schema_version():
 def merge_records(existing, incoming):
     for key, row in incoming.items():
         previous = existing.get(key, {})
-        for field in ('completedAt', 'projectName', 'addressKey', 'communityName'):
+        for field in ('completedAt', 'projectName', 'addressKey', 'communityName',
+                      'officialTransactionId', 'officialLocation', 'officialSource'):
             if not row.get(field) and previous.get(field):
                 row[field] = previous[field]
         existing[key] = row
@@ -556,10 +560,14 @@ def main():
                 'date': row['date'],
                 'district': row['district'],
                 'projectName': row['projectName'],
+                'transactionId': transaction_id,
+                'officialTransactionId': row.get('officialTransactionId'),
+                'officialLocation': row.get('officialLocation'),
+                'officialSource': row.get('officialSource'),
                 'areaPing': round(row['areaM2'] / PING_M2, 2),
                 'unitPriceWanPing': round(row['unitPriceM2'] * PING_M2 / 10000, 2)
             }
-            for row in existing.values()
+            for transaction_id, row in existing.items()
             if row.get('category') == '預售屋' and row.get('projectName')
         ]
         project_transactions.sort(
