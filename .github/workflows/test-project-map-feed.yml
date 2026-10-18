@@ -1,0 +1,50 @@
+name: Test project map feed export
+on:
+  pull_request:
+    paths:
+      - 'scripts/build_project_map_feed.py'
+      - 'scripts/build_project_review_queue.py'
+      - 'scripts/refresh_project_match_candidates.py'
+      - 'tests/test_build_project_map_feed.py'
+      - 'tests/test_build_project_review_queue.py'
+      - 'tests/test_refresh_project_match_candidates.py'
+      - '.github/workflows/update-market.yml'
+      - '.github/workflows/test-project-map-feed.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Unit test scheduled transaction matching
+        run: python -m unittest discover -s tests -p 'test_refresh_project_match_candidates.py' -v
+      - name: Refresh candidate matches without a web download
+        run: python scripts/refresh_project_match_candidates.py
+      - name: Unit test verification review queue
+        run: python -m unittest discover -s tests -p 'test_build_project_review_queue.py' -v
+      - name: Generate verification queue
+        run: python scripts/build_project_review_queue.py
+      - name: Unit test public feed safety
+        run: python -m unittest discover -s tests -p 'test_build_project_map_feed.py' -v
+      - name: Generate preview feed
+        run: python scripts/build_project_map_feed.py --output /tmp/project-map-feed.json
+      - name: Assert no pending price leaked
+        run: |
+          python - <<'PY'
+          import json
+          x=json.load(open('/tmp/project-map-feed.json'))
+          assert x['totalProjects']==386
+          assert x['verifiedPriceProjects']==0
+          for row in x['projects']:
+              if row['priceStatus']!='verified':
+                  assert all(row[f] is None for f in (
+                      'transactionCount','latestTransactionDate','latestUnitPriceWanPing',
+                      'averageUnitPriceWanPing','minUnitPriceWanPing','maxUnitPriceWanPing'))
+          print('PASS: 386 projects; no unverified prices')
+          PY
