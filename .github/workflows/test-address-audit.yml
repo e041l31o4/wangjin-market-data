@@ -1,0 +1,23 @@
+name: Test address matching safety
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit_community_mapping.py'
+      - 'tests/test_audit_community_mapping.py'
+      - '.github/workflows/test-address-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run address audit safety tests
+        run: python -m unittest discover -s tests -p 'test_audit_community_mapping.py' -v
+      - name: Run read-only address audit
+        run: python scripts/audit_community_mapping.py --output /tmp/address-audit-report.json
