@@ -1,0 +1,1308 @@
+{
+  "checkedOn": "2026-10-18",
+  "reviewedBy": "Codex：官方逐筆與開發商一手資料交叉核對（非人工簽核）",
+  "scope": "Only imported official presale sample transactions; not a complete history or verified map coordinates.",
+  "projects": [
+    {
+      "projectId": "166",
+      "projectName": "國泰明誠",
+      "district": "三民區",
+      "developer": "國泰",
+      "registryAddress": "明誠一路",
+      "officialLocations": [
+        "高雄市三民區明誠一路鼎山街202巷口"
+      ],
+      "transactionFingerprint": "2410a1083abf029a60c2399a8c26c804d9ebcc40efcb8b35f770b4178d43f8ef",
+      "checks": {
+        "records": 58,
+        "uniqueOfficialIds": 58,
+        "missingOfficialFields": 0,
+        "sameNameDistrictRegistryCount": 1
+      },
+      "primarySource": {
+        "url": "https://www.cathay-red.com.tw/tw/Cases/Detail/26020909331507",
+        "observations": [
+          "國泰建設官方建案頁：國泰明誠",
+          "基地路口：高雄市三民區明誠一路及鼎山街202巷",
+          "與官方逐筆位置『明誠一路鼎山街202巷口』相符"
+        ]
+      },
+      "transactions": [
+        {
+          "date": "2026-08-25",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "8c7d06039b2e803f3b1de38d",
+          "officialTransactionId": "RPSNMLLMQHLGFDE68CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 42.87,
+          "unitPriceWanPing": 50.92
+        },
+        {
+          "date": "2026-08-23",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "fbbca2212a5e32ef483ad227",
+          "officialTransactionId": "RPRNMLLMQHLGFDE58CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 42.87,
+          "unitPriceWanPing": 52.14
+        },
+        {
+          "date": "2026-08-21",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "25cababcf35edbc8d48af965",
+          "officialTransactionId": "RPQNMLLMQHLGFDE48CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 39.24,
+          "unitPriceWanPing": 51.89
+        },
+        {
+          "date": "2026-08-21",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "8c622a2a4abfbfea4557e9bc",
+          "officialTransactionId": "RPPNMLLMQHLGFDE38CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 42.87,
+          "unitPriceWanPing": 52.74
+        },
+        {
+          "date": "2026-08-09",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "b26470534a19700694aa6263",
+          "officialTransactionId": "RPPNMLKKQHLGFDE08CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 42.87,
+          "unitPriceWanPing": 51.16
+        },
+        {
+          "date": "2026-07-07",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "efd94033237fd718574923d8",
+          "officialTransactionId": "RPPNMLOKPHLGFDE38CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 38.44,
+          "unitPriceWanPing": 51.67
+        },
+        {
+          "date": "2026-07-01",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "7254620b8d13189055824f10",
+          "officialTransactionId": "RPPNMLQJPHLGFDE48CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 38.44,
+          "unitPriceWanPing": 52.11
+        },
+        {
+          "date": "2026-06-27",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "e4c67588eb4c293d1eeb83a1",
+          "officialTransactionId": "RPSNMLNJPHLGFDE48CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 42.87,
+          "unitPriceWanPing": 51.53
+        },
+        {
+          "date": "2026-06-03",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "b4d8d93e65824c8de3ebd647",
+          "officialTransactionId": "RPPNMLSJOHLGFDE58CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 42.87,
+          "unitPriceWanPing": 53.14
+        },
+        {
+          "date": "2026-05-30",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "1e54323fa2e038add169051a",
+          "officialTransactionId": "RPSNMLLJOHLGFDE18CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 38.44,
+          "unitPriceWanPing": 49.87
+        },
+        {
+          "date": "2026-05-23",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "04a4b6fe09495a7103f7ac27",
+          "officialTransactionId": "RPPNMLQLNHLGFDE48CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 42.87,
+          "unitPriceWanPing": 51.95
+        },
+        {
+          "date": "2026-05-16",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "f41c7580022e07506e796114",
+          "officialTransactionId": "RPPNMLTKNHLGFDE68CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 42.87,
+          "unitPriceWanPing": 52.32
+        },
+        {
+          "date": "2026-05-09",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "b977ed3a78f3f1250b9c0860",
+          "officialTransactionId": "RPQNMLLKNHLGFDE97CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 38.44,
+          "unitPriceWanPing": 52.24
+        },
+        {
+          "date": "2026-05-07",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "4a55681792b975c61406bb97",
+          "officialTransactionId": "RPPNMLLKNHLGFDE87CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 42.87,
+          "unitPriceWanPing": 52.56
+        },
+        {
+          "date": "2026-05-03",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "fb357e9874267ad2c6e3d2f5",
+          "officialTransactionId": "RPQNMLOJNHLGFDE18CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 46.62,
+          "unitPriceWanPing": 51.12
+        },
+        {
+          "date": "2026-04-21",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "17a5a1eaed4c2e603920588b",
+          "officialTransactionId": "RPPNMLOJNHLGFDE08CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 46.62,
+          "unitPriceWanPing": 50.32
+        },
+        {
+          "date": "2026-04-08",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "b6b92b49500b6e87ccd135a7",
+          "officialTransactionId": "RPUNMLOKMHLGFDE58CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 42.87,
+          "unitPriceWanPing": 52.95
+        },
+        {
+          "date": "2026-04-04",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "13c825bd308cebd365eeab0c",
+          "officialTransactionId": "RPTNMLOKMHLGFDE48CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 46.62,
+          "unitPriceWanPing": 50.73
+        },
+        {
+          "date": "2026-04-03",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "18d1d0d8144f037caf4645bb",
+          "officialTransactionId": "RPSNMLOKMHLGFDE38CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 39.39,
+          "unitPriceWanPing": 51.99
+        },
+        {
+          "date": "2026-03-28",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "a41ade4de3c12483003abb26",
+          "officialTransactionId": "RPQNMLKMLHLGFDE87CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 46.62,
+          "unitPriceWanPing": 53.69
+        },
+        {
+          "date": "2026-03-15",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "83dd3babc92c9af50c0e3016",
+          "officialTransactionId": "RPPNMLMJMHLGFDE77CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 42.87,
+          "unitPriceWanPing": 50.6
+        },
+        {
+          "date": "2026-03-10",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "a8e15f42445ecfdd32b75fca",
+          "officialTransactionId": "RPPNMLRKLHLGFDE28CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 46.62,
+          "unitPriceWanPing": 50.9
+        },
+        {
+          "date": "2026-03-08",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "2ffcc2de0d191ceb8fc48bca",
+          "officialTransactionId": "RPVNMLTJLHLGFDE98CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 46.62,
+          "unitPriceWanPing": 51.31
+        },
+        {
+          "date": "2026-03-07",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "41b5c19d5068a042d8a8f11e",
+          "officialTransactionId": "RPQNMLNKLHLGFDE97CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 39.39,
+          "unitPriceWanPing": 53.79
+        },
+        {
+          "date": "2026-02-28",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "d363bb2925d1e6731827c86f",
+          "officialTransactionId": "RPTNMLTJLHLGFDE78CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 44.09,
+          "unitPriceWanPing": 52.76
+        },
+        {
+          "date": "2026-02-28",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "d42dfb19202f840e967b2c18",
+          "officialTransactionId": "RPSNMLTJLHLGFDE68CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 39.39,
+          "unitPriceWanPing": 51.23
+        },
+        {
+          "date": "2026-02-27",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "4fd42bf29a10bf00ad1e037f",
+          "officialTransactionId": "RPQNMLTJLHLGFDE48CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 46.62,
+          "unitPriceWanPing": 50.52
+        },
+        {
+          "date": "2026-02-27",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "efc1f86ecf4f44c032948f2f",
+          "officialTransactionId": "RPRNMLTJLHLGFDE58CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 42.87,
+          "unitPriceWanPing": 50.53
+        },
+        {
+          "date": "2026-02-20",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "4e114245c002092bacc55847",
+          "officialTransactionId": "RPPNMLOLKHLGFDE97CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 34.79,
+          "unitPriceWanPing": 50.02
+        },
+        {
+          "date": "2026-02-06",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "c5a1f978009cc089c2bfc45a",
+          "officialTransactionId": "RPPNMLLKKHLGFDE57CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 39.39,
+          "unitPriceWanPing": 52.83
+        },
+        {
+          "date": "2026-01-26",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "f739102269f54ee4ccd3843b",
+          "officialTransactionId": "RPXOMLOJKHLGFDE68CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 44.09,
+          "unitPriceWanPing": 52.42
+        },
+        {
+          "date": "2026-01-25",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "0ca6675dd59c80a02e905f5f",
+          "officialTransactionId": "RPWOMLOJKHLGFDE58CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 39.39,
+          "unitPriceWanPing": 52.47
+        },
+        {
+          "date": "2026-01-25",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "706eef373431635589499b94",
+          "officialTransactionId": "RPTOMLOJKHLGFDE28CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 44.09,
+          "unitPriceWanPing": 53.03
+        },
+        {
+          "date": "2026-01-25",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "711bf5d6c8482352f6e400c0",
+          "officialTransactionId": "RPUOMLOJKHLGFDE38CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 44.09,
+          "unitPriceWanPing": 52.8
+        },
+        {
+          "date": "2026-01-25",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "b137cf60c85b0e7e006b6f16",
+          "officialTransactionId": "RPVOMLOJKHLGFDE48CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 44.09,
+          "unitPriceWanPing": 51.42
+        },
+        {
+          "date": "2026-01-19",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "163bd2f897108a878bba7377",
+          "officialTransactionId": "RPSOMLOJKHLGFDE18CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 38.44,
+          "unitPriceWanPing": 51.22
+        },
+        {
+          "date": "2026-01-18",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "cac0aadbcac328e841cd066b",
+          "officialTransactionId": "RPROMLOJKHLGFDE08CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 46.62,
+          "unitPriceWanPing": 52.62
+        },
+        {
+          "date": "2026-01-17",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "3425e46df3e73adb35002742",
+          "officialTransactionId": "RPQOMLOJKHLGFDE97CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 39.39,
+          "unitPriceWanPing": 50.59
+        },
+        {
+          "date": "2026-01-16",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "24261121f2a13cf7afed833a",
+          "officialTransactionId": "RPPNMLOJKHLGFDE77CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 44.09,
+          "unitPriceWanPing": 47.83
+        },
+        {
+          "date": "2026-01-16",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "70632b01530f9cc993eeba9f",
+          "officialTransactionId": "RPPOMLOJKHLGFDE87CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 44.09,
+          "unitPriceWanPing": 50.74
+        },
+        {
+          "date": "2026-01-12",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "f95dc1591891f49ae12776dc",
+          "officialTransactionId": "RPOOMLOJKHLGFDE77CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 46.62,
+          "unitPriceWanPing": 52.13
+        },
+        {
+          "date": "2026-01-11",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "05d2d4c6d6bfee0dd4db09f4",
+          "officialTransactionId": "RPWNMLOJKHLGFDE48CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 39.39,
+          "unitPriceWanPing": 47.65
+        },
+        {
+          "date": "2026-01-11",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "bbf8f806718c4e142f99f39e",
+          "officialTransactionId": "RPXNMLOJKHLGFDE58CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 38.44,
+          "unitPriceWanPing": 51.07
+        },
+        {
+          "date": "2026-01-11",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "f3a48b7fa5580a99d4b08234",
+          "officialTransactionId": "RPVNMLOJKHLGFDE38CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 39.39,
+          "unitPriceWanPing": 53.39
+        },
+        {
+          "date": "2026-01-10",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "4a9b89e744f439998f7df373",
+          "officialTransactionId": "RPTNMLOJKHLGFDE18CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 44.09,
+          "unitPriceWanPing": 52.62
+        },
+        {
+          "date": "2026-01-10",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "5e719bb7f47db1109963e2c3",
+          "officialTransactionId": "RPUNMLOJKHLGFDE28CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 39.39,
+          "unitPriceWanPing": 50.65
+        },
+        {
+          "date": "2026-01-10",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "b5418ddefeb73ad9bd5d22f7",
+          "officialTransactionId": "RPSNMLOJKHLGFDE08CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 38.76,
+          "unitPriceWanPing": 47.03
+        },
+        {
+          "date": "2026-01-08",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "1cfc80e5fb9526f77aa18c9b",
+          "officialTransactionId": "RPQNMLOJKHLGFDE87CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 42.87,
+          "unitPriceWanPing": 53.72
+        },
+        {
+          "date": "2026-01-08",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "2ced1462b333bfe6bb080a42",
+          "officialTransactionId": "RPRNMLOJKHLGFDE97CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 39.39,
+          "unitPriceWanPing": 51.81
+        },
+        {
+          "date": "2026-01-05",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "6e3ed8abdb8853439e2f09d2",
+          "officialTransactionId": "RPXNMLKMJHLGFDE38CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 39.39,
+          "unitPriceWanPing": 53.62
+        },
+        {
+          "date": "2026-01-04",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "4e4e754f2fd045033e42068d",
+          "officialTransactionId": "RPWNMLKMJHLGFDE28CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 46.62,
+          "unitPriceWanPing": 52.19
+        },
+        {
+          "date": "2026-01-04",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "50fe7f37d205e883b4d024ed",
+          "officialTransactionId": "RPVNMLKMJHLGFDE18CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 46.62,
+          "unitPriceWanPing": 52.79
+        },
+        {
+          "date": "2026-01-04",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "a1a8167bc91e2eefcf48cac3",
+          "officialTransactionId": "RPUNMLKMJHLGFDE08CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 39.39,
+          "unitPriceWanPing": 48.56
+        },
+        {
+          "date": "2026-01-03",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "7b1685c61678af8b0a7a0165",
+          "officialTransactionId": "RPTNMLKMJHLGFDE97CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 38.44,
+          "unitPriceWanPing": 51.46
+        },
+        {
+          "date": "2026-01-03",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "f440775e12a631e58246c018",
+          "officialTransactionId": "RPSNMLKMJHLGFDE87CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 44.09,
+          "unitPriceWanPing": 51.24
+        },
+        {
+          "date": "2026-01-02",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "bee4d5fbe50e3b2bc0bf42d8",
+          "officialTransactionId": "RPQNMLKMJHLGFDE67CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 44.09,
+          "unitPriceWanPing": 51.83
+        },
+        {
+          "date": "2026-01-01",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "1a8c62d8bc4a02ae920eb621",
+          "officialTransactionId": "RPPNMLKMJHLGFDE57CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 46.62,
+          "unitPriceWanPing": 53.22
+        },
+        {
+          "date": "2026-01-01",
+          "district": "三民區",
+          "projectName": "國泰明誠",
+          "transactionId": "8452d66cab6981140bcf4890",
+          "officialTransactionId": "RPRNMLKMJHLGFDE77CB",
+          "officialLocation": "高雄市三民區明誠一路鼎山街202巷口",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 39.39,
+          "unitPriceWanPing": 50.26
+        }
+      ]
+    },
+    {
+      "projectId": "364",
+      "projectName": "佳鋐雄匯",
+      "district": "仁武區",
+      "developer": "佳鋐",
+      "registryAddress": "赤仁路與慈惠一街",
+      "officialLocations": [
+        "高雄市仁武區赤仁路"
+      ],
+      "transactionFingerprint": "c1605f23fc264cba3e5c75b92de7d6fa9666b92208f214e24a56f3ddfd252cf5",
+      "checks": {
+        "records": 52,
+        "uniqueOfficialIds": 52,
+        "missingOfficialFields": 0,
+        "sameNameDistrictRegistryCount": 1
+      },
+      "primarySource": {
+        "url": "https://syong-huei.tw/",
+        "observations": [
+          "佳鋐雄匯官方建案網站",
+          "基地：高雄市仁武區赤仁路／慈惠一街口；投資興建佳鋐建設",
+          "建照(111)高市工建築字第01702號；與官方逐筆『仁武區赤仁路』及公會路口吻合"
+        ]
+      },
+      "transactions": [
+        {
+          "date": "2026-08-03",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "e3eb2b6d66eba4dd3d5ad1ad",
+          "officialTransactionId": "RPQNMLOKQHLGFIE09CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.75,
+          "unitPriceWanPing": 33.71
+        },
+        {
+          "date": "2026-08-03",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "f55237b3cc5e05b94423d9e0",
+          "officialTransactionId": "RPPNMLPLQHLGFIE56CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 26.75,
+          "unitPriceWanPing": 33.46
+        },
+        {
+          "date": "2026-07-27",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "35868fd6d15b7a7e7c8eb929",
+          "officialTransactionId": "RPPNMLOKQHLGFIE98CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.63,
+          "unitPriceWanPing": 30.45
+        },
+        {
+          "date": "2026-07-20",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "f3e60c1139f0f304fb0dea4c",
+          "officialTransactionId": "RPPNMLQJQHLGFIE09CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 24.86,
+          "unitPriceWanPing": 34.59
+        },
+        {
+          "date": "2026-07-13",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "e21883cd69fd8e94905943f2",
+          "officialTransactionId": "RPRNMLNLPHLGFIE09CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.63,
+          "unitPriceWanPing": 30.45
+        },
+        {
+          "date": "2026-07-06",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "6911fcd59e8cb4dc99a65be8",
+          "officialTransactionId": "RPQNMLNLPHLGFIE98CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.65,
+          "unitPriceWanPing": 30.43
+        },
+        {
+          "date": "2026-06-29",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "c82175f1abe8bb3cb31c8686",
+          "officialTransactionId": "RPRNMLPKPHLGFIE56CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.75,
+          "unitPriceWanPing": 33.32
+        },
+        {
+          "date": "2026-06-22",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "ff72c921abed475109739ebf",
+          "officialTransactionId": "RPPNMLPKPHLGFIE98CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.63,
+          "unitPriceWanPing": 31.52
+        },
+        {
+          "date": "2026-06-15",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "68b8b621c4064efe9b1ca488",
+          "officialTransactionId": "RPQNMLTLOHLGFIE86CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.63,
+          "unitPriceWanPing": 31.91
+        },
+        {
+          "date": "2026-06-08",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "5381636588d08a35721990a6",
+          "officialTransactionId": "RPPNMLTLOHLGFIE76CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 26.75,
+          "unitPriceWanPing": 33.84
+        },
+        {
+          "date": "2026-06-01",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "89dd353ae95407e057baac75",
+          "officialTransactionId": "RPPNMLQKOHLGFIE98CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.63,
+          "unitPriceWanPing": 32
+        },
+        {
+          "date": "2026-05-25",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "160b725d4da29aa49ad12a72",
+          "officialTransactionId": "RPPNMLSJOHLGFIE09CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 25.54,
+          "unitPriceWanPing": 33.99
+        },
+        {
+          "date": "2026-05-18",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "da99e8f56040ca5da536e2a7",
+          "officialTransactionId": "RPPNMLLJOHLGFIE38CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.63,
+          "unitPriceWanPing": 31.3
+        },
+        {
+          "date": "2026-05-11",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "2c53bbe894cd6d8dda06fb1b",
+          "officialTransactionId": "RPQNMLQLNHLGFIE09CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 26.75,
+          "unitPriceWanPing": 34.21
+        },
+        {
+          "date": "2026-05-11",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "9fe0585031102b15eaa65e96",
+          "officialTransactionId": "RPPNMLQLNHLGFIE98CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 26.75,
+          "unitPriceWanPing": 32.94
+        },
+        {
+          "date": "2026-05-04",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "9a6fe91ef3333bf7e7859080",
+          "officialTransactionId": "RPPNMLKLNHLGFIE38CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 26.75,
+          "unitPriceWanPing": 34.13
+        },
+        {
+          "date": "2026-05-04",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "dfa78a053b685ba9704ca0eb",
+          "officialTransactionId": "RPQNMLKLNHLGFIE48CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 26.75,
+          "unitPriceWanPing": 33.05
+        },
+        {
+          "date": "2026-04-27",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "4808e3daff7547e081c04396",
+          "officialTransactionId": "RPPNMLLKNHLGFIE38CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.75,
+          "unitPriceWanPing": 33.6
+        },
+        {
+          "date": "2026-04-27",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "66df65a6bc30e1d411721358",
+          "officialTransactionId": "RPQNMLLKNHLGFIE48CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 26.75,
+          "unitPriceWanPing": 33.2
+        },
+        {
+          "date": "2026-04-20",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "549779d4d9e4048d1b65eceb",
+          "officialTransactionId": "RPQNMLOJNHLGFIE68CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 26.75,
+          "unitPriceWanPing": 32.9
+        },
+        {
+          "date": "2026-04-20",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "7d8274d0676c938ac4e263d8",
+          "officialTransactionId": "RPPNMLOJNHLGFIE58CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.65,
+          "unitPriceWanPing": 32
+        },
+        {
+          "date": "2026-04-13",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "2d612384c3be324d9d9b057e",
+          "officialTransactionId": "RPQNMLTLMHLGFIE66CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.63,
+          "unitPriceWanPing": 30.93
+        },
+        {
+          "date": "2026-04-13",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "6ddfcf1dc1326649b43fa261",
+          "officialTransactionId": "RPRNMLTLMHLGFIE76CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 26.75,
+          "unitPriceWanPing": 31.7
+        },
+        {
+          "date": "2026-04-13",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "cdeb8f6e835e7c451c83da1f",
+          "officialTransactionId": "RPPNMLTLMHLGFIE56CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 26.75,
+          "unitPriceWanPing": 32.41
+        },
+        {
+          "date": "2026-04-07",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "93a43ec33ec631527d90f01b",
+          "officialTransactionId": "RPQNMLNLMHLGFIE68CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.65,
+          "unitPriceWanPing": 30.43
+        },
+        {
+          "date": "2026-04-07",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "f7b91117cb81d7622370c84a",
+          "officialTransactionId": "RPRNMLNLMHLGFIE78CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.63,
+          "unitPriceWanPing": 31.6
+        },
+        {
+          "date": "2026-03-30",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "159f1ffa6756a04fc12607e1",
+          "officialTransactionId": "RPQNMLKKMHLGFIE28CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.75,
+          "unitPriceWanPing": 31.19
+        },
+        {
+          "date": "2026-03-30",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "645880b03bfa3f9a1c131dd2",
+          "officialTransactionId": "RPSNMLKKMHLGFIE48CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.75,
+          "unitPriceWanPing": 32.59
+        },
+        {
+          "date": "2026-03-30",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "815714facebd3d2143fe1628",
+          "officialTransactionId": "RPRNMLKKMHLGFIE38CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.75,
+          "unitPriceWanPing": 32.53
+        },
+        {
+          "date": "2026-03-16",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "3cf0e0e5195c8e34988fece4",
+          "officialTransactionId": "RPPNMLLJMHLGFIE18CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.65,
+          "unitPriceWanPing": 31.69
+        },
+        {
+          "date": "2026-03-16",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "fb72b2594aafbf7fe86a9b2e",
+          "officialTransactionId": "RPQNMLLJMHLGFIE28CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.96,
+          "unitPriceWanPing": 30.12
+        },
+        {
+          "date": "2026-03-09",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "069afe7ad53331c9a58612da",
+          "officialTransactionId": "RPRNMLPLLHLGFIE88CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 26.75,
+          "unitPriceWanPing": 32.15
+        },
+        {
+          "date": "2026-03-09",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "9188618da955fd7ae72189e6",
+          "officialTransactionId": "RPQNMLPLLHLGFIE78CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.65,
+          "unitPriceWanPing": 30.43
+        },
+        {
+          "date": "2026-03-09",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "ce264320944ff033619452f4",
+          "officialTransactionId": "RPSNMLPLLHLGFIE98CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.58,
+          "unitPriceWanPing": 30.1
+        },
+        {
+          "date": "2026-03-02",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "45eefd54c9c0c175d66c2143",
+          "officialTransactionId": "RPSNMLNKLHLGFIE68CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 24.86,
+          "unitPriceWanPing": 32.14
+        },
+        {
+          "date": "2026-02-23",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "1c7988a0d80a6b156c733239",
+          "officialTransactionId": "RPQNMLNKLHLGFIE48CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.65,
+          "unitPriceWanPing": 31.13
+        },
+        {
+          "date": "2026-02-23",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "623533a9e384c093006bed37",
+          "officialTransactionId": "RPRNMLNKLHLGFIE58CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.65,
+          "unitPriceWanPing": 32
+        },
+        {
+          "date": "2026-02-09",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "32523cfb2acbdf099ea5fcc1",
+          "officialTransactionId": "RPSNMLMJLHLGFIE48CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 25.54,
+          "unitPriceWanPing": 31.91
+        },
+        {
+          "date": "2026-02-09",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "52c349ae7352bb47095be526",
+          "officialTransactionId": "RPRNMLMJLHLGFIE38CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.65,
+          "unitPriceWanPing": 30.43
+        },
+        {
+          "date": "2026-02-09",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "e51772d85cee1a14846a3816",
+          "officialTransactionId": "RPQNMLMJLHLGFIE28CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 26.75,
+          "unitPriceWanPing": 33.84
+        },
+        {
+          "date": "2026-02-02",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "a4c14b39721fa389285ef2c4",
+          "officialTransactionId": "RPUNMLMKKHLGFIE68CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.75,
+          "unitPriceWanPing": 32.31
+        },
+        {
+          "date": "2026-02-02",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "dea658aea3a98b5072ab17fa",
+          "officialTransactionId": "RPVNMLMKKHLGFIE78CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.65,
+          "unitPriceWanPing": 31.69
+        },
+        {
+          "date": "2026-01-26",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "b7a5cec2ca8e95719c9d220b",
+          "officialTransactionId": "RPSNMLMKKHLGFIE48CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 24.86,
+          "unitPriceWanPing": 32.22
+        },
+        {
+          "date": "2026-01-26",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "c8c2429a8678d5d4dbc959f3",
+          "officialTransactionId": "RPTNMLMKKHLGFIE58CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.63,
+          "unitPriceWanPing": 31.16
+        },
+        {
+          "date": "2026-01-19",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "3fa7177e23c0a10d1d53dc01",
+          "officialTransactionId": "RPQNMLMJKHLGFIE18CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.96,
+          "unitPriceWanPing": 30.45
+        },
+        {
+          "date": "2026-01-19",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "6e06bae0121967cfae8ff7f6",
+          "officialTransactionId": "RPPNMLMJKHLGFIE08CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 26.75,
+          "unitPriceWanPing": 32.53
+        },
+        {
+          "date": "2026-01-12",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "0371cb51931aac87bce32c22",
+          "officialTransactionId": "RPQNMLSLJHLGFIE88CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 24.86,
+          "unitPriceWanPing": 31.13
+        },
+        {
+          "date": "2026-01-12",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "2d6d85b6f668666fc7c9d079",
+          "officialTransactionId": "RPRNMLSLJHLGFIE98CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.58,
+          "unitPriceWanPing": 31.06
+        },
+        {
+          "date": "2026-01-12",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "976dcfa88148f9e4b6d86b45",
+          "officialTransactionId": "RPPNMLSLJHLGFIE78CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 35.75,
+          "unitPriceWanPing": 32.17
+        },
+        {
+          "date": "2026-01-05",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "24dec18be1fb1269ba3601fc",
+          "officialTransactionId": "RPQNMLRLJHLGFIE78CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 24.86,
+          "unitPriceWanPing": 31.01
+        },
+        {
+          "date": "2026-01-05",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "6e448b8fa55ee4ebc2902583",
+          "officialTransactionId": "RPRNMLRLJHLGFIE88CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 24.86,
+          "unitPriceWanPing": 32.1
+        },
+        {
+          "date": "2026-01-05",
+          "district": "仁武區",
+          "projectName": "佳鋐雄匯",
+          "transactionId": "7f58a43498ea58d72aab9e14",
+          "officialTransactionId": "RPPNMLRLJHLGFIE68CB",
+          "officialLocation": "高雄市仁武區赤仁路",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "areaPing": 26.75,
+          "unitPriceWanPing": 32.34
+        }
+      ]
+    }
+  ],
+  "held": [
+    {
+      "name": "文化星匯",
+      "reason": "官網地址四維三路68號與官方逐筆泉州街不同，尚未釐清接待中心與基地，維持待核實",
+      "source": "https://huangtai.tw/project/7"
+    },
+    {
+      "name": "御上立騰",
+      "reason": "官網可讀地址為建國一路84-1號，未能以可讀一手資料確認安樂路基地，維持待核實",
+      "source": "https://huangtai.tw/project/8"
+    },
+    {
+      "name": "星峰匯",
+      "reason": "官網列五福二路220號，官方成交位於五福三路；未釐清接待中心與基地，維持待核實",
+      "source": "https://huangtai.tw/project/4"
+    },
+    {
+      "name": "高鐵SONG",
+      "reason": "一手網站所列地址可能為接待中心，未取得可讀基地資訊；維持待核實"
+    },
+    {
+      "name": "美術1808",
+      "reason": "一手列表地址為明誠四路，圖片式基地內容尚未核讀；維持待核實"
+    },
+    {
+      "name": "和築豐彩",
+      "reason": "搜尋索引與一手網站目前內容不一致，未取得可確認鼎山街基地的一手頁面；維持待核實"
+    },
+    {
+      "name": "豐邑TOP+",
+      "reason": "找到建商PDF索引，但本次全文讀取失敗；維持待核實"
+    },
+    {
+      "name": "白隅",
+      "reason": "找到建案官網，但本次讀取失敗，尚未核讀一手基地資料；維持待核實"
+    }
+  ]
+}
