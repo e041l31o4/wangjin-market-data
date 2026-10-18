@@ -1,9 +1,17 @@
 name: Update Kaohsiung Market Data
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_market.py'
+      - '.github/workflows/update-market.yml'
   workflow_dispatch:
   schedule:
     # 10:20 Taiwan time on the 2nd, 12th and 22nd each month
     - cron: '20 2 2,12,22 * *'
+concurrency:
+  group: official-market-update
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -15,6 +23,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Verify official evidence handling before downloading
+        run: python -m unittest discover -s tests -p 'test_official_project_evidence.py' -v
       - name: Fetch official MOI ZIP and update statistics
         run: python scripts/update_market.py
       - name: Refresh project candidate matches (never publish unverified prices)
