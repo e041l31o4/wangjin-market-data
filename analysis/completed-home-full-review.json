@@ -16,7 +16,8 @@
     "無樣本不代表今年零成交；未揭露、補報或篩選外案件不在本資料。",
     "社區歸屬不證明建商完工後首售。",
     "資料端案名更正已記錄原始欄位，網站名單另待同步。",
-    "成屋社區行情已更新market.json；地圖現用預售feed，尚未接入本次成屋資料。"
+    "成屋社區行情已更新market.json；地圖現用預售feed，尚未接入本次成屋資料。",
+    "合併前457筆具名成屋中34筆早期紀錄缺逐筆官方追溯欄位；更新器已改為自動重讀歷史官方批次，重建後以最新逐筆審核為準。"
   ],
   "projects": [
     {
@@ -5401,5 +5402,7 @@
         "https://market.591.com.tw/list?page=2&postType=2%2C8&regionId=17&sectionId=263"
       ]
     }
-  ]
+  ],
+  "traceableRecentCommunityTransactions2026": 413,
+  "communityTransactionsMissingProvenance": 34
 }

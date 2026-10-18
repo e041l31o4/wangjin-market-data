@@ -501,7 +501,17 @@ def main():
     incoming_count = 0
     # First run after this schema upgrade refreshes imported seasons to add
     # addresses/community names to transactions stored by the old script.
-    refresh_history = args.refresh_history or previous_schema_version() < SCHEMA_VERSION
+    # Old snapshots may already have the current schema while individual
+    # historical records still lack provenance. Re-read official archives
+    # rather than inventing IDs or treating the schema number as proof.
+    missing_provenance = any(
+        not all(row.get(field) for field in
+                ('officialTransactionId', 'officialLocation', 'officialSource'))
+        for row in existing.values()
+    )
+    refresh_history = (args.refresh_history or
+                       previous_schema_version() < SCHEMA_VERSION or
+                       missing_provenance)
     refresh_failed = False
     community_map = load_community_mapping()
     first_sale_map = load_verified_first_sales()
@@ -603,3 +613,4 @@ if __name__ == '__main__':
     except Exception as exc:
         print(f'更新失敗，保留原資料：{exc}', file=sys.stderr)
         sys.exit(1)
+

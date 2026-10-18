@@ -30,7 +30,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Verify official evidence handling before downloading
-        run: python -m unittest discover -s tests -p 'test_official_project_evidence.py' -v
+        run: python -m unittest discover -s tests -p 'test_official*.py' -v
       - name: Verify automatic presale matching
         run: python -m unittest discover -s tests -p 'test_build_presale_project_feed.py' -v
       - name: Verify completed-home review safety
