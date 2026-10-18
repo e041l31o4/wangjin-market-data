@@ -22,11 +22,7 @@
     "115S2",
     "115S3"
   ],
-  "attemptedSeasons": [
-    "115S1",
-    "115S2",
-    "115S3"
-  ],
+  "attemptedSeasons": [],
   "backfillNote": "已匯入的季度為資料「發布季度」，不等於交易月份完整覆蓋；近期及補報案件可能仍未揭露。",
   "missingMonths": [
     "2026-10",
