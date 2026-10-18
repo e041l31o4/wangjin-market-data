@@ -9,6 +9,8 @@ on:
       - 'data/approved_project_aliases.json'
       - 'data/community_mapping.csv'
       - 'scripts/build_completed_home_review.py'
+      - 'scripts/build_completed_project_feed.py'
+      - 'tests/test_build_completed_project_feed.py'
       - 'scripts/audit_community_mapping.py'
       - '.github/workflows/update-market.yml'
   workflow_dispatch:
@@ -34,7 +36,7 @@ jobs:
       - name: Verify automatic presale matching
         run: python -m unittest discover -s tests -p 'test_build_presale_project_feed.py' -v
       - name: Verify completed-home review safety
-        run: python -m unittest discover -s tests -p 'test_build_completed_home_review.py' -v
+        run: python -m unittest discover -s tests -p 'test_build_completed*.py' -v
       - name: Fetch official MOI ZIP and update statistics
         run: python scripts/update_market.py
       - name: Refresh project candidate matches (never publish unverified prices)
@@ -44,11 +46,12 @@ jobs:
           python scripts/build_project_review_queue.py
           python scripts/build_presale_project_feed.py
           python scripts/build_completed_home_review.py
+          python scripts/build_completed_project_feed.py
       - name: Commit only when statistics changed
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add analysis/completed-home-review.json data/official_presale_project_feed.json analysis/official-presale-match-audit.json market.json data/transactions.json data/project_transactions.json analysis/project-pre-sale-price-latest.json analysis/project-map-feed-preview.json data/verified_project_price_feed.json analysis/project-review-queue.csv analysis/project-review-summary.md
+          git add analysis/completed-home-review.json data/official_completed_project_feed.json analysis/official-completed-match-audit.json data/official_presale_project_feed.json analysis/official-presale-match-audit.json market.json data/transactions.json data/project_transactions.json analysis/project-pre-sale-price-latest.json analysis/project-map-feed-preview.json data/verified_project_price_feed.json analysis/project-review-queue.csv analysis/project-review-summary.md
           if ! git diff --cached --quiet; then
             git commit -m 'Update official Kaohsiung market snapshot'
             git push
