@@ -2,6 +2,10 @@ name: Test project map feed export
 on:
   pull_request:
     paths:
+      - 'scripts/build_presale_project_feed.py'
+      - 'tests/test_build_presale_project_feed.py'
+      - 'data/project_identity_register.json'
+      - 'data/official_presale_project_feed.json'
       - 'data/verified_project_matches.json'
       - 'data/verified_project_price_feed.json'
       - 'analysis/verified-project-213-evidence-20261018.json'
@@ -29,6 +33,28 @@ jobs:
           python-version: '3.12'
       - name: Test official project evidence retention
         run: python -m unittest discover -s tests -p 'test_official_project_evidence.py' -v
+      - name: Test recurring automatic presale matching
+        run: |
+          python -m unittest discover -s tests -p 'test_build_presale_project_feed.py' -v
+          python scripts/build_presale_project_feed.py
+      - name: Validate public presale contract
+        run: |
+          python - <<'PY'
+          import json
+          d=json.load(open('data/official_presale_project_feed.json'))
+          assert d['schemaVersion']==2 and d['feedKind']=='public_official_presale'
+          assert len(d['projects'])==386
+          assert d['matchedPriceProjects']==sum(r['priceStatus']=='official_name_matched' for r in d['projects'])
+          assert d['includedTransactionCount']==sum(r['transactionCount'] or 0 for r in d['projects'])
+          for r in d['projects']:
+              if r['priceStatus']=='official_name_matched':
+                  assert r['registryKind']=='預售屋'
+                  assert r['officialIdentityCount']==r['transactionCount']
+                  assert len(r['officialLocations'])==1
+              else:
+                  assert all(r[k] is None for k in ('transactionCount','averageUnitPriceWanPing','minUnitPriceWanPing','maxUnitPriceWanPing'))
+          print('PASS: automatic presale feed and pending masking')
+          PY
       - name: Unit test scheduled transaction matching
         run: python -m unittest discover -s tests -p 'test_refresh_project_match_candidates.py' -v
       - name: Refresh candidate matches without a web download
