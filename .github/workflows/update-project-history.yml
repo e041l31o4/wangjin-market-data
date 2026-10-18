@@ -1,0 +1,45 @@
+name: Backfill and update project year and all-time prices
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_project_history.py'
+      - '.github/workflows/update-project-history.yml'
+      - 'data/community_mapping.csv'
+      - 'data/project_identity_register.json'
+      - 'data/approved_project_aliases.json'
+  workflow_run:
+    workflows: ['Update Kaohsiung Market Data']
+    types: [completed]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: project-history-update
+  cancel-in-progress: false
+jobs:
+  update:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify year and history separation
+        run: python -m unittest discover -s tests -p 'test_project_periods.py' -v
+      - name: Fetch official historical quarters and rebuild both periods
+        run: python scripts/update_project_history.py
+      - name: Commit project history only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/project_history_transactions.json analysis/project-history-coverage.json data/official_project_periods.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update project current-year and historical transaction samples'
+            git pull --no-rebase origin main
+            git push
+          fi
