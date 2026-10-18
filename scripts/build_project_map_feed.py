@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REVIEW_PATH = ROOT / "analysis/project-pre-sale-price-latest.json"
 APPROVAL_PATH = ROOT / "data/verified_project_matches.json"
 DEFAULT_OUTPUT = ROOT / "analysis/project-map-feed-preview.json"
+PUBLIC_OUTPUT = ROOT / "data/verified_project_price_feed.json"
 
 
 def build_feed(review, approvals=None):
@@ -95,12 +96,17 @@ def main():
     parser.add_argument("--source", type=Path, default=REVIEW_PATH)
     parser.add_argument("--approvals", type=Path, default=APPROVAL_PATH)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--public-output", type=Path, default=PUBLIC_OUTPUT)
     args = parser.parse_args()
     feed = build_feed(json.loads(args.source.read_text(encoding="utf-8")),
                       read_approvals(args.approvals))
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(feed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"建案={feed['totalProjects']}，已核實可顯示行情={feed['verifiedPriceProjects']}；輸出={args.output}")
+    # Public artifact only contains human-approved price entries; pending values remain null.
+    public_feed = {**feed, "feedKind": "public_verified_only"}
+    args.public_output.parent.mkdir(parents=True, exist_ok=True)
+    args.public_output.write_text(json.dumps(public_feed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"建案={feed['totalProjects']}，已核實可顯示行情={feed['verifiedPriceProjects']}；公開={args.public_output}")
 
 
 if __name__ == "__main__":
