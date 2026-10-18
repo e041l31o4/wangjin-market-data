@@ -9,6 +9,9 @@ on:
       - 'data/community_mapping.csv'
       - 'scripts/build_completed_home_review.py'
       - 'scripts/build_completed_project_feed.py'
+      - 'scripts/update_project_history.py'
+      - 'tests/test_project_periods.py'
+      - '.github/workflows/update-project-history.yml'
       - 'tests/test_build_completed_project_feed.py'
       - 'data/official_completed_project_feed.json'
       - 'tests/test_build_completed_home_review.py'
@@ -47,6 +50,7 @@ jobs:
       - name: Test completed-home review
         run: |
           python -m unittest discover -s tests -p 'test_build_completed*.py' -v
+          python -m unittest discover -s tests -p 'test_project_periods.py' -v
           python scripts/build_completed_home_review.py
           python scripts/build_completed_project_feed.py
       - name: Validate public presale contract

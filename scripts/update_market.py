@@ -203,7 +203,7 @@ def load_verified_first_sales():
     return result
 
 
-def normalize(row, kind):
+def normalize(row, kind, *, year=YEAR):
     district = (row.get('鄉鎮市區') or '').strip()
     if district not in DISTRICTS or (row.get('主要用途') or '').strip() != '住家用':
         return None
@@ -221,7 +221,7 @@ def normalize(row, kind):
     if kind == '預售屋' and (row.get('解約情形', '') or '').strip():
         return None
     traded = parse_date(row.get('交易年月日'))
-    if not traded or int(traded[:4]) != YEAR:
+    if not traded or (year is not None and int(traded[:4]) != year):
         return None
     area = number(row.get('建物移轉總面積平方公尺'))
     unit = number(row.get('單價元平方公尺'))
@@ -272,7 +272,7 @@ def decode_csv(data):
     raise RuntimeError('官方 CSV 編碼無法辨識')
 
 
-def extract(archive):
+def extract(archive, *, year=YEAR, require_presale=True):
     records = {}
     with zipfile.ZipFile(io.BytesIO(archive)) as z:
         names = {Path(n).name.lower(): n for n in z.namelist()}
@@ -280,13 +280,15 @@ def extract(archive):
         for suffix, kind in [('a', '成屋'), ('b', '預售屋')]:
             filename = f'e_lvr_land_{suffix}.csv'
             if filename not in names:
+                if suffix == 'b' and not require_presale:
+                    continue
                 raise RuntimeError(f'下載 ZIP 缺少高雄市檔案：{filename}')
             rows = csv.DictReader(io.StringIO(decode_csv(z.read(names[filename]))))
             if not {'鄉鎮市區', '編號'}.issubset(rows.fieldnames or []):
                 raise RuntimeError(f'官方 CSV 欄位已改變：{filename}')
             for row in rows:
                 found += 1
-                item = normalize(row, kind)
+                item = normalize(row, kind, year=year)
                 if item:
                     records[item[0]] = item[1]
         if found < 2:

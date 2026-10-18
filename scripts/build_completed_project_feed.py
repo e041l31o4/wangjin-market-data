@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RULE = 'reviewed_exact_address_recent_completed_v1'
 
 
-def build_feed(registry, transactions, mapping_rows, market):
+def build_feed(registry, transactions, mapping_rows, market, *, year_only=True, recent_only=True):
     projects = registry['projects']
     if len(projects) != 386 or len({str(p['projectId']) for p in projects}) != 386:
         raise ValueError('建案名單必須有386筆唯一ID')
@@ -45,7 +45,11 @@ def build_feed(registry, transactions, mapping_rows, market):
         sources = sorted({r['source'] for r in mapping_rows if
                           r['district'] == project['district'] and r['buildingName'] == project['name'] and
                           address_key(r['addressKey'], project['district']) in addresses})
-        found = [t for t in case['transactions'] if t['communityAddressVerified']] if case else []
+        found = [{'transactionId': tid} for tid, tx in transactions.items()
+                 if project['kind'] == '成屋' and tx.get('category') == '成屋' and
+                 tx.get('district') == project['district'] and
+                 address_key(tx.get('addressKey'), project['district']) in addresses and
+                 (not year_only or str(tx.get('date', '')).startswith(str(year) + '-'))]
         accepted, reasons = [], set()
         for evidence in found:
             tid = evidence['transactionId']
@@ -58,12 +62,17 @@ def build_feed(registry, transactions, mapping_rows, market):
                     tx.get('officialSource') == MOI and isinstance(location, str) and
                     location.startswith('高雄市' + project['district']) and
                     address_key(location, project['district']) == address_key(tx.get('addressKey'), project['district']) and
-                    address_key(location, project['district']) in addresses and evidence['traceable']):
+                    address_key(location, project['district']) in addresses):
                 reasons.add('missing_or_conflicting_official_provenance')
                 continue
-            if not evidence['withinFiveYears']:
-                reasons.add('not_within_five_years_or_unknown_completion')
-                continue
+            if recent_only:
+                try:
+                    age = (date.fromisoformat(tx['date']) - date.fromisoformat(tx['completedAt'])).days
+                except (KeyError, TypeError, ValueError):
+                    age = -1
+                if not 0 <= age <= 5 * 365.2425:
+                    reasons.add('not_within_five_years_or_unknown_completion')
+                    continue
             try:
                 traded = date.fromisoformat(tx['date'])
                 unit_price = float(tx['unitPriceM2']) * 3.305785 / 10000
@@ -71,7 +80,7 @@ def build_feed(registry, transactions, mapping_rows, market):
             except (KeyError, TypeError, ValueError):
                 reasons.add('invalid_transaction_values')
                 continue
-            if (traded.year != year or traded > updated or not math.isfinite(unit_price) or
+            if ((year_only and traded.year != year) or traded > updated or not math.isfinite(unit_price) or
                     not math.isfinite(area) or not 2 <= unit_price <= 300 or area <= 0):
                 reasons.add('invalid_transaction_values')
                 continue
@@ -79,7 +88,7 @@ def build_feed(registry, transactions, mapping_rows, market):
                              'location': location, 'officialId': official_id})
         entry = {'projectId': pid, 'name': project['name'], 'district': project['district'],
                  'registryKind': project['kind'], 'registryAddress': project.get('address'),
-                 'transactionKind': '成屋', 'ageCategory': '5年內成屋', 'year': year,
+                 'transactionKind': '成屋', 'ageCategory': '5年內成屋' if recent_only else '成屋', 'year': year,
                  'priceStatus': 'community_address_matched' if accepted else 'pending_verification',
                  'matchingRule': RULE if accepted else None,
                  'verifiedAddresses': addresses, 'addressEvidenceSources': sources,
@@ -106,7 +115,9 @@ def build_feed(registry, transactions, mapping_rows, market):
             'source': MOI, 'sourceDataUpdatedAt': updated.isoformat(), 'totalProjects': 386,
             'matchedPriceProjects': sum(e['priceStatus'] == 'community_address_matched' for e in entries),
             'includedTransactionCount': sum(e['transactionCount'] or 0 for e in entries),
-            'importantNotes': ['只含今年成交、成交時屋齡5年內且具官方追溯資料的已核對門牌樣本。',
+            'importantNotes': [('只含今年成交。' if year_only else '累計已收錄的歷年成交。') +
+                              ('成交時屋齡限5年內。' if recent_only else '社區成交不限制屋齡。') +
+                              '僅限已核對門牌且具官方追溯的樣本。',
                                '社區歸屬不等於建商首售，也不代表全案所有門牌或全部成交。',
                                '無樣本不是零成交；低於11層華廈不在原始市場收錄範圍。',
                                '平均單價採逐筆單價算術平均；每次官方資料更新後依相同條件重建。'],
