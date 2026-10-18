@@ -6,6 +6,7 @@ WANGJIN project register. This script never trusts aliases or address heuristics
 and does not publish candidate prices to the public feed.
 """
 import argparse
+import hashlib
 import json
 import re
 import unicodedata
@@ -50,6 +51,17 @@ def recalculate(register, transactions, market):
         found = lookup.get(key, [])
         ordered = sorted(found, key=lambda t: t["date"], reverse=True)
         prices = [float(t["unitPriceWanPing"]) for t in found]
+        # Exact raw-row fingerprint: the moment the candidate transactions change,
+        # a previous human approval must not authorize the new price range.
+        fingerprint_rows = sorted(
+            [{"date": t["date"], "district": t["district"], "projectName": t["projectName"],
+              "areaPing": t["areaPing"], "unitPriceWanPing": t["unitPriceWanPing"]}
+             for t in found],
+            key=lambda x: (x["date"], x["district"], x["projectName"],
+                           x["areaPing"], x["unitPriceWanPing"]))
+        fingerprint = hashlib.sha256(
+            json.dumps(fingerprint_rows, ensure_ascii=False, sort_keys=True,
+                       separators=(",", ":")).encode("utf-8")).hexdigest() if found else None
         data.append({
             "projectId": str(project["projectId"]),
             "projectName": project["projectName"],
@@ -59,6 +71,7 @@ def recalculate(register, transactions, market):
             "evidenceUrl": None,
             "transactionCount": len(found),
             "exactTransactionCount": len(found),
+            "transactionFingerprint": fingerprint,
             "aliasCandidateTransactionCount": 0,
             "latestTransactionDate": ordered[0]["date"] if found else None,
             "latestUnitPriceWanPing": ordered[0]["unitPriceWanPing"] if found else None,
