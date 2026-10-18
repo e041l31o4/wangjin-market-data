@@ -14,6 +14,7 @@ def sample():
         {"projectId": str(i), "projectName": f"建案{i}", "district": "楠梓區",
          "matchLevel": "name_district_exact" if i == 1 else "external_alias_candidate_only" if i == 2 else "not_matched",
          "transactionCount": 3 if i in (1, 2) else 0,
+         "transactionFingerprint": "a"*64 if i in (1, 2) else None,
          "latestTransactionDate": "2026-08-01" if i in (1, 2) else None,
          "latestUnitPriceWanPing": 42.0 if i in (1, 2) else None,
          "averageUnitPriceWanPing": 40.0 if i in (1, 2) else None,
@@ -41,11 +42,22 @@ class SafeFeedTests(unittest.TestCase):
         self.assertEqual(module.build_feed(sample(), approvals)["verifiedPriceProjects"], 0)
 
     def test_verified_exact_match_requires_all_fields(self):
-        approval = {"verified": True, "officialEvidence": "official transaction linkage reviewed",
-                    "verifiedOn": "2026-10-18", "projectName": "建案1", "district": "楠梓區"}
+        approval = {"verified": True, "officialEvidence": "https://plvr.land.moi.gov.tw/",
+                    "verifiedOn": "2026-10-18", "projectName": "建案1", "district": "楠梓區",
+                    "reviewedBy": "human-reviewer", "approvedTransactionCount": 3,
+                    "transactionFingerprint": "a"*64}
         feed = module.build_feed(sample(), {"1": approval})
         self.assertEqual(feed["verifiedPriceProjects"], 1)
         self.assertEqual(feed["projects"][0]["latestUnitPriceWanPing"], 42)
+
+    def test_updated_transaction_fingerprint_revokes_old_approval(self):
+        approval = {"verified": True, "officialEvidence": "https://plvr.land.moi.gov.tw/",
+                    "verifiedOn": "2026-10-18", "projectName": "建案1", "district": "楠梓區",
+                    "reviewedBy": "human-reviewer", "approvedTransactionCount": 3,
+                    "transactionFingerprint": "a"*64}
+        newer = sample()
+        newer["projects"][0]["transactionFingerprint"] = "b"*64
+        self.assertEqual(module.build_feed(newer, {"1": approval})["verifiedPriceProjects"], 0)
 
     def test_duplicate_ids_fail(self):
         data = sample()
