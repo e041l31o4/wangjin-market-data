@@ -1,0 +1,2270 @@
+{
+  "scope": "已核對社區身分與指定門牌；逐案採用與限制見completed-home-full-review.json",
+  "projects": [
+    {
+      "projectId": "6",
+      "name": "百達悠悅",
+      "district": "楠梓區",
+      "developer": "友友",
+      "registryAddress": "大學22街/大學23街",
+      "addresses": [
+        "大學二十二街19號"
+      ],
+      "source": "https://newhouse.591.com.tw/135968",
+      "note": "友友百達悠悅",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "15",
+      "name": "ART",
+      "district": "楠梓區",
+      "developer": "華尚",
+      "registryAddress": "盛昌街vs三山街",
+      "addresses": [
+        "三山街69巷38-1號"
+      ],
+      "source": "https://newhouse.591.com.tw/124593",
+      "note": "華尚ART；只錄來源明列門牌，暫不轉換附號寫法",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "16",
+      "name": "馥御",
+      "district": "楠梓區",
+      "developer": "崑庭",
+      "registryAddress": "大學五十六街",
+      "addresses": [
+        "大學二十九路350號",
+        "大學五十六街27號",
+        "大學五十六街37號"
+      ],
+      "source": "https://market.591.com.tw/5884224",
+      "note": "崑庭馥御，個別門牌另有社區逐筆頁支持",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "31",
+      "name": "柏楊．雅境",
+      "district": "楠梓區",
+      "developer": "柏楊",
+      "registryAddress": "後昌路47巷",
+      "addresses": [
+        "後勁中街54巷28號"
+      ],
+      "source": "https://newhouse.591.com.tw/140689/detail",
+      "note": "柏楊雅境，名單後昌路47巷為舊基地描述，案名建商相符",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "37",
+      "name": "興楠梓",
+      "district": "楠梓區",
+      "developer": "華雄",
+      "registryAddress": "興楠路/興楠路73巷",
+      "addresses": [
+        "興盛街50號"
+      ],
+      "source": "https://www.hwa-shong.com/熱銷建案/華雄興-楠梓.html",
+      "note": "華雄官網明列基地興盛街50號；不錄接待興楠路299號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "42",
+      "name": "廣積平安璟苑",
+      "district": "楠梓區",
+      "developer": "廣積",
+      "registryAddress": "清平街/清安街",
+      "addresses": [
+        "清平街91號",
+        "清平街93號",
+        "清安街1號"
+      ],
+      "source": "https://market.591.com.tw/5935200",
+      "note": "來源社區頁及逐筆頁分別明列，另有樂居91號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "64",
+      "name": "美術海",
+      "district": "左營區",
+      "developer": "太普",
+      "registryAddress": "自勉路",
+      "addresses": [
+        "崇實路250號"
+      ],
+      "source": "https://market.591.com.tw/5936672/overview",
+      "note": "太普美術海，跨路名門牌以同案建商交叉核對",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "67",
+      "name": "小森學",
+      "district": "左營區",
+      "developer": "振勝",
+      "registryAddress": "民族一路1101巷旁",
+      "addresses": [
+        "民族一路1101巷16號",
+        "民族一路1101巷20號"
+      ],
+      "source": "https://market.591.com.tw/5962093",
+      "note": "振勝小森學，8層華廈不擴大原大樓統計",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "68",
+      "name": "耘海",
+      "district": "左營區",
+      "developer": "光洲",
+      "registryAddress": "海景街",
+      "addresses": [
+        "海景街511號"
+      ],
+      "source": "https://gzwh.8ws.tw/",
+      "note": "光洲耘海官方建案網站",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "69",
+      "name": "青曦流域",
+      "district": "左營區",
+      "developer": "吉松",
+      "registryAddress": "先鋒路",
+      "addresses": [
+        "啟文路131號",
+        "先鋒路110巷1號"
+      ],
+      "source": "https://www.0981326008.com/tw/about/青曦流域",
+      "note": "青曦流域，另有591社區逐筆明列先鋒路110巷1號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "70",
+      "name": "仁發和",
+      "district": "左營區",
+      "developer": "仁發",
+      "registryAddress": "博愛四路近重愛路",
+      "addresses": [
+        "博愛四路296號",
+        "博愛四路298號",
+        "博愛四路300號"
+      ],
+      "source": "https://market.591.com.tw/5933720/overview",
+      "note": "仁發和，完整門牌分別由刊登基地與社區頁核對，不推估其他號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "71",
+      "name": "高鐵棧",
+      "district": "左營區",
+      "developer": "芳崗",
+      "registryAddress": "高鐵路/大中二路/重文街",
+      "addresses": [
+        "高鐵路168號"
+      ],
+      "source": "https://newhouse.591.com.tw/130388/detail",
+      "note": "芳崗高鐵棧",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "72",
+      "name": "珈柏麗",
+      "district": "左營區",
+      "developer": "晟揚(城揚)",
+      "registryAddress": "保靖街",
+      "addresses": [
+        "保靖街42號"
+      ],
+      "source": "https://newhouse.591.com.tw/133266/detail",
+      "note": "晟揚城揚珈柏麗",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "74",
+      "name": "天湖",
+      "district": "左營區",
+      "developer": "京城",
+      "registryAddress": "環潭路426巷",
+      "addresses": [
+        "環潭路426巷1號",
+        "環潭路426巷13號"
+      ],
+      "source": "https://newhouse.591.com.tw/137889/detail",
+      "note": "京城天湖，僅錄明示範圍兩端，不自動展開",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "75",
+      "name": "第一樂章",
+      "district": "左營區",
+      "developer": "京成(京城)",
+      "registryAddress": "重立路",
+      "addresses": [
+        "重立路550號"
+      ],
+      "source": "https://www.kingtown.com.tw/04-1-2.php?ID=82",
+      "note": "京城第一樂章官方基地地址",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "77",
+      "name": "鑫悅",
+      "district": "左營區",
+      "developer": "龍騰",
+      "registryAddress": "文川路/重信路",
+      "addresses": [
+        "重信路426號",
+        "重信路428號"
+      ],
+      "source": "https://newhouse.591.com.tw/123186",
+      "note": "鑫龍騰鑫悦／鑫悅，426基地與428號06戶均由建案頁確認；另有社區逐筆428號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "78",
+      "name": "諾金",
+      "district": "左營區",
+      "developer": "開遠",
+      "registryAddress": "大中二路近文川路",
+      "addresses": [
+        "大中二路715號"
+      ],
+      "source": "https://newhouse.591.com.tw/127833/detail",
+      "note": "開遠諾金，完整基地715號，來源2筆相符",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "79",
+      "name": "自由朗誦",
+      "district": "左營區",
+      "developer": "京成(京城)",
+      "registryAddress": "大中二路近自由三路",
+      "addresses": [
+        "大中二路299號"
+      ],
+      "source": "https://market.591.com.tw/5926036",
+      "note": "自由朗誦社區299號；政府301號暫留候選，不自動採用未檢視表格",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "80",
+      "name": "浤圃巨星",
+      "district": "左營區",
+      "developer": "湟泰(浤圃)",
+      "registryAddress": "華夏路/至真路",
+      "addresses": [
+        "華夏路413號"
+      ],
+      "source": "https://newhouse.591.com.tw/131597/detail",
+      "note": "湟泰浤圃巨星",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "82",
+      "name": "城揚H&A",
+      "district": "左營區",
+      "developer": "城揚",
+      "registryAddress": "正心路",
+      "addresses": [
+        "正心街13號",
+        "正心街17號"
+      ],
+      "source": "https://newhouse.591.com.tw/138141/detail",
+      "note": "城揚H&A；來源另有17號社區，名單成屋但刊登預售，待類型核對",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "84",
+      "name": "自由捷境",
+      "district": "左營區",
+      "developer": "安允",
+      "registryAddress": "菜公一路90巷",
+      "addresses": [
+        "菜公一路90巷11號"
+      ],
+      "source": "https://newhouse.591.com.tw/140023/detail",
+      "note": "安允自由捷境",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "86",
+      "name": "高鐵SONG",
+      "district": "左營區",
+      "developer": "晟揚",
+      "registryAddress": "大中二路",
+      "addresses": [
+        "重文街40號"
+      ],
+      "source": "https://newhouse.591.com.tw/137525/detail",
+      "note": "晟揚高鐵SONG，來源使照11500772",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "101",
+      "name": "惟美術",
+      "district": "鼓山區",
+      "developer": "城揚",
+      "registryAddress": "美術東四路",
+      "addresses": [
+        "美術東四路27號",
+        "美術東四路33號",
+        "美術東四路39號",
+        "美術東四路43號"
+      ],
+      "source": "https://k7.com.tw/communities/wei-meishu.html",
+      "note": "惟美術，來源明列27至43單號；只錄明示兩端與另有獨立證據33、39",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "102",
+      "name": "美術皇居",
+      "district": "鼓山區",
+      "developer": "京城",
+      "registryAddress": "東二/北五(北邊)",
+      "addresses": [
+        "美術東二路620號"
+      ],
+      "source": "https://market.591.com.tw/42905",
+      "note": "京城美術皇居社區美術東二路620號，另核對使照10702299",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "103",
+      "name": "美廳苑",
+      "district": "鼓山區",
+      "developer": "城揚",
+      "registryAddress": "美術東六街",
+      "addresses": [
+        "美術東六街153號"
+      ],
+      "source": "https://temp.chen-yan.com.tw/",
+      "note": "城揚官網明列美廳苑153號；不採刊登說明的150號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "105",
+      "name": "花園美術館",
+      "district": "鼓山區",
+      "developer": "雄崗",
+      "registryAddress": "裕國/東五",
+      "addresses": [
+        "美術東五路82號"
+      ],
+      "source": "https://market.591.com.tw/38969/overview",
+      "note": "雄崗花園美術館，已逾5年，僅一般社區歸屬",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "109",
+      "name": "蘊美",
+      "district": "鼓山區",
+      "developer": "永信",
+      "registryAddress": "裕興路37巷",
+      "addresses": [
+        "裕興路63號",
+        "裕興路51號"
+      ],
+      "source": "https://newhouse.591.com.tw/139853/dynamic",
+      "note": "永信蘊美，來源2026已完工",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing",
+      "supportingSources": [
+        "https://market.591.com.tw/6015802/price?trans_type=1"
+      ]
+    },
+    {
+      "projectId": "110",
+      "name": "鑫巨蛋2",
+      "district": "鼓山區",
+      "developer": "鑫龍騰",
+      "registryAddress": "明倫路/文信路",
+      "addresses": [
+        "明倫路166號"
+      ],
+      "source": "https://newhouse.591.com.tw/126786/detail",
+      "note": "鑫巨蛋2，期別保留",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "111",
+      "name": "尚觀山房",
+      "district": "鼓山區",
+      "developer": "尚觀",
+      "registryAddress": "鼓山三路(近葆禎路)",
+      "addresses": [
+        "鼓山三路126-1號"
+      ],
+      "source": "https://newhouse.591.com.tw/139175",
+      "note": "尚觀山房，保留來源附號格式",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "112",
+      "name": "美術一品",
+      "district": "鼓山區",
+      "developer": "六真",
+      "registryAddress": "日昌路85巷",
+      "addresses": [
+        "內惟路255巷16號"
+      ],
+      "source": "https://newhouse.591.com.tw/138664/detail",
+      "note": "六真美術一品，255巷16號兩來源相符，5層不在本市場11層以上篩選範圍",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing",
+      "supportingSources": [
+        "https://market.591.com.tw/5975246/overview"
+      ]
+    },
+    {
+      "projectId": "113",
+      "name": "美術1號院",
+      "district": "鼓山區",
+      "developer": "齊裕",
+      "registryAddress": "明誠四路/東二",
+      "addresses": [
+        "明誠四路71號"
+      ],
+      "source": "https://newhouse.591.com.tw/127051?gtmType=Periphery",
+      "note": "興富發美術1号院，勿採其他刊登舊址160號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "126",
+      "name": "詠光",
+      "district": "三民區",
+      "developer": "永信",
+      "registryAddress": "臥龍路/有光路",
+      "addresses": [
+        "有光路215號"
+      ],
+      "source": "https://newhouse.591.com.tw/134598/detail",
+      "note": "永信詠光",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "127",
+      "name": "述風景",
+      "district": "三民區",
+      "developer": "勤寬",
+      "registryAddress": "泰順街",
+      "addresses": [
+        "泰順街2號",
+        "泰順街20號"
+      ],
+      "source": "https://market.591.com.tw/5912720/overview",
+      "note": "勤寬述風景，另有樂居泰順街2號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "128",
+      "name": "謙樂",
+      "district": "三民區",
+      "developer": "永信",
+      "registryAddress": "绥遠一街/自由一路/合江街 興聯誠 111/06",
+      "addresses": [
+        "自由一路187號",
+        "自由一路191號"
+      ],
+      "source": "https://market.591.com.tw/5903585/overview",
+      "note": "永信謙樂，來源基地187號，另有191號社區",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "129",
+      "name": "陽明第一廳",
+      "district": "三民區",
+      "developer": "城揚",
+      "registryAddress": "陽明路",
+      "addresses": [
+        "陽明路315號",
+        "陽明路339號"
+      ],
+      "source": "https://market.591.com.tw/5935399",
+      "note": "城揚陽明第一廳，來源基地315號與社區339號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "130",
+      "name": "鑫天地2",
+      "district": "三民區",
+      "developer": "龍騰",
+      "registryAddress": "順昌街/愛國路",
+      "addresses": [
+        "順昌街1號"
+      ],
+      "source": "https://newhouse.591.com.tw/122069/detail",
+      "note": "鑫天地2期，保留期別",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "131",
+      "name": "馥の森",
+      "district": "三民區",
+      "developer": "京城",
+      "registryAddress": "德旺街",
+      "addresses": [
+        "德旺街162號",
+        "德旺街168號"
+      ],
+      "source": "https://newhouse.591.com.tw/134828/detail",
+      "note": "京城馥の森；信義社區另明列162號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "132",
+      "name": "德勒斯登",
+      "district": "三民區",
+      "developer": "高堅",
+      "registryAddress": "博愛/同盟",
+      "addresses": [
+        "博愛一路390號"
+      ],
+      "source": "https://newhouse.591.com.tw/110773/detail",
+      "note": "德勒斯登",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "133",
+      "name": "耘朗",
+      "district": "三民區",
+      "developer": "光洲",
+      "registryAddress": "延慶街/堯山街",
+      "addresses": [
+        "延慶街176號"
+      ],
+      "source": "https://newhouse.591.com.tw/119749?s=t",
+      "note": "光洲耘朗，不採單獨接待中心168號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "135",
+      "name": "齊樂",
+      "district": "三民區",
+      "developer": "永信",
+      "registryAddress": "德勝街",
+      "addresses": [
+        "德勝街21號"
+      ],
+      "source": "https://newhouse.591.com.tw/139080/detail",
+      "note": "永信齊樂",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "137",
+      "name": "靚陽明",
+      "district": "三民區",
+      "developer": "歐揚",
+      "registryAddress": "陽明路/褒揚街",
+      "addresses": [
+        "褒揚街166號"
+      ],
+      "source": "https://newhouse.591.com.tw/138812/detail",
+      "note": "歐揚靚陽明",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "138",
+      "name": "美森園",
+      "district": "三民區",
+      "developer": "福懋",
+      "registryAddress": "德勝街",
+      "addresses": [
+        "德勝街67號",
+        "德勝街69號"
+      ],
+      "source": "https://newhouse.591.com.tw/136683/detail",
+      "note": "福懋美森園，僅明示67與69號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "139",
+      "name": "Rich ONE",
+      "district": "三民區",
+      "developer": "尊邑",
+      "registryAddress": "正忠路",
+      "addresses": [
+        "正忠路31號"
+      ],
+      "source": "https://newhouse.591.com.tw/133740/detail",
+      "note": "尊邑Rich One",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "142",
+      "name": "遠見云峰",
+      "district": "三民區",
+      "developer": "日宇",
+      "registryAddress": "德旺街",
+      "addresses": [
+        "德旺街198號"
+      ],
+      "source": "https://newhouse.591.com.tw/139888/detail",
+      "note": "日宇遠見云峰",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "143",
+      "name": "和野學",
+      "district": "三民區",
+      "developer": "得邑",
+      "registryAddress": "德利街",
+      "addresses": [
+        "熱河三街32號"
+      ],
+      "source": "https://newhouse.591.com.tw/140674/detail",
+      "note": "得邑和野學，原名單德利街基地描述，建商案名同一",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "144",
+      "name": "聚丰景",
+      "district": "三民區",
+      "developer": "頂誠",
+      "registryAddress": "正忠路",
+      "addresses": [
+        "正忠路355號"
+      ],
+      "source": "https://newhouse.591.com.tw/138441",
+      "note": "頂誠聚丰景；不採官網接待大昌二路569號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "145",
+      "name": "登豐29",
+      "district": "三民區",
+      "developer": "晟揚(城揚)",
+      "registryAddress": "大豐二路/正氣街",
+      "addresses": [
+        "大豐二路225號"
+      ],
+      "source": "https://newhouse.591.com.tw/134596/dynamic",
+      "note": "登豐29",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "146",
+      "name": "心野",
+      "district": "三民區",
+      "developer": "協暘",
+      "registryAddress": "十全三路",
+      "addresses": [
+        "十全三路68號"
+      ],
+      "source": "https://newhouse.591.com.tw/140896/detail",
+      "note": "協暘心野",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "147",
+      "name": "宏森·綻",
+      "district": "三民區",
+      "developer": "宏森",
+      "registryAddress": "大裕路/大和街",
+      "addresses": [
+        "大和街25號"
+      ],
+      "source": "https://newhouse.591.com.tw/136725/detail",
+      "note": "宏森綻；不採營造官網舊接待530號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "148",
+      "name": "KS1(地上權)",
+      "district": "三民區",
+      "developer": "城揚",
+      "registryAddress": "覺民路",
+      "addresses": [
+        "覺民路359號"
+      ],
+      "source": "https://www.leju.com.tw/community/Lb9e130624213f3",
+      "note": "城揚KS1地上權；原市場篩選排除地上權，不混入一般市場",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "149",
+      "name": "森悅",
+      "district": "三民區",
+      "developer": "興富發",
+      "registryAddress": "遼寧三街/德勝街/美都路",
+      "addresses": [
+        "遼寧三街190號",
+        "遼寧三街198號"
+      ],
+      "source": "https://k7.com.tw/communities/senyue.html",
+      "note": "森悅，來源190至198雙號僅兩端，非臺中同名",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "151",
+      "name": "琢蘊",
+      "district": "三民區",
+      "developer": "遠雄",
+      "registryAddress": "平等路/延慶街",
+      "addresses": [
+        "延慶街2號"
+      ],
+      "source": "https://market.591.com.tw/3695033/overview",
+      "note": "遠雄琢蘊，不採民族一路接待中心",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "177",
+      "name": "新站之心",
+      "district": "新興區",
+      "developer": "穏業",
+      "registryAddress": "南華橫二路",
+      "addresses": [
+        "南華橫二路25號"
+      ],
+      "source": "https://newhouse.591.com.tw/136216/layout",
+      "note": "新站之心，不採接待36號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "178",
+      "name": "利融藏御",
+      "district": "新興區",
+      "developer": "利融",
+      "registryAddress": "復橫一路、中正三路71巷",
+      "addresses": [
+        "復橫一路180號"
+      ],
+      "source": "https://newhouse.591.com.tw/138093/detail",
+      "note": "利融藏御",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "179",
+      "name": "時尚帝寶",
+      "district": "新興區",
+      "developer": "甲山林",
+      "registryAddress": "七賢/錦田",
+      "addresses": [
+        "七賢一路188號"
+      ],
+      "source": "https://newhouse.591.com.tw/116881/detail",
+      "note": "時尚帝寶",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "180",
+      "name": "文合苑",
+      "district": "新興區",
+      "developer": "崑郡(崑庭)",
+      "registryAddress": "七賢二路",
+      "addresses": [
+        "七賢二路106號"
+      ],
+      "source": "https://newhouse.591.com.tw/134548/dynamic",
+      "note": "棋琴文合苑，2026已完工，不以接待102號推估",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "181",
+      "name": "皇逸居",
+      "district": "新興區",
+      "developer": "皇品院",
+      "registryAddress": "河南二路",
+      "addresses": [
+        "河南二路38號"
+      ],
+      "source": "https://newhouse.591.com.tw/140280/detail",
+      "note": "皇逸居",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "183",
+      "name": "敦品",
+      "district": "新興區",
+      "developer": "崑庭",
+      "registryAddress": "八德一路",
+      "addresses": [
+        "八德一路146號"
+      ],
+      "source": "https://newhouse.591.com.tw/134549/detail",
+      "note": "崑庭敦品",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "184",
+      "name": "一央清",
+      "district": "新興區",
+      "developer": "泰嘉",
+      "registryAddress": "七賢一路",
+      "addresses": [
+        "七賢一路89號"
+      ],
+      "source": "https://newhouse.591.com.tw/140621/detail",
+      "note": "一央清",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "185",
+      "name": "閲鳳凰",
+      "district": "新興區",
+      "developer": "宏碁",
+      "registryAddress": "七賢一路",
+      "addresses": [
+        "七賢一路67號"
+      ],
+      "source": "https://newhouse.591.com.tw/141113/detail",
+      "note": "閲鳳凰，接待65號不錄",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "190",
+      "name": "鳳凰康澤",
+      "district": "苓雅區",
+      "developer": "宏基",
+      "registryAddress": "廈門街/光華一路",
+      "addresses": [
+        "光華一路297號"
+      ],
+      "source": "https://market.591.com.tw/5935729/overview",
+      "note": "鳳凰康澤",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "192",
+      "name": "逸文苑",
+      "district": "苓雅區",
+      "developer": "京城",
+      "registryAddress": "河南路/和平/七賢",
+      "addresses": [
+        "和平一路302號"
+      ],
+      "source": "https://www.kingtown.com.tw/04-1-2.php?ID=68",
+      "note": "京城逸文苑官網",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "193",
+      "name": "和平寓所",
+      "district": "苓雅區",
+      "developer": "尚城",
+      "registryAddress": "和平一路",
+      "addresses": [
+        "和平一路111號"
+      ],
+      "source": "https://market.591.com.tw/5936998/overview",
+      "note": "尚城和平寓所",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "194",
+      "name": "欣民權",
+      "district": "苓雅區",
+      "developer": "甲六園",
+      "registryAddress": "永富街/民權一路",
+      "addresses": [
+        "民權一路12號",
+        "民權一路16號"
+      ],
+      "source": "https://newhouse.591.com.tw/117333/detail",
+      "note": "欣民權hygge，僅明示12、16號，不採接待18號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "195",
+      "name": "大觀在上",
+      "district": "苓雅區",
+      "developer": "興總",
+      "registryAddress": "青年二路/自強三路",
+      "addresses": [
+        "青年二路117號"
+      ],
+      "source": "https://newhouse.591.com.tw/131786/detail",
+      "note": "興總大觀在上，另有官方LINE支持",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "197",
+      "name": "鑫光",
+      "district": "苓雅區",
+      "developer": "龍騰",
+      "registryAddress": "大順三路",
+      "addresses": [
+        "大順三路212號"
+      ],
+      "source": "https://newhouse.591.com.tw/138160/detail",
+      "note": "龍騰鑫光",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "198",
+      "name": "星玥灣",
+      "district": "苓雅區",
+      "developer": "和築",
+      "registryAddress": "三多四路",
+      "addresses": [
+        "三多四路58號"
+      ],
+      "source": "https://newhouse.591.com.tw/125764/detail",
+      "note": "和築星玥灣",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "202",
+      "name": "新文化城安",
+      "district": "苓雅區",
+      "developer": "城安",
+      "registryAddress": "三多二路/廣東一街",
+      "addresses": [
+        "三多二路237號"
+      ],
+      "source": "https://newhouse.591.com.tw/132787/detail",
+      "note": "新文化城安",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "203",
+      "name": "頂誠HighLine",
+      "district": "苓雅區",
+      "developer": "頂記",
+      "registryAddress": "福安路",
+      "addresses": [
+        "福安路52號",
+        "福安路56號",
+        "福安路58號"
+      ],
+      "source": "https://newhouse.591.com.tw/141562?bid=3220",
+      "note": "頂誠HighLine，基地58與52、56號成交在同案刊登頁分別明列",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "233",
+      "name": "敦峰",
+      "district": "前鎮區",
+      "developer": "崑庭",
+      "registryAddress": "一心二路/林森三路",
+      "addresses": [
+        "一心二路162號"
+      ],
+      "source": "https://market.591.com.tw/5884195/overview",
+      "note": "崑庭敦峰",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "234",
+      "name": "亞灣好好",
+      "district": "前鎮區",
+      "developer": "東北開發",
+      "registryAddress": "鎮海路",
+      "addresses": [
+        "鎮海路126號"
+      ],
+      "source": "https://market.591.com.tw/5935378",
+      "note": "亞灣好好",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "239",
+      "name": "殷雄",
+      "district": "前鎮區",
+      "developer": "本業",
+      "registryAddress": "修成街",
+      "addresses": [
+        "修成街32號"
+      ],
+      "source": "https://newhouse.591.com.tw/116666",
+      "note": "殷雄",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "240",
+      "name": "海洋帝寶",
+      "district": "前鎮區",
+      "developer": "百立",
+      "registryAddress": "修成街",
+      "addresses": [
+        "修成街39號"
+      ],
+      "source": "https://oceanpalace.pearly.com.tw/",
+      "note": "百立海洋帝寶官網個案地址39號；不採未交叉核對35號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "242",
+      "name": "THE ONE",
+      "district": "前鎮區",
+      "developer": "遠雄",
+      "registryAddress": "中華/新光路",
+      "addresses": [
+        "新光路39號"
+      ],
+      "source": "https://newhouse.591.com.tw/112318?itm_content=base_info&tab=dynamic",
+      "note": "遠雄THE ONE",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "243",
+      "name": "禾豐",
+      "district": "前鎮區",
+      "developer": "永信",
+      "registryAddress": "凱旺街",
+      "addresses": [
+        "凱旺街2號"
+      ],
+      "source": "https://market.591.com.tw/5907953/overview",
+      "note": "永信禾豐",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "244",
+      "name": "嶼BAY HAUS",
+      "district": "前鎮區",
+      "developer": "麗晶",
+      "registryAddress": "翠亨北路/草衙一路",
+      "addresses": [
+        "翠亨北路169號"
+      ],
+      "source": "https://newhouse.591.com.tw/135521/detail",
+      "note": "麗晶嶼BAY HAUS",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "249",
+      "name": "齊邦居Life",
+      "district": "前鎮區",
+      "developer": "齊邦",
+      "registryAddress": "衙泰街",
+      "addresses": [
+        "衙泰街51號"
+      ],
+      "source": "https://buy.housefun.com.tw/buy/building/93978",
+      "note": "齊邦居Life，5層華廈",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "251",
+      "name": "晴天亞灣",
+      "district": "前鎮區",
+      "developer": "晴天",
+      "registryAddress": "千富街",
+      "addresses": [
+        "千富街268巷6號"
+      ],
+      "source": "https://newhouse.591.com.tw/139833/detail",
+      "note": "晴天亞灣，原市場只含住宅大樓，不採不同巷接待地址",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "252",
+      "name": "旭嵩豐",
+      "district": "前鎮區",
+      "developer": "嵩豐",
+      "registryAddress": "南寧街、景德路、景德路72巷",
+      "addresses": [
+        "南寧街99號"
+      ],
+      "source": "https://newhouse.591.com.tw/141872/detail",
+      "note": "旭嵩豐",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "262",
+      "name": "博萃",
+      "district": "小港區",
+      "developer": "永信",
+      "registryAddress": "華山路/華文街/建成街 興聯誠 112/02",
+      "addresses": [
+        "華山路40號"
+      ],
+      "source": "https://market.591.com.tw/5925773/overview",
+      "note": "永信博萃",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "269",
+      "name": "藏・幸福",
+      "district": "小港區",
+      "developer": "金圓",
+      "registryAddress": "高坪五十二街",
+      "addresses": [
+        "高坪五十二街93號"
+      ],
+      "source": "https://market.591.com.tw/6013493/overview",
+      "note": "金圓藏幸福電梯公寓；同名透天105號需分開，不混入",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "270",
+      "name": "Power City",
+      "district": "小港區",
+      "developer": "華友聯",
+      "registryAddress": "高松路",
+      "addresses": [
+        "高松路19號"
+      ],
+      "source": "https://newhouse.591.com.tw/131936",
+      "note": "華友聯Power City，來源指向19號建案",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "271",
+      "name": "鑫居",
+      "district": "小港區",
+      "developer": "常勝鑫",
+      "registryAddress": "茂林街7巷",
+      "addresses": [
+        "茂林街8號之10",
+        "茂林街8-10號",
+        "茂林街8之11號"
+      ],
+      "source": "https://market.591.com.tw/5936065",
+      "note": "常勝鑫鑫居社區附號；8-10為附號寫法不展開成區間；保留明列字串",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing",
+      "supportingSources": [
+        "https://www.leju.com.tw/community/Leec1444084bcca",
+        "https://community.rakuya.com.tw/99021"
+      ]
+    },
+    {
+      "projectId": "274",
+      "name": "築和居8",
+      "district": "小港區",
+      "developer": "順鴻",
+      "registryAddress": "高坪七十六街",
+      "addresses": [
+        "高坪七十六街15號"
+      ],
+      "source": "https://newhouse.591.com.tw/140361",
+      "note": "順鴻築和居8",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "275",
+      "name": "寶蒔捷",
+      "district": "小港區",
+      "developer": "寶立",
+      "registryAddress": "民益路77巷27弄",
+      "addresses": [
+        "民益路77巷27弄7號"
+      ],
+      "source": "https://newhouse.591.com.tw/139505/detail",
+      "note": "寶立寶蒔捷",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "277",
+      "name": "和築親親",
+      "district": "小港區",
+      "developer": "和築",
+      "registryAddress": "宏平路近樂利路",
+      "addresses": [
+        "宏平路433號"
+      ],
+      "source": "https://newhouse.591.com.tw/132925/detail",
+      "note": "和築親親",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "278",
+      "name": "晨均渼山",
+      "district": "小港區",
+      "developer": "晨均",
+      "registryAddress": "高坪八路",
+      "addresses": [
+        "高坪八路32號"
+      ],
+      "source": "https://newhouse.591.com.tw/137385/detail",
+      "note": "晨均渼山",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "279",
+      "name": "麗晶青澤",
+      "district": "小港區",
+      "developer": "麗晶",
+      "registryAddress": "店北路．明芳街",
+      "addresses": [
+        "明芳街17號"
+      ],
+      "source": "https://lihjing.com.tw/project/cj/",
+      "note": "麗晶青澤官網明列基地，新成屋狀態以官網為準",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "284",
+      "name": "逸丰景",
+      "district": "鳳山區",
+      "developer": "頂記",
+      "registryAddress": "保華一路",
+      "addresses": [
+        "保華一路277號"
+      ],
+      "source": "https://newhouse.591.com.tw/136651",
+      "note": "頂記逸丰景，287號接待不當成基地",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "286",
+      "name": "麗晶森學",
+      "district": "鳳山區",
+      "developer": "力翰(麗晶)",
+      "registryAddress": "瑞順街",
+      "addresses": [
+        "瑞順街126號"
+      ],
+      "source": "https://lihjing.com.tw/project/ss/",
+      "note": "麗晶森學官網",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "290",
+      "name": "晴森",
+      "district": "鳳山區",
+      "developer": "樺陽碩",
+      "registryAddress": "中和街",
+      "addresses": [
+        "中興街2號"
+      ],
+      "source": "https://newhouse.591.com.tw/135654",
+      "note": "樺陽碩晴森中興街2號，原名單中和街誤植",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing",
+      "supportingSources": [
+        "https://www.leju.com.tw/community/L0ad125713541c7"
+      ]
+    },
+    {
+      "projectId": "291",
+      "name": "R5新世代(地上權)",
+      "district": "鳳山區",
+      "developer": "永信",
+      "registryAddress": "福誠五街",
+      "addresses": [
+        "福誠五街107號"
+      ],
+      "source": "https://www.rtube.com.tw/communities/CB1753950678377182",
+      "note": "R5新世代地上權，不納入排除地上權的一般市場",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "292",
+      "name": "繪上城",
+      "district": "鳳山區",
+      "developer": "永信",
+      "registryAddress": "鳳南一路/和成路",
+      "addresses": [
+        "和成路366號"
+      ],
+      "source": "https://newhouse.591.com.tw/134374/detail",
+      "note": "吉松繪上城",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "293",
+      "name": "繪上品",
+      "district": "鳳山區",
+      "developer": "永信",
+      "registryAddress": "和成路",
+      "addresses": [
+        "和成路381號"
+      ],
+      "source": "https://newhouse.591.com.tw/135940/detail",
+      "note": "永信繪上品",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "294",
+      "name": "微笑城堡",
+      "district": "鳳山區",
+      "developer": "南統",
+      "registryAddress": "經武路",
+      "addresses": [
+        "經武路143號"
+      ],
+      "source": "https://w9.8dm.tw/",
+      "note": "微笑城堡建案官方網站",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "296",
+      "name": "香榭艾儷",
+      "district": "鳳山區",
+      "developer": "新創意",
+      "registryAddress": "南福街",
+      "addresses": [
+        "南福街18號"
+      ],
+      "source": "https://newhouse.591.com.tw/138178/detail",
+      "note": "香榭艾儷",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "297",
+      "name": "風光on line",
+      "district": "鳳山區",
+      "developer": "太普",
+      "registryAddress": "中山東路400巷",
+      "addresses": [
+        "中山東路400巷30弄75號"
+      ],
+      "source": "https://market.591.com.tw/6016512/overview",
+      "note": "太普風光On Line",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "300",
+      "name": "悅讀悅禾",
+      "district": "鳳山區",
+      "developer": "泰郡",
+      "registryAddress": "保安二街",
+      "addresses": [
+        "保安二街60號"
+      ],
+      "source": "https://newhouse.591.com.tw/131133",
+      "note": "泰郡悅讀悅禾",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "302",
+      "name": "保泰一品",
+      "district": "鳳山區",
+      "developer": "晟揚",
+      "registryAddress": "保泰路、南華路口",
+      "addresses": [
+        "南華路199號"
+      ],
+      "source": "https://market.591.com.tw/5936026",
+      "note": "晟揚保泰一品",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "306",
+      "name": "愛上鈺璽",
+      "district": "鳳山區",
+      "developer": "泰緯",
+      "registryAddress": "公園三街",
+      "addresses": [
+        "公園三街6號"
+      ],
+      "source": "https://newhouse.591.com.tw/137359/detail",
+      "note": "泰緯愛上鈺璽，接待南三街6號不錄",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "307",
+      "name": "唯森",
+      "district": "鳳山區",
+      "developer": "豐溙",
+      "registryAddress": "紅毛港路 x 鳳和二街",
+      "addresses": [
+        "紅毛港路415號"
+      ],
+      "source": "https://newhouse.591.com.tw/136950",
+      "note": "豐溙唯森",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "328",
+      "name": "山湖觀",
+      "district": "鳥松區",
+      "developer": "慶旺",
+      "registryAddress": "龍華北街",
+      "addresses": [
+        "大昌路51號",
+        "大昌路53號"
+      ],
+      "source": "https://market.591.com.tw/5935128/overview",
+      "note": "慶旺山湖觀；名單龍華北街為基地描述，建商案名相符",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "331",
+      "name": "頤湖苑",
+      "district": "鳥松區",
+      "developer": "本業",
+      "registryAddress": "公園路",
+      "addresses": [
+        "公園路1號"
+      ],
+      "source": "https://newhouse.591.com.tw/122518/detail",
+      "note": "頤湖苑",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "333",
+      "name": "寶象住圓山",
+      "district": "鳥松區",
+      "developer": "寶象(國城)",
+      "registryAddress": "球場路",
+      "addresses": [
+        "球場路129號",
+        "球場路139號"
+      ],
+      "source": "https://market.591.com.tw/3668367/overview",
+      "note": "寶象住圓山，明示範圍兩端不展開",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "334",
+      "name": "圓山.向晴",
+      "district": "鳥松區",
+      "developer": "圓禾",
+      "registryAddress": "圓山路",
+      "addresses": [
+        "球場路160號"
+      ],
+      "source": "https://newhouse.591.com.tw/137445/detail",
+      "note": "圓禾圓山向晴",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "344",
+      "name": "明日學",
+      "district": "仁武區",
+      "developer": "茂騰",
+      "registryAddress": "仁孝路407巷",
+      "addresses": [
+        "仁孝路407巷50號"
+      ],
+      "source": "https://newhouse.591.com.tw/125516/detail",
+      "note": "茂騰明日學",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "346",
+      "name": "遠見蒔美",
+      "district": "仁武區",
+      "developer": "日宇",
+      "registryAddress": "京吉二路",
+      "addresses": [
+        "京吉二路178號"
+      ],
+      "source": "https://newhouse.591.com.tw/137009/detail",
+      "note": "日宇遠見蒔美",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "347",
+      "name": "華雄天地",
+      "district": "仁武區",
+      "developer": "華雄",
+      "registryAddress": "赤誠街底",
+      "addresses": [
+        "赤德街110號",
+        "赤德街138號"
+      ],
+      "source": "https://newhouse.591.com.tw/120695/detail",
+      "note": "華雄天地明列範圍兩端，不自動展開",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "349",
+      "name": "高鐵新特區",
+      "district": "仁武區",
+      "developer": "冠傑",
+      "registryAddress": "霞海東二街",
+      "addresses": [
+        "霞海東二街73號"
+      ],
+      "source": "https://newhouse.591.com.tw/133225/detail",
+      "note": "冠傑高鐵新特區",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "351",
+      "name": "遠見沐景",
+      "district": "仁武區",
+      "developer": "全泉",
+      "registryAddress": "京吉五路",
+      "addresses": [
+        "澄德路67號"
+      ],
+      "source": "https://market.591.com.tw/6014910",
+      "note": "全泉遠見沐景，來源社區門牌而非只用接待推定",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "354",
+      "name": "鑫世紀",
+      "district": "仁武區",
+      "developer": "樹藤(龍騰)",
+      "registryAddress": "京富路",
+      "addresses": [
+        "京富路32號"
+      ],
+      "source": "https://newhouse.591.com.tw/133679/dynamic",
+      "note": "鑫世紀2026完工",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "372",
+      "name": "水岸花園",
+      "district": "橋頭區",
+      "developer": "維崗(雄崗)",
+      "registryAddress": "新東一街",
+      "addresses": [
+        "新東一街151號",
+        "新東一街173號"
+      ],
+      "source": "https://www.sinyi.com.tw/communitylist/communityinfo/0026982",
+      "note": "維崗水岸花園；屋齡超過5年，不作新成屋成交",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "375",
+      "name": "禾馨",
+      "district": "橋頭區",
+      "developer": "宇舜",
+      "registryAddress": "芋寮路",
+      "addresses": [
+        "芋寮路20號"
+      ],
+      "source": "https://newhouse.591.com.tw/140263/detail",
+      "note": "宇舜禾馨",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing"
+    },
+    {
+      "projectId": "378",
+      "name": "森花園",
+      "district": "橋頭區",
+      "developer": "鼎宇",
+      "registryAddress": "經武路",
+      "addresses": [
+        "經武路1000號",
+        "經武路1008號",
+        "經武路1010號",
+        "經武路1016號",
+        "經武路1030號",
+        "經武路1032號",
+        "經武路1036號",
+        "經武路1038號"
+      ],
+      "source": "https://market.591.com.tw/6536849/price?trans_type=1",
+      "note": "鼎宇森花園具名社區逐筆頁明列8門牌，其他門牌尚不由路段推估",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "project_listing",
+      "supportingSources": [
+        "https://evertrust.yungching.com.tw/regionall/高雄市/橋頭區?d=48&t=9"
+      ]
+    },
+    {
+      "projectId": "379",
+      "name": "悅讀時代",
+      "district": "橋頭區",
+      "developer": "泰郡",
+      "registryAddress": "新南一街/新南二街/新南三街",
+      "addresses": [
+        "新南一街191號",
+        "新南一街231號",
+        "新南一街169號",
+        "新南一街147號",
+        "新南一街155號",
+        "新南一街149號",
+        "新南一街237號",
+        "新南一街177號"
+      ],
+      "source": "https://rent.591.com.tw/22181028",
+      "note": "泰郡九夆悅讀時代，社區逐筆與刊登明列門牌；不把同一路段其他戶推認同案",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source",
+      "supportingSources": [
+        "https://market.591.com.tw/5904470/price?guide=1",
+        "https://market.591.com.tw/5904470/price?room=2"
+      ]
+    },
+    {
+      "projectId": "5",
+      "name": "交響曲",
+      "district": "楠梓區",
+      "developer": "華雄",
+      "registryAddress": "援中路",
+      "addresses": [
+        "援中路610號"
+      ],
+      "source": "https://rent.591.com.tw/market/realprice?community_id=5935418&region_id=17&section_id=251&title=華雄交響曲",
+      "note": "華雄交響曲社區租賃實登明列610號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "26",
+      "name": "鳳凰萃",
+      "district": "楠梓區",
+      "developer": "隆大",
+      "registryAddress": "大學二十六街",
+      "addresses": [
+        "大學二十六街399號"
+      ],
+      "source": "https://www.leju.com.tw/community/Lb4d13139414302",
+      "note": "隆大鳳凰萃，社區頁明列399號，不用援中398接待中心",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "66",
+      "name": "綠翡翠",
+      "district": "左營區",
+      "developer": "京城",
+      "registryAddress": "博愛/德威街",
+      "addresses": [
+        "博愛二路280號",
+        "博愛二路282號"
+      ],
+      "source": "https://evertrust.yungching.com.tw/mrtall/高雄捷運紅線/巨蛋站?a=3&c=&d=48",
+      "note": "京城綠翡翠，社區成交具名門牌，屋齡已逾5年",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "73",
+      "name": "NEXT21",
+      "district": "左營區",
+      "developer": "華友聯",
+      "registryAddress": "啟文路",
+      "addresses": [
+        "啟文路5號",
+        "啟文路7號",
+        "勵志中街28號"
+      ],
+      "source": "https://kaohsiung.housetube.tw/41815/realprice",
+      "note": "華友聯NEXT21，7號另有實登社區地址，不只依接待中心；5號28號另有ToEstate成交",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "76",
+      "name": "棋琴26重奏",
+      "district": "左營區",
+      "developer": "棋琴(崑庭)",
+      "registryAddress": "文川路",
+      "addresses": [
+        "文川路477號"
+      ],
+      "source": "https://www.leju.com.tw/community/L4c6118933c67f0",
+      "note": "棋琴26重奏",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "104",
+      "name": "H&H",
+      "district": "鼓山區",
+      "developer": "宏舜",
+      "registryAddress": "中華/東五/西南角",
+      "addresses": [
+        "中華一路866號"
+      ],
+      "source": "https://market.591.com.tw/33554/overview",
+      "note": "宏舜高雄HH，名單H&H縮寫，屋齡逾5年",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "106",
+      "name": "京城天贊",
+      "district": "鼓山區",
+      "developer": "京城",
+      "registryAddress": "南屏/神農",
+      "addresses": [
+        "神農路87號",
+        "神農路89號"
+      ],
+      "source": "https://market.591.com.tw/100536/price?community_id=100536",
+      "note": "京城天贊，87號逐筆成交、89號基地刊登，各有來源",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "108",
+      "name": "御之苑",
+      "district": "鼓山區",
+      "developer": "皇苑",
+      "registryAddress": "馬卡/龍水二/龍水一",
+      "addresses": [
+        "馬卡道路66號",
+        "馬卡道路79號"
+      ],
+      "source": "https://k7.com.tw/communities/huangyuan-yuzhiyuan.html",
+      "note": "皇苑御之苑，僅來源區間兩端不自動展開",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "140",
+      "name": "綠廳院",
+      "district": "三民區",
+      "developer": "城揚",
+      "registryAddress": "水源東路",
+      "addresses": [
+        "澄清路227號"
+      ],
+      "source": "https://market.591.com.tw/5937026/overview",
+      "note": "城揚綠廳院",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "141",
+      "name": "聯茂知裏",
+      "district": "三民區",
+      "developer": "聯茂",
+      "registryAddress": "重慶街&敦化街",
+      "addresses": [
+        "敦化街3號",
+        "敦化街5號",
+        "敦化街7號"
+      ],
+      "source": "https://market.591.com.tw/6014453/price",
+      "note": "聯茂知裏，逐筆頁明列3、5、7號，不用接待1號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "182",
+      "name": "美麗馥品",
+      "district": "新興區",
+      "developer": "禹順",
+      "registryAddress": "中山橫路",
+      "addresses": [
+        "中山橫路25號"
+      ],
+      "source": "https://newhouse.591.com.tw/137332/detail",
+      "note": "禹順美麗馥品基地25號，社區頁交叉相符",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "196",
+      "name": "聯上鉑麗",
+      "district": "苓雅區",
+      "developer": "聯上",
+      "registryAddress": "中華四路近青年二路",
+      "addresses": [
+        "中華四路183號"
+      ],
+      "source": "https://market.591.com.tw/3675016/price?guide=1&trans_type=1",
+      "note": "聯上鉑麗逐筆成交門牌",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "221",
+      "name": "尊邑璞臻",
+      "district": "前金區",
+      "developer": "尊邑",
+      "registryAddress": "光復三街/自強二路87巷",
+      "addresses": [
+        "光復三街66號"
+      ],
+      "source": "https://market.591.com.tw/5912721/price?guide=1",
+      "note": "尊邑璞臻逐筆成交門牌",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "236",
+      "name": "瑞隆松下",
+      "district": "前鎮區",
+      "developer": "安嘉",
+      "registryAddress": "瑞隆路",
+      "addresses": [
+        "瑞隆路591號"
+      ],
+      "source": "https://toestate.tw/community/595120",
+      "note": "安嘉瑞隆松下，591號社區與兩筆獨立出租完整門牌一致",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source",
+      "supportingSources": [
+        "https://rent.591.com.tw/22119972",
+        "https://rent.591.com.tw/21939533"
+      ]
+    },
+    {
+      "projectId": "238",
+      "name": "定潮",
+      "district": "前鎮區",
+      "developer": "國城",
+      "registryAddress": "中華/復興/建盛",
+      "addresses": [
+        "中華五路790號"
+      ],
+      "source": "https://evertrust.yungching.com.tw/mrtall/高雄捷運紅線/獅甲站/1?a=2&d=60&l=1&s=1&t=1",
+      "note": "國城定潮具名成交790號，不用798號接待中心",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "268",
+      "name": "百達宏邸",
+      "district": "小港區",
+      "developer": "友友",
+      "registryAddress": "宏平路x崇愛街",
+      "addresses": [
+        "宏平路666號",
+        "宏平路668號"
+      ],
+      "source": "https://market.591.com.tw/6005599/price",
+      "note": "友友百達宏邸，逐筆明列666與668號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "272",
+      "name": "森林公園",
+      "district": "小港區",
+      "developer": "利頂",
+      "registryAddress": "松南街x山田路132巷x松興路25巷",
+      "addresses": [
+        "山田路132巷20號"
+      ],
+      "source": "https://www.leju.com.tw/community/L7c6146941b308e",
+      "note": "利頂森林公園，5層公寓；不與同名公園混淆",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "273",
+      "name": "國家公園",
+      "district": "小港區",
+      "developer": "清景麟",
+      "registryAddress": "松園六路",
+      "addresses": [
+        "松園六路75號",
+        "松園六路111號",
+        "松園六路121號",
+        "松園六路123號"
+      ],
+      "source": "https://market.591.com.tw/5921521/price?trans_type=1",
+      "note": "清景麟國家公園，逐筆75、111、121，123號由建案資料另核對",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "295",
+      "name": "水律",
+      "district": "鳳山區",
+      "developer": "永信",
+      "registryAddress": "鳳東六街、環河街口",
+      "addresses": [
+        "環河街30號"
+      ],
+      "source": "https://newhouse.591.com.tw/137413",
+      "note": "永信水律，僅採明列環河街，不採另頁環河路28號疑似誤植",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "299",
+      "name": "大禾敦品",
+      "district": "鳳山區",
+      "developer": "禾聯發",
+      "registryAddress": "鳳捷路/鳳東三街",
+      "addresses": [
+        "鳳東三街42號"
+      ],
+      "source": "https://toestate.tw/community/598305",
+      "note": "禾聯發大禾敦品，鳳東三街42號由具名社區逐筆頁交叉確認",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source",
+      "supportingSources": [
+        "https://market.591.com.tw/5905171/price"
+      ]
+    },
+    {
+      "projectId": "304",
+      "name": "築玥",
+      "district": "鳳山區",
+      "developer": "金築",
+      "registryAddress": "北文街",
+      "addresses": [
+        "北文街20號",
+        "北文街22之1號"
+      ],
+      "source": "https://community.yungching.com.tw/building/98204/price",
+      "note": "金築築玥，逐筆完整門牌；不靠地號推門牌",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "305",
+      "name": "日日豐VISION88",
+      "district": "鳳山區",
+      "developer": "豐嶸",
+      "registryAddress": "頂新一街",
+      "addresses": [
+        "頂新一街105號"
+      ],
+      "source": "https://market.591.com.tw/5925158/price?guide=1",
+      "note": "豐嶸日日豐VISION88",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "313",
+      "name": "東京都",
+      "district": "鳳山區",
+      "developer": "藏美",
+      "registryAddress": "勝愛街/勝中路",
+      "addresses": [
+        "勝愛街135號",
+        "勝愛街137號",
+        "勝愛街145號"
+      ],
+      "source": "https://market.591.com.tw/5888586/price",
+      "note": "藏美東京都，逐筆明示門牌，期別未擴張",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "329",
+      "name": "澄淞",
+      "district": "鳥松區",
+      "developer": "欽勤",
+      "registryAddress": "澄新一街58巷",
+      "addresses": [
+        "澄新一街58巷3弄1號"
+      ],
+      "source": "https://zhaihouse.com/communities/高雄市/澄淞",
+      "note": "欽勤澄淞，來源地址和建商社區記錄相互一致",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "341",
+      "name": "大橘得悅",
+      "district": "仁武區",
+      "developer": "橘系列(祥傑)",
+      "registryAddress": "仁勇路",
+      "addresses": [
+        "仁勇路518號"
+      ],
+      "source": "https://www.leju.com.tw/community/L74e12521445da2",
+      "note": "橘系列大橘得悅，518號社區地址與591來源相符；不取520接待",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "343",
+      "name": "光之匯",
+      "district": "仁武區",
+      "developer": "光盛(光洲)",
+      "registryAddress": "北屋南街",
+      "addresses": [
+        "北屋南街202號",
+        "北屋南街218號"
+      ],
+      "source": "https://newhouse.591.com.tw/132471/detail",
+      "note": "光盛光之匯，僅明示基地區間兩端，不採京學街25號接待",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "350",
+      "name": "多城市II",
+      "district": "仁武區",
+      "developer": "多城",
+      "registryAddress": "八德西路 x 北屋北街",
+      "addresses": [
+        "北屋北街57號"
+      ],
+      "source": "https://market.591.com.tw/5917310/price?guide=1&id=5952314",
+      "note": "多城市Ⅱ，社區逐筆明列北屋北街57號，台慶另佐證",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "353",
+      "name": "首席大院",
+      "district": "仁武區",
+      "developer": "三發",
+      "registryAddress": "京吉二路/京吉五路/京吉三路",
+      "addresses": [
+        "京吉三路21號"
+      ],
+      "source": "https://community.yungching.com.tw/building/74728/price",
+      "note": "三發首席大院，具名成交，拒用誤寫京吉六路21號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "371",
+      "name": "邑信城邑",
+      "district": "橋頭區",
+      "developer": "邑信",
+      "registryAddress": "甲昌路通山巷",
+      "addresses": [
+        "甲昌路通山巷46號",
+        "甲昌路復興巷18號"
+      ],
+      "source": "https://market.591.com.tw/5951157/price?trans_type=1",
+      "note": "邑信城邑，兩個巷口門牌都在逐筆成交頁明列",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "373",
+      "name": "鳳凰Villa",
+      "district": "橋頭區",
+      "developer": "隆大",
+      "registryAddress": "甲樹路",
+      "addresses": [
+        "甲樹路1205號",
+        "甲樹路1207號",
+        "甲樹路1209號"
+      ],
+      "source": "https://market.591.com.tw/5921506/price?trans_type=1",
+      "note": "隆大鳳凰Villa，逐筆明列1205、1207、1209；10層屬華廈，原市場未涵蓋",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "176",
+      "name": "美麗島",
+      "district": "新興區",
+      "developer": "仰德",
+      "registryAddress": "興華路VS森林一路203巷",
+      "addresses": [
+        "興華路56號"
+      ],
+      "source": "https://market.591.com.tw/5933694/overview",
+      "note": "仰德美麗島，正德建設；基地完整門牌56號",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "237",
+      "name": "Crystal(晶閣)",
+      "district": "前鎮區",
+      "developer": "名發",
+      "registryAddress": "一心路/南天",
+      "addresses": [
+        "一心二路228號"
+      ],
+      "source": "https://newhouse.591.com.tw/117744/detail",
+      "note": "名發晶閣，名單Crystal晶閣；屋齡超過5年只一般社區",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "247",
+      "name": "新世界",
+      "district": "前鎮區",
+      "developer": "京城",
+      "registryAddress": "一心二路/文橫三路/林森三路83巷",
+      "addresses": [
+        "一心二路169號"
+      ],
+      "source": "https://market.591.com.tw/102385",
+      "note": "京城新世界，採社區明列169號，不只採177接待",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "381",
+      "name": "棠宇實中首席",
+      "district": "橋頭區",
+      "developer": "棠宇",
+      "registryAddress": "自售",
+      "addresses": [
+        "新南一街107號"
+      ],
+      "source": "https://newhouse.591.com.tw/122914/detail",
+      "note": "修正原名單案名混入路口文字；原始欄位另存更正紀錄",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "reviewed_external_source"
+    },
+    {
+      "projectId": "107",
+      "name": "雄崗信義美術館",
+      "district": "鼓山區",
+      "addresses": [
+        "富農路328號"
+      ],
+      "source": "https://market.591.com.tw/51921/overview",
+      "note": "原欄位裕誠路／自售，建商欄藏有完整案名；更正紀錄保存原值",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "303",
+      "name": "城揚大家",
+      "district": "鳳山區",
+      "addresses": [
+        "福誠三街31號",
+        "福誠五街73號"
+      ],
+      "source": "https://market.591.com.tw/5888943",
+      "note": "另https://newhouse.591.com.tw/131215/detail；北京建設與廣誠銷售交叉確認原混排欄位",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "24",
+      "name": "琢萃",
+      "district": "楠梓區",
+      "addresses": [
+        "高雄大學路500號",
+        "高雄大學路502號",
+        "高雄大學路506號",
+        "高雄大學路508號",
+        "高雄大學路512號",
+        "高雄大學路518號",
+        "高雄大學路520號",
+        "高雄大學路522號",
+        "高雄大學路526號",
+        "高雄大學路528號"
+      ],
+      "source": "https://market.591.com.tw/6525116/price?trans_type=1",
+      "note": "具名逐筆地址，500與506均為本案，不以基地地址取代其他入口",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "220",
+      "name": "京城凱悅",
+      "district": "前金區",
+      "addresses": [
+        "民生二路200號"
+      ],
+      "source": "https://market.591.com.tw/38817/overview",
+      "note": "社區門牌確認；屋齡16年，排除5年內新成屋統計",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "345",
+      "name": "澄光",
+      "district": "仁武區",
+      "addresses": [
+        "赤德街50號"
+      ],
+      "source": "https://market.591.com.tw/5950840/price?trans_type=1",
+      "note": "原始50號屬澄光；不展開50-62區間",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    },
+    {
+      "projectId": "352",
+      "name": "澄境",
+      "district": "仁武區",
+      "addresses": [
+        "赤德街82號",
+        "赤德街86號",
+        "赤德街88號",
+        "赤德街90號",
+        "赤德街92號",
+        "赤德街96號",
+        "赤德街98號",
+        "赤德街100號",
+        "赤德街106號"
+      ],
+      "source": "https://market.591.com.tw/6525173/price?trans_type=1",
+      "note": "原始50號誤植，具名社區逐筆確認82等9門牌；不展開區間",
+      "reviewedOn": "2026-10-18",
+      "evidenceKind": "community_listing"
+    }
+  ]
+}

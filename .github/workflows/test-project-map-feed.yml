@@ -36,7 +36,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Test official project evidence retention
-        run: python -m unittest discover -s tests -p 'test_official_project_evidence.py' -v
+        run: python -m unittest discover -s tests -p 'test_official*.py' -v
       - name: Test recurring automatic presale matching
         run: |
           python -m unittest discover -s tests -p 'test_build_presale_project_feed.py' -v
