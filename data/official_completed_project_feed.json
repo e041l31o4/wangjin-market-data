@@ -3,10 +3,10 @@
   "feedKind": "public_official_completed",
   "year": 2026,
   "source": "https://plvr.land.moi.gov.tw/DownloadOpenData",
-  "sourceDataUpdatedAt": "2026-10-19",
+  "sourceDataUpdatedAt": "2026-10-22",
   "totalProjects": 386,
-  "matchedPriceProjects": 76,
-  "includedTransactionCount": 413,
+  "matchedPriceProjects": 78,
+  "includedTransactionCount": 435,
   "importantNotes": [
     "只含今年成交。成交時屋齡限5年內。僅限已核對門牌且具官方追溯的樣本。",
     "社區歸屬不等於建商首售，也不代表全案所有門牌或全部成交。",
@@ -574,9 +574,9 @@
       "addressEvidenceSources": [
         "community_listing：https://market.591.com.tw/6013455/price?guide=1；核對記錄analysis/completed-home-evidence-round3.json；2026-10-18；僅此門牌；未認定建商首售"
       ],
-      "sourceRecordCount": 39,
+      "sourceRecordCount": 42,
       "excludedRecordCount": 0,
-      "officialIdentityCount": 39,
+      "officialIdentityCount": 42,
       "officialLocations": [
         "高雄市楠梓區監理南街１號三樓",
         "高雄市楠梓區監理南街１號二十三樓",
@@ -593,6 +593,7 @@
         "高雄市楠梓區監理南街１３號二十三樓",
         "高雄市楠梓區監理南街１３號二十四樓",
         "高雄市楠梓區監理南街１３號十二樓",
+        "高雄市楠梓區監理南街１３號十五樓",
         "高雄市楠梓區監理南街１３號十八樓",
         "高雄市楠梓區監理南街１３號十六樓",
         "高雄市楠梓區監理南街１５號三樓",
@@ -606,6 +607,7 @@
         "高雄市楠梓區監理南街１５號十六樓",
         "高雄市楠梓區監理南街１５號十四樓",
         "高雄市楠梓區監理南街１７號二十三樓",
+        "高雄市楠梓區監理南街１７號二十樓",
         "高雄市楠梓區監理南街１７號十三樓",
         "高雄市楠梓區監理南街３號二十六樓",
         "高雄市楠梓區監理南街３號十九樓",
@@ -613,6 +615,7 @@
         "高雄市楠梓區監理南街５號十四樓",
         "高雄市楠梓區監理南街７號二樓",
         "高雄市楠梓區監理南街７號十一樓",
+        "高雄市楠梓區監理南街７號十七樓",
         "高雄市楠梓區監理南街７號十三樓",
         "高雄市楠梓區監理南街７號十二樓",
         "高雄市楠梓區監理南街９號二十六樓",
@@ -622,10 +625,10 @@
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": 39,
+      "transactionCount": 42,
       "latestTransactionDate": "2026-08-08",
       "latestUnitPriceWanPing": 42.32,
-      "averageUnitPriceWanPing": 39.61,
+      "averageUnitPriceWanPing": 39.5,
       "minUnitPriceWanPing": 32.05,
       "maxUnitPriceWanPing": 49.0,
       "latestDayMinUnitPriceWanPing": 42.32,
@@ -868,9 +871,9 @@
       "addressEvidenceSources": [
         "community_listing：https://market.591.com.tw/6525116/price?trans_type=1；2026-10-18逐案人工核對指定門牌；僅社區身分，非建商首售"
       ],
-      "sourceRecordCount": 13,
+      "sourceRecordCount": 14,
       "excludedRecordCount": 0,
-      "officialIdentityCount": 13,
+      "officialIdentityCount": 14,
       "officialLocations": [
         "高雄市楠梓區高雄大學路５００號五樓",
         "高雄市楠梓區高雄大學路５００號八樓",
@@ -878,6 +881,7 @@
         "高雄市楠梓區高雄大學路５０２號三樓",
         "高雄市楠梓區高雄大學路５０２號五樓",
         "高雄市楠梓區高雄大學路５０６號七樓",
+        "高雄市楠梓區高雄大學路５０６號六樓",
         "高雄市楠梓區高雄大學路５０６號十二樓",
         "高雄市楠梓區高雄大學路５０６號十五樓",
         "高雄市楠梓區高雄大學路５０８號十二樓",
@@ -890,14 +894,14 @@
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": 13,
-      "latestTransactionDate": "2026-07-21",
-      "latestUnitPriceWanPing": 34.65,
-      "averageUnitPriceWanPing": 35.59,
+      "transactionCount": 14,
+      "latestTransactionDate": "2026-08-09",
+      "latestUnitPriceWanPing": 35.37,
+      "averageUnitPriceWanPing": 35.58,
       "minUnitPriceWanPing": 34.65,
       "maxUnitPriceWanPing": 37.6,
-      "latestDayMinUnitPriceWanPing": 34.65,
-      "latestDayMaxUnitPriceWanPing": 34.65
+      "latestDayMinUnitPriceWanPing": 35.37,
+      "latestDayMaxUnitPriceWanPing": 35.37
     },
     {
       "projectId": "25",
@@ -1068,10 +1072,11 @@
       "addressEvidenceSources": [
         "broker_community_listing：https://community.yungching.com.tw/building/98280/price；核對記錄analysis/completed-home-evidence-round3.json；2026-10-18；僅此門牌；未認定建商首售"
       ],
-      "sourceRecordCount": 3,
+      "sourceRecordCount": 4,
       "excludedRecordCount": 0,
-      "officialIdentityCount": 3,
+      "officialIdentityCount": 4,
       "officialLocations": [
+        "高雄市楠梓區芎林二街３０號三樓",
         "高雄市楠梓區芎林二街３０號九樓",
         "高雄市楠梓區芎林二街３０號五樓",
         "高雄市楠梓區芎林二街３０號十一樓"
@@ -1080,14 +1085,14 @@
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": 3,
-      "latestTransactionDate": "2026-05-15",
-      "latestUnitPriceWanPing": 36.38,
-      "averageUnitPriceWanPing": 36.02,
-      "minUnitPriceWanPing": 35.29,
+      "transactionCount": 4,
+      "latestTransactionDate": "2026-07-13",
+      "latestUnitPriceWanPing": 34.58,
+      "averageUnitPriceWanPing": 35.66,
+      "minUnitPriceWanPing": 34.58,
       "maxUnitPriceWanPing": 36.38,
-      "latestDayMinUnitPriceWanPing": 36.38,
-      "latestDayMaxUnitPriceWanPing": 36.38
+      "latestDayMinUnitPriceWanPing": 34.58,
+      "latestDayMaxUnitPriceWanPing": 34.58
     },
     {
       "projectId": "30",
@@ -4645,26 +4650,27 @@
       "addressEvidenceSources": [
         "project_listing：https://newhouse.591.com.tw/136683/detail；2026-10-18逐案人工核對指定門牌；僅社區身分，非建商首售"
       ],
-      "sourceRecordCount": 3,
+      "sourceRecordCount": 4,
       "excludedRecordCount": 0,
-      "officialIdentityCount": 3,
+      "officialIdentityCount": 4,
       "officialLocations": [
         "高雄市三民區德勝街６７號七樓之２",
         "高雄市三民區德勝街６７號九樓之３",
+        "高雄市三民區德勝街６７號十樓之２",
         "高雄市三民區德勝街６９號八樓之７"
       ],
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": 3,
-      "latestTransactionDate": "2026-06-21",
-      "latestUnitPriceWanPing": 38.88,
-      "averageUnitPriceWanPing": 39.06,
+      "transactionCount": 4,
+      "latestTransactionDate": "2026-08-08",
+      "latestUnitPriceWanPing": 39.41,
+      "averageUnitPriceWanPing": 39.14,
       "minUnitPriceWanPing": 38.69,
       "maxUnitPriceWanPing": 39.6,
-      "latestDayMinUnitPriceWanPing": 38.88,
-      "latestDayMaxUnitPriceWanPing": 38.88
+      "latestDayMinUnitPriceWanPing": 39.41,
+      "latestDayMaxUnitPriceWanPing": 39.41
     },
     {
       "projectId": "139",
@@ -5879,30 +5885,34 @@
       "transactionKind": "成屋",
       "ageCategory": "5年內成屋",
       "year": 2026,
-      "priceStatus": "pending_verification",
-      "matchingRule": null,
+      "priceStatus": "community_address_matched",
+      "matchingRule": "reviewed_exact_address_recent_completed_v1",
       "verifiedAddresses": [
         "興華路56號"
       ],
       "addressEvidenceSources": [
         "reviewed_external_source：https://market.591.com.tw/5933694/overview；2026-10-18逐案人工核對指定門牌；僅社區身分，非建商首售"
       ],
-      "sourceRecordCount": 1,
+      "sourceRecordCount": 4,
       "excludedRecordCount": 1,
-      "officialIdentityCount": 0,
-      "officialLocations": [],
-      "verificationSource": null,
+      "officialIdentityCount": 3,
+      "officialLocations": [
+        "高雄市新興區興華路５６號七樓之１",
+        "高雄市新興區興華路５６號二樓之２",
+        "高雄市新興區興華路５６號十一樓之３"
+      ],
+      "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": null,
-      "latestTransactionDate": null,
-      "latestUnitPriceWanPing": null,
-      "averageUnitPriceWanPing": null,
-      "minUnitPriceWanPing": null,
-      "maxUnitPriceWanPing": null,
-      "latestDayMinUnitPriceWanPing": null,
-      "latestDayMaxUnitPriceWanPing": null
+      "transactionCount": 3,
+      "latestTransactionDate": "2026-08-12",
+      "latestUnitPriceWanPing": 38.48,
+      "averageUnitPriceWanPing": 37.16,
+      "minUnitPriceWanPing": 35.33,
+      "maxUnitPriceWanPing": 38.48,
+      "latestDayMinUnitPriceWanPing": 38.48,
+      "latestDayMaxUnitPriceWanPing": 38.48
     },
     {
       "projectId": "177",
@@ -5921,24 +5931,25 @@
       "addressEvidenceSources": [
         "project_listing：https://newhouse.591.com.tw/136216/layout；2026-10-18逐案人工核對指定門牌；僅社區身分，非建商首售"
       ],
-      "sourceRecordCount": 1,
+      "sourceRecordCount": 2,
       "excludedRecordCount": 0,
-      "officialIdentityCount": 1,
+      "officialIdentityCount": 2,
       "officialLocations": [
+        "高雄市新興區南華橫二路２５號八樓之１",
         "高雄市新興區南華橫二路２５號十二樓之１"
       ],
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": 1,
-      "latestTransactionDate": "2026-01-09",
-      "latestUnitPriceWanPing": 43.51,
-      "averageUnitPriceWanPing": 43.51,
-      "minUnitPriceWanPing": 43.51,
+      "transactionCount": 2,
+      "latestTransactionDate": "2026-09-06",
+      "latestUnitPriceWanPing": 38.35,
+      "averageUnitPriceWanPing": 40.93,
+      "minUnitPriceWanPing": 38.35,
       "maxUnitPriceWanPing": 43.51,
-      "latestDayMinUnitPriceWanPing": 43.51,
-      "latestDayMaxUnitPriceWanPing": 43.51
+      "latestDayMinUnitPriceWanPing": 38.35,
+      "latestDayMaxUnitPriceWanPing": 38.35
     },
     {
       "projectId": "178",
@@ -6593,10 +6604,11 @@
       "addressEvidenceSources": [
         "reviewed_external_source：https://market.591.com.tw/3675016/price?guide=1&trans_type=1；2026-10-18逐案人工核對指定門牌；僅社區身分，非建商首售"
       ],
-      "sourceRecordCount": 3,
+      "sourceRecordCount": 4,
       "excludedRecordCount": 0,
-      "officialIdentityCount": 3,
+      "officialIdentityCount": 4,
       "officialLocations": [
+        "高雄市苓雅區中華四路１８３號十三樓之９",
         "高雄市苓雅區中華四路１８３號十二樓之１０",
         "高雄市苓雅區中華四路１８３號十樓之８"
       ],
@@ -6604,14 +6616,14 @@
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": 3,
-      "latestTransactionDate": "2026-07-27",
-      "latestUnitPriceWanPing": 41.09,
-      "averageUnitPriceWanPing": 38.51,
+      "transactionCount": 4,
+      "latestTransactionDate": "2026-08-14",
+      "latestUnitPriceWanPing": 44.94,
+      "averageUnitPriceWanPing": 40.12,
       "minUnitPriceWanPing": 31.53,
-      "maxUnitPriceWanPing": 42.92,
-      "latestDayMinUnitPriceWanPing": 41.09,
-      "latestDayMaxUnitPriceWanPing": 41.09
+      "maxUnitPriceWanPing": 44.94,
+      "latestDayMinUnitPriceWanPing": 44.94,
+      "latestDayMaxUnitPriceWanPing": 44.94
     },
     {
       "projectId": "197",
@@ -7859,29 +7871,30 @@
       "addressEvidenceSources": [
         "reviewed_external_source：https://toestate.tw/community/595120；2026-10-18逐案人工核對指定門牌；僅社區身分，非建商首售"
       ],
-      "sourceRecordCount": 6,
+      "sourceRecordCount": 7,
       "excludedRecordCount": 0,
-      "officialIdentityCount": 6,
+      "officialIdentityCount": 7,
       "officialLocations": [
         "高雄市前鎮區瑞隆路５９１號三樓之１１",
         "高雄市前鎮區瑞隆路５９１號五樓之３",
         "高雄市前鎮區瑞隆路５９１號十二樓之６",
         "高雄市前鎮區瑞隆路５９１號十二樓之８",
         "高雄市前鎮區瑞隆路５９１號十四樓之８",
+        "高雄市前鎮區瑞隆路５９１號十樓之２",
         "高雄市前鎮區瑞隆路５９１號四樓之１３"
       ],
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": 6,
-      "latestTransactionDate": "2026-07-16",
-      "latestUnitPriceWanPing": 33.54,
-      "averageUnitPriceWanPing": 33.59,
+      "transactionCount": 7,
+      "latestTransactionDate": "2026-08-19",
+      "latestUnitPriceWanPing": 30.57,
+      "averageUnitPriceWanPing": 33.15,
       "minUnitPriceWanPing": 21.69,
       "maxUnitPriceWanPing": 38.46,
-      "latestDayMinUnitPriceWanPing": 33.54,
-      "latestDayMaxUnitPriceWanPing": 33.54
+      "latestDayMinUnitPriceWanPing": 30.57,
+      "latestDayMaxUnitPriceWanPing": 30.57
     },
     {
       "projectId": "237",
@@ -8382,30 +8395,32 @@
       "transactionKind": "成屋",
       "ageCategory": "5年內成屋",
       "year": 2026,
-      "priceStatus": "pending_verification",
-      "matchingRule": null,
+      "priceStatus": "community_address_matched",
+      "matchingRule": "reviewed_exact_address_recent_completed_v1",
       "verifiedAddresses": [
         "南寧街99號"
       ],
       "addressEvidenceSources": [
         "project_listing：https://newhouse.591.com.tw/141872/detail；2026-10-18逐案人工核對指定門牌；僅社區身分，非建商首售"
       ],
-      "sourceRecordCount": 0,
+      "sourceRecordCount": 1,
       "excludedRecordCount": 0,
-      "officialIdentityCount": 0,
-      "officialLocations": [],
-      "verificationSource": null,
+      "officialIdentityCount": 1,
+      "officialLocations": [
+        "高雄市前鎮區南寧街９９號十六樓"
+      ],
+      "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": null,
-      "latestTransactionDate": null,
-      "latestUnitPriceWanPing": null,
-      "averageUnitPriceWanPing": null,
-      "minUnitPriceWanPing": null,
-      "maxUnitPriceWanPing": null,
-      "latestDayMinUnitPriceWanPing": null,
-      "latestDayMaxUnitPriceWanPing": null
+      "transactionCount": 1,
+      "latestTransactionDate": "2026-08-07",
+      "latestUnitPriceWanPing": 44.45,
+      "averageUnitPriceWanPing": 44.45,
+      "minUnitPriceWanPing": 44.45,
+      "maxUnitPriceWanPing": 44.45,
+      "latestDayMinUnitPriceWanPing": 44.45,
+      "latestDayMaxUnitPriceWanPing": 44.45
     },
     {
       "projectId": "253",
@@ -9077,11 +9092,12 @@
       "addressEvidenceSources": [
         "reviewed_external_source：https://market.591.com.tw/5921521/price?trans_type=1；2026-10-18逐案人工核對指定門牌；僅社區身分，非建商首售"
       ],
-      "sourceRecordCount": 11,
+      "sourceRecordCount": 12,
       "excludedRecordCount": 2,
-      "officialIdentityCount": 9,
+      "officialIdentityCount": 10,
       "officialLocations": [
         "高雄市小港區松園六路１２１號七樓",
+        "高雄市小港區松園六路１２１號五樓",
         "高雄市小港區松園六路１２１號八樓",
         "高雄市小港區松園六路１２１號六樓",
         "高雄市小港區松園六路１２１號十三樓",
@@ -9095,14 +9111,14 @@
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": 9,
-      "latestTransactionDate": "2026-07-07",
-      "latestUnitPriceWanPing": 33.4,
-      "averageUnitPriceWanPing": 31.72,
+      "transactionCount": 10,
+      "latestTransactionDate": "2026-08-02",
+      "latestUnitPriceWanPing": 34.95,
+      "averageUnitPriceWanPing": 32.04,
       "minUnitPriceWanPing": 27.79,
-      "maxUnitPriceWanPing": 33.4,
-      "latestDayMinUnitPriceWanPing": 33.4,
-      "latestDayMaxUnitPriceWanPing": 33.4
+      "maxUnitPriceWanPing": 34.95,
+      "latestDayMinUnitPriceWanPing": 34.95,
+      "latestDayMaxUnitPriceWanPing": 34.95
     },
     {
       "projectId": "274",
@@ -9219,28 +9235,29 @@
       "addressEvidenceSources": [
         "project_listing：https://newhouse.591.com.tw/132925/detail；2026-10-18逐案人工核對指定門牌；僅社區身分，非建商首售"
       ],
-      "sourceRecordCount": 6,
+      "sourceRecordCount": 7,
       "excludedRecordCount": 1,
-      "officialIdentityCount": 5,
+      "officialIdentityCount": 6,
       "officialLocations": [
         "高雄市小港區宏平路４３３號七樓之７",
         "高雄市小港區宏平路４３３號三樓之１",
         "高雄市小港區宏平路４３３號三樓之１６",
         "高雄市小港區宏平路４３３號三樓之７",
-        "高雄市小港區宏平路４３３號二樓之１６"
+        "高雄市小港區宏平路４３３號二樓之１６",
+        "高雄市小港區宏平路４３３號十六樓之８"
       ],
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": 5,
-      "latestTransactionDate": "2026-06-29",
-      "latestUnitPriceWanPing": 27.53,
-      "averageUnitPriceWanPing": 25.87,
+      "transactionCount": 6,
+      "latestTransactionDate": "2026-07-08",
+      "latestUnitPriceWanPing": 26.98,
+      "averageUnitPriceWanPing": 26.05,
       "minUnitPriceWanPing": 23.01,
       "maxUnitPriceWanPing": 27.84,
-      "latestDayMinUnitPriceWanPing": 27.53,
-      "latestDayMaxUnitPriceWanPing": 27.53
+      "latestDayMinUnitPriceWanPing": 26.98,
+      "latestDayMaxUnitPriceWanPing": 26.98
     },
     {
       "projectId": "278",
@@ -9777,12 +9794,14 @@
       "addressEvidenceSources": [
         "reviewed_external_source：https://w9.8dm.tw/；2026-10-18逐案人工核對指定門牌；僅社區身分，非建商首售"
       ],
-      "sourceRecordCount": 6,
+      "sourceRecordCount": 8,
       "excludedRecordCount": 1,
-      "officialIdentityCount": 5,
+      "officialIdentityCount": 7,
       "officialLocations": [
         "高雄市鳳山區經武路１４３號八樓之１",
+        "高雄市鳳山區經武路１４３號六樓之２",
         "高雄市鳳山區經武路１４３號十三樓之５",
+        "高雄市鳳山區經武路１４３號十二樓之１",
         "高雄市鳳山區經武路１４３號十二樓之５",
         "高雄市鳳山區經武路１４３號十樓之１",
         "高雄市鳳山區經武路１４３號十樓之６"
@@ -9791,14 +9810,14 @@
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": 5,
-      "latestTransactionDate": "2026-06-28",
-      "latestUnitPriceWanPing": 36.46,
-      "averageUnitPriceWanPing": 37.11,
+      "transactionCount": 7,
+      "latestTransactionDate": "2026-08-12",
+      "latestUnitPriceWanPing": 36.98,
+      "averageUnitPriceWanPing": 37.0,
       "minUnitPriceWanPing": 36.36,
       "maxUnitPriceWanPing": 39.56,
-      "latestDayMinUnitPriceWanPing": 36.46,
-      "latestDayMaxUnitPriceWanPing": 36.46
+      "latestDayMinUnitPriceWanPing": 36.98,
+      "latestDayMaxUnitPriceWanPing": 36.98
     },
     {
       "projectId": "295",
@@ -11622,29 +11641,31 @@
       "addressEvidenceSources": [
         "reviewed_external_source：https://market.591.com.tw/5917310/price?guide=1&id=5952314；2026-10-18逐案人工核對指定門牌；僅社區身分，非建商首售"
       ],
-      "sourceRecordCount": 6,
+      "sourceRecordCount": 8,
       "excludedRecordCount": 0,
-      "officialIdentityCount": 6,
+      "officialIdentityCount": 8,
       "officialLocations": [
         "高雄市仁武區北屋北街５７號三樓之３",
+        "高雄市仁武區北屋北街５７號八樓之１",
         "高雄市仁武區北屋北街５７號六樓之６",
         "高雄市仁武區北屋北街５７號十一樓之２",
         "高雄市仁武區北屋北街５７號十三樓之９",
         "高雄市仁武區北屋北街５７號十二樓之９",
-        "高雄市仁武區北屋北街５７號十樓之３"
+        "高雄市仁武區北屋北街５７號十樓之３",
+        "高雄市仁武區北屋北街５７號四樓之６"
       ],
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": 6,
-      "latestTransactionDate": "2026-05-17",
-      "latestUnitPriceWanPing": 29.78,
-      "averageUnitPriceWanPing": 33.05,
-      "minUnitPriceWanPing": 29.78,
+      "transactionCount": 8,
+      "latestTransactionDate": "2026-09-03",
+      "latestUnitPriceWanPing": 31.88,
+      "averageUnitPriceWanPing": 32.47,
+      "minUnitPriceWanPing": 29.55,
       "maxUnitPriceWanPing": 35.09,
-      "latestDayMinUnitPriceWanPing": 29.78,
-      "latestDayMaxUnitPriceWanPing": 29.78
+      "latestDayMinUnitPriceWanPing": 31.88,
+      "latestDayMaxUnitPriceWanPing": 31.88
     },
     {
       "projectId": "351",
@@ -11705,9 +11726,9 @@
       "addressEvidenceSources": [
         "community_listing：https://market.591.com.tw/6525173/price?trans_type=1；2026-10-18逐案人工核對指定門牌；僅社區身分，非建商首售"
       ],
-      "sourceRecordCount": 38,
+      "sourceRecordCount": 40,
       "excludedRecordCount": 8,
-      "officialIdentityCount": 30,
+      "officialIdentityCount": 32,
       "officialLocations": [
         "高雄市仁武區赤德街１００號二十三樓",
         "高雄市仁武區赤德街１００號十三樓",
@@ -11738,20 +11759,22 @@
         "高雄市仁武區赤德街９６號十六樓",
         "高雄市仁武區赤德街９６號十樓",
         "高雄市仁武區赤德街９８號七樓",
+        "高雄市仁武區赤德街９８號三樓",
+        "高雄市仁武區赤德街９８號十五樓",
         "高雄市仁武區赤德街９８號四樓"
       ],
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": 30,
-      "latestTransactionDate": "2026-07-09",
-      "latestUnitPriceWanPing": 31.04,
-      "averageUnitPriceWanPing": 30.49,
+      "transactionCount": 32,
+      "latestTransactionDate": "2026-08-24",
+      "latestUnitPriceWanPing": 29.05,
+      "averageUnitPriceWanPing": 30.34,
       "minUnitPriceWanPing": 26.9,
       "maxUnitPriceWanPing": 34.22,
-      "latestDayMinUnitPriceWanPing": 31.04,
-      "latestDayMaxUnitPriceWanPing": 31.04
+      "latestDayMinUnitPriceWanPing": 29.05,
+      "latestDayMaxUnitPriceWanPing": 29.05
     },
     {
       "projectId": "353",
@@ -12564,9 +12587,9 @@
       "addressEvidenceSources": [
         "project_listing：https://market.591.com.tw/6536849/price?trans_type=1；2026-10-18逐案人工核對指定門牌；僅社區身分，非建商首售"
       ],
-      "sourceRecordCount": 56,
+      "sourceRecordCount": 57,
       "excludedRecordCount": 3,
-      "officialIdentityCount": 53,
+      "officialIdentityCount": 54,
       "officialLocations": [
         "高雄市橋頭區經武路１０００號二十一樓",
         "高雄市橋頭區經武路１０００號二十三樓",
@@ -12578,6 +12601,7 @@
         "高雄市橋頭區經武路１０００號十樓",
         "高雄市橋頭區經武路１００８號七樓",
         "高雄市橋頭區經武路１００８號八樓",
+        "高雄市橋頭區經武路１００８號十六樓",
         "高雄市橋頭區經武路１０１０號三樓",
         "高雄市橋頭區經武路１０１０號二十二樓",
         "高雄市橋頭區經武路１０１０號八樓",
@@ -12626,7 +12650,7 @@
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": 53,
+      "transactionCount": 54,
       "latestTransactionDate": "2026-08-20",
       "latestUnitPriceWanPing": 40.26,
       "averageUnitPriceWanPing": 39.2,

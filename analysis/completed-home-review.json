@@ -1,9 +1,10 @@
 {
   "year": 2026,
   "completedProjectCount": 244,
-  "officialCompletedTransactionCount": 4734,
+  "officialCompletedTransactionCount": 4970,
   "statusCounts": {
-    "no_exact_address_sample": 57,
+    "address_candidate_needs_evidence": 1,
+    "no_exact_address_sample": 56,
     "registry_needs_full_address": 9,
     "verified_community_address": 178
   },
@@ -15,17 +16,30 @@
       "district": "楠梓區",
       "registryAddress": "大學二十九路616號",
       "addressKey": "大學二十九路616號",
-      "status": "no_exact_address_sample",
+      "status": "address_candidate_needs_evidence",
       "verifiedAddresses": [],
       "candidateAddresses": [
         "大學二十九路616號"
       ],
-      "transactionCountAtAddress": 0,
+      "transactionCountAtAddress": 1,
       "verifiedCommunityTransactionCount": 0,
-      "traceableRecentTransactionCount": 0,
+      "traceableRecentTransactionCount": 1,
       "communityMappingVerified": false,
       "developerFirstSaleVerified": false,
-      "transactions": []
+      "transactions": [
+        {
+          "transactionId": "0c4781b35c5c6316d9f18b8a",
+          "officialTransactionId": "RPPNMLNJOHLGFEE18DA",
+          "date": "2026-05-29",
+          "completedAt": "2024-01-30",
+          "officialLocation": "高雄市楠梓區大學二十九路６１６號二樓",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": false,
+          "ageDays": 850
+        }
+      ]
     },
     {
       "projectId": "2",
@@ -468,9 +482,9 @@
         "監理南街7號",
         "監理南街9號"
       ],
-      "transactionCountAtAddress": 39,
-      "verifiedCommunityTransactionCount": 39,
-      "traceableRecentTransactionCount": 39,
+      "transactionCountAtAddress": 42,
+      "verifiedCommunityTransactionCount": 42,
+      "traceableRecentTransactionCount": 42,
       "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
@@ -667,6 +681,18 @@
           "ageDays": 352
         },
         {
+          "transactionId": "65a491cd7c1781155c016717",
+          "officialTransactionId": "RPOOMLOLRHLGFEE78DA",
+          "date": "2026-07-15",
+          "completedAt": "2025-05-01",
+          "officialLocation": "高雄市楠梓區監理南街１７號二十樓",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 440
+        },
+        {
           "transactionId": "6a5cedc8cbbc82e43aae93c9",
           "officialTransactionId": "RPROMLRJNHLGFEE78DA",
           "date": "2026-04-29",
@@ -689,6 +715,18 @@
           "withinFiveYears": true,
           "communityAddressVerified": true,
           "ageDays": 254
+        },
+        {
+          "transactionId": "6d34a7f9835735d61b3e0780",
+          "officialTransactionId": "RPQOMLOLRHLGFEE98DA",
+          "date": "2026-05-09",
+          "completedAt": "2025-05-01",
+          "officialLocation": "高雄市楠梓區監理南街７號十七樓",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 373
         },
         {
           "transactionId": "75f691030ae1ba00c9a81e1e",
@@ -761,6 +799,18 @@
           "withinFiveYears": true,
           "communityAddressVerified": true,
           "ageDays": 437
+        },
+        {
+          "transactionId": "97f3d5b2a99f1254115acead",
+          "officialTransactionId": "RPXNMLOLRHLGFEE96DA",
+          "date": "2026-07-20",
+          "completedAt": "2025-05-01",
+          "officialLocation": "高雄市楠梓區監理南街１３號十五樓",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 445
         },
         {
           "transactionId": "9d49cea9ca66d58667e53776",
@@ -1267,9 +1317,9 @@
         "高雄大學路526號",
         "高雄大學路528號"
       ],
-      "transactionCountAtAddress": 13,
-      "verifiedCommunityTransactionCount": 13,
-      "traceableRecentTransactionCount": 13,
+      "transactionCountAtAddress": 14,
+      "verifiedCommunityTransactionCount": 14,
+      "traceableRecentTransactionCount": 14,
       "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
@@ -1284,6 +1334,18 @@
           "withinFiveYears": true,
           "communityAddressVerified": true,
           "ageDays": 189
+        },
+        {
+          "transactionId": "0caf6b83bb56edc4034e2628",
+          "officialTransactionId": "RPROMLOLRHLGFEE09DA",
+          "date": "2026-08-09",
+          "completedAt": "2025-08-22",
+          "officialLocation": "高雄市楠梓區高雄大學路５０６號六樓",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 352
         },
         {
           "transactionId": "1f7a913f63a590669c0540b3",
@@ -1654,9 +1716,9 @@
       "candidateAddresses": [
         "芎林二街30號"
       ],
-      "transactionCountAtAddress": 3,
-      "verifiedCommunityTransactionCount": 3,
-      "traceableRecentTransactionCount": 3,
+      "transactionCountAtAddress": 4,
+      "verifiedCommunityTransactionCount": 4,
+      "traceableRecentTransactionCount": 4,
       "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
@@ -1683,6 +1745,18 @@
           "withinFiveYears": true,
           "communityAddressVerified": true,
           "ageDays": 386
+        },
+        {
+          "transactionId": "8b069005192356fd548b2f00",
+          "officialTransactionId": "RPPSMLKMRHLGFEE98DA",
+          "date": "2026-07-13",
+          "completedAt": "2025-04-24",
+          "officialLocation": "高雄市楠梓區芎林二街３０號三樓",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 445
         },
         {
           "transactionId": "9f06cb673f19703f9eeb75e1",
@@ -3840,12 +3914,24 @@
         "德勝街67號",
         "德勝街69號"
       ],
-      "transactionCountAtAddress": 3,
-      "verifiedCommunityTransactionCount": 3,
-      "traceableRecentTransactionCount": 3,
+      "transactionCountAtAddress": 4,
+      "verifiedCommunityTransactionCount": 4,
+      "traceableRecentTransactionCount": 4,
       "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
+        {
+          "transactionId": "795ff09ea6f2519912e8cd09",
+          "officialTransactionId": "RPPNMLNLRHLGFDE58DA",
+          "date": "2026-08-08",
+          "completedAt": "2025-01-08",
+          "officialLocation": "高雄市三民區德勝街６７號十樓之２",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 577
+        },
         {
           "transactionId": "8681591d688893adbc0e75bc",
           "officialTransactionId": "RPVNMLLMPHLGFDE88DA",
@@ -4702,12 +4788,24 @@
       "candidateAddresses": [
         "興華路56號"
       ],
-      "transactionCountAtAddress": 1,
-      "verifiedCommunityTransactionCount": 1,
-      "traceableRecentTransactionCount": 0,
+      "transactionCountAtAddress": 4,
+      "verifiedCommunityTransactionCount": 4,
+      "traceableRecentTransactionCount": 3,
       "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
+        {
+          "transactionId": "98d3e6b1edab47bad24e8a18",
+          "officialTransactionId": "RPTOMLKMRHLGFBE68DA",
+          "date": "2026-07-21",
+          "completedAt": "2026-06-30",
+          "officialLocation": "高雄市新興區興華路５６號七樓之１",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 21
+        },
         {
           "transactionId": "a57c5838270e15e8860b9435",
           "officialTransactionId": null,
@@ -4719,6 +4817,30 @@
           "withinFiveYears": true,
           "communityAddressVerified": true,
           "ageDays": 21
+        },
+        {
+          "transactionId": "ef34186f9726f2f444abd624",
+          "officialTransactionId": "RPWOMLKMRHLGFBE98DA",
+          "date": "2026-07-21",
+          "completedAt": "2026-06-30",
+          "officialLocation": "高雄市新興區興華路５６號十一樓之３",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 21
+        },
+        {
+          "transactionId": "f2575016e34cbe3199fa25f4",
+          "officialTransactionId": "RPRPMLKMRHLGFBE58DA",
+          "date": "2026-08-12",
+          "completedAt": "2026-06-30",
+          "officialLocation": "高雄市新興區興華路５６號二樓之２",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 43
         }
       ]
     },
@@ -4735,12 +4857,24 @@
       "candidateAddresses": [
         "南華橫二路25號"
       ],
-      "transactionCountAtAddress": 1,
-      "verifiedCommunityTransactionCount": 1,
-      "traceableRecentTransactionCount": 1,
+      "transactionCountAtAddress": 2,
+      "verifiedCommunityTransactionCount": 2,
+      "traceableRecentTransactionCount": 2,
       "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
+        {
+          "transactionId": "c35cc2772acb73cbdbeb75ae",
+          "officialTransactionId": "RPUNMLTJRHLGFBE66DA",
+          "date": "2026-09-06",
+          "completedAt": "2025-02-19",
+          "officialLocation": "高雄市新興區南華橫二路２５號八樓之１",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 564
+        },
         {
           "transactionId": "f92e9ce59dea577729c527af",
           "officialTransactionId": "RPOOMLNLJHLGFBE57DA",
@@ -5476,9 +5610,9 @@
       "candidateAddresses": [
         "中華四路183號"
       ],
-      "transactionCountAtAddress": 3,
-      "verifiedCommunityTransactionCount": 3,
-      "traceableRecentTransactionCount": 3,
+      "transactionCountAtAddress": 4,
+      "verifiedCommunityTransactionCount": 4,
+      "traceableRecentTransactionCount": 4,
       "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
@@ -5493,6 +5627,18 @@
           "withinFiveYears": true,
           "communityAddressVerified": true,
           "ageDays": 1029
+        },
+        {
+          "transactionId": "5c97487272ae81018feb7236",
+          "officialTransactionId": "RPQNMLLJIILGFBE27DA",
+          "date": "2026-08-14",
+          "completedAt": "2023-10-02",
+          "officialLocation": "高雄市苓雅區中華四路１８３號十三樓之９",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 1047
         },
         {
           "transactionId": "6be0e9143bcaeea1f981b745",
@@ -6016,12 +6162,24 @@
       "candidateAddresses": [
         "瑞隆路591號"
       ],
-      "transactionCountAtAddress": 6,
-      "verifiedCommunityTransactionCount": 6,
-      "traceableRecentTransactionCount": 6,
+      "transactionCountAtAddress": 7,
+      "verifiedCommunityTransactionCount": 7,
+      "traceableRecentTransactionCount": 7,
       "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
+        {
+          "transactionId": "9a3c210afb8a5969d6cb1aba",
+          "officialTransactionId": "RPOOMLOLRHLGFCE58DA",
+          "date": "2026-08-19",
+          "completedAt": "2025-12-03",
+          "officialLocation": "高雄市前鎮區瑞隆路５９１號十樓之２",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 259
+        },
         {
           "transactionId": "9d6930e8f2a4eb3a5e4b24aa",
           "officialTransactionId": "RPXNMLMKQHLGFCE98DA",
@@ -6412,12 +6570,25 @@
       "candidateAddresses": [
         "南寧街99號"
       ],
-      "transactionCountAtAddress": 0,
-      "verifiedCommunityTransactionCount": 0,
-      "traceableRecentTransactionCount": 0,
+      "transactionCountAtAddress": 1,
+      "verifiedCommunityTransactionCount": 1,
+      "traceableRecentTransactionCount": 1,
       "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
-      "transactions": []
+      "transactions": [
+        {
+          "transactionId": "c910c9f09e1a47f7ca429b51",
+          "officialTransactionId": "RPSNMLLJIILGFCE57DA",
+          "date": "2026-08-07",
+          "completedAt": "2026-04-30",
+          "officialLocation": "高雄市前鎮區南寧街９９號十六樓",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 99
+        }
+      ]
     },
     {
       "projectId": "253",
@@ -6957,9 +7128,9 @@
         "松園六路123號",
         "松園六路75號"
       ],
-      "transactionCountAtAddress": 11,
-      "verifiedCommunityTransactionCount": 11,
-      "traceableRecentTransactionCount": 9,
+      "transactionCountAtAddress": 12,
+      "verifiedCommunityTransactionCount": 12,
+      "traceableRecentTransactionCount": 10,
       "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
@@ -7094,6 +7265,18 @@
           "withinFiveYears": true,
           "communityAddressVerified": true,
           "ageDays": 286
+        },
+        {
+          "transactionId": "e1d927ab580d883f60a570a2",
+          "officialTransactionId": "RPTNMLNLRHLGFCE88DA",
+          "date": "2026-08-02",
+          "completedAt": "2025-08-29",
+          "officialLocation": "高雄市小港區松園六路１２１號五樓",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 338
         }
       ]
     },
@@ -7168,9 +7351,9 @@
       "candidateAddresses": [
         "宏平路433號"
       ],
-      "transactionCountAtAddress": 6,
-      "verifiedCommunityTransactionCount": 6,
-      "traceableRecentTransactionCount": 5,
+      "transactionCountAtAddress": 7,
+      "verifiedCommunityTransactionCount": 7,
+      "traceableRecentTransactionCount": 6,
       "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
@@ -7245,6 +7428,18 @@
           "withinFiveYears": true,
           "communityAddressVerified": true,
           "ageDays": 137
+        },
+        {
+          "transactionId": "da955cb7b102e23fb61ef58e",
+          "officialTransactionId": "RPVNMLOKRHLGFCE09DA",
+          "date": "2026-07-08",
+          "completedAt": "2026-02-12",
+          "officialLocation": "高雄市小港區宏平路４３３號十六樓之８",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 146
         }
       ]
     },
@@ -7496,12 +7691,24 @@
       "candidateAddresses": [
         "經武路143號"
       ],
-      "transactionCountAtAddress": 6,
-      "verifiedCommunityTransactionCount": 6,
-      "traceableRecentTransactionCount": 5,
+      "transactionCountAtAddress": 8,
+      "verifiedCommunityTransactionCount": 8,
+      "traceableRecentTransactionCount": 7,
       "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
+        {
+          "transactionId": "49fc728cdc7352649660af9c",
+          "officialTransactionId": "RPVOMLLJIILGFGE38DA",
+          "date": "2026-08-12",
+          "completedAt": "2024-02-19",
+          "officialLocation": "高雄市鳳山區經武路１４３號十二樓之１",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 905
+        },
         {
           "transactionId": "5dcbb650e7c2b44e5d326d16",
           "officialTransactionId": "RPWOMLKMPHLGFGE66DA",
@@ -7525,6 +7732,18 @@
           "withinFiveYears": true,
           "communityAddressVerified": true,
           "ageDays": 860
+        },
+        {
+          "transactionId": "85c97e680d9974ca975ae6c9",
+          "officialTransactionId": "RPWOMLLJIILGFGE48DA",
+          "date": "2026-08-11",
+          "completedAt": "2024-02-19",
+          "officialLocation": "高雄市鳳山區經武路１４３號六樓之２",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 904
         },
         {
           "transactionId": "8b442ae5cbcbec53b02a08c4",
@@ -8738,9 +8957,9 @@
       "candidateAddresses": [
         "北屋北街57號"
       ],
-      "transactionCountAtAddress": 6,
-      "verifiedCommunityTransactionCount": 6,
-      "traceableRecentTransactionCount": 6,
+      "transactionCountAtAddress": 8,
+      "verifiedCommunityTransactionCount": 8,
+      "traceableRecentTransactionCount": 8,
       "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
@@ -8793,6 +9012,18 @@
           "ageDays": 469
         },
         {
+          "transactionId": "bba75d0caa042639444cbf1c",
+          "officialTransactionId": "RPWNMLSKRHLGFIE57DA",
+          "date": "2026-08-13",
+          "completedAt": "2024-12-24",
+          "officialLocation": "高雄市仁武區北屋北街５７號四樓之６",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 597
+        },
+        {
           "transactionId": "d603120a317e72d0ab1874c2",
           "officialTransactionId": "RPUNMLPJLHLGFIE98DA",
           "date": "2026-02-13",
@@ -8803,6 +9034,18 @@
           "withinFiveYears": true,
           "communityAddressVerified": true,
           "ageDays": 416
+        },
+        {
+          "transactionId": "d87124d08ea711927a7c2592",
+          "officialTransactionId": "RPVNMLSKRHLGFIE47DA",
+          "date": "2026-09-03",
+          "completedAt": "2024-12-24",
+          "officialLocation": "高雄市仁武區北屋北街５７號八樓之１",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 618
         },
         {
           "transactionId": "dcf5196ad38e8bc2f3b3ca2e",
@@ -8867,9 +9110,9 @@
         "赤德街96號",
         "赤德街98號"
       ],
-      "transactionCountAtAddress": 38,
-      "verifiedCommunityTransactionCount": 38,
-      "traceableRecentTransactionCount": 30,
+      "transactionCountAtAddress": 40,
+      "verifiedCommunityTransactionCount": 40,
+      "traceableRecentTransactionCount": 32,
       "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
@@ -9246,6 +9489,18 @@
           "ageDays": 320
         },
         {
+          "transactionId": "b912e6813a37100450fbad75",
+          "officialTransactionId": "RPXNMLLLRHLGFIE07DA",
+          "date": "2026-08-24",
+          "completedAt": "2025-08-01",
+          "officialLocation": "高雄市仁武區赤德街９８號十五樓",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 388
+        },
+        {
           "transactionId": "bc124d53fe30ca318a7369fc",
           "officialTransactionId": null,
           "date": "2026-07-25",
@@ -9280,6 +9535,18 @@
           "withinFiveYears": true,
           "communityAddressVerified": true,
           "ageDays": 346
+        },
+        {
+          "transactionId": "cc120e1669353c96c3a7d510",
+          "officialTransactionId": "RPUNMLSKRHLGFIE37DA",
+          "date": "2026-08-23",
+          "completedAt": "2025-08-01",
+          "officialLocation": "高雄市仁武區赤德街９８號三樓",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 387
         },
         {
           "transactionId": "da4a4abca85d6a755a637d7b",
@@ -9695,9 +9962,9 @@
         "經武路1036號",
         "經武路1038號"
       ],
-      "transactionCountAtAddress": 56,
-      "verifiedCommunityTransactionCount": 56,
-      "traceableRecentTransactionCount": 53,
+      "transactionCountAtAddress": 57,
+      "verifiedCommunityTransactionCount": 57,
+      "traceableRecentTransactionCount": 54,
       "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
@@ -10072,6 +10339,18 @@
           "withinFiveYears": true,
           "communityAddressVerified": true,
           "ageDays": 75
+        },
+        {
+          "transactionId": "9b52f9b402a4436f09ea82ed",
+          "officialTransactionId": "RPXOMLKMRHLGFFE86DA",
+          "date": "2026-07-26",
+          "completedAt": "2026-01-12",
+          "officialLocation": "高雄市橋頭區經武路１００８號十六樓",
+          "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
+          "traceable": true,
+          "withinFiveYears": true,
+          "communityAddressVerified": true,
+          "ageDays": 195
         },
         {
           "transactionId": "9c6b5462d471b3ca2f0fd29a",
@@ -10513,5 +10792,5 @@
       "transactions": []
     }
   ],
-  "sourceDataUpdatedAt": "2026-10-19"
+  "sourceDataUpdatedAt": "2026-10-22"
 }

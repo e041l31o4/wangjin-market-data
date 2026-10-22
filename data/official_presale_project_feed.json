@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "feedKind": "public_official_presale",
   "source": "https://plvr.land.moi.gov.tw/DownloadOpenData",
-  "sourceDataUpdatedAt": "2026-10-19",
+  "sourceDataUpdatedAt": "2026-10-22",
   "totalProjects": 386,
-  "matchedPriceProjects": 60,
-  "includedTransactionCount": 969,
+  "matchedPriceProjects": 61,
+  "includedTransactionCount": 988,
   "importantNotes": [
     "價格為已收錄且可追溯的預售成交樣本，不是全案完整成交紀錄。",
     "依官方案名與行政區配對；不等同基地或座標逐案核實。",
@@ -1635,7 +1635,7 @@
       "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
       "matchingRule": "official_presale_name_district_v1",
-      "sourceRecordCount": 62,
+      "sourceRecordCount": 63,
       "excludedRecordCount": 1,
       "officialLocations": [
         "高雄市楠梓區大學二十三街及二十六街口"
@@ -1646,19 +1646,19 @@
       "approvedAliasNames": [
         "遠雄一靚"
       ],
-      "officialIdentityCount": 61,
+      "officialIdentityCount": 62,
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": 61,
-      "latestTransactionDate": "2026-08-25",
-      "latestUnitPriceWanPing": 41.94,
-      "averageUnitPriceWanPing": 42.98,
+      "transactionCount": 62,
+      "latestTransactionDate": "2026-09-09",
+      "latestUnitPriceWanPing": 43.05,
+      "averageUnitPriceWanPing": 42.99,
       "minUnitPriceWanPing": 39.18,
       "maxUnitPriceWanPing": 50.64,
-      "latestDayMinUnitPriceWanPing": 41.94,
-      "latestDayMaxUnitPriceWanPing": 41.94
+      "latestDayMinUnitPriceWanPing": 43.05,
+      "latestDayMaxUnitPriceWanPing": 43.05
     },
     {
       "projectId": "59",
@@ -1669,7 +1669,7 @@
       "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
       "matchingRule": "official_presale_name_district_v1",
-      "sourceRecordCount": 15,
+      "sourceRecordCount": 16,
       "excludedRecordCount": 0,
       "officialLocations": [
         "高雄市楠梓區大學西路"
@@ -1678,19 +1678,19 @@
         "以學MDT"
       ],
       "approvedAliasNames": [],
-      "officialIdentityCount": 15,
+      "officialIdentityCount": 16,
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": 15,
-      "latestTransactionDate": "2026-07-12",
-      "latestUnitPriceWanPing": 37.14,
-      "averageUnitPriceWanPing": 38.77,
+      "transactionCount": 16,
+      "latestTransactionDate": "2026-09-06",
+      "latestUnitPriceWanPing": 38.5,
+      "averageUnitPriceWanPing": 38.76,
       "minUnitPriceWanPing": 37.14,
       "maxUnitPriceWanPing": 42.22,
-      "latestDayMinUnitPriceWanPing": 37.14,
-      "latestDayMaxUnitPriceWanPing": 37.14
+      "latestDayMinUnitPriceWanPing": 38.5,
+      "latestDayMaxUnitPriceWanPing": 38.5
     },
     {
       "projectId": "60",
@@ -1701,7 +1701,7 @@
       "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
       "matchingRule": "official_presale_name_district_v1",
-      "sourceRecordCount": 40,
+      "sourceRecordCount": 41,
       "excludedRecordCount": 2,
       "officialLocations": [
         "高雄市楠梓區惠正街128號旁"
@@ -1710,19 +1710,19 @@
         "遠雄蘴靚"
       ],
       "approvedAliasNames": [],
-      "officialIdentityCount": 38,
+      "officialIdentityCount": 39,
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": 38,
-      "latestTransactionDate": "2026-08-30",
-      "latestUnitPriceWanPing": 52.37,
-      "averageUnitPriceWanPing": 44.56,
+      "transactionCount": 39,
+      "latestTransactionDate": "2026-09-05",
+      "latestUnitPriceWanPing": 39.96,
+      "averageUnitPriceWanPing": 44.44,
       "minUnitPriceWanPing": 38.15,
       "maxUnitPriceWanPing": 52.97,
-      "latestDayMinUnitPriceWanPing": 52.37,
-      "latestDayMaxUnitPriceWanPing": 52.37
+      "latestDayMinUnitPriceWanPing": 39.96,
+      "latestDayMaxUnitPriceWanPing": 39.96
     },
     {
       "projectId": "61",
@@ -2493,7 +2493,7 @@
       "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
       "matchingRule": "official_presale_name_district_v1",
-      "sourceRecordCount": 6,
+      "sourceRecordCount": 7,
       "excludedRecordCount": 0,
       "officialLocations": [
         "高雄市左營區華夏路"
@@ -2502,19 +2502,19 @@
         "鑫高鐵Ⅲ"
       ],
       "approvedAliasNames": [],
-      "officialIdentityCount": 6,
+      "officialIdentityCount": 7,
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": 6,
-      "latestTransactionDate": "2026-08-10",
-      "latestUnitPriceWanPing": 37.68,
-      "averageUnitPriceWanPing": 33.32,
+      "transactionCount": 7,
+      "latestTransactionDate": "2026-09-08",
+      "latestUnitPriceWanPing": 30.84,
+      "averageUnitPriceWanPing": 32.96,
       "minUnitPriceWanPing": 29.09,
       "maxUnitPriceWanPing": 37.68,
-      "latestDayMinUnitPriceWanPing": 37.68,
-      "latestDayMaxUnitPriceWanPing": 37.68
+      "latestDayMinUnitPriceWanPing": 30.84,
+      "latestDayMaxUnitPriceWanPing": 30.84
     },
     {
       "projectId": "89",
@@ -3513,7 +3513,7 @@
       "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
       "matchingRule": "official_presale_name_district_v1",
-      "sourceRecordCount": 59,
+      "sourceRecordCount": 61,
       "excludedRecordCount": 2,
       "officialLocations": [
         "高雄市鼓山區龍中段194地號"
@@ -3522,19 +3522,19 @@
         "國揚鉑御"
       ],
       "approvedAliasNames": [],
-      "officialIdentityCount": 57,
+      "officialIdentityCount": 59,
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": 57,
-      "latestTransactionDate": "2026-08-31",
-      "latestUnitPriceWanPing": 72.0,
-      "averageUnitPriceWanPing": 68.13,
+      "transactionCount": 59,
+      "latestTransactionDate": "2026-09-05",
+      "latestUnitPriceWanPing": 68.17,
+      "averageUnitPriceWanPing": 68.54,
       "minUnitPriceWanPing": 60.39,
-      "maxUnitPriceWanPing": 74.5,
-      "latestDayMinUnitPriceWanPing": 72.0,
-      "latestDayMaxUnitPriceWanPing": 72.0
+      "maxUnitPriceWanPing": 92.18,
+      "latestDayMinUnitPriceWanPing": 68.17,
+      "latestDayMaxUnitPriceWanPing": 68.17
     },
     {
       "projectId": "124",
@@ -3545,7 +3545,7 @@
       "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
       "matchingRule": "official_presale_name_district_v1",
-      "sourceRecordCount": 3,
+      "sourceRecordCount": 4,
       "excludedRecordCount": 2,
       "officialLocations": [
         "高雄市鼓山區青海段78地號"
@@ -3554,13 +3554,13 @@
         "時尚皇居"
       ],
       "approvedAliasNames": [],
-      "officialIdentityCount": 1,
+      "officialIdentityCount": 2,
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": 1,
-      "latestTransactionDate": "2026-08-06",
+      "transactionCount": 2,
+      "latestTransactionDate": "2026-09-09",
       "latestUnitPriceWanPing": 58.54,
       "averageUnitPriceWanPing": 58.54,
       "minUnitPriceWanPing": 58.54,
@@ -4607,7 +4607,7 @@
       "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
       "matchingRule": "official_presale_name_district_v1",
-      "sourceRecordCount": 17,
+      "sourceRecordCount": 18,
       "excludedRecordCount": 0,
       "officialLocations": [
         "高雄市三民區中華二路157巷"
@@ -4618,19 +4618,19 @@
       "approvedAliasNames": [
         "善寬UNI"
       ],
-      "officialIdentityCount": 17,
+      "officialIdentityCount": 18,
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": 17,
-      "latestTransactionDate": "2026-07-28",
-      "latestUnitPriceWanPing": 44.65,
-      "averageUnitPriceWanPing": 48.54,
+      "transactionCount": 18,
+      "latestTransactionDate": "2026-09-10",
+      "latestUnitPriceWanPing": 52.23,
+      "averageUnitPriceWanPing": 48.74,
       "minUnitPriceWanPing": 43.93,
-      "maxUnitPriceWanPing": 51.99,
-      "latestDayMinUnitPriceWanPing": 44.65,
-      "latestDayMaxUnitPriceWanPing": 44.65
+      "maxUnitPriceWanPing": 52.23,
+      "latestDayMinUnitPriceWanPing": 52.23,
+      "latestDayMaxUnitPriceWanPing": 52.23
     },
     {
       "projectId": "162",
@@ -4761,7 +4761,7 @@
       "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
       "matchingRule": "official_presale_name_district_v1",
-      "sourceRecordCount": 58,
+      "sourceRecordCount": 59,
       "excludedRecordCount": 0,
       "officialLocations": [
         "高雄市三民區明誠一路鼎山街202巷口"
@@ -4770,19 +4770,19 @@
         "國泰明誠"
       ],
       "approvedAliasNames": [],
-      "officialIdentityCount": 58,
+      "officialIdentityCount": 59,
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": 58,
-      "latestTransactionDate": "2026-08-25",
-      "latestUnitPriceWanPing": 50.92,
-      "averageUnitPriceWanPing": 51.58,
+      "transactionCount": 59,
+      "latestTransactionDate": "2026-09-05",
+      "latestUnitPriceWanPing": 50.76,
+      "averageUnitPriceWanPing": 51.57,
       "minUnitPriceWanPing": 47.03,
       "maxUnitPriceWanPing": 53.79,
-      "latestDayMinUnitPriceWanPing": 50.92,
-      "latestDayMaxUnitPriceWanPing": 50.92
+      "latestDayMinUnitPriceWanPing": 50.76,
+      "latestDayMaxUnitPriceWanPing": 50.76
     },
     {
       "projectId": "167",
@@ -6077,7 +6077,7 @@
       "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
       "matchingRule": "official_presale_name_district_v1",
-      "sourceRecordCount": 22,
+      "sourceRecordCount": 23,
       "excludedRecordCount": 0,
       "officialLocations": [
         "高雄市苓雅區泉州街"
@@ -6086,19 +6086,19 @@
         "文化星匯"
       ],
       "approvedAliasNames": [],
-      "officialIdentityCount": 22,
+      "officialIdentityCount": 23,
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": 22,
-      "latestTransactionDate": "2026-08-30",
-      "latestUnitPriceWanPing": 48.17,
-      "averageUnitPriceWanPing": 47.22,
+      "transactionCount": 23,
+      "latestTransactionDate": "2026-09-06",
+      "latestUnitPriceWanPing": 46.1,
+      "averageUnitPriceWanPing": 47.17,
       "minUnitPriceWanPing": 44.09,
       "maxUnitPriceWanPing": 50.36,
-      "latestDayMinUnitPriceWanPing": 48.17,
-      "latestDayMaxUnitPriceWanPing": 48.17
+      "latestDayMinUnitPriceWanPing": 46.1,
+      "latestDayMaxUnitPriceWanPing": 46.1
     },
     {
       "projectId": "213",
@@ -6226,27 +6226,31 @@
       "district": "苓雅區",
       "registryKind": "預售屋",
       "registryAddress": "四維四路、成功一路135巷",
-      "priceStatus": "pending_verification",
+      "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
-      "matchingRule": null,
-      "sourceRecordCount": 0,
+      "matchingRule": "official_presale_name_district_v1",
+      "sourceRecordCount": 1,
       "excludedRecordCount": 0,
-      "officialLocations": [],
-      "officialNames": [],
+      "officialLocations": [
+        "高雄市苓雅區四維四路"
+      ],
+      "officialNames": [
+        "亞灣匯"
+      ],
       "approvedAliasNames": [],
-      "officialIdentityCount": 0,
-      "verificationSource": null,
+      "officialIdentityCount": 1,
+      "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": null,
-      "latestTransactionDate": null,
-      "latestUnitPriceWanPing": null,
-      "averageUnitPriceWanPing": null,
-      "minUnitPriceWanPing": null,
-      "maxUnitPriceWanPing": null,
-      "latestDayMinUnitPriceWanPing": null,
-      "latestDayMaxUnitPriceWanPing": null
+      "transactionCount": 1,
+      "latestTransactionDate": "2026-09-01",
+      "latestUnitPriceWanPing": 50.9,
+      "averageUnitPriceWanPing": 50.9,
+      "minUnitPriceWanPing": 50.9,
+      "maxUnitPriceWanPing": 50.9,
+      "latestDayMinUnitPriceWanPing": 50.9,
+      "latestDayMaxUnitPriceWanPing": 50.9
     },
     {
       "projectId": "218",
@@ -7473,7 +7477,7 @@
       "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
       "matchingRule": "official_presale_name_district_v1",
-      "sourceRecordCount": 237,
+      "sourceRecordCount": 242,
       "excludedRecordCount": 14,
       "officialLocations": [
         "高雄市前鎮區經貿段五小段8地號"
@@ -7482,19 +7486,19 @@
         "亞灣205"
       ],
       "approvedAliasNames": [],
-      "officialIdentityCount": 223,
+      "officialIdentityCount": 228,
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": 223,
-      "latestTransactionDate": "2026-08-31",
-      "latestUnitPriceWanPing": 38.22,
-      "averageUnitPriceWanPing": 39.0,
+      "transactionCount": 228,
+      "latestTransactionDate": "2026-09-10",
+      "latestUnitPriceWanPing": 39.76,
+      "averageUnitPriceWanPing": 39.06,
       "minUnitPriceWanPing": 35.5,
-      "maxUnitPriceWanPing": 44.98,
-      "latestDayMinUnitPriceWanPing": 38.22,
-      "latestDayMaxUnitPriceWanPing": 38.22
+      "maxUnitPriceWanPing": 45.47,
+      "latestDayMinUnitPriceWanPing": 39.76,
+      "latestDayMaxUnitPriceWanPing": 39.76
     },
     {
       "projectId": "261",
@@ -9197,7 +9201,7 @@
       "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
       "matchingRule": "official_presale_name_district_v1",
-      "sourceRecordCount": 8,
+      "sourceRecordCount": 9,
       "excludedRecordCount": 0,
       "officialLocations": [
         "高雄市鳳山區中安路"
@@ -9206,19 +9210,19 @@
         "花町院"
       ],
       "approvedAliasNames": [],
-      "officialIdentityCount": 8,
+      "officialIdentityCount": 9,
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": 8,
-      "latestTransactionDate": "2026-07-12",
-      "latestUnitPriceWanPing": 32.71,
-      "averageUnitPriceWanPing": 32.29,
+      "transactionCount": 9,
+      "latestTransactionDate": "2026-09-05",
+      "latestUnitPriceWanPing": 33.25,
+      "averageUnitPriceWanPing": 32.4,
       "minUnitPriceWanPing": 31.27,
-      "maxUnitPriceWanPing": 33.24,
-      "latestDayMinUnitPriceWanPing": 32.71,
-      "latestDayMaxUnitPriceWanPing": 32.71
+      "maxUnitPriceWanPing": 33.25,
+      "latestDayMinUnitPriceWanPing": 33.25,
+      "latestDayMaxUnitPriceWanPing": 33.25
     },
     {
       "projectId": "322",
@@ -10509,7 +10513,7 @@
       "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
       "matchingRule": "official_presale_name_district_v1",
-      "sourceRecordCount": 7,
+      "sourceRecordCount": 8,
       "excludedRecordCount": 3,
       "officialLocations": [
         "高雄市仁武區赤仁路62巷"
@@ -10518,19 +10522,19 @@
         "佳鋐雄湛"
       ],
       "approvedAliasNames": [],
-      "officialIdentityCount": 4,
+      "officialIdentityCount": 5,
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": 4,
-      "latestTransactionDate": "2026-08-31",
-      "latestUnitPriceWanPing": 31.45,
-      "averageUnitPriceWanPing": 32.27,
+      "transactionCount": 5,
+      "latestTransactionDate": "2026-09-07",
+      "latestUnitPriceWanPing": 32.01,
+      "averageUnitPriceWanPing": 32.22,
       "minUnitPriceWanPing": 31.45,
       "maxUnitPriceWanPing": 33.58,
-      "latestDayMinUnitPriceWanPing": 31.45,
-      "latestDayMaxUnitPriceWanPing": 32.61
+      "latestDayMinUnitPriceWanPing": 32.01,
+      "latestDayMaxUnitPriceWanPing": 32.01
     },
     {
       "projectId": "368",
@@ -10989,7 +10993,7 @@
       "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
       "matchingRule": "official_presale_name_district_v1",
-      "sourceRecordCount": 13,
+      "sourceRecordCount": 14,
       "excludedRecordCount": 1,
       "officialLocations": [
         "高雄市橋頭區橋新三路"
@@ -11000,19 +11004,19 @@
       "approvedAliasNames": [
         "達麗世界學"
       ],
-      "officialIdentityCount": 12,
+      "officialIdentityCount": 13,
       "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": 12,
-      "latestTransactionDate": "2026-08-09",
-      "latestUnitPriceWanPing": 45.42,
-      "averageUnitPriceWanPing": 43.59,
+      "transactionCount": 13,
+      "latestTransactionDate": "2026-09-05",
+      "latestUnitPriceWanPing": 44.77,
+      "averageUnitPriceWanPing": 43.68,
       "minUnitPriceWanPing": 39.55,
       "maxUnitPriceWanPing": 45.53,
-      "latestDayMinUnitPriceWanPing": 45.42,
-      "latestDayMaxUnitPriceWanPing": 45.42
+      "latestDayMinUnitPriceWanPing": 44.77,
+      "latestDayMaxUnitPriceWanPing": 44.77
     },
     {
       "projectId": "385",

@@ -1,5 +1,5 @@
 {
-  "sourceDataUpdatedAt": "2026-10-19",
+  "sourceDataUpdatedAt": "2026-10-22",
   "projects": [
     {
       "projectId": "1",
@@ -627,8 +627,8 @@
       "name": "一靚",
       "district": "楠梓區",
       "kind": "預售屋",
-      "sourceRecords": 62,
-      "includedRecords": 61,
+      "sourceRecords": 63,
+      "includedRecords": 62,
       "reasons": [
         "missing_official_provenance"
       ]
@@ -638,8 +638,8 @@
       "name": "以學MDT",
       "district": "楠梓區",
       "kind": "預售屋",
-      "sourceRecords": 15,
-      "includedRecords": 15,
+      "sourceRecords": 16,
+      "includedRecords": 16,
       "reasons": []
     },
     {
@@ -647,8 +647,8 @@
       "name": "遠雄蘴靚",
       "district": "楠梓區",
       "kind": "預售屋",
-      "sourceRecords": 40,
-      "includedRecords": 38,
+      "sourceRecords": 41,
+      "includedRecords": 39,
       "reasons": [
         "missing_official_provenance"
       ]
@@ -953,8 +953,8 @@
       "name": "鑫高鐵Ⅲ",
       "district": "左營區",
       "kind": "預售屋",
-      "sourceRecords": 6,
-      "includedRecords": 6,
+      "sourceRecords": 7,
+      "includedRecords": 7,
       "reasons": []
     },
     {
@@ -1318,8 +1318,8 @@
       "name": "國揚鉑御",
       "district": "鼓山區",
       "kind": "預售屋",
-      "sourceRecords": 59,
-      "includedRecords": 57,
+      "sourceRecords": 61,
+      "includedRecords": 59,
       "reasons": [
         "missing_official_provenance"
       ]
@@ -1329,8 +1329,8 @@
       "name": "時尚皇居",
       "district": "鼓山區",
       "kind": "預售屋",
-      "sourceRecords": 3,
-      "includedRecords": 1,
+      "sourceRecords": 4,
+      "includedRecords": 2,
       "reasons": [
         "missing_official_provenance"
       ]
@@ -1730,8 +1730,8 @@
       "name": "UNI",
       "district": "三民區",
       "kind": "預售屋",
-      "sourceRecords": 17,
-      "includedRecords": 17,
+      "sourceRecords": 18,
+      "includedRecords": 18,
       "reasons": []
     },
     {
@@ -1779,8 +1779,8 @@
       "name": "國泰明誠",
       "district": "三民區",
       "kind": "預售屋",
-      "sourceRecords": 58,
-      "includedRecords": 58,
+      "sourceRecords": 59,
+      "includedRecords": 59,
       "reasons": []
     },
     {
@@ -2273,8 +2273,8 @@
       "name": "文化星匯",
       "district": "苓雅區",
       "kind": "預售屋",
-      "sourceRecords": 22,
-      "includedRecords": 22,
+      "sourceRecords": 23,
+      "includedRecords": 23,
       "reasons": []
     },
     {
@@ -2322,11 +2322,9 @@
       "name": "亞灣匯",
       "district": "苓雅區",
       "kind": "預售屋",
-      "sourceRecords": 0,
-      "includedRecords": 0,
-      "reasons": [
-        "no_exact_official_sample"
-      ]
+      "sourceRecords": 1,
+      "includedRecords": 1,
+      "reasons": []
     },
     {
       "projectId": "218",
@@ -2775,8 +2773,8 @@
       "name": "亞灣205",
       "district": "前鎮區",
       "kind": "預售屋",
-      "sourceRecords": 237,
-      "includedRecords": 223,
+      "sourceRecords": 242,
+      "includedRecords": 228,
       "reasons": [
         "missing_official_provenance"
       ]
@@ -3442,8 +3440,8 @@
       "name": "花町院",
       "district": "鳳山區",
       "kind": "預售屋",
-      "sourceRecords": 8,
-      "includedRecords": 8,
+      "sourceRecords": 9,
+      "includedRecords": 9,
       "reasons": []
     },
     {
@@ -3940,8 +3938,8 @@
       "name": "佳鋐雄湛",
       "district": "仁武區",
       "kind": "預售屋",
-      "sourceRecords": 7,
-      "includedRecords": 4,
+      "sourceRecords": 8,
+      "includedRecords": 5,
       "reasons": [
         "missing_official_provenance"
       ]
@@ -4127,8 +4125,8 @@
       "name": "世界學",
       "district": "橋頭區",
       "kind": "預售屋",
-      "sourceRecords": 13,
-      "includedRecords": 12,
+      "sourceRecords": 14,
+      "includedRecords": 13,
       "reasons": [
         "missing_official_provenance"
       ]
