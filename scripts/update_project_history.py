@@ -67,7 +67,9 @@ def build_periods(registry, transactions, mapping, market, aliases, coverage):
             presale['matchingAudit'] = [
                 {'projectId': row.get('projectId'), 'name': row.get('name'),
                  'district': row.get('district'), 'sourceRecords': row.get('sourceRecords'),
-                 'includedRecords': row.get('includedRecords'), 'reasons': row.get('reasons', [])}
+                 'includedRecords': row.get('includedRecords'),
+                 'candidateOfficialLocations': row.get('candidateOfficialLocations', []),
+                 'reasons': row.get('reasons', [])}
                 for row in presale_audit.get('projects', []) if row.get('reasons')
             ]
         completed, _ = completed_feed(registry, selected, mapping, market,
