@@ -54,6 +54,14 @@ class ReviewedAliasTests(unittest.TestCase):
         self.assertEqual(f["projects"][0]["officialLocations"], ["高雄市楠梓區大學西路"])
         for value in ("高雄市楠梓區大學西路12號", "高雄市楠梓區大學西路12地號", "高雄市楠梓區大學西路A09棟地下1樓"):
             self.assertEqual(m.official_base_location(value), value)
+        self.assertEqual(
+            m.official_base_location("高雄市楠梓區後勁北路、後勁東路"),
+            m.official_base_location("高雄市楠梓區後勁東路、後勁北路"),
+        )
+        self.assertEqual(
+            m.official_base_location("高雄市左營區新下街VS群英街"),
+            m.official_base_location("高雄市左營區群英街、新下街"),
+        )
 
     def test_alias_evidence_and_registry_ownership_required(self):
         for changes in ({"primaryEvidence": []}, {"projectName": "另案"}, {"officialName": "建案2"}, {"projectId": "2"}):
