@@ -58,6 +58,7 @@ def build_periods(registry, transactions, mapping, market, aliases, coverage):
     for period in ('year', 'all'):
         selected = {tid: tx for tid, tx in transactions.items() if
                     period == 'all' or tx.get('date', '').startswith(str(market['year']) + '-')}
+        # Re-run canonical location matching over the retained official archive each time.
         presale, _ = presale_feed(
             registry, presale_rows(selected), market, aliases,
             include_completed_history=period == 'all')
