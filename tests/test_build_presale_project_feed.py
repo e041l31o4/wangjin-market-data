@@ -118,6 +118,14 @@ class RecurringPresaleTests(unittest.TestCase):
         result = self.build([transaction(), transaction("TWO", officialLocation="高雄市楠梓區藍田路")])
         self.assertEqual(result["matchedPriceProjects"], 0)
 
+    def test_invalid_provenance_location_does_not_poison_valid_samples(self):
+        result = self.build([
+            transaction(),
+            transaction("TWO", officialSource=None, officialLocation="高雄市楠梓區藍田路"),
+        ])
+        self.assertEqual(result["projects"][0]["transactionCount"], 1)
+        self.assertEqual(result["includedTransactionCount"], 1)
+
     def test_registry_collision_and_unreadable_name_block_matching(self):
         reg = registry()
         reg["projects"][1]["name"] = "以學MDT"
