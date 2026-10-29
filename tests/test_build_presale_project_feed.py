@@ -91,6 +91,18 @@ class RecurringPresaleTests(unittest.TestCase):
         self.assertEqual(result["matchedPriceProjects"], 0)
         self.assertIsNone(result["projects"][1]["transactionCount"])
 
+    def test_completed_home_can_show_historical_presale_without_claiming_first_sale(self):
+        feed, audit = m.build_feed(
+            registry(), [transaction(projectName="建案2")], {"updatedAt": "2026-10-18"},
+            include_completed_history=True,
+        )
+        row = feed["projects"][1]
+        self.assertEqual(row["transactionKind"], "預售屋")
+        self.assertEqual(row["registryKind"], "成屋")
+        self.assertEqual(row["transactionCount"], 1)
+        self.assertFalse(row["developerFirstSaleVerified"])
+        self.assertEqual(feed["includedTransactionCount"], 1)
+
     def test_missing_provenance_excluded_and_count_disclosed(self):
         result = self.build([transaction(), transaction("TWO", officialSource=None)])
         row = result["projects"][0]
