@@ -193,6 +193,7 @@ def build_feed(registry, transactions, market, aliases=None, *, include_complete
             "projectId": entry["projectId"], "name": entry["name"],
             "district": entry["district"], "kind": entry["registryKind"],
             "sourceRecords": len(found), "includedRecords": len(accepted),
+            "candidateOfficialLocations": sorted({official_base_location(t.get("officialLocation")) for t in found if t.get("officialLocation")}),
             "reasons": sorted(reasons) if found or (project["kind"] != "預售屋" and not include_completed_history) else ["no_exact_official_sample"],
         })
     return {
