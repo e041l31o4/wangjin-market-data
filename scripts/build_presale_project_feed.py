@@ -124,7 +124,9 @@ def build_feed(registry, transactions, market, aliases=None, *, include_complete
                 accepted.append(tx)
             # A same-name project in two different official locations is ambiguous.
             # Do not guess that street names and parcels represent the same site.
-            all_locations = {official_base_location(t.get("officialLocation")) for t in found if t.get("officialLocation")}
+            # Only provenance-validated rows can establish a location conflict.
+            # An incomplete/invalid row must not erase otherwise traceable official samples.
+            all_locations = {official_base_location(t.get("officialLocation")) for t in accepted if t.get("officialLocation")}
             if len(all_locations) > 1:
                 reasons.add("conflicting_official_locations")
                 accepted = []
