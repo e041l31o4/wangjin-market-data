@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedOn": "2026-10-18",
+  "reviewedOn": "2026-10-29",
   "reviewedBy": "Codex：官方成交原始案名、名單與一手建案資料交叉核對",
   "aliases": [
     {
@@ -46,7 +46,28 @@
         "https://shankuan.com.tw/project-detail/8"
       ],
       "note": "善寬官網明列善寬UNI；名單建商善寬、地址中華二路157巷與官方逐筆相符。"
+    },
+    {
+      "projectId": "97",
+      "projectName": "京城文學苑2",
+      "district": "左營區",
+      "officialName": "京城文學苑II",
+      "officialLocation": "高雄市左營區福山段89號",
+      "primaryEvidence": [
+        "https://culture2.tw/"
+      ],
+      "note": "京城文學苑官方建案頁使用羅馬數字II；內政部逐筆交易名稱、行政區及福山段89號位置一致，名單以阿拉伯數字2記錄。"
+    },
+    {
+      "projectId": "159",
+      "projectName": "立.天下",
+      "district": "三民區",
+      "officialName": "立信 立.天下",
+      "officialLocation": "高雄市三民區建國三路與同盟三路交叉口",
+      "primaryEvidence": [
+        "https://www.lihshinn.com/?portfolio=2024-%E7%AB%8B%E4%BF%A1%E7%AB%8B-%E5%A4%A9%E4%B8%8B"
+      ],
+      "note": "立信建設官網列出高雄三民區建國三路與同盟三路口之「立信立.天下」；官方逐筆交易案名及位置一致，名單省略建商冠名。"
     }
   ]
 }
-
