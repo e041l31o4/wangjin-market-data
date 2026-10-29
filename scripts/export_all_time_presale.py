@@ -35,7 +35,8 @@ def main():
             })
         except (KeyError, TypeError, ValueError):
             continue
-    feed, _ = build_feed(registry, transactions, market, aliases)
+    feed, _ = build_feed(
+        registry, transactions, market, aliases, include_completed_history=True)
     feed["period"] = "all_time"
     feed["importantNotes"][0] = (
         "累計已收錄的歷年預售成交樣本，不代表全案完整成交；僅計入官方案名／行政區或已核對別名、"
