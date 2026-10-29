@@ -125,7 +125,16 @@ def main():
                 'historyBackfillComplete': set(targets).issubset(imported) and current_ok,
                 'note': '全部為已收錄的官方可追溯樣本，並非保證全案無遺漏。舊資料可能無完整門牌或案名；發布季度不等於交易季度。'}
     feed = build_periods(registry, existing, mapping, market, aliases, coverage)
+    all_time_completed, all_time_audit = completed_feed(
+        registry, existing, mapping, market, year_only=False, recent_only=False)
+    all_time_completed['feedKind'] = 'public_official_completed_all_time'
+    all_time_completed['year'] = None
+    all_time_completed['period'] = 'all_time'
+    all_time_completed['importantNotes'][0] = (
+        '累計已收錄的歷年成屋成交，不限成交年度與屋齡；僅限已核對門牌且具官方追溯的樣本。')
     write(DB, existing); write(MANIFEST, coverage); write(OUTPUT, feed)
+    write(ROOT / 'data/official_completed_all_time_project_feed.json', all_time_completed)
+    write(ROOT / 'analysis/official-completed-all-time-match-audit.json', all_time_audit)
     for key, value in feed['periods'].items():
         print(key, {kind: (part['matchedPriceProjects'], part['includedTransactionCount'])
                     for kind, part in value.items()}, flush=True)
