@@ -69,5 +69,5 @@ jobs:
             done
             echo "Could not push generated data after 5 attempts." >&2
             exit 1
-          fii
+          fi
 
