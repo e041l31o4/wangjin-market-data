@@ -44,7 +44,9 @@ def official_base_location(value):
     match = re.match(r"^(高雄市.+?區)(.*)$", value)
     if match:
         prefix, body = match.groups()
-        for separator in ("及", "與", "和", "VS", "vs", "交叉口", "路口", "街口"):
+        for suffix in ("交叉口", "路口", "街口"):
+            body = body.replace(suffix, "")
+        for separator in ("及", "與", "和", "VS", "vs", "、", "，", ",", ";", "；"):
             body = body.replace(separator, "、")
         if not re.search(r"\d", body):
             parts = [part.strip() for part in body.split("、") if part.strip()]
@@ -140,8 +142,21 @@ def build_feed(registry, transactions, market, aliases=None, *, include_complete
             # An incomplete/invalid row must not erase otherwise traceable official samples.
             all_locations = {official_base_location(t.get("officialLocation")) for t in accepted if t.get("officialLocation")}
             if len(all_locations) > 1:
-                reasons.add("conflicting_official_locations")
-                accepted = []
+                raw_address = str(project.get("address") or "").strip()
+                full_address = raw_address if raw_address.startswith("高雄市") else f"高雄市{project['district']}{raw_address}"
+                reviewed_address = official_base_location(full_address)
+                prefix = f"高雄市{project['district']}"
+                address_body = reviewed_address[len(prefix):] if reviewed_address.startswith(prefix) else reviewed_address
+                location_matches = {
+                    location for location in all_locations
+                    if address_body and address_body in (location[len(prefix):] if location.startswith(prefix) else location)
+                }
+                if len(location_matches) == 1:
+                    accepted = [t for t in accepted if official_base_location(t.get("officialLocation")) in location_matches]
+                    reasons.add("conflicting_official_locations_other_locations_excluded")
+                else:
+                    reasons.add("conflicting_official_locations")
+                    accepted = []
         entry = {
             "projectId": str(project["projectId"]), "name": project["name"],
             "district": project["district"], "registryKind": project["kind"],
