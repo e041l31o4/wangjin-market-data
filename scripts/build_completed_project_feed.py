@@ -132,9 +132,12 @@ def main():
     args = parser.parse_args()
     with (ROOT / 'data/community_mapping.csv').open(encoding='utf-8-sig', newline='') as f:
         mapping = list(csv.DictReader(f))
+    transaction_path = ROOT / ('data/project_history_transactions.json' if args.all_time else 'data/transactions.json')
+    if args.all_time and not transaction_path.exists():
+        raise SystemExit('缺少歷年官方交易資料，不能產生歷年行情')
     feed, audit = build_feed(
         json.loads((ROOT / 'data/project_identity_register.json').read_text()),
-        json.loads((ROOT / 'data/transactions.json').read_text()), mapping,
+        json.loads(transaction_path.read_text()), mapping,
         json.loads((ROOT / 'market.json').read_text()),
         year_only=not args.all_time, recent_only=not args.all_time)
     if args.all_time:
