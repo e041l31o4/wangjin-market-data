@@ -1,0 +1,46 @@
+name: Export all-time presale feed
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/export_all_time_presale.py'
+      - 'data/project_history_transactions.json'
+      - 'data/project_identity_register.json'
+      - 'data/approved_project_aliases.json'
+      - 'market.json'
+      - '.github/workflows/export-all-time-presale.yml'
+  workflow_run:
+    workflows: ['Backfill and update project year and all-time prices']
+    types: [completed]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: export-all-time-presale
+  cancel-in-progress: false
+jobs:
+  export:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate official presale matching rules
+        run: python -m unittest discover -s tests -p 'test_build_presale_project_feed.py' -v
+      - name: Export all-time presale feed from retained official history
+        run: python scripts/export_all_time_presale.py
+      - name: Commit all-time presale feed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/official_presale_all_time_project_feed.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update all-time official presale project feed'
+            git pull --no-rebase origin main
+            git push
+          fi

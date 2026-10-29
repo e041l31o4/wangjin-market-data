@@ -132,7 +132,10 @@ def main():
     all_time_completed['period'] = 'all_time'
     all_time_completed['importantNotes'][0] = (
         '累計已收錄的歷年成屋成交，不限成交年度與屋齡；僅限已核對門牌且具官方追溯的樣本。')
+    all_time_presale = feed['periods']['all']['presale']
+    all_time_presale['period'] = 'all_time'
     write(DB, existing); write(MANIFEST, coverage); write(OUTPUT, feed)
+    write(ROOT / 'data/official_presale_all_time_project_feed.json', all_time_presale)
     write(ROOT / 'data/official_completed_all_time_project_feed.json', all_time_completed)
     write(ROOT / 'analysis/official-completed-all-time-match-audit.json', all_time_audit)
     for key, value in feed['periods'].items():
