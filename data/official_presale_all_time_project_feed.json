@@ -4,8 +4,8 @@
   "source": "https://plvr.land.moi.gov.tw/DownloadOpenData",
   "sourceDataUpdatedAt": "2026-10-29",
   "totalProjects": 386,
-  "matchedPriceProjects": 72,
-  "includedTransactionCount": 7528,
+  "matchedPriceProjects": 74,
+  "includedTransactionCount": 7784,
   "importantNotes": [
     "累計已收錄的歷年預售成交樣本，不代表全案完整成交；僅計入官方案名／行政區或已核對別名、具官方編號與位置的可追溯交易。",
     "依官方案名與行政區配對；不等同基地或座標逐案核實。",
@@ -2758,27 +2758,33 @@
       "district": "左營區",
       "registryKind": "預售屋",
       "registryAddress": "文學路",
-      "priceStatus": "pending_verification",
+      "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
-      "matchingRule": null,
-      "sourceRecordCount": 0,
+      "matchingRule": "official_presale_name_district_v1",
+      "sourceRecordCount": 16,
       "excludedRecordCount": 0,
-      "officialLocations": [],
-      "officialNames": [],
-      "approvedAliasNames": [],
-      "officialIdentityCount": 0,
-      "verificationSource": null,
+      "officialLocations": [
+        "高雄市左營區福山段89號"
+      ],
+      "officialNames": [
+        "京城文學苑II"
+      ],
+      "approvedAliasNames": [
+        "京城文學苑II"
+      ],
+      "officialIdentityCount": 16,
+      "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": null,
-      "latestTransactionDate": null,
-      "latestUnitPriceWanPing": null,
-      "averageUnitPriceWanPing": null,
-      "minUnitPriceWanPing": null,
-      "maxUnitPriceWanPing": null,
-      "latestDayMinUnitPriceWanPing": null,
-      "latestDayMaxUnitPriceWanPing": null
+      "transactionCount": 16,
+      "latestTransactionDate": "2026-08-08",
+      "latestUnitPriceWanPing": 44.95,
+      "averageUnitPriceWanPing": 43.81,
+      "minUnitPriceWanPing": 42.87,
+      "maxUnitPriceWanPing": 44.95,
+      "latestDayMinUnitPriceWanPing": 42.96,
+      "latestDayMaxUnitPriceWanPing": 44.95
     },
     {
       "projectId": "98",
@@ -4544,27 +4550,33 @@
       "district": "三民區",
       "registryKind": "預售屋",
       "registryAddress": "建國三路&同盟三路口",
-      "priceStatus": "pending_verification",
+      "priceStatus": "official_name_matched",
       "transactionKind": "預售屋",
-      "matchingRule": null,
-      "sourceRecordCount": 0,
+      "matchingRule": "official_presale_name_district_v1",
+      "sourceRecordCount": 240,
       "excludedRecordCount": 0,
-      "officialLocations": [],
-      "officialNames": [],
-      "approvedAliasNames": [],
-      "officialIdentityCount": 0,
-      "verificationSource": null,
+      "officialLocations": [
+        "高雄市三民區建國三路與同盟三路交叉口"
+      ],
+      "officialNames": [
+        "立信 立.天下"
+      ],
+      "approvedAliasNames": [
+        "立信 立.天下"
+      ],
+      "officialIdentityCount": 240,
+      "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "transactionSource": "內政部實價登錄預售屋（官方案名與行政區配對）",
       "verifiedOn": null,
       "reviewedBy": null,
-      "transactionCount": null,
-      "latestTransactionDate": null,
-      "latestUnitPriceWanPing": null,
-      "averageUnitPriceWanPing": null,
-      "minUnitPriceWanPing": null,
-      "maxUnitPriceWanPing": null,
-      "latestDayMinUnitPriceWanPing": null,
-      "latestDayMaxUnitPriceWanPing": null
+      "transactionCount": 240,
+      "latestTransactionDate": "2026-07-30",
+      "latestUnitPriceWanPing": 51.9,
+      "averageUnitPriceWanPing": 48.91,
+      "minUnitPriceWanPing": 40.72,
+      "maxUnitPriceWanPing": 65.04,
+      "latestDayMinUnitPriceWanPing": 51.9,
+      "latestDayMaxUnitPriceWanPing": 51.9
     },
     {
       "projectId": "160",
