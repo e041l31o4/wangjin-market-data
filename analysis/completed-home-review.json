@@ -3,10 +3,9 @@
   "completedProjectCount": 244,
   "officialCompletedTransactionCount": 4970,
   "statusCounts": {
-    "address_candidate_needs_evidence": 1,
     "no_exact_address_sample": 56,
     "registry_needs_full_address": 9,
-    "verified_community_address": 178
+    "verified_community_address": 179
   },
   "note": "門牌候選不等同建案成交或建商首售。屋齡另行列出；本清單不輸出價格，不自動建立首售對照。",
   "cases": [
@@ -16,15 +15,17 @@
       "district": "楠梓區",
       "registryAddress": "大學二十九路616號",
       "addressKey": "大學二十九路616號",
-      "status": "address_candidate_needs_evidence",
-      "verifiedAddresses": [],
+      "status": "verified_community_address",
+      "verifiedAddresses": [
+        "大學二十九路616號"
+      ],
       "candidateAddresses": [
         "大學二十九路616號"
       ],
       "transactionCountAtAddress": 1,
-      "verifiedCommunityTransactionCount": 0,
+      "verifiedCommunityTransactionCount": 1,
       "traceableRecentTransactionCount": 1,
-      "communityMappingVerified": false,
+      "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": [
         {
@@ -36,7 +37,7 @@
           "officialSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
           "traceable": true,
           "withinFiveYears": true,
-          "communityAddressVerified": false,
+          "communityAddressVerified": true,
           "ageDays": 850
         }
       ]

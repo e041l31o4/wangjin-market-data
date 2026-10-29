@@ -5,8 +5,8 @@
   "source": "https://plvr.land.moi.gov.tw/DownloadOpenData",
   "sourceDataUpdatedAt": "2026-10-29",
   "totalProjects": 386,
-  "matchedPriceProjects": 78,
-  "includedTransactionCount": 435,
+  "matchedPriceProjects": 79,
+  "includedTransactionCount": 436,
   "importantNotes": [
     "只含今年成交。成交時屋齡限5年內。僅限已核對門牌且具官方追溯的樣本。",
     "社區歸屬不等於建商首售，也不代表全案所有門牌或全部成交。",
@@ -23,26 +23,32 @@
       "transactionKind": "成屋",
       "ageCategory": "5年內成屋",
       "year": 2026,
-      "priceStatus": "pending_verification",
-      "matchingRule": null,
-      "verifiedAddresses": [],
-      "addressEvidenceSources": [],
-      "sourceRecordCount": 0,
+      "priceStatus": "community_address_matched",
+      "matchingRule": "reviewed_exact_address_recent_completed_v1",
+      "verifiedAddresses": [
+        "大學二十九路616號"
+      ],
+      "addressEvidenceSources": [
+        "project_listing：https://old.35realestate.com.tw/projects/%E9%B9%BF%E5%BA%8F；社區頁記載基地地址616號，並核對內政部逐筆交易位置；僅社區歸屬；未認定建商首售"
+      ],
+      "sourceRecordCount": 1,
       "excludedRecordCount": 0,
-      "officialIdentityCount": 0,
-      "officialLocations": [],
-      "verificationSource": null,
+      "officialIdentityCount": 1,
+      "officialLocations": [
+        "高雄市楠梓區大學二十九路６１６號二樓"
+      ],
+      "verificationSource": "https://plvr.land.moi.gov.tw/DownloadOpenData",
       "verifiedOn": null,
       "reviewedBy": null,
       "developerFirstSaleVerified": false,
-      "transactionCount": null,
-      "latestTransactionDate": null,
-      "latestUnitPriceWanPing": null,
-      "averageUnitPriceWanPing": null,
-      "minUnitPriceWanPing": null,
-      "maxUnitPriceWanPing": null,
-      "latestDayMinUnitPriceWanPing": null,
-      "latestDayMaxUnitPriceWanPing": null
+      "transactionCount": 1,
+      "latestTransactionDate": "2026-05-29",
+      "latestUnitPriceWanPing": 26.58,
+      "averageUnitPriceWanPing": 26.58,
+      "minUnitPriceWanPing": 26.58,
+      "maxUnitPriceWanPing": 26.58,
+      "latestDayMinUnitPriceWanPing": 26.58,
+      "latestDayMaxUnitPriceWanPing": 26.58
     },
     {
       "projectId": "2",

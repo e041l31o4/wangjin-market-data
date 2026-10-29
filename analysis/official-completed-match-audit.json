@@ -3,11 +3,9 @@
   "projects": [
     {
       "projectId": "1",
-      "sourceRecords": 0,
-      "includedRecords": 0,
-      "reasons": [
-        "no_traceable_recent_reviewed_sample"
-      ]
+      "sourceRecords": 1,
+      "includedRecords": 1,
+      "reasons": []
     },
     {
       "projectId": "2",

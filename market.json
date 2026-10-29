@@ -12843,6 +12843,16 @@
     },
     {
       "month": "2026-05",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "鹿序",
+      "count": 1,
+      "totalPriceWan": 1179.994,
+      "totalAreaPing": 44.401,
+      "avgUnitPriceWanPing": 26.576
+    },
+    {
+      "month": "2026-05",
       "district": "苓雅區",
       "category": "5年內成屋",
       "buildingName": "欣民權",
@@ -13210,6 +13220,16 @@
       "totalPriceWan": 767.999,
       "totalAreaPing": 21.1085,
       "avgUnitPriceWanPing": 36.383
+    },
+    {
+      "month": "2026-05",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "鹿序",
+      "count": 1,
+      "totalPriceWan": 1179.994,
+      "totalAreaPing": 44.401,
+      "avgUnitPriceWanPing": 26.576
     },
     {
       "month": "2026-05",
@@ -15305,7 +15325,7 @@
   "developerFirstSaleRankings": [],
   "developerFirstSaleMatchCount": 0,
   "developerFirstSaleRankingNote": "僅統計逐筆核實為建商完工後直接首售的成屋交易；不以屋齡、門牌或大量交屋推定首售，未核實者不納入。",
-  "communityMatchCount": 479,
-  "communityUnmatchedCount": 4491,
+  "communityMatchCount": 480,
+  "communityUnmatchedCount": 4490,
   "buildingRankingNote": "成屋社區排行只統計官方直接具名或經完整建物門牌人工核實的案件；未辨識社區不納入排名。"
 }
