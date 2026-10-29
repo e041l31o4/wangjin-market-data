@@ -138,6 +138,10 @@ def main():
     for key, value in feed['periods'].items():
         print(key, {kind: (part['matchedPriceProjects'], part['includedTransactionCount'])
                     for kind, part in value.items()}, flush=True)
+    print('all_time_completed', {
+        'matchedPriceProjects': all_time_completed['matchedPriceProjects'],
+        'includedTransactionCount': all_time_completed['includedTransactionCount'],
+    }, flush=True)
 
 
 if __name__ == '__main__':
