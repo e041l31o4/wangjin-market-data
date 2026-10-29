@@ -32,13 +32,16 @@ def release_quarters(today):
 
 
 def target_filter(registry, mapping, aliases):
-    presales = {(p['district'], identity_name(p['name'])) for p in registry['projects'] if p['kind'] == '預售屋'}
+    # Keep original presale-stage transactions for projects that are now completed
+    # as a separate historical price series. Exact project name + district only;
+    # this does not imply developer first sale or current resale value.
+    project_names = {(p['district'], identity_name(p['name'])) for p in registry['projects']}
     alias_keys = set(reviewed_alias_lookup(registry['projects'], aliases))
     addresses = {(r['district'], address_key(r['addressKey'], r['district'])) for r in mapping}
     def wanted(tx):
         if tx.get('category') == '成屋':
             return (tx.get('district'), address_key(tx.get('addressKey'), tx.get('district', ''))) in addresses
-        return (tx.get('district'), identity_name(tx.get('projectName'))) in presales | alias_keys
+        return (tx.get('district'), identity_name(tx.get('projectName'))) in project_names | alias_keys
     return wanted
 
 
@@ -80,8 +83,12 @@ def main():
         mapping = list(csv.DictReader(f))
     market = json.loads((ROOT / 'market.json').read_text())
     today = date.fromisoformat(market['updatedAt'])
-    fingerprint = hashlib.sha256(b''.join(p.read_bytes() for p in
-                                (registry_path, aliases_path, mapping_path))).hexdigest()
+    # Bump the target-scope marker when historical inclusion rules change,
+    # so prior release imports are re-read instead of silently reusing an old narrow archive.
+    fingerprint = hashlib.sha256(
+        b'presale-target-scope-v2-all-projects|' +
+        b''.join(p.read_bytes() for p in (registry_path, aliases_path, mapping_path))
+    ).hexdigest()
     previous = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
     imported = set(previous.get('importedReleaseQuarters', [])) if previous.get('targetFingerprint') == fingerprint else set()
     wanted = target_filter(registry, mapping, aliases)
