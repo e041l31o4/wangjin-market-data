@@ -41,6 +41,18 @@ jobs:
           git add data/official_presale_all_time_project_feed.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update all-time official presale project feed'
-            git pull --no-rebase origin main
-            git push
-          fi
+            for attempt in 1 2 3 4 5; do
+              git fetch origin main
+              if git rebase origin/main; then
+                if git push origin HEAD:main; then
+                  exit 0
+                fi
+              else
+                git rebase --abort
+                echo "Rebase conflict on attempt $attempt; will retry after refreshing generated files."
+              fi
+              sleep $((attempt * 2))
+            done
+            echo "Could not push generated data after 5 attempts." >&2
+            exit 1
+          fii
