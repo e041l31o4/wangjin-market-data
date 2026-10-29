@@ -3,9 +3,9 @@
   "completedProjectCount": 244,
   "officialCompletedTransactionCount": 4970,
   "statusCounts": {
-    "no_exact_address_sample": 56,
+    "no_exact_address_sample": 55,
     "registry_needs_full_address": 9,
-    "verified_community_address": 179
+    "verified_community_address": 180
   },
   "note": "門牌候選不等同建案成交或建商首售。屋齡另行列出；本清單不輸出價格，不自動建立首售對照。",
   "cases": [
@@ -4764,15 +4764,17 @@
       "district": "三民區",
       "registryAddress": "民族一路218號",
       "addressKey": "民族一路218號",
-      "status": "no_exact_address_sample",
-      "verifiedAddresses": [],
+      "status": "verified_community_address",
+      "verifiedAddresses": [
+        "民族一路218號"
+      ],
       "candidateAddresses": [
         "民族一路218號"
       ],
       "transactionCountAtAddress": 0,
       "verifiedCommunityTransactionCount": 0,
       "traceableRecentTransactionCount": 0,
-      "communityMappingVerified": false,
+      "communityMappingVerified": true,
       "developerFirstSaleVerified": false,
       "transactions": []
     },

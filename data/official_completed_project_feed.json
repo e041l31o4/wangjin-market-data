@@ -5173,8 +5173,12 @@
       "year": 2026,
       "priceStatus": "pending_verification",
       "matchingRule": null,
-      "verifiedAddresses": [],
-      "addressEvidenceSources": [],
+      "verifiedAddresses": [
+        "民族一路218號"
+      ],
+      "addressEvidenceSources": [
+        "project_listing：https://newhouse.591.com.tw/129941；2026-10-29核對建案名稱與基地門牌；僅社區歸屬；未認定建商首售"
+      ],
       "sourceRecordCount": 0,
       "excludedRecordCount": 0,
       "officialIdentityCount": 0,
