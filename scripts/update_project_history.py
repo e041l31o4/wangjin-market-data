@@ -54,7 +54,9 @@ def build_periods(registry, transactions, mapping, market, aliases, coverage):
     for period in ('year', 'all'):
         selected = {tid: tx for tid, tx in transactions.items() if
                     period == 'all' or tx.get('date', '').startswith(str(market['year']) + '-')}
-        presale, _ = presale_feed(registry, presale_rows(selected), market, aliases)
+        presale, _ = presale_feed(
+            registry, presale_rows(selected), market, aliases,
+            include_completed_history=period == 'all')
         completed, _ = completed_feed(registry, selected, mapping, market,
                                       year_only=period == 'year', recent_only=False)
         periods[period] = {'presale': presale, 'completed': completed}
