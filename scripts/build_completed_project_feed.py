@@ -4,6 +4,7 @@
 Community identity does not establish developer first-sale. Unknown or unreviewed
 addresses, unverifiable transactions and homes older than five years stay masked.
 """
+import argparse
 import csv
 import hashlib
 import json
@@ -125,15 +126,32 @@ def build_feed(registry, transactions, mapping_rows, market, *, year_only=True, 
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--all-time', action='store_true',
+                        help='建立歷年成屋行情；仍只納入已核對門牌及可追溯官方成交')
+    args = parser.parse_args()
     with (ROOT / 'data/community_mapping.csv').open(encoding='utf-8-sig', newline='') as f:
         mapping = list(csv.DictReader(f))
-    feed, audit = build_feed(json.loads((ROOT / 'data/project_identity_register.json').read_text()),
-                             json.loads((ROOT / 'data/transactions.json').read_text()), mapping,
-                             json.loads((ROOT / 'market.json').read_text()))
-    for path, data in ((ROOT / 'data/official_completed_project_feed.json', feed),
-                       (ROOT / 'analysis/official-completed-match-audit.json', audit)):
+    feed, audit = build_feed(
+        json.loads((ROOT / 'data/project_identity_register.json').read_text()),
+        json.loads((ROOT / 'data/transactions.json').read_text()), mapping,
+        json.loads((ROOT / 'market.json').read_text()),
+        year_only=not args.all_time, recent_only=not args.all_time)
+    if args.all_time:
+        feed['feedKind'] = 'public_official_completed_all_time'
+        feed['year'] = None
+        feed['period'] = 'all_time'
+        feed['importantNotes'][0] = '累計已收錄的歷年成屋成交，不限成交年度與屋齡；僅限已核對門牌且具官方追溯的樣本。'
+        feed_path = ROOT / 'data/official_completed_all_time_project_feed.json'
+        audit_path = ROOT / 'analysis/official-completed-all-time-match-audit.json'
+        label = '歷年成屋'
+    else:
+        feed_path = ROOT / 'data/official_completed_project_feed.json'
+        audit_path = ROOT / 'analysis/official-completed-match-audit.json'
+        label = '五年內今年成屋'
+    for path, data in ((feed_path, feed), (audit_path, audit)):
         path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(f"成屋可顯示={feed['matchedPriceProjects']} 可追溯5年內今年成交={feed['includedTransactionCount']}")
+    print(f"{label}可顯示={feed['matchedPriceProjects']} 可追溯成交={feed['includedTransactionCount']}")
 
 
 if __name__ == '__main__':
