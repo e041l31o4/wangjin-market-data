@@ -3,6 +3,7 @@
 
 Keep only reviewed project identities, preserve official transaction IDs, and
 never interpret a downloaded release quarter as a transaction-year census.
+Every run rebuilds published feeds from the retained archive using current matching rules.
 """
 import csv
 import hashlib
