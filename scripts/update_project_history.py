@@ -59,9 +59,16 @@ def build_periods(registry, transactions, mapping, market, aliases, coverage):
         selected = {tid: tx for tid, tx in transactions.items() if
                     period == 'all' or tx.get('date', '').startswith(str(market['year']) + '-')}
         # Re-run canonical location matching over the retained official archive each time.
-        presale, _ = presale_feed(
+        presale, presale_audit = presale_feed(
             registry, presale_rows(selected), market, aliases,
             include_completed_history=period == 'all')
+        if period == 'all':
+            presale['matchingAudit'] = [
+                {'projectId': row.get('projectId'), 'name': row.get('name'),
+                 'district': row.get('district'), 'sourceRecords': row.get('sourceRecords'),
+                 'includedRecords': row.get('includedRecords'), 'reasons': row.get('reasons', [])}
+                for row in presale_audit.get('projects', []) if row.get('reasons')
+            ]
         completed, _ = completed_feed(registry, selected, mapping, market,
                                       year_only=period == 'year', recent_only=False)
         periods[period] = {'presale': presale, 'completed': completed}
