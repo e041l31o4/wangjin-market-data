@@ -35,9 +35,15 @@ def main():
             })
         except (KeyError, TypeError, ValueError):
             continue
-    feed, _ = build_feed(
+    feed, audit = build_feed(
         registry, transactions, market, aliases, include_completed_history=True)
     feed["period"] = "all_time"
+    feed["matchingAudit"] = [
+        {"projectId": row.get("projectId"), "name": row.get("name"),
+         "district": row.get("district"), "sourceRecords": row.get("sourceRecords"),
+         "includedRecords": row.get("includedRecords"), "reasons": row.get("reasons", [])}
+        for row in audit.get("projects", []) if row.get("reasons")
+    ]
     feed["importantNotes"][0] = (
         "累計已收錄的歷年預售成交樣本，不代表全案完整成交；僅計入官方案名／行政區或已核對別名、"
         "具官方編號與位置的可追溯交易。")
