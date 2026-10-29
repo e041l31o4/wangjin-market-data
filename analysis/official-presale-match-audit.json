@@ -1044,11 +1044,9 @@
       "name": "京城文學苑2",
       "district": "左營區",
       "kind": "預售屋",
-      "sourceRecords": 0,
-      "includedRecords": 0,
-      "reasons": [
-        "no_exact_official_sample"
-      ]
+      "sourceRecords": 16,
+      "includedRecords": 16,
+      "reasons": []
     },
     {
       "projectId": "98",
@@ -1708,11 +1706,9 @@
       "name": "立.天下",
       "district": "三民區",
       "kind": "預售屋",
-      "sourceRecords": 0,
-      "includedRecords": 0,
-      "reasons": [
-        "no_exact_official_sample"
-      ]
+      "sourceRecords": 6,
+      "includedRecords": 6,
+      "reasons": []
     },
     {
       "projectId": "160",
