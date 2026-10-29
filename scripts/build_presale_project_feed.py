@@ -38,7 +38,19 @@ def official_base_location(value):
     value = unicodedata.normalize("NFKC", str(value or "")).strip()
     # Explicit trailing building/floor tokens only. Do not remove house numbers,
     # parcels, lanes, phase digits or arbitrary text.
-    return re.sub(r"\s*[A-Z]\d+棟F?\d+樓$", "", value, flags=re.IGNORECASE).strip()
+    value = re.sub(r"\s*[A-Z]\d+棟F?\d+樓$", "", value, flags=re.IGNORECASE).strip()
+    # The official export may reverse the road order at the same intersection.
+    # Canonicalize only two street-name components without house/parcel numbers.
+    match = re.match(r"^(高雄市.+?區)(.*)$", value)
+    if match:
+        prefix, body = match.groups()
+        for separator in ("及", "與", "和", "VS", "vs", "交叉口", "路口", "街口"):
+            body = body.replace(separator, "、")
+        if not re.search(r"\d", body):
+            parts = [part.strip() for part in body.split("、") if part.strip()]
+            if len(parts) == 2 and all(part.endswith(("大道", "路", "街")) for part in parts):
+                return prefix + "、".join(sorted(parts))
+    return value
 
 
 def reviewed_alias_lookup(projects, aliases):
