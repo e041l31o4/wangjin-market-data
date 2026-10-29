@@ -60,7 +60,7 @@ def reviewed_alias_lookup(projects, aliases):
     return lookup
 
 
-def build_feed(registry, transactions, market, aliases=None):
+def build_feed(registry, transactions, market, aliases=None, *, include_completed_history=False):
     projects = registry["projects"]
     if len(projects) != 386 or len({str(p["projectId"]) for p in projects}) != 386:
         raise ValueError("建案名單必須有386筆唯一ID")
@@ -90,7 +90,7 @@ def build_feed(registry, transactions, market, aliases=None):
     for project, key in zip(projects, keys):
         found = groups.get(key, [])
         accepted, reasons = [], set()
-        if project["kind"] != "預售屋":
+        if project["kind"] != "預售屋" and not include_completed_history:
             reasons.add("completed_home_not_eligible")
         elif not usable_name(key[1]):
             reasons.add("unreadable_project_name")
@@ -134,6 +134,7 @@ def build_feed(registry, transactions, market, aliases=None):
             "registryAddress": project.get("address"),
             "priceStatus": "official_name_matched" if accepted else "pending_verification",
             "transactionKind": "預售屋", "matchingRule": RULE if accepted else None,
+            "developerFirstSaleVerified": False,
             "sourceRecordCount": len(found),
             "excludedRecordCount": len(found) - len(accepted),
             "officialLocations": sorted({official_base_location(t["officialLocation"]) for t in accepted}),
@@ -163,7 +164,7 @@ def build_feed(registry, transactions, market, aliases=None):
             "projectId": entry["projectId"], "name": entry["name"],
             "district": entry["district"], "kind": entry["registryKind"],
             "sourceRecords": len(found), "includedRecords": len(accepted),
-            "reasons": sorted(reasons) if found or project["kind"] != "預售屋" else ["no_exact_official_sample"],
+            "reasons": sorted(reasons) if found or (project["kind"] != "預售屋" and not include_completed_history) else ["no_exact_official_sample"],
         })
     return {
         "schemaVersion": 2, "feedKind": "public_official_presale",
@@ -175,7 +176,7 @@ def build_feed(registry, transactions, market, aliases=None):
             "價格為已收錄且可追溯的預售成交樣本，不是全案完整成交紀錄。",
             "依官方案名與行政區配對；不等同基地或座標逐案核實。",
             "平均單價採收錄逐筆單價的算術平均；缺少官方編號或位置的紀錄不列入。",
-            "僅套用有一手來源與固定位置的核對別名；不猜測別名，成屋不以預售紀錄當成首售。",
+            "成屋若列入預售資料，僅代表原預售階段的官方成交樣本，不代表建商首售或成屋轉售價格。",
             "新成交通過同一配對規則後自動計入；歧義與缺失資料維持待確認。",
         ],
         "projects": entries,
