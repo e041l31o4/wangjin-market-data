@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "feedKind": "public_official_presale",
   "source": "https://plvr.land.moi.gov.tw/DownloadOpenData",
-  "sourceDataUpdatedAt": "2026-10-29",
+  "sourceDataUpdatedAt": "2026-10-30",
   "totalProjects": 386,
   "matchedPriceProjects": 63,
   "includedTransactionCount": 1010,
@@ -2646,7 +2646,7 @@
       "sourceRecordCount": 1,
       "excludedRecordCount": 0,
       "officialLocations": [
-        "高雄市左營區華夏路及重信路交叉口"
+        "高雄市左營區華夏路、重信路"
       ],
       "officialNames": [
         "鑫天際"
@@ -3612,7 +3612,7 @@
       "sourceRecordCount": 4,
       "excludedRecordCount": 0,
       "officialLocations": [
-        "高雄市鼓山區明倫路vs昌盛路"
+        "高雄市鼓山區昌盛路、明倫路"
       ],
       "officialNames": [
         "郡都巨蛋"
@@ -4715,7 +4715,7 @@
       "sourceRecordCount": 6,
       "excludedRecordCount": 0,
       "officialLocations": [
-        "高雄市三民區建國三路與同盟三路交叉口"
+        "高雄市三民區同盟三路、建國三路"
       ],
       "officialNames": [
         "立信 立.天下"
@@ -4975,7 +4975,7 @@
       "sourceRecordCount": 4,
       "excludedRecordCount": 0,
       "officialLocations": [
-        "高雄市三民區皓東路與澄明街"
+        "高雄市三民區澄明街、皓東路"
       ],
       "officialNames": [
         "無雙"
@@ -5161,7 +5161,7 @@
       "sourceRecordCount": 6,
       "excludedRecordCount": 0,
       "officialLocations": [
-        "高雄市三民區德旺街、德勝街"
+        "高雄市三民區德勝街、德旺街"
       ],
       "officialNames": [
         "慶旺美都高峰會"
@@ -7628,7 +7628,7 @@
       "sourceRecordCount": 1,
       "excludedRecordCount": 0,
       "officialLocations": [
-        "高雄市前鎮區凱旋四路與瑞田街"
+        "高雄市前鎮區凱旋四路、瑞田街"
       ],
       "officialNames": [
         "AI慕光城"
