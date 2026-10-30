@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "https://github.com/e041l31o4/wangjin/blob/main/public/data/kaohsiung-projects.json",
-  "snapshotDate": "2026-10-18",
+  "snapshotDate": "2026-10-30",
   "projects": [
     {
       "projectId": "1",
@@ -376,7 +376,7 @@
     },
     {
       "projectId": "54",
-      "name": "高大之上",
+      "name": "高大之森2 高大之上",
       "district": "楠梓區",
       "kind": "預售屋",
       "address": "大學南路"
