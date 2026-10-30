@@ -73,13 +73,15 @@
       "projectId": "54",
       "projectName": "高大之森2 高大之上",
       "district": "楠梓區",
-      "officialName": "高大之森2-高大之上",
+      "officialName": "高大之森2高大之上",
       "officialLocation": "高雄市楠梓區大學南路",
       "primaryEvidence": [
-        "https://pi.debang.tw/",
+        "https://newhouse.591.com.tw/139790/detail",
+        "https://market.591.com.tw/6014921/price",
+        "https://news.nextapple.com/property/20260223/45DBBE19B55DA00E320A6211062858A5",
         "https://plvr.land.moi.gov.tw/DownloadOpenData"
       ],
-      "note": "中德建設／得邦廣告官方建案頁使用「高大之森2」名稱；官方預售實登彙整可見「高大之森2-高大之上」及楠梓區大學南路位置。此別名用於官方案名配對；只有原始資料中具官方編號、位置及可追溯性者才會納入成交統計。"
+      "note": "官方建案公開名稱及媒體報導使用「高大之森2高大之上」（不含連字號）；基地為高雄市楠梓區大學南路。此別名僅用於官方交易名稱配對，仍須逐筆通過內政部交易識別碼、行政區、位置及來源驗證後才可納入望境官方成交統計。"
     }
   ]
 }
