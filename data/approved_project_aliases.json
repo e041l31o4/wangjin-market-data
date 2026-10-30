@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "reviewedOn": "2026-10-29",
-  "reviewedBy": "Codex：官方成交原始案名、名單與一手建案資料交叉核對",
+  "reviewedOn": "2026-10-30",
+  "reviewedBy": "望境資料核對：建案官方頁、內政部實登來源與逐筆位置名稱交叉檢視",
   "aliases": [
     {
       "projectId": "58",
@@ -68,6 +68,18 @@
         "https://www.lihshinn.com/?portfolio=2024-%E7%AB%8B%E4%BF%A1%E7%AB%8B-%E5%A4%A9%E4%B8%8B"
       ],
       "note": "立信建設官網列出高雄三民區建國三路與同盟三路口之「立信立.天下」；官方逐筆交易案名及位置一致，名單省略建商冠名。"
+    },
+    {
+      "projectId": "54",
+      "projectName": "高大之上",
+      "district": "楠梓區",
+      "officialName": "高大之森2-高大之上",
+      "officialLocation": "高雄市楠梓區大學南路",
+      "primaryEvidence": [
+        "https://pi.debang.tw/",
+        "https://plvr.land.moi.gov.tw/DownloadOpenData"
+      ],
+      "note": "中德建設／得邦廣告官方建案頁使用「高大之森2」名稱；官方預售實登彙整可見「高大之森2-高大之上」及楠梓區大學南路位置。此別名用於官方案名配對；只有原始資料中具官方編號、位置及可追溯性者才會納入成交統計。"
     }
   ]
 }
