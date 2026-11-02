@@ -1,5 +1,5 @@
 {
-  "sourceDataUpdatedAt": "2026-10-30",
+  "sourceDataUpdatedAt": "2026-11-02",
   "projects": [
     {
       "projectId": "1",
@@ -121,8 +121,8 @@
     },
     {
       "projectId": "17",
-      "sourceRecords": 42,
-      "includedRecords": 42,
+      "sourceRecords": 45,
+      "includedRecords": 45,
       "reasons": []
     },
     {
@@ -535,11 +535,9 @@
     },
     {
       "projectId": "71",
-      "sourceRecords": 0,
-      "includedRecords": 0,
-      "reasons": [
-        "no_traceable_recent_reviewed_sample"
-      ]
+      "sourceRecords": 1,
+      "includedRecords": 1,
+      "reasons": []
     },
     {
       "projectId": "72",
@@ -577,14 +575,14 @@
     },
     {
       "projectId": "77",
-      "sourceRecords": 12,
-      "includedRecords": 12,
+      "sourceRecords": 13,
+      "includedRecords": 13,
       "reasons": []
     },
     {
       "projectId": "78",
-      "sourceRecords": 5,
-      "includedRecords": 5,
+      "sourceRecords": 6,
+      "includedRecords": 6,
       "reasons": []
     },
     {
@@ -641,10 +639,10 @@
     },
     {
       "projectId": "86",
-      "sourceRecords": 0,
+      "sourceRecords": 1,
       "includedRecords": 0,
       "reasons": [
-        "no_traceable_recent_reviewed_sample"
+        "not_within_five_years_or_unknown_completion"
       ]
     },
     {
@@ -791,10 +789,10 @@
     },
     {
       "projectId": "105",
-      "sourceRecords": 0,
+      "sourceRecords": 1,
       "includedRecords": 0,
       "reasons": [
-        "no_traceable_recent_reviewed_sample"
+        "not_within_five_years_or_unknown_completion"
       ]
     },
     {
@@ -815,8 +813,8 @@
     },
     {
       "projectId": "108",
-      "sourceRecords": 1,
-      "includedRecords": 1,
+      "sourceRecords": 2,
+      "includedRecords": 2,
       "reasons": []
     },
     {
@@ -997,8 +995,8 @@
     },
     {
       "projectId": "131",
-      "sourceRecords": 7,
-      "includedRecords": 7,
+      "sourceRecords": 8,
+      "includedRecords": 8,
       "reasons": []
     },
     {
@@ -1089,8 +1087,8 @@
     },
     {
       "projectId": "144",
-      "sourceRecords": 4,
-      "includedRecords": 4,
+      "sourceRecords": 5,
+      "includedRecords": 5,
       "reasons": []
     },
     {
@@ -1109,8 +1107,8 @@
     },
     {
       "projectId": "147",
-      "sourceRecords": 2,
-      "includedRecords": 0,
+      "sourceRecords": 3,
+      "includedRecords": 1,
       "reasons": [
         "missing_or_conflicting_official_provenance"
       ]
@@ -1535,8 +1533,8 @@
     },
     {
       "projectId": "203",
-      "sourceRecords": 2,
-      "includedRecords": 0,
+      "sourceRecords": 4,
+      "includedRecords": 2,
       "reasons": [
         "missing_or_conflicting_official_provenance"
       ]
@@ -1841,10 +1839,11 @@
     },
     {
       "projectId": "242",
-      "sourceRecords": 1,
+      "sourceRecords": 2,
       "includedRecords": 0,
       "reasons": [
-        "missing_or_conflicting_official_provenance"
+        "missing_or_conflicting_official_provenance",
+        "not_within_five_years_or_unknown_completion"
       ]
     },
     {
@@ -2047,8 +2046,8 @@
     },
     {
       "projectId": "268",
-      "sourceRecords": 24,
-      "includedRecords": 22,
+      "sourceRecords": 25,
+      "includedRecords": 23,
       "reasons": [
         "missing_or_conflicting_official_provenance"
       ]
@@ -2087,8 +2086,8 @@
     },
     {
       "projectId": "273",
-      "sourceRecords": 12,
-      "includedRecords": 10,
+      "sourceRecords": 14,
+      "includedRecords": 12,
       "reasons": [
         "missing_or_conflicting_official_provenance"
       ]
@@ -2119,8 +2118,8 @@
     },
     {
       "projectId": "277",
-      "sourceRecords": 7,
-      "includedRecords": 6,
+      "sourceRecords": 8,
+      "includedRecords": 7,
       "reasons": [
         "missing_or_conflicting_official_provenance"
       ]
@@ -2891,8 +2890,8 @@
     },
     {
       "projectId": "378",
-      "sourceRecords": 57,
-      "includedRecords": 54,
+      "sourceRecords": 58,
+      "includedRecords": 55,
       "reasons": [
         "missing_or_conflicting_official_provenance"
       ]
