@@ -1,5 +1,5 @@
 {
-  "sourceDataUpdatedAt": "2026-11-02",
+  "sourceDataUpdatedAt": "2026-11-11",
   "projects": [
     {
       "projectId": "1",
@@ -692,8 +692,8 @@
       "name": "一靚",
       "district": "楠梓區",
       "kind": "預售屋",
-      "sourceRecords": 64,
-      "includedRecords": 63,
+      "sourceRecords": 67,
+      "includedRecords": 66,
       "candidateOfficialLocations": [
         "高雄市楠梓區大學二十三街及二十六街口"
       ],
@@ -718,8 +718,8 @@
       "name": "遠雄蘴靚",
       "district": "楠梓區",
       "kind": "預售屋",
-      "sourceRecords": 42,
-      "includedRecords": 40,
+      "sourceRecords": 46,
+      "includedRecords": 44,
       "candidateOfficialLocations": [
         "高雄市楠梓區惠正街128號旁"
       ],
@@ -732,8 +732,8 @@
       "name": "音樂匯",
       "district": "楠梓區",
       "kind": "預售屋",
-      "sourceRecords": 3,
-      "includedRecords": 2,
+      "sourceRecords": 4,
+      "includedRecords": 3,
       "candidateOfficialLocations": [
         "高雄市楠梓區援中段一小段296地號"
       ],
@@ -1060,8 +1060,8 @@
       "name": "鑫高鐵Ⅲ",
       "district": "左營區",
       "kind": "預售屋",
-      "sourceRecords": 8,
-      "includedRecords": 8,
+      "sourceRecords": 10,
+      "includedRecords": 10,
       "candidateOfficialLocations": [
         "高雄市左營區華夏路"
       ],
@@ -1168,7 +1168,7 @@
       "name": "京城文學苑2",
       "district": "左營區",
       "kind": "預售屋",
-      "sourceRecords": 17,
+      "sourceRecords": 18,
       "includedRecords": 0,
       "candidateOfficialLocations": [
         "高雄市左營區文學路",
@@ -1483,8 +1483,8 @@
       "name": "國揚鉑御",
       "district": "鼓山區",
       "kind": "預售屋",
-      "sourceRecords": 62,
-      "includedRecords": 60,
+      "sourceRecords": 65,
+      "includedRecords": 63,
       "candidateOfficialLocations": [
         "高雄市鼓山區龍中段194地號"
       ],
@@ -1871,8 +1871,8 @@
       "name": "峰蘊",
       "district": "三民區",
       "kind": "預售屋",
-      "sourceRecords": 21,
-      "includedRecords": 20,
+      "sourceRecords": 22,
+      "includedRecords": 21,
       "candidateOfficialLocations": [
         "高雄市三民區九如一路"
       ],
@@ -1921,8 +1921,8 @@
       "name": "立.天下",
       "district": "三民區",
       "kind": "預售屋",
-      "sourceRecords": 7,
-      "includedRecords": 7,
+      "sourceRecords": 9,
+      "includedRecords": 9,
       "candidateOfficialLocations": [
         "高雄市三民區同盟三路、建國三路"
       ],
@@ -1995,8 +1995,8 @@
       "name": "和築豐彩",
       "district": "三民區",
       "kind": "預售屋",
-      "sourceRecords": 48,
-      "includedRecords": 48,
+      "sourceRecords": 50,
+      "includedRecords": 50,
       "candidateOfficialLocations": [
         "高雄市三民區鼎山街"
       ],
@@ -2093,8 +2093,8 @@
       "name": "慶旺美都高峰會",
       "district": "三民區",
       "kind": "預售屋",
-      "sourceRecords": 8,
-      "includedRecords": 8,
+      "sourceRecords": 10,
+      "includedRecords": 10,
       "candidateOfficialLocations": [
         "高雄市三民區德勝街、德旺街"
       ],
@@ -2505,8 +2505,8 @@
       "name": "知道明",
       "district": "苓雅區",
       "kind": "預售屋",
-      "sourceRecords": 12,
-      "includedRecords": 12,
+      "sourceRecords": 13,
+      "includedRecords": 13,
       "candidateOfficialLocations": [
         "高雄市苓雅區建國一路"
       ],
@@ -2565,8 +2565,8 @@
       "name": "文化星匯",
       "district": "苓雅區",
       "kind": "預售屋",
-      "sourceRecords": 23,
-      "includedRecords": 23,
+      "sourceRecords": 25,
+      "includedRecords": 25,
       "candidateOfficialLocations": [
         "高雄市苓雅區泉州街"
       ],
@@ -2589,8 +2589,8 @@
       "name": "御上立騰",
       "district": "苓雅區",
       "kind": "預售屋",
-      "sourceRecords": 25,
-      "includedRecords": 25,
+      "sourceRecords": 26,
+      "includedRecords": 26,
       "candidateOfficialLocations": [
         "高雄市苓雅區安樂路與安樂路1巷"
       ],
@@ -3141,8 +3141,8 @@
       "name": "亞灣205",
       "district": "前鎮區",
       "kind": "預售屋",
-      "sourceRecords": 253,
-      "includedRecords": 239,
+      "sourceRecords": 262,
+      "includedRecords": 248,
       "candidateOfficialLocations": [
         "高雄市前鎮區經貿段五小段8地號"
       ],
@@ -3155,8 +3155,8 @@
       "name": "夢安庭",
       "district": "前鎮區",
       "kind": "預售屋",
-      "sourceRecords": 19,
-      "includedRecords": 18,
+      "sourceRecords": 21,
+      "includedRecords": 20,
       "candidateOfficialLocations": [
         "高雄市前鎮區前鎮街135巷"
       ],
@@ -4433,8 +4433,8 @@
       "name": "佳鋐雄湛",
       "district": "仁武區",
       "kind": "預售屋",
-      "sourceRecords": 9,
-      "includedRecords": 6,
+      "sourceRecords": 11,
+      "includedRecords": 8,
       "candidateOfficialLocations": [
         "高雄市仁武區赤仁路62巷"
       ],
@@ -4639,8 +4639,8 @@
       "name": "世界學",
       "district": "橋頭區",
       "kind": "預售屋",
-      "sourceRecords": 14,
-      "includedRecords": 13,
+      "sourceRecords": 17,
+      "includedRecords": 16,
       "candidateOfficialLocations": [
         "高雄市橋頭區橋新三路"
       ],

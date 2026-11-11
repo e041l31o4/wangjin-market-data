@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-11",
   "year": 2026,
   "period": "2026年官方已收集揭露批次（非全年完整統計；已涵蓋交易月份：2026-01, 2026-02, 2026-03, 2026-04, 2026-05, 2026-06, 2026-07, 2026-08, 2026-09, 2026-10）",
   "sourceLabel": "內政部不動產交易實價登錄 Open Data（高雄住宅大樓、住家用、排除部分特殊交易）",
@@ -42,46 +42,46 @@
       "year": 2026,
       "district": "三民區",
       "category": "成屋",
-      "count": 888,
-      "totalPriceWan": 1126346.025,
-      "totalAreaPing": 34539.3938,
-      "avgUnitPriceWanPing": 32.61
+      "count": 921,
+      "totalPriceWan": 1161568.5,
+      "totalAreaPing": 35717.3924,
+      "avgUnitPriceWanPing": 32.521
     },
     {
       "year": 2026,
       "district": "三民區",
       "category": "預售屋",
-      "count": 229,
-      "totalPriceWan": 396159.023,
-      "totalAreaPing": 8323.9412,
-      "avgUnitPriceWanPing": 47.593
+      "count": 236,
+      "totalPriceWan": 411840.045,
+      "totalAreaPing": 8648.3483,
+      "avgUnitPriceWanPing": 47.621
     },
     {
       "year": 2026,
       "district": "仁武區",
       "category": "成屋",
-      "count": 224,
-      "totalPriceWan": 274309.973,
-      "totalAreaPing": 9224.269,
-      "avgUnitPriceWanPing": 29.738
+      "count": 235,
+      "totalPriceWan": 288112.928,
+      "totalAreaPing": 9685.1943,
+      "avgUnitPriceWanPing": 29.748
     },
     {
       "year": 2026,
       "district": "仁武區",
       "category": "預售屋",
-      "count": 69,
-      "totalPriceWan": 69338.999,
-      "totalAreaPing": 2138.6358,
-      "avgUnitPriceWanPing": 32.422
+      "count": 71,
+      "totalPriceWan": 71141.003,
+      "totalAreaPing": 2192.2872,
+      "avgUnitPriceWanPing": 32.451
     },
     {
       "year": 2026,
       "district": "前金區",
       "category": "成屋",
-      "count": 130,
-      "totalPriceWan": 140023.912,
-      "totalAreaPing": 4702.4202,
-      "avgUnitPriceWanPing": 29.777
+      "count": 134,
+      "totalPriceWan": 145564.929,
+      "totalAreaPing": 4906.1448,
+      "avgUnitPriceWanPing": 29.67
     },
     {
       "year": 2026,
@@ -96,37 +96,37 @@
       "year": 2026,
       "district": "前鎮區",
       "category": "成屋",
-      "count": 318,
-      "totalPriceWan": 478238.82,
-      "totalAreaPing": 14480.9508,
-      "avgUnitPriceWanPing": 33.025
+      "count": 334,
+      "totalPriceWan": 502600.83,
+      "totalAreaPing": 15219.6982,
+      "avgUnitPriceWanPing": 33.023
     },
     {
       "year": 2026,
       "district": "前鎮區",
       "category": "預售屋",
-      "count": 277,
-      "totalPriceWan": 326668.96,
-      "totalAreaPing": 8461.2066,
-      "avgUnitPriceWanPing": 38.608
+      "count": 288,
+      "totalPriceWan": 338816.955,
+      "totalAreaPing": 8774.2125,
+      "avgUnitPriceWanPing": 38.615
     },
     {
       "year": 2026,
       "district": "大寮區",
       "category": "成屋",
-      "count": 58,
-      "totalPriceWan": 38755.482,
-      "totalAreaPing": 2128.1269,
-      "avgUnitPriceWanPing": 18.211
+      "count": 64,
+      "totalPriceWan": 42064.479,
+      "totalAreaPing": 2342.2939,
+      "avgUnitPriceWanPing": 17.959
     },
     {
       "year": 2026,
       "district": "大寮區",
       "category": "預售屋",
-      "count": 22,
-      "totalPriceWan": 17187.982,
-      "totalAreaPing": 610.7566,
-      "avgUnitPriceWanPing": 28.142
+      "count": 24,
+      "totalPriceWan": 18905.984,
+      "totalAreaPing": 668.7852,
+      "avgUnitPriceWanPing": 28.269
     },
     {
       "year": 2026,
@@ -141,19 +141,19 @@
       "year": 2026,
       "district": "大社區",
       "category": "成屋",
-      "count": 13,
-      "totalPriceWan": 6600.993,
-      "totalAreaPing": 400.4162,
-      "avgUnitPriceWanPing": 16.485
+      "count": 15,
+      "totalPriceWan": 7290.989,
+      "totalAreaPing": 455.8524,
+      "avgUnitPriceWanPing": 15.994
     },
     {
       "year": 2026,
       "district": "小港區",
       "category": "成屋",
-      "count": 176,
-      "totalPriceWan": 164517.004,
-      "totalAreaPing": 6426.3677,
-      "avgUnitPriceWanPing": 25.6
+      "count": 182,
+      "totalPriceWan": 171490.988,
+      "totalAreaPing": 6675.0863,
+      "avgUnitPriceWanPing": 25.691
     },
     {
       "year": 2026,
@@ -168,46 +168,46 @@
       "year": 2026,
       "district": "岡山區",
       "category": "成屋",
-      "count": 86,
-      "totalPriceWan": 81181.765,
-      "totalAreaPing": 3726.1135,
-      "avgUnitPriceWanPing": 21.787
+      "count": 88,
+      "totalPriceWan": 82952.769,
+      "totalAreaPing": 3808.5992,
+      "avgUnitPriceWanPing": 21.78
     },
     {
       "year": 2026,
       "district": "左營區",
       "category": "成屋",
-      "count": 646,
-      "totalPriceWan": 868652.321,
-      "totalAreaPing": 27041.1657,
-      "avgUnitPriceWanPing": 32.123
+      "count": 670,
+      "totalPriceWan": 899209.342,
+      "totalAreaPing": 28139.1954,
+      "avgUnitPriceWanPing": 31.956
     },
     {
       "year": 2026,
       "district": "左營區",
       "category": "預售屋",
-      "count": 51,
-      "totalPriceWan": 69212.98,
-      "totalAreaPing": 1759.8936,
-      "avgUnitPriceWanPing": 39.328
+      "count": 54,
+      "totalPriceWan": 72808.977,
+      "totalAreaPing": 1861.5215,
+      "avgUnitPriceWanPing": 39.113
     },
     {
       "year": 2026,
       "district": "新興區",
       "category": "成屋",
-      "count": 206,
-      "totalPriceWan": 221651.029,
-      "totalAreaPing": 6988.4067,
-      "avgUnitPriceWanPing": 31.717
+      "count": 209,
+      "totalPriceWan": 224682.024,
+      "totalAreaPing": 7070.484,
+      "avgUnitPriceWanPing": 31.777
     },
     {
       "year": 2026,
       "district": "新興區",
       "category": "預售屋",
-      "count": 59,
-      "totalPriceWan": 90130.962,
-      "totalAreaPing": 1718.2606,
-      "avgUnitPriceWanPing": 52.455
+      "count": 60,
+      "totalPriceWan": 91318.957,
+      "totalAreaPing": 1746.1662,
+      "avgUnitPriceWanPing": 52.297
     },
     {
       "year": 2026,
@@ -240,46 +240,46 @@
       "year": 2026,
       "district": "楠梓區",
       "category": "成屋",
-      "count": 660,
-      "totalPriceWan": 704646.288,
-      "totalAreaPing": 24149.4743,
-      "avgUnitPriceWanPing": 29.179
+      "count": 686,
+      "totalPriceWan": 734274.237,
+      "totalAreaPing": 25158.9411,
+      "avgUnitPriceWanPing": 29.185
     },
     {
       "year": 2026,
       "district": "楠梓區",
       "category": "預售屋",
-      "count": 183,
-      "totalPriceWan": 217265.993,
-      "totalAreaPing": 5289.491,
-      "avgUnitPriceWanPing": 41.075
+      "count": 191,
+      "totalPriceWan": 226864.981,
+      "totalAreaPing": 5503.6398,
+      "avgUnitPriceWanPing": 41.221
     },
     {
       "year": 2026,
       "district": "橋頭區",
       "category": "成屋",
-      "count": 171,
-      "totalPriceWan": 260155.956,
-      "totalAreaPing": 7733.2192,
-      "avgUnitPriceWanPing": 33.641
+      "count": 176,
+      "totalPriceWan": 268926.959,
+      "totalAreaPing": 7952.1989,
+      "avgUnitPriceWanPing": 33.818
     },
     {
       "year": 2026,
       "district": "橋頭區",
       "category": "預售屋",
-      "count": 15,
-      "totalPriceWan": 19794.004,
-      "totalAreaPing": 462.8916,
-      "avgUnitPriceWanPing": 42.762
+      "count": 18,
+      "totalPriceWan": 23917.001,
+      "totalAreaPing": 559.2469,
+      "avgUnitPriceWanPing": 42.766
     },
     {
       "year": 2026,
       "district": "湖內區",
       "category": "成屋",
-      "count": 11,
-      "totalPriceWan": 2314.986,
-      "totalAreaPing": 182.0324,
-      "avgUnitPriceWanPing": 12.717
+      "count": 12,
+      "totalPriceWan": 2444.985,
+      "totalAreaPing": 191.8425,
+      "avgUnitPriceWanPing": 12.745
     },
     {
       "year": 2026,
@@ -303,19 +303,19 @@
       "year": 2026,
       "district": "苓雅區",
       "category": "成屋",
-      "count": 439,
-      "totalPriceWan": 551366.537,
-      "totalAreaPing": 16423.7813,
-      "avgUnitPriceWanPing": 33.571
+      "count": 466,
+      "totalPriceWan": 587568.476,
+      "totalAreaPing": 17530.6077,
+      "avgUnitPriceWanPing": 33.517
     },
     {
       "year": 2026,
       "district": "苓雅區",
       "category": "預售屋",
-      "count": 181,
-      "totalPriceWan": 262299.061,
-      "totalAreaPing": 6378.9781,
-      "avgUnitPriceWanPing": 41.119
+      "count": 186,
+      "totalPriceWan": 270682.071,
+      "totalAreaPing": 6579.1,
+      "avgUnitPriceWanPing": 41.143
     },
     {
       "year": 2026,
@@ -375,10 +375,10 @@
       "year": 2026,
       "district": "鳳山區",
       "category": "成屋",
-      "count": 596,
-      "totalPriceWan": 675566.167,
-      "totalAreaPing": 24280.4447,
-      "avgUnitPriceWanPing": 27.823
+      "count": 629,
+      "totalPriceWan": 712026.144,
+      "totalAreaPing": 25550.6877,
+      "avgUnitPriceWanPing": 27.867
     },
     {
       "year": 2026,
@@ -393,10 +393,10 @@
       "year": 2026,
       "district": "鹽埕區",
       "category": "成屋",
-      "count": 51,
-      "totalPriceWan": 33871.782,
-      "totalAreaPing": 1210.8017,
-      "avgUnitPriceWanPing": 27.975
+      "count": 55,
+      "totalPriceWan": 38261.8,
+      "totalAreaPing": 1343.3632,
+      "avgUnitPriceWanPing": 28.482
     },
     {
       "year": 2026,
@@ -411,19 +411,19 @@
       "year": 2026,
       "district": "鼓山區",
       "category": "成屋",
-      "count": 441,
-      "totalPriceWan": 836571.647,
-      "totalAreaPing": 22908.0143,
-      "avgUnitPriceWanPing": 36.519
+      "count": 462,
+      "totalPriceWan": 873409.674,
+      "totalAreaPing": 23970.8813,
+      "avgUnitPriceWanPing": 36.436
     },
     {
       "year": 2026,
       "district": "鼓山區",
       "category": "預售屋",
-      "count": 102,
-      "totalPriceWan": 241269.978,
-      "totalAreaPing": 3760.2324,
-      "avgUnitPriceWanPing": 64.164
+      "count": 107,
+      "totalPriceWan": 250988.987,
+      "totalAreaPing": 3929.2059,
+      "avgUnitPriceWanPing": 63.878
     }
   ],
   "monthlyRecords": [
@@ -1259,10 +1259,10 @@
       "month": "2026-03",
       "district": "橋頭區",
       "category": "成屋",
-      "count": 45,
-      "totalPriceWan": 68455.022,
-      "totalAreaPing": 1896.3907,
-      "avgUnitPriceWanPing": 36.098
+      "count": 46,
+      "totalPriceWan": 71105.017,
+      "totalAreaPing": 1959.0959,
+      "avgUnitPriceWanPing": 36.295
     },
     {
       "month": "2026-03",
@@ -1511,10 +1511,10 @@
       "month": "2026-04",
       "district": "左營區",
       "category": "成屋",
-      "count": 74,
-      "totalPriceWan": 103028.043,
-      "totalAreaPing": 3335.6949,
-      "avgUnitPriceWanPing": 30.887
+      "count": 75,
+      "totalPriceWan": 104458.05,
+      "totalAreaPing": 3376.8288,
+      "avgUnitPriceWanPing": 30.934
     },
     {
       "month": "2026-04",
@@ -1583,10 +1583,10 @@
       "month": "2026-04",
       "district": "橋頭區",
       "category": "成屋",
-      "count": 27,
-      "totalPriceWan": 43559.001,
-      "totalAreaPing": 1239.4666,
-      "avgUnitPriceWanPing": 35.143
+      "count": 28,
+      "totalPriceWan": 44483.996,
+      "totalAreaPing": 1266.9305,
+      "avgUnitPriceWanPing": 35.112
     },
     {
       "month": "2026-04",
@@ -1700,10 +1700,10 @@
       "month": "2026-05",
       "district": "三民區",
       "category": "成屋",
-      "count": 143,
-      "totalPriceWan": 176370.962,
-      "totalAreaPing": 5461.0176,
-      "avgUnitPriceWanPing": 32.296
+      "count": 145,
+      "totalPriceWan": 178592.96,
+      "totalAreaPing": 5523.8287,
+      "avgUnitPriceWanPing": 32.331
     },
     {
       "month": "2026-05",
@@ -1862,10 +1862,10 @@
       "month": "2026-05",
       "district": "楠梓區",
       "category": "成屋",
-      "count": 108,
-      "totalPriceWan": 120496.993,
-      "totalAreaPing": 4025.1226,
-      "avgUnitPriceWanPing": 29.936
+      "count": 109,
+      "totalPriceWan": 121476.996,
+      "totalAreaPing": 4060.0856,
+      "avgUnitPriceWanPing": 29.92
     },
     {
       "month": "2026-05",
@@ -1916,10 +1916,10 @@
       "month": "2026-05",
       "district": "苓雅區",
       "category": "成屋",
-      "count": 69,
-      "totalPriceWan": 83969.0,
-      "totalAreaPing": 2371.5275,
-      "avgUnitPriceWanPing": 35.407
+      "count": 71,
+      "totalPriceWan": 88106.994,
+      "totalAreaPing": 2479.4383,
+      "avgUnitPriceWanPing": 35.535
     },
     {
       "month": "2026-05",
@@ -2042,10 +2042,10 @@
       "month": "2026-06",
       "district": "仁武區",
       "category": "成屋",
-      "count": 40,
-      "totalPriceWan": 46239.993,
-      "totalAreaPing": 1562.1736,
-      "avgUnitPriceWanPing": 29.6
+      "count": 41,
+      "totalPriceWan": 47359.99,
+      "totalAreaPing": 1598.398,
+      "avgUnitPriceWanPing": 29.63
     },
     {
       "month": "2026-06",
@@ -2150,10 +2150,10 @@
       "month": "2026-06",
       "district": "左營區",
       "category": "成屋",
-      "count": 95,
-      "totalPriceWan": 134278.079,
-      "totalAreaPing": 3909.1774,
-      "avgUnitPriceWanPing": 34.349
+      "count": 97,
+      "totalPriceWan": 136408.085,
+      "totalAreaPing": 3982.5972,
+      "avgUnitPriceWanPing": 34.251
     },
     {
       "month": "2026-06",
@@ -2204,10 +2204,10 @@
       "month": "2026-06",
       "district": "楠梓區",
       "category": "成屋",
-      "count": 69,
-      "totalPriceWan": 80491.968,
-      "totalAreaPing": 2629.7838,
-      "avgUnitPriceWanPing": 30.608
+      "count": 70,
+      "totalPriceWan": 81701.972,
+      "totalAreaPing": 2669.2208,
+      "avgUnitPriceWanPing": 30.609
     },
     {
       "month": "2026-06",
@@ -2330,10 +2330,10 @@
       "month": "2026-06",
       "district": "鼓山區",
       "category": "成屋",
-      "count": 56,
-      "totalPriceWan": 100477.847,
-      "totalAreaPing": 2643.9318,
-      "avgUnitPriceWanPing": 38.003
+      "count": 58,
+      "totalPriceWan": 105635.866,
+      "totalAreaPing": 2784.0407,
+      "avgUnitPriceWanPing": 37.943
     },
     {
       "month": "2026-06",
@@ -2348,10 +2348,10 @@
       "month": "2026-07",
       "district": "三民區",
       "category": "成屋",
-      "count": 108,
-      "totalPriceWan": 123796.971,
-      "totalAreaPing": 3960.7234,
-      "avgUnitPriceWanPing": 31.256
+      "count": 110,
+      "totalPriceWan": 126571.971,
+      "totalAreaPing": 4045.6836,
+      "avgUnitPriceWanPing": 31.286
     },
     {
       "month": "2026-07",
@@ -2366,10 +2366,10 @@
       "month": "2026-07",
       "district": "仁武區",
       "category": "成屋",
-      "count": 39,
-      "totalPriceWan": 49544.031,
-      "totalAreaPing": 1651.7015,
-      "avgUnitPriceWanPing": 29.996
+      "count": 41,
+      "totalPriceWan": 52396.038,
+      "totalAreaPing": 1739.3478,
+      "avgUnitPriceWanPing": 30.124
     },
     {
       "month": "2026-07",
@@ -2393,10 +2393,10 @@
       "month": "2026-07",
       "district": "前鎮區",
       "category": "成屋",
-      "count": 39,
-      "totalPriceWan": 67292.973,
-      "totalAreaPing": 1944.4247,
-      "avgUnitPriceWanPing": 34.608
+      "count": 41,
+      "totalPriceWan": 70289.969,
+      "totalAreaPing": 2035.8039,
+      "avgUnitPriceWanPing": 34.527
     },
     {
       "month": "2026-07",
@@ -2465,10 +2465,10 @@
       "month": "2026-07",
       "district": "左營區",
       "category": "成屋",
-      "count": 90,
-      "totalPriceWan": 121074.844,
-      "totalAreaPing": 3721.1736,
-      "avgUnitPriceWanPing": 32.537
+      "count": 91,
+      "totalPriceWan": 122534.844,
+      "totalAreaPing": 3755.7494,
+      "avgUnitPriceWanPing": 32.626
     },
     {
       "month": "2026-07",
@@ -2510,10 +2510,10 @@
       "month": "2026-07",
       "district": "楠梓區",
       "category": "成屋",
-      "count": 86,
-      "totalPriceWan": 93030.991,
-      "totalAreaPing": 3156.4364,
-      "avgUnitPriceWanPing": 29.473
+      "count": 90,
+      "totalPriceWan": 97541.009,
+      "totalAreaPing": 3301.5123,
+      "avgUnitPriceWanPing": 29.544
     },
     {
       "month": "2026-07",
@@ -2564,10 +2564,10 @@
       "month": "2026-07",
       "district": "苓雅區",
       "category": "成屋",
-      "count": 43,
-      "totalPriceWan": 56064.223,
-      "totalAreaPing": 1686.0534,
-      "avgUnitPriceWanPing": 33.252
+      "count": 45,
+      "totalPriceWan": 58588.225,
+      "totalAreaPing": 1745.9605,
+      "avgUnitPriceWanPing": 33.556
     },
     {
       "month": "2026-07",
@@ -2609,10 +2609,10 @@
       "month": "2026-07",
       "district": "鳳山區",
       "category": "成屋",
-      "count": 66,
-      "totalPriceWan": 71389.969,
-      "totalAreaPing": 2713.4039,
-      "avgUnitPriceWanPing": 26.31
+      "count": 68,
+      "totalPriceWan": 73712.969,
+      "totalAreaPing": 2795.5599,
+      "avgUnitPriceWanPing": 26.368
     },
     {
       "month": "2026-07",
@@ -2627,19 +2627,19 @@
       "month": "2026-07",
       "district": "鹽埕區",
       "category": "成屋",
-      "count": 7,
-      "totalPriceWan": 3475.002,
-      "totalAreaPing": 132.4738,
-      "avgUnitPriceWanPing": 26.232
+      "count": 9,
+      "totalPriceWan": 7595.019,
+      "totalAreaPing": 245.2277,
+      "avgUnitPriceWanPing": 30.971
     },
     {
       "month": "2026-07",
       "district": "鼓山區",
       "category": "成屋",
-      "count": 59,
-      "totalPriceWan": 115436.319,
-      "totalAreaPing": 3173.2463,
-      "avgUnitPriceWanPing": 36.378
+      "count": 63,
+      "totalPriceWan": 123450.326,
+      "totalAreaPing": 3416.0691,
+      "avgUnitPriceWanPing": 36.138
     },
     {
       "month": "2026-07",
@@ -2654,10 +2654,10 @@
       "month": "2026-08",
       "district": "三民區",
       "category": "成屋",
-      "count": 81,
-      "totalPriceWan": 99201.834,
-      "totalAreaPing": 2868.2628,
-      "avgUnitPriceWanPing": 34.586
+      "count": 90,
+      "totalPriceWan": 110191.835,
+      "totalAreaPing": 3209.2982,
+      "avgUnitPriceWanPing": 34.335
     },
     {
       "month": "2026-08",
@@ -2672,10 +2672,10 @@
       "month": "2026-08",
       "district": "仁武區",
       "category": "成屋",
-      "count": 12,
-      "totalPriceWan": 14432.016,
-      "totalAreaPing": 498.7076,
-      "avgUnitPriceWanPing": 28.939
+      "count": 15,
+      "totalPriceWan": 18818.027,
+      "totalAreaPing": 632.9661,
+      "avgUnitPriceWanPing": 29.73
     },
     {
       "month": "2026-08",
@@ -2690,10 +2690,10 @@
       "month": "2026-08",
       "district": "前金區",
       "category": "成屋",
-      "count": 7,
-      "totalPriceWan": 4716.0,
-      "totalAreaPing": 158.0018,
-      "avgUnitPriceWanPing": 29.848
+      "count": 8,
+      "totalPriceWan": 6984.003,
+      "totalAreaPing": 210.1135,
+      "avgUnitPriceWanPing": 33.239
     },
     {
       "month": "2026-08",
@@ -2708,10 +2708,10 @@
       "month": "2026-08",
       "district": "前鎮區",
       "category": "成屋",
-      "count": 30,
-      "totalPriceWan": 37583.964,
-      "totalAreaPing": 1226.5347,
-      "avgUnitPriceWanPing": 30.642
+      "count": 39,
+      "totalPriceWan": 52757.979,
+      "totalAreaPing": 1698.0747,
+      "avgUnitPriceWanPing": 31.069
     },
     {
       "month": "2026-08",
@@ -2726,10 +2726,10 @@
       "month": "2026-08",
       "district": "大寮區",
       "category": "成屋",
-      "count": 7,
-      "totalPriceWan": 6048.004,
-      "totalAreaPing": 305.5674,
-      "avgUnitPriceWanPing": 19.793
+      "count": 9,
+      "totalPriceWan": 7634.003,
+      "totalAreaPing": 378.6816,
+      "avgUnitPriceWanPing": 20.159
     },
     {
       "month": "2026-08",
@@ -2753,19 +2753,19 @@
       "month": "2026-08",
       "district": "大社區",
       "category": "成屋",
-      "count": 4,
-      "totalPriceWan": 1910.003,
-      "totalAreaPing": 105.5634,
-      "avgUnitPriceWanPing": 18.093
+      "count": 5,
+      "totalPriceWan": 2359.998,
+      "totalAreaPing": 147.9497,
+      "avgUnitPriceWanPing": 15.951
     },
     {
       "month": "2026-08",
       "district": "小港區",
       "category": "成屋",
-      "count": 21,
-      "totalPriceWan": 18531.005,
-      "totalAreaPing": 749.7947,
-      "avgUnitPriceWanPing": 24.715
+      "count": 25,
+      "totalPriceWan": 23986.993,
+      "totalAreaPing": 934.964,
+      "avgUnitPriceWanPing": 25.656
     },
     {
       "month": "2026-08",
@@ -2780,19 +2780,19 @@
       "month": "2026-08",
       "district": "岡山區",
       "category": "成屋",
-      "count": 8,
-      "totalPriceWan": 6924.009,
-      "totalAreaPing": 313.8619,
-      "avgUnitPriceWanPing": 22.061
+      "count": 9,
+      "totalPriceWan": 8060.013,
+      "totalAreaPing": 356.8714,
+      "avgUnitPriceWanPing": 22.585
     },
     {
       "month": "2026-08",
       "district": "左營區",
       "category": "成屋",
-      "count": 63,
-      "totalPriceWan": 82179.058,
-      "totalAreaPing": 2568.936,
-      "avgUnitPriceWanPing": 31.99
+      "count": 73,
+      "totalPriceWan": 96981.056,
+      "totalAreaPing": 3123.6665,
+      "avgUnitPriceWanPing": 31.047
     },
     {
       "month": "2026-08",
@@ -2807,10 +2807,10 @@
       "month": "2026-08",
       "district": "新興區",
       "category": "成屋",
-      "count": 22,
-      "totalPriceWan": 20113.012,
-      "totalAreaPing": 619.0965,
-      "avgUnitPriceWanPing": 32.488
+      "count": 23,
+      "totalPriceWan": 21663.005,
+      "totalAreaPing": 657.6108,
+      "avgUnitPriceWanPing": 32.942
     },
     {
       "month": "2026-08",
@@ -2825,10 +2825,10 @@
       "month": "2026-08",
       "district": "楠梓區",
       "category": "成屋",
-      "count": 51,
-      "totalPriceWan": 56719.043,
-      "totalAreaPing": 1890.6402,
-      "avgUnitPriceWanPing": 30.0
+      "count": 59,
+      "totalPriceWan": 66364.992,
+      "totalAreaPing": 2247.8231,
+      "avgUnitPriceWanPing": 29.524
     },
     {
       "month": "2026-08",
@@ -2861,10 +2861,10 @@
       "month": "2026-08",
       "district": "苓雅區",
       "category": "成屋",
-      "count": 40,
-      "totalPriceWan": 45569.89,
-      "totalAreaPing": 1390.9586,
-      "avgUnitPriceWanPing": 32.762
+      "count": 50,
+      "totalPriceWan": 58582.894,
+      "totalAreaPing": 1745.3525,
+      "avgUnitPriceWanPing": 33.565
     },
     {
       "month": "2026-08",
@@ -2906,10 +2906,10 @@
       "month": "2026-08",
       "district": "鳳山區",
       "category": "成屋",
-      "count": 47,
-      "totalPriceWan": 55735.968,
-      "totalAreaPing": 2034.3005,
-      "avgUnitPriceWanPing": 27.398
+      "count": 61,
+      "totalPriceWan": 71392.954,
+      "totalAreaPing": 2557.931,
+      "avgUnitPriceWanPing": 27.91
     },
     {
       "month": "2026-08",
@@ -2924,19 +2924,19 @@
       "month": "2026-08",
       "district": "鹽埕區",
       "category": "成屋",
-      "count": 3,
-      "totalPriceWan": 4082.984,
-      "totalAreaPing": 147.257,
-      "avgUnitPriceWanPing": 27.727
+      "count": 4,
+      "totalPriceWan": 4272.984,
+      "totalAreaPing": 156.2745,
+      "avgUnitPriceWanPing": 27.343
     },
     {
       "month": "2026-08",
       "district": "鼓山區",
       "category": "成屋",
-      "count": 35,
-      "totalPriceWan": 85269.03,
-      "totalAreaPing": 2220.4802,
-      "avgUnitPriceWanPing": 38.401
+      "count": 42,
+      "totalPriceWan": 98665.033,
+      "totalAreaPing": 2610.8715,
+      "avgUnitPriceWanPing": 37.79
     },
     {
       "month": "2026-08",
@@ -2951,46 +2951,46 @@
       "month": "2026-09",
       "district": "三民區",
       "category": "成屋",
-      "count": 24,
-      "totalPriceWan": 29159.817,
-      "totalAreaPing": 911.1089,
-      "avgUnitPriceWanPing": 32.005
+      "count": 40,
+      "totalPriceWan": 45491.299,
+      "totalAreaPing": 1472.3734,
+      "avgUnitPriceWanPing": 30.897
     },
     {
       "month": "2026-09",
       "district": "三民區",
       "category": "預售屋",
-      "count": 11,
-      "totalPriceWan": 20555.026,
-      "totalAreaPing": 425.1759,
-      "avgUnitPriceWanPing": 48.345
+      "count": 18,
+      "totalPriceWan": 36236.048,
+      "totalAreaPing": 749.5829,
+      "avgUnitPriceWanPing": 48.342
     },
     {
       "month": "2026-09",
       "district": "仁武區",
       "category": "成屋",
-      "count": 3,
-      "totalPriceWan": 4030.004,
-      "totalAreaPing": 131.8809,
-      "avgUnitPriceWanPing": 30.558
+      "count": 6,
+      "totalPriceWan": 7670.993,
+      "totalAreaPing": 256.2659,
+      "avgUnitPriceWanPing": 29.934
     },
     {
       "month": "2026-09",
       "district": "仁武區",
       "category": "預售屋",
-      "count": 2,
-      "totalPriceWan": 2158.004,
-      "totalAreaPing": 67.4031,
-      "avgUnitPriceWanPing": 32.016
+      "count": 4,
+      "totalPriceWan": 3960.008,
+      "totalAreaPing": 121.0545,
+      "avgUnitPriceWanPing": 32.713
     },
     {
       "month": "2026-09",
       "district": "前金區",
       "category": "成屋",
-      "count": 4,
-      "totalPriceWan": 2984.994,
-      "totalAreaPing": 125.9429,
-      "avgUnitPriceWanPing": 23.701
+      "count": 7,
+      "totalPriceWan": 6258.007,
+      "totalAreaPing": 277.5559,
+      "avgUnitPriceWanPing": 22.547
     },
     {
       "month": "2026-09",
@@ -3005,28 +3005,37 @@
       "month": "2026-09",
       "district": "前鎮區",
       "category": "成屋",
-      "count": 8,
-      "totalPriceWan": 8518.019,
-      "totalAreaPing": 258.2957,
-      "avgUnitPriceWanPing": 32.978
+      "count": 11,
+      "totalPriceWan": 13273.018,
+      "totalAreaPing": 383.0558,
+      "avgUnitPriceWanPing": 34.65
     },
     {
       "month": "2026-09",
       "district": "前鎮區",
       "category": "預售屋",
-      "count": 16,
-      "totalPriceWan": 20458.996,
-      "totalAreaPing": 486.7528,
-      "avgUnitPriceWanPing": 42.032
+      "count": 27,
+      "totalPriceWan": 32606.991,
+      "totalAreaPing": 799.7586,
+      "avgUnitPriceWanPing": 40.771
+    },
+    {
+      "month": "2026-09",
+      "district": "大寮區",
+      "category": "成屋",
+      "count": 4,
+      "totalPriceWan": 1722.997,
+      "totalAreaPing": 141.0527,
+      "avgUnitPriceWanPing": 12.215
     },
     {
       "month": "2026-09",
       "district": "大寮區",
       "category": "預售屋",
-      "count": 2,
-      "totalPriceWan": 1462.997,
-      "totalAreaPing": 50.9834,
-      "avgUnitPriceWanPing": 28.696
+      "count": 4,
+      "totalPriceWan": 3180.999,
+      "totalAreaPing": 109.0119,
+      "avgUnitPriceWanPing": 29.18
     },
     {
       "month": "2026-09",
@@ -3041,10 +3050,10 @@
       "month": "2026-09",
       "district": "小港區",
       "category": "成屋",
-      "count": 4,
-      "totalPriceWan": 2760.996,
-      "totalAreaPing": 124.1581,
-      "avgUnitPriceWanPing": 22.238
+      "count": 5,
+      "totalPriceWan": 3468.995,
+      "totalAreaPing": 156.0144,
+      "avgUnitPriceWanPing": 22.235
     },
     {
       "month": "2026-09",
@@ -3059,91 +3068,100 @@
       "month": "2026-09",
       "district": "岡山區",
       "category": "成屋",
-      "count": 4,
-      "totalPriceWan": 4128.99,
-      "totalAreaPing": 181.5151,
-      "avgUnitPriceWanPing": 22.747
+      "count": 5,
+      "totalPriceWan": 4763.99,
+      "totalAreaPing": 220.9914,
+      "avgUnitPriceWanPing": 21.557
     },
     {
       "month": "2026-09",
       "district": "左營區",
       "category": "成屋",
-      "count": 17,
-      "totalPriceWan": 22254.037,
-      "totalAreaPing": 662.8047,
-      "avgUnitPriceWanPing": 33.576
+      "count": 27,
+      "totalPriceWan": 32989.048,
+      "totalAreaPing": 1056.9744,
+      "avgUnitPriceWanPing": 31.211
     },
     {
       "month": "2026-09",
       "district": "左營區",
       "category": "預售屋",
-      "count": 3,
-      "totalPriceWan": 2971.007,
-      "totalAreaPing": 78.039,
-      "avgUnitPriceWanPing": 38.071
+      "count": 6,
+      "totalPriceWan": 6567.004,
+      "totalAreaPing": 179.6669,
+      "avgUnitPriceWanPing": 36.551
     },
     {
       "month": "2026-09",
       "district": "新興區",
       "category": "成屋",
-      "count": 6,
-      "totalPriceWan": 7398.996,
-      "totalAreaPing": 193.8208,
-      "avgUnitPriceWanPing": 38.174
+      "count": 7,
+      "totalPriceWan": 8555.0,
+      "totalAreaPing": 224.8694,
+      "avgUnitPriceWanPing": 38.044
+    },
+    {
+      "month": "2026-09",
+      "district": "新興區",
+      "category": "預售屋",
+      "count": 1,
+      "totalPriceWan": 1187.995,
+      "totalAreaPing": 27.9056,
+      "avgUnitPriceWanPing": 42.572
     },
     {
       "month": "2026-09",
       "district": "楠梓區",
       "category": "成屋",
-      "count": 10,
-      "totalPriceWan": 7179.993,
-      "totalAreaPing": 282.8315,
-      "avgUnitPriceWanPing": 25.386
+      "count": 20,
+      "totalPriceWan": 17539.969,
+      "totalAreaPing": 636.8139,
+      "avgUnitPriceWanPing": 27.543
     },
     {
       "month": "2026-09",
       "district": "楠梓區",
       "category": "預售屋",
-      "count": 8,
-      "totalPriceWan": 8690.989,
-      "totalAreaPing": 229.8516,
-      "avgUnitPriceWanPing": 37.811
+      "count": 16,
+      "totalPriceWan": 18289.977,
+      "totalAreaPing": 444.0004,
+      "avgUnitPriceWanPing": 41.194
     },
     {
       "month": "2026-09",
       "district": "橋頭區",
       "category": "成屋",
-      "count": 1,
-      "totalPriceWan": 329.997,
-      "totalAreaPing": 20.1072,
-      "avgUnitPriceWanPing": 16.412
+      "count": 4,
+      "totalPriceWan": 5526.009,
+      "totalAreaPing": 148.9177,
+      "avgUnitPriceWanPing": 37.108
     },
     {
       "month": "2026-09",
       "district": "橋頭區",
-      "category": "預售屋",
-      "count": 1,
-      "totalPriceWan": 1295.002,
-      "totalAreaPing": 28.9281,
-      "avgUnitPriceWanPing": 44.766
-    },
-    {
-      "month": "2026-09",
-      "district": "苓雅區",
-      "category": "成屋",
-      "count": 13,
-      "totalPriceWan": 13335.043,
-      "totalAreaPing": 451.7898,
-      "avgUnitPriceWanPing": 29.516
-    },
-    {
-      "month": "2026-09",
-      "district": "苓雅區",
       "category": "預售屋",
       "count": 4,
-      "totalPriceWan": 4877.999,
-      "totalAreaPing": 127.6883,
-      "avgUnitPriceWanPing": 38.202
+      "totalPriceWan": 5417.999,
+      "totalAreaPing": 125.2834,
+      "avgUnitPriceWanPing": 43.246
+    },
+    {
+      "month": "2026-09",
+      "district": "苓雅區",
+      "category": "成屋",
+      "count": 25,
+      "totalPriceWan": 28851.98,
+      "totalAreaPing": 991.7251,
+      "avgUnitPriceWanPing": 29.093
+    },
+    {
+      "month": "2026-09",
+      "district": "苓雅區",
+      "category": "預售屋",
+      "count": 9,
+      "totalPriceWan": 13261.009,
+      "totalAreaPing": 327.8102,
+      "avgUnitPriceWanPing": 40.453
     },
     {
       "month": "2026-09",
@@ -3167,10 +3185,10 @@
       "month": "2026-09",
       "district": "鳳山區",
       "category": "成屋",
-      "count": 10,
-      "totalPriceWan": 8885.01,
-      "totalAreaPing": 409.9752,
-      "avgUnitPriceWanPing": 21.672
+      "count": 25,
+      "totalPriceWan": 25939.0,
+      "totalAreaPing": 1019.0409,
+      "avgUnitPriceWanPing": 25.454
     },
     {
       "month": "2026-09",
@@ -3185,28 +3203,46 @@
       "month": "2026-09",
       "district": "鹽埕區",
       "category": "成屋",
-      "count": 3,
-      "totalPriceWan": 2161.995,
-      "totalAreaPing": 92.9704,
-      "avgUnitPriceWanPing": 23.255
+      "count": 4,
+      "totalPriceWan": 2241.996,
+      "totalAreaPing": 103.7605,
+      "avgUnitPriceWanPing": 21.607
     },
     {
       "month": "2026-09",
       "district": "鼓山區",
       "category": "成屋",
-      "count": 10,
-      "totalPriceWan": 18005.999,
-      "totalAreaPing": 524.9434,
-      "avgUnitPriceWanPing": 34.301
+      "count": 17,
+      "totalPriceWan": 27170.992,
+      "totalAreaPing": 785.5593,
+      "avgUnitPriceWanPing": 34.588
     },
     {
       "month": "2026-09",
       "district": "鼓山區",
       "category": "預售屋",
-      "count": 5,
-      "totalPriceWan": 11560.986,
-      "totalAreaPing": 168.1537,
-      "avgUnitPriceWanPing": 68.752
+      "count": 10,
+      "totalPriceWan": 21279.996,
+      "totalAreaPing": 337.1272,
+      "avgUnitPriceWanPing": 63.122
+    },
+    {
+      "month": "2026-10",
+      "district": "三民區",
+      "category": "成屋",
+      "count": 4,
+      "totalPriceWan": 2903.994,
+      "totalAreaPing": 127.9273,
+      "avgUnitPriceWanPing": 22.7
+    },
+    {
+      "month": "2026-10",
+      "district": "仁武區",
+      "category": "成屋",
+      "count": 2,
+      "totalPriceWan": 1803.949,
+      "totalAreaPing": 78.411,
+      "avgUnitPriceWanPing": 23.006
     },
     {
       "month": "2026-10",
@@ -3219,6 +3255,33 @@
     },
     {
       "month": "2026-10",
+      "district": "前鎮區",
+      "category": "成屋",
+      "count": 2,
+      "totalPriceWan": 1436.0,
+      "totalAreaPing": 51.0681,
+      "avgUnitPriceWanPing": 28.119
+    },
+    {
+      "month": "2026-10",
+      "district": "大社區",
+      "category": "成屋",
+      "count": 1,
+      "totalPriceWan": 240.001,
+      "totalAreaPing": 13.0499,
+      "avgUnitPriceWanPing": 18.391
+    },
+    {
+      "month": "2026-10",
+      "district": "小港區",
+      "category": "成屋",
+      "count": 1,
+      "totalPriceWan": 809.998,
+      "totalAreaPing": 31.6929,
+      "avgUnitPriceWanPing": 25.558
+    },
+    {
+      "month": "2026-10",
       "district": "左營區",
       "category": "成屋",
       "count": 2,
@@ -3228,21 +3291,57 @@
     },
     {
       "month": "2026-10",
+      "district": "新興區",
+      "category": "成屋",
+      "count": 1,
+      "totalPriceWan": 324.999,
+      "totalAreaPing": 12.5144,
+      "avgUnitPriceWanPing": 25.97
+    },
+    {
+      "month": "2026-10",
       "district": "楠梓區",
       "category": "成屋",
-      "count": 2,
-      "totalPriceWan": 1697.991,
-      "totalAreaPing": 69.7898,
-      "avgUnitPriceWanPing": 24.33
+      "count": 4,
+      "totalPriceWan": 4619.991,
+      "totalAreaPing": 148.6152,
+      "avgUnitPriceWanPing": 31.087
+    },
+    {
+      "month": "2026-10",
+      "district": "湖內區",
+      "category": "成屋",
+      "count": 1,
+      "totalPriceWan": 129.999,
+      "totalAreaPing": 9.8101,
+      "avgUnitPriceWanPing": 13.252
     },
     {
       "month": "2026-10",
       "district": "苓雅區",
       "category": "成屋",
+      "count": 2,
+      "totalPriceWan": 1630.004,
+      "totalAreaPing": 68.5677,
+      "avgUnitPriceWanPing": 23.772
+    },
+    {
+      "month": "2026-10",
+      "district": "鳳山區",
+      "category": "成屋",
+      "count": 2,
+      "totalPriceWan": 1426.0,
+      "totalAreaPing": 55.3908,
+      "avgUnitPriceWanPing": 25.744
+    },
+    {
+      "month": "2026-10",
+      "district": "鼓山區",
+      "category": "成屋",
       "count": 1,
-      "totalPriceWan": 620.001,
-      "totalAreaPing": 23.8884,
-      "avgUnitPriceWanPing": 25.954
+      "totalPriceWan": 1105.005,
+      "totalAreaPing": 28.9281,
+      "avgUnitPriceWanPing": 38.198
     }
   ],
   "ageMonthlyRecords": [
@@ -4447,10 +4546,10 @@
       "month": "2026-03",
       "district": "橋頭區",
       "category": "5年內成屋",
-      "count": 35,
-      "totalPriceWan": 62202.016,
-      "totalAreaPing": 1616.7567,
-      "avgUnitPriceWanPing": 38.473
+      "count": 36,
+      "totalPriceWan": 64852.011,
+      "totalAreaPing": 1679.4619,
+      "avgUnitPriceWanPing": 38.615
     },
     {
       "month": "2026-03",
@@ -4816,10 +4915,10 @@
       "month": "2026-04",
       "district": "左營區",
       "category": "中古屋",
-      "count": 56,
-      "totalPriceWan": 76717.023,
-      "totalAreaPing": 2653.1157,
-      "avgUnitPriceWanPing": 28.916
+      "count": 57,
+      "totalPriceWan": 78147.03,
+      "totalAreaPing": 2694.2496,
+      "avgUnitPriceWanPing": 29.005
     },
     {
       "month": "2026-04",
@@ -4906,10 +5005,10 @@
       "month": "2026-04",
       "district": "橋頭區",
       "category": "5年內成屋",
-      "count": 16,
-      "totalPriceWan": 32538.021,
-      "totalAreaPing": 824.2218,
-      "avgUnitPriceWanPing": 39.477
+      "count": 17,
+      "totalPriceWan": 33463.016,
+      "totalAreaPing": 851.6858,
+      "avgUnitPriceWanPing": 39.29
     },
     {
       "month": "2026-04",
@@ -5068,19 +5167,19 @@
       "month": "2026-05",
       "district": "三民區",
       "category": "5年內成屋",
-      "count": 64,
-      "totalPriceWan": 107059.011,
-      "totalAreaPing": 2610.4511,
-      "avgUnitPriceWanPing": 41.012
+      "count": 65,
+      "totalPriceWan": 108459.006,
+      "totalAreaPing": 2650.4053,
+      "avgUnitPriceWanPing": 40.922
     },
     {
       "month": "2026-05",
       "district": "三民區",
       "category": "中古屋",
-      "count": 79,
-      "totalPriceWan": 69311.951,
-      "totalAreaPing": 2850.5665,
-      "avgUnitPriceWanPing": 24.315
+      "count": 80,
+      "totalPriceWan": 70133.953,
+      "totalAreaPing": 2873.4234,
+      "avgUnitPriceWanPing": 24.408
     },
     {
       "month": "2026-05",
@@ -5320,10 +5419,10 @@
       "month": "2026-05",
       "district": "楠梓區",
       "category": "中古屋",
-      "count": 53,
-      "totalPriceWan": 51191.984,
-      "totalAreaPing": 2045.1935,
-      "avgUnitPriceWanPing": 25.03
+      "count": 54,
+      "totalPriceWan": 52171.987,
+      "totalAreaPing": 2080.1565,
+      "avgUnitPriceWanPing": 25.081
     },
     {
       "month": "2026-05",
@@ -5383,19 +5482,19 @@
       "month": "2026-05",
       "district": "苓雅區",
       "category": "5年內成屋",
-      "count": 37,
-      "totalPriceWan": 46408.994,
-      "totalAreaPing": 1161.4246,
-      "avgUnitPriceWanPing": 39.959
+      "count": 38,
+      "totalPriceWan": 48146.989,
+      "totalAreaPing": 1206.7028,
+      "avgUnitPriceWanPing": 39.9
     },
     {
       "month": "2026-05",
       "district": "苓雅區",
       "category": "中古屋",
-      "count": 32,
-      "totalPriceWan": 37560.006,
-      "totalAreaPing": 1210.1029,
-      "avgUnitPriceWanPing": 31.039
+      "count": 33,
+      "totalPriceWan": 39960.006,
+      "totalAreaPing": 1272.7355,
+      "avgUnitPriceWanPing": 31.397
     },
     {
       "month": "2026-05",
@@ -5563,10 +5662,10 @@
       "month": "2026-06",
       "district": "仁武區",
       "category": "5年內成屋",
-      "count": 31,
-      "totalPriceWan": 37291.992,
-      "totalAreaPing": 1223.4431,
-      "avgUnitPriceWanPing": 30.481
+      "count": 32,
+      "totalPriceWan": 38411.99,
+      "totalAreaPing": 1259.6675,
+      "avgUnitPriceWanPing": 30.494
     },
     {
       "month": "2026-06",
@@ -5725,19 +5824,19 @@
       "month": "2026-06",
       "district": "左營區",
       "category": "5年內成屋",
-      "count": 39,
-      "totalPriceWan": 59601.992,
-      "totalAreaPing": 1402.7137,
-      "avgUnitPriceWanPing": 42.49
+      "count": 40,
+      "totalPriceWan": 60551.993,
+      "totalAreaPing": 1428.5019,
+      "avgUnitPriceWanPing": 42.388
     },
     {
       "month": "2026-06",
       "district": "左營區",
       "category": "中古屋",
-      "count": 56,
-      "totalPriceWan": 74676.087,
-      "totalAreaPing": 2506.4637,
-      "avgUnitPriceWanPing": 29.793
+      "count": 57,
+      "totalPriceWan": 75856.092,
+      "totalAreaPing": 2554.0953,
+      "avgUnitPriceWanPing": 29.7
     },
     {
       "month": "2026-06",
@@ -5806,10 +5905,10 @@
       "month": "2026-06",
       "district": "楠梓區",
       "category": "5年內成屋",
-      "count": 38,
-      "totalPriceWan": 50643.983,
-      "totalAreaPing": 1504.5715,
-      "avgUnitPriceWanPing": 33.66
+      "count": 39,
+      "totalPriceWan": 51853.987,
+      "totalAreaPing": 1544.0085,
+      "avgUnitPriceWanPing": 33.584
     },
     {
       "month": "2026-06",
@@ -5995,10 +6094,10 @@
       "month": "2026-06",
       "district": "鼓山區",
       "category": "中古屋",
-      "count": 42,
-      "totalPriceWan": 70558.87,
-      "totalAreaPing": 2061.9399,
-      "avgUnitPriceWanPing": 34.22
+      "count": 44,
+      "totalPriceWan": 75716.889,
+      "totalAreaPing": 2202.0488,
+      "avgUnitPriceWanPing": 34.385
     },
     {
       "month": "2026-06",
@@ -6013,19 +6112,19 @@
       "month": "2026-07",
       "district": "三民區",
       "category": "5年內成屋",
-      "count": 45,
-      "totalPriceWan": 64148.018,
-      "totalAreaPing": 1581.2734,
-      "avgUnitPriceWanPing": 40.567
+      "count": 46,
+      "totalPriceWan": 64973.021,
+      "totalAreaPing": 1604.8715,
+      "avgUnitPriceWanPing": 40.485
     },
     {
       "month": "2026-07",
       "district": "三民區",
       "category": "中古屋",
-      "count": 63,
-      "totalPriceWan": 59648.953,
-      "totalAreaPing": 2379.45,
-      "avgUnitPriceWanPing": 25.068
+      "count": 64,
+      "totalPriceWan": 61598.95,
+      "totalAreaPing": 2440.8121,
+      "avgUnitPriceWanPing": 25.237
     },
     {
       "month": "2026-07",
@@ -6040,10 +6139,10 @@
       "month": "2026-07",
       "district": "仁武區",
       "category": "5年內成屋",
-      "count": 32,
-      "totalPriceWan": 43237.035,
-      "totalAreaPing": 1378.9584,
-      "avgUnitPriceWanPing": 31.355
+      "count": 34,
+      "totalPriceWan": 46089.043,
+      "totalAreaPing": 1466.6048,
+      "avgUnitPriceWanPing": 31.426
     },
     {
       "month": "2026-07",
@@ -6094,10 +6193,10 @@
       "month": "2026-07",
       "district": "前鎮區",
       "category": "中古屋",
-      "count": 22,
-      "totalPriceWan": 33967.946,
-      "totalAreaPing": 1151.2606,
-      "avgUnitPriceWanPing": 29.505
+      "count": 24,
+      "totalPriceWan": 36964.942,
+      "totalAreaPing": 1242.6398,
+      "avgUnitPriceWanPing": 29.747
     },
     {
       "month": "2026-07",
@@ -6193,10 +6292,10 @@
       "month": "2026-07",
       "district": "左營區",
       "category": "5年內成屋",
-      "count": 30,
-      "totalPriceWan": 49951.843,
-      "totalAreaPing": 1204.8091,
-      "avgUnitPriceWanPing": 41.46
+      "count": 31,
+      "totalPriceWan": 51411.843,
+      "totalAreaPing": 1239.3849,
+      "avgUnitPriceWanPing": 41.482
     },
     {
       "month": "2026-07",
@@ -6256,19 +6355,19 @@
       "month": "2026-07",
       "district": "楠梓區",
       "category": "5年內成屋",
-      "count": 43,
-      "totalPriceWan": 55224.009,
-      "totalAreaPing": 1613.287,
-      "avgUnitPriceWanPing": 34.231
+      "count": 45,
+      "totalPriceWan": 57127.014,
+      "totalAreaPing": 1670.6622,
+      "avgUnitPriceWanPing": 34.194
     },
     {
       "month": "2026-07",
       "district": "楠梓區",
       "category": "中古屋",
-      "count": 43,
-      "totalPriceWan": 37806.982,
-      "totalAreaPing": 1543.1494,
-      "avgUnitPriceWanPing": 24.5
+      "count": 45,
+      "totalPriceWan": 40413.996,
+      "totalAreaPing": 1630.8502,
+      "avgUnitPriceWanPing": 24.781
     },
     {
       "month": "2026-07",
@@ -6328,10 +6427,10 @@
       "month": "2026-07",
       "district": "苓雅區",
       "category": "5年內成屋",
-      "count": 18,
-      "totalPriceWan": 29877.011,
-      "totalAreaPing": 705.0398,
-      "avgUnitPriceWanPing": 42.376
+      "count": 20,
+      "totalPriceWan": 32401.013,
+      "totalAreaPing": 764.9469,
+      "avgUnitPriceWanPing": 42.357
     },
     {
       "month": "2026-07",
@@ -6391,19 +6490,19 @@
       "month": "2026-07",
       "district": "鳳山區",
       "category": "5年內成屋",
-      "count": 23,
-      "totalPriceWan": 28988.972,
-      "totalAreaPing": 908.4317,
-      "avgUnitPriceWanPing": 31.911
+      "count": 24,
+      "totalPriceWan": 30211.971,
+      "totalAreaPing": 951.2657,
+      "avgUnitPriceWanPing": 31.76
     },
     {
       "month": "2026-07",
       "district": "鳳山區",
       "category": "中古屋",
-      "count": 43,
-      "totalPriceWan": 42400.997,
-      "totalAreaPing": 1804.9722,
-      "avgUnitPriceWanPing": 23.491
+      "count": 44,
+      "totalPriceWan": 43500.998,
+      "totalAreaPing": 1844.2942,
+      "avgUnitPriceWanPing": 23.587
     },
     {
       "month": "2026-07",
@@ -6417,11 +6516,20 @@
     {
       "month": "2026-07",
       "district": "鹽埕區",
+      "category": "5年內成屋",
+      "count": 1,
+      "totalPriceWan": 3280.014,
+      "totalAreaPing": 91.1584,
+      "avgUnitPriceWanPing": 35.981
+    },
+    {
+      "month": "2026-07",
+      "district": "鹽埕區",
       "category": "中古屋",
-      "count": 7,
-      "totalPriceWan": 3475.002,
-      "totalAreaPing": 132.4738,
-      "avgUnitPriceWanPing": 26.232
+      "count": 8,
+      "totalPriceWan": 4315.006,
+      "totalAreaPing": 154.0693,
+      "avgUnitPriceWanPing": 28.007
     },
     {
       "month": "2026-07",
@@ -6436,10 +6544,10 @@
       "month": "2026-07",
       "district": "鼓山區",
       "category": "中古屋",
-      "count": 47,
-      "totalPriceWan": 90361.305,
-      "totalAreaPing": 2624.8652,
-      "avgUnitPriceWanPing": 34.425
+      "count": 51,
+      "totalPriceWan": 98375.312,
+      "totalAreaPing": 2867.688,
+      "avgUnitPriceWanPing": 34.305
     },
     {
       "month": "2026-07",
@@ -6454,19 +6562,19 @@
       "month": "2026-08",
       "district": "三民區",
       "category": "5年內成屋",
-      "count": 36,
-      "totalPriceWan": 56174.017,
-      "totalAreaPing": 1333.414,
-      "avgUnitPriceWanPing": 42.128
+      "count": 41,
+      "totalPriceWan": 63944.025,
+      "totalAreaPing": 1550.7482,
+      "avgUnitPriceWanPing": 41.234
     },
     {
       "month": "2026-08",
       "district": "三民區",
       "category": "中古屋",
-      "count": 45,
-      "totalPriceWan": 43027.817,
-      "totalAreaPing": 1534.8488,
-      "avgUnitPriceWanPing": 28.034
+      "count": 49,
+      "totalPriceWan": 46247.81,
+      "totalAreaPing": 1658.5501,
+      "avgUnitPriceWanPing": 27.884
     },
     {
       "month": "2026-08",
@@ -6481,10 +6589,10 @@
       "month": "2026-08",
       "district": "仁武區",
       "category": "5年內成屋",
-      "count": 11,
-      "totalPriceWan": 13572.012,
-      "totalAreaPing": 463.9261,
-      "avgUnitPriceWanPing": 29.255
+      "count": 14,
+      "totalPriceWan": 17958.023,
+      "totalAreaPing": 598.1847,
+      "avgUnitPriceWanPing": 30.021
     },
     {
       "month": "2026-08",
@@ -6508,10 +6616,10 @@
       "month": "2026-08",
       "district": "前金區",
       "category": "5年內成屋",
-      "count": 1,
-      "totalPriceWan": 799.998,
-      "totalAreaPing": 21.535,
-      "avgUnitPriceWanPing": 37.149
+      "count": 2,
+      "totalPriceWan": 3068.001,
+      "totalAreaPing": 73.6467,
+      "avgUnitPriceWanPing": 41.658
     },
     {
       "month": "2026-08",
@@ -6535,19 +6643,19 @@
       "month": "2026-08",
       "district": "前鎮區",
       "category": "5年內成屋",
-      "count": 11,
-      "totalPriceWan": 15749.996,
-      "totalAreaPing": 406.7264,
-      "avgUnitPriceWanPing": 38.724
+      "count": 15,
+      "totalPriceWan": 25028.019,
+      "totalAreaPing": 618.8848,
+      "avgUnitPriceWanPing": 40.441
     },
     {
       "month": "2026-08",
       "district": "前鎮區",
       "category": "中古屋",
-      "count": 19,
-      "totalPriceWan": 21833.968,
-      "totalAreaPing": 819.8083,
-      "avgUnitPriceWanPing": 26.633
+      "count": 24,
+      "totalPriceWan": 27729.96,
+      "totalAreaPing": 1079.19,
+      "avgUnitPriceWanPing": 25.695
     },
     {
       "month": "2026-08",
@@ -6562,19 +6670,19 @@
       "month": "2026-08",
       "district": "大寮區",
       "category": "5年內成屋",
-      "count": 3,
-      "totalPriceWan": 3709.999,
-      "totalAreaPing": 127.05,
-      "avgUnitPriceWanPing": 29.201
+      "count": 4,
+      "totalPriceWan": 4977.999,
+      "totalAreaPing": 170.8581,
+      "avgUnitPriceWanPing": 29.135
     },
     {
       "month": "2026-08",
       "district": "大寮區",
       "category": "中古屋",
-      "count": 4,
-      "totalPriceWan": 2338.005,
-      "totalAreaPing": 178.5174,
-      "avgUnitPriceWanPing": 13.097
+      "count": 5,
+      "totalPriceWan": 2656.004,
+      "totalAreaPing": 207.8236,
+      "avgUnitPriceWanPing": 12.78
     },
     {
       "month": "2026-08",
@@ -6598,28 +6706,28 @@
       "month": "2026-08",
       "district": "大社區",
       "category": "中古屋",
-      "count": 4,
-      "totalPriceWan": 1910.003,
-      "totalAreaPing": 105.5634,
-      "avgUnitPriceWanPing": 18.093
+      "count": 5,
+      "totalPriceWan": 2359.998,
+      "totalAreaPing": 147.9497,
+      "avgUnitPriceWanPing": 15.951
     },
     {
       "month": "2026-08",
       "district": "小港區",
       "category": "5年內成屋",
-      "count": 9,
-      "totalPriceWan": 7726.005,
-      "totalAreaPing": 261.1785,
-      "avgUnitPriceWanPing": 29.581
+      "count": 11,
+      "totalPriceWan": 10716.997,
+      "totalAreaPing": 345.452,
+      "avgUnitPriceWanPing": 31.023
     },
     {
       "month": "2026-08",
       "district": "小港區",
       "category": "中古屋",
-      "count": 12,
-      "totalPriceWan": 10805.001,
-      "totalAreaPing": 488.6162,
-      "avgUnitPriceWanPing": 22.113
+      "count": 14,
+      "totalPriceWan": 13269.996,
+      "totalAreaPing": 589.512,
+      "avgUnitPriceWanPing": 22.51
     },
     {
       "month": "2026-08",
@@ -6634,10 +6742,10 @@
       "month": "2026-08",
       "district": "岡山區",
       "category": "5年內成屋",
-      "count": 2,
-      "totalPriceWan": 2243.001,
-      "totalAreaPing": 69.5932,
-      "avgUnitPriceWanPing": 32.23
+      "count": 3,
+      "totalPriceWan": 3379.005,
+      "totalAreaPing": 112.6026,
+      "avgUnitPriceWanPing": 30.008
     },
     {
       "month": "2026-08",
@@ -6652,19 +6760,19 @@
       "month": "2026-08",
       "district": "左營區",
       "category": "5年內成屋",
-      "count": 23,
-      "totalPriceWan": 34774.011,
-      "totalAreaPing": 866.5415,
-      "avgUnitPriceWanPing": 40.13
+      "count": 27,
+      "totalPriceWan": 40403.01,
+      "totalAreaPing": 1010.1776,
+      "avgUnitPriceWanPing": 39.996
     },
     {
       "month": "2026-08",
       "district": "左營區",
       "category": "中古屋",
-      "count": 40,
-      "totalPriceWan": 47405.048,
-      "totalAreaPing": 1702.3944,
-      "avgUnitPriceWanPing": 27.846
+      "count": 46,
+      "totalPriceWan": 56578.046,
+      "totalAreaPing": 2113.4889,
+      "avgUnitPriceWanPing": 26.77
     },
     {
       "month": "2026-08",
@@ -6679,10 +6787,10 @@
       "month": "2026-08",
       "district": "新興區",
       "category": "5年內成屋",
-      "count": 11,
-      "totalPriceWan": 15017.998,
-      "totalAreaPing": 384.4957,
-      "avgUnitPriceWanPing": 39.059
+      "count": 12,
+      "totalPriceWan": 16567.992,
+      "totalAreaPing": 423.01,
+      "avgUnitPriceWanPing": 39.167
     },
     {
       "month": "2026-08",
@@ -6706,19 +6814,19 @@
       "month": "2026-08",
       "district": "楠梓區",
       "category": "5年內成屋",
-      "count": 24,
-      "totalPriceWan": 32232.036,
-      "totalAreaPing": 901.2988,
-      "avgUnitPriceWanPing": 35.762
+      "count": 27,
+      "totalPriceWan": 36428.037,
+      "totalAreaPing": 1026.9633,
+      "avgUnitPriceWanPing": 35.472
     },
     {
       "month": "2026-08",
       "district": "楠梓區",
       "category": "中古屋",
-      "count": 27,
-      "totalPriceWan": 24487.006,
-      "totalAreaPing": 989.3414,
-      "avgUnitPriceWanPing": 24.751
+      "count": 32,
+      "totalPriceWan": 29936.955,
+      "totalAreaPing": 1220.8598,
+      "avgUnitPriceWanPing": 24.521
     },
     {
       "month": "2026-08",
@@ -6760,19 +6868,19 @@
       "month": "2026-08",
       "district": "苓雅區",
       "category": "5年內成屋",
-      "count": 15,
-      "totalPriceWan": 21187.994,
-      "totalAreaPing": 497.3917,
-      "avgUnitPriceWanPing": 42.598
+      "count": 23,
+      "totalPriceWan": 32742.994,
+      "totalAreaPing": 789.0622,
+      "avgUnitPriceWanPing": 41.496
     },
     {
       "month": "2026-08",
       "district": "苓雅區",
       "category": "中古屋",
-      "count": 25,
-      "totalPriceWan": 24381.896,
-      "totalAreaPing": 893.5669,
-      "avgUnitPriceWanPing": 27.286
+      "count": 27,
+      "totalPriceWan": 25839.899,
+      "totalAreaPing": 956.2903,
+      "avgUnitPriceWanPing": 27.021
     },
     {
       "month": "2026-08",
@@ -6814,19 +6922,19 @@
       "month": "2026-08",
       "district": "鳳山區",
       "category": "5年內成屋",
-      "count": 18,
-      "totalPriceWan": 25993.985,
-      "totalAreaPing": 758.9423,
-      "avgUnitPriceWanPing": 34.25
+      "count": 28,
+      "totalPriceWan": 37485.966,
+      "totalAreaPing": 1126.5766,
+      "avgUnitPriceWanPing": 33.274
     },
     {
       "month": "2026-08",
       "district": "鳳山區",
       "category": "中古屋",
-      "count": 29,
-      "totalPriceWan": 29741.983,
-      "totalAreaPing": 1275.3582,
-      "avgUnitPriceWanPing": 23.32
+      "count": 33,
+      "totalPriceWan": 33906.989,
+      "totalAreaPing": 1431.3544,
+      "avgUnitPriceWanPing": 23.689
     },
     {
       "month": "2026-08",
@@ -6841,28 +6949,28 @@
       "month": "2026-08",
       "district": "鹽埕區",
       "category": "中古屋",
-      "count": 3,
-      "totalPriceWan": 4082.984,
-      "totalAreaPing": 147.257,
-      "avgUnitPriceWanPing": 27.727
+      "count": 4,
+      "totalPriceWan": 4272.984,
+      "totalAreaPing": 156.2745,
+      "avgUnitPriceWanPing": 27.343
     },
     {
       "month": "2026-08",
       "district": "鼓山區",
       "category": "5年內成屋",
-      "count": 7,
-      "totalPriceWan": 11648.007,
-      "totalAreaPing": 267.8789,
-      "avgUnitPriceWanPing": 43.482
+      "count": 8,
+      "totalPriceWan": 13518.005,
+      "totalAreaPing": 317.3467,
+      "avgUnitPriceWanPing": 42.597
     },
     {
       "month": "2026-08",
       "district": "鼓山區",
       "category": "中古屋",
-      "count": 28,
-      "totalPriceWan": 73621.023,
-      "totalAreaPing": 1952.6013,
-      "avgUnitPriceWanPing": 37.704
+      "count": 34,
+      "totalPriceWan": 85147.028,
+      "totalAreaPing": 2293.5248,
+      "avgUnitPriceWanPing": 37.125
     },
     {
       "month": "2026-08",
@@ -6877,37 +6985,37 @@
       "month": "2026-09",
       "district": "三民區",
       "category": "5年內成屋",
-      "count": 8,
-      "totalPriceWan": 14380.0,
-      "totalAreaPing": 339.6652,
-      "avgUnitPriceWanPing": 42.336
+      "count": 16,
+      "totalPriceWan": 24523.993,
+      "totalAreaPing": 585.9123,
+      "avgUnitPriceWanPing": 41.856
     },
     {
       "month": "2026-09",
       "district": "三民區",
       "category": "中古屋",
-      "count": 16,
-      "totalPriceWan": 14779.817,
-      "totalAreaPing": 571.4437,
-      "avgUnitPriceWanPing": 25.864
+      "count": 24,
+      "totalPriceWan": 20967.306,
+      "totalAreaPing": 886.4612,
+      "avgUnitPriceWanPing": 23.653
     },
     {
       "month": "2026-09",
       "district": "三民區",
       "category": "預售屋",
-      "count": 11,
-      "totalPriceWan": 20555.026,
-      "totalAreaPing": 425.1759,
-      "avgUnitPriceWanPing": 48.345
+      "count": 18,
+      "totalPriceWan": 36236.048,
+      "totalAreaPing": 749.5829,
+      "avgUnitPriceWanPing": 48.342
     },
     {
       "month": "2026-09",
       "district": "仁武區",
       "category": "5年內成屋",
-      "count": 2,
-      "totalPriceWan": 2569.997,
-      "totalAreaPing": 80.5648,
-      "avgUnitPriceWanPing": 31.9
+      "count": 5,
+      "totalPriceWan": 6210.987,
+      "totalAreaPing": 204.9498,
+      "avgUnitPriceWanPing": 30.305
     },
     {
       "month": "2026-09",
@@ -6922,19 +7030,19 @@
       "month": "2026-09",
       "district": "仁武區",
       "category": "預售屋",
-      "count": 2,
-      "totalPriceWan": 2158.004,
-      "totalAreaPing": 67.4031,
-      "avgUnitPriceWanPing": 32.016
+      "count": 4,
+      "totalPriceWan": 3960.008,
+      "totalAreaPing": 121.0545,
+      "avgUnitPriceWanPing": 32.713
     },
     {
       "month": "2026-09",
       "district": "前金區",
       "category": "中古屋",
-      "count": 4,
-      "totalPriceWan": 2984.994,
-      "totalAreaPing": 125.9429,
-      "avgUnitPriceWanPing": 23.701
+      "count": 7,
+      "totalPriceWan": 6258.007,
+      "totalAreaPing": 277.5559,
+      "avgUnitPriceWanPing": 22.547
     },
     {
       "month": "2026-09",
@@ -6949,37 +7057,46 @@
       "month": "2026-09",
       "district": "前鎮區",
       "category": "5年內成屋",
-      "count": 2,
-      "totalPriceWan": 2680.001,
-      "totalAreaPing": 65.219,
-      "avgUnitPriceWanPing": 41.092
+      "count": 3,
+      "totalPriceWan": 3645.004,
+      "totalAreaPing": 89.9786,
+      "avgUnitPriceWanPing": 40.51
     },
     {
       "month": "2026-09",
       "district": "前鎮區",
       "category": "中古屋",
-      "count": 6,
-      "totalPriceWan": 5838.018,
-      "totalAreaPing": 193.0767,
-      "avgUnitPriceWanPing": 30.237
+      "count": 8,
+      "totalPriceWan": 9628.014,
+      "totalAreaPing": 293.0771,
+      "avgUnitPriceWanPing": 32.851
     },
     {
       "month": "2026-09",
       "district": "前鎮區",
       "category": "預售屋",
-      "count": 16,
-      "totalPriceWan": 20458.996,
-      "totalAreaPing": 486.7528,
-      "avgUnitPriceWanPing": 42.032
+      "count": 27,
+      "totalPriceWan": 32606.991,
+      "totalAreaPing": 799.7586,
+      "avgUnitPriceWanPing": 40.771
+    },
+    {
+      "month": "2026-09",
+      "district": "大寮區",
+      "category": "中古屋",
+      "count": 4,
+      "totalPriceWan": 1722.997,
+      "totalAreaPing": 141.0527,
+      "avgUnitPriceWanPing": 12.215
     },
     {
       "month": "2026-09",
       "district": "大寮區",
       "category": "預售屋",
-      "count": 2,
-      "totalPriceWan": 1462.997,
-      "totalAreaPing": 50.9834,
-      "avgUnitPriceWanPing": 28.696
+      "count": 4,
+      "totalPriceWan": 3180.999,
+      "totalAreaPing": 109.0119,
+      "avgUnitPriceWanPing": 29.18
     },
     {
       "month": "2026-09",
@@ -7003,10 +7120,10 @@
       "month": "2026-09",
       "district": "小港區",
       "category": "中古屋",
-      "count": 3,
-      "totalPriceWan": 1577.998,
-      "totalAreaPing": 88.6476,
-      "avgUnitPriceWanPing": 17.801
+      "count": 4,
+      "totalPriceWan": 2285.997,
+      "totalAreaPing": 120.5039,
+      "avgUnitPriceWanPing": 18.97
     },
     {
       "month": "2026-09",
@@ -7030,46 +7147,46 @@
       "month": "2026-09",
       "district": "岡山區",
       "category": "中古屋",
-      "count": 3,
-      "totalPriceWan": 3312.991,
-      "totalAreaPing": 150.8114,
-      "avgUnitPriceWanPing": 21.968
+      "count": 4,
+      "totalPriceWan": 3947.991,
+      "totalAreaPing": 190.2876,
+      "avgUnitPriceWanPing": 20.747
     },
     {
       "month": "2026-09",
       "district": "左營區",
       "category": "5年內成屋",
-      "count": 4,
-      "totalPriceWan": 5320.01,
-      "totalAreaPing": 132.5888,
-      "avgUnitPriceWanPing": 40.124
+      "count": 6,
+      "totalPriceWan": 8874.019,
+      "totalAreaPing": 222.1772,
+      "avgUnitPriceWanPing": 39.941
     },
     {
       "month": "2026-09",
       "district": "左營區",
       "category": "中古屋",
-      "count": 13,
-      "totalPriceWan": 16934.027,
-      "totalAreaPing": 530.216,
-      "avgUnitPriceWanPing": 31.938
+      "count": 21,
+      "totalPriceWan": 24115.029,
+      "totalAreaPing": 834.7972,
+      "avgUnitPriceWanPing": 28.887
     },
     {
       "month": "2026-09",
       "district": "左營區",
       "category": "預售屋",
-      "count": 3,
-      "totalPriceWan": 2971.007,
-      "totalAreaPing": 78.039,
-      "avgUnitPriceWanPing": 38.071
+      "count": 6,
+      "totalPriceWan": 6567.004,
+      "totalAreaPing": 179.6669,
+      "avgUnitPriceWanPing": 36.551
     },
     {
       "month": "2026-09",
       "district": "新興區",
       "category": "5年內成屋",
-      "count": 5,
-      "totalPriceWan": 7048.995,
-      "totalAreaPing": 181.2005,
-      "avgUnitPriceWanPing": 38.902
+      "count": 6,
+      "totalPriceWan": 8204.998,
+      "totalAreaPing": 212.2491,
+      "avgUnitPriceWanPing": 38.657
     },
     {
       "month": "2026-09",
@@ -7082,21 +7199,48 @@
     },
     {
       "month": "2026-09",
+      "district": "新興區",
+      "category": "預售屋",
+      "count": 1,
+      "totalPriceWan": 1187.995,
+      "totalAreaPing": 27.9056,
+      "avgUnitPriceWanPing": 42.572
+    },
+    {
+      "month": "2026-09",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "count": 5,
+      "totalPriceWan": 5555.991,
+      "totalAreaPing": 168.2233,
+      "avgUnitPriceWanPing": 33.027
+    },
+    {
+      "month": "2026-09",
       "district": "楠梓區",
       "category": "中古屋",
-      "count": 10,
-      "totalPriceWan": 7179.993,
-      "totalAreaPing": 282.8315,
-      "avgUnitPriceWanPing": 25.386
+      "count": 15,
+      "totalPriceWan": 11983.979,
+      "totalAreaPing": 468.5907,
+      "avgUnitPriceWanPing": 25.575
     },
     {
       "month": "2026-09",
       "district": "楠梓區",
       "category": "預售屋",
-      "count": 8,
-      "totalPriceWan": 8690.989,
-      "totalAreaPing": 229.8516,
-      "avgUnitPriceWanPing": 37.811
+      "count": 16,
+      "totalPriceWan": 18289.977,
+      "totalAreaPing": 444.0004,
+      "avgUnitPriceWanPing": 41.194
+    },
+    {
+      "month": "2026-09",
+      "district": "橋頭區",
+      "category": "5年內成屋",
+      "count": 3,
+      "totalPriceWan": 5196.012,
+      "totalAreaPing": 128.8106,
+      "avgUnitPriceWanPing": 40.338
     },
     {
       "month": "2026-09",
@@ -7111,37 +7255,37 @@
       "month": "2026-09",
       "district": "橋頭區",
       "category": "預售屋",
-      "count": 1,
-      "totalPriceWan": 1295.002,
-      "totalAreaPing": 28.9281,
-      "avgUnitPriceWanPing": 44.766
+      "count": 4,
+      "totalPriceWan": 5417.999,
+      "totalAreaPing": 125.2834,
+      "avgUnitPriceWanPing": 43.246
     },
     {
       "month": "2026-09",
       "district": "苓雅區",
       "category": "5年內成屋",
-      "count": 4,
-      "totalPriceWan": 5515.003,
-      "totalAreaPing": 136.8208,
-      "avgUnitPriceWanPing": 40.308
+      "count": 10,
+      "totalPriceWan": 12849.002,
+      "totalAreaPing": 322.1928,
+      "avgUnitPriceWanPing": 39.88
     },
     {
       "month": "2026-09",
       "district": "苓雅區",
       "category": "中古屋",
-      "count": 9,
-      "totalPriceWan": 7820.039,
-      "totalAreaPing": 314.9691,
-      "avgUnitPriceWanPing": 24.828
+      "count": 15,
+      "totalPriceWan": 16002.978,
+      "totalAreaPing": 669.5324,
+      "avgUnitPriceWanPing": 23.902
     },
     {
       "month": "2026-09",
       "district": "苓雅區",
       "category": "預售屋",
-      "count": 4,
-      "totalPriceWan": 4877.999,
-      "totalAreaPing": 127.6883,
-      "avgUnitPriceWanPing": 38.202
+      "count": 9,
+      "totalPriceWan": 13261.009,
+      "totalAreaPing": 327.8102,
+      "avgUnitPriceWanPing": 40.453
     },
     {
       "month": "2026-09",
@@ -7165,19 +7309,19 @@
       "month": "2026-09",
       "district": "鳳山區",
       "category": "5年內成屋",
-      "count": 1,
-      "totalPriceWan": 805.004,
-      "totalAreaPing": 25.0833,
-      "avgUnitPriceWanPing": 32.093
+      "count": 12,
+      "totalPriceWan": 14535.998,
+      "totalAreaPing": 475.89,
+      "avgUnitPriceWanPing": 30.545
     },
     {
       "month": "2026-09",
       "district": "鳳山區",
       "category": "中古屋",
-      "count": 9,
-      "totalPriceWan": 8080.006,
-      "totalAreaPing": 384.8919,
-      "avgUnitPriceWanPing": 20.993
+      "count": 13,
+      "totalPriceWan": 11403.002,
+      "totalAreaPing": 543.1509,
+      "avgUnitPriceWanPing": 20.994
     },
     {
       "month": "2026-09",
@@ -7192,28 +7336,73 @@
       "month": "2026-09",
       "district": "鹽埕區",
       "category": "中古屋",
-      "count": 3,
-      "totalPriceWan": 2161.995,
-      "totalAreaPing": 92.9704,
-      "avgUnitPriceWanPing": 23.255
+      "count": 4,
+      "totalPriceWan": 2241.996,
+      "totalAreaPing": 103.7605,
+      "avgUnitPriceWanPing": 21.607
+    },
+    {
+      "month": "2026-09",
+      "district": "鼓山區",
+      "category": "5年內成屋",
+      "count": 1,
+      "totalPriceWan": 1225.001,
+      "totalAreaPing": 28.9281,
+      "avgUnitPriceWanPing": 42.346
     },
     {
       "month": "2026-09",
       "district": "鼓山區",
       "category": "中古屋",
-      "count": 10,
-      "totalPriceWan": 18005.999,
-      "totalAreaPing": 524.9434,
-      "avgUnitPriceWanPing": 34.301
+      "count": 16,
+      "totalPriceWan": 25945.991,
+      "totalAreaPing": 756.6312,
+      "avgUnitPriceWanPing": 34.291
     },
     {
       "month": "2026-09",
       "district": "鼓山區",
       "category": "預售屋",
-      "count": 5,
-      "totalPriceWan": 11560.986,
-      "totalAreaPing": 168.1537,
-      "avgUnitPriceWanPing": 68.752
+      "count": 10,
+      "totalPriceWan": 21279.996,
+      "totalAreaPing": 337.1272,
+      "avgUnitPriceWanPing": 63.122
+    },
+    {
+      "month": "2026-10",
+      "district": "三民區",
+      "category": "5年內成屋",
+      "count": 1,
+      "totalPriceWan": 1006.003,
+      "totalAreaPing": 26.9225,
+      "avgUnitPriceWanPing": 37.367
+    },
+    {
+      "month": "2026-10",
+      "district": "三民區",
+      "category": "中古屋",
+      "count": 3,
+      "totalPriceWan": 1897.991,
+      "totalAreaPing": 101.0048,
+      "avgUnitPriceWanPing": 18.791
+    },
+    {
+      "month": "2026-10",
+      "district": "仁武區",
+      "category": "5年內成屋",
+      "count": 1,
+      "totalPriceWan": 853.999,
+      "totalAreaPing": 27.8693,
+      "avgUnitPriceWanPing": 30.643
+    },
+    {
+      "month": "2026-10",
+      "district": "仁武區",
+      "category": "中古屋",
+      "count": 1,
+      "totalPriceWan": 949.95,
+      "totalAreaPing": 50.5417,
+      "avgUnitPriceWanPing": 18.795
     },
     {
       "month": "2026-10",
@@ -7226,12 +7415,57 @@
     },
     {
       "month": "2026-10",
+      "district": "前鎮區",
+      "category": "中古屋",
+      "count": 2,
+      "totalPriceWan": 1436.0,
+      "totalAreaPing": 51.0681,
+      "avgUnitPriceWanPing": 28.119
+    },
+    {
+      "month": "2026-10",
+      "district": "大社區",
+      "category": "中古屋",
+      "count": 1,
+      "totalPriceWan": 240.001,
+      "totalAreaPing": 13.0499,
+      "avgUnitPriceWanPing": 18.391
+    },
+    {
+      "month": "2026-10",
+      "district": "小港區",
+      "category": "5年內成屋",
+      "count": 1,
+      "totalPriceWan": 809.998,
+      "totalAreaPing": 31.6929,
+      "avgUnitPriceWanPing": 25.558
+    },
+    {
+      "month": "2026-10",
       "district": "左營區",
       "category": "中古屋",
       "count": 2,
       "totalPriceWan": 1369.995,
       "totalAreaPing": 55.784,
       "avgUnitPriceWanPing": 24.559
+    },
+    {
+      "month": "2026-10",
+      "district": "新興區",
+      "category": "中古屋",
+      "count": 1,
+      "totalPriceWan": 324.999,
+      "totalAreaPing": 12.5144,
+      "avgUnitPriceWanPing": 25.97
+    },
+    {
+      "month": "2026-10",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "count": 2,
+      "totalPriceWan": 2921.999,
+      "totalAreaPing": 78.8255,
+      "avgUnitPriceWanPing": 37.069
     },
     {
       "month": "2026-10",
@@ -7244,12 +7478,39 @@
     },
     {
       "month": "2026-10",
-      "district": "苓雅區",
+      "district": "湖內區",
       "category": "中古屋",
       "count": 1,
-      "totalPriceWan": 620.001,
-      "totalAreaPing": 23.8884,
-      "avgUnitPriceWanPing": 25.954
+      "totalPriceWan": 129.999,
+      "totalAreaPing": 9.8101,
+      "avgUnitPriceWanPing": 13.252
+    },
+    {
+      "month": "2026-10",
+      "district": "苓雅區",
+      "category": "中古屋",
+      "count": 2,
+      "totalPriceWan": 1630.004,
+      "totalAreaPing": 68.5677,
+      "avgUnitPriceWanPing": 23.772
+    },
+    {
+      "month": "2026-10",
+      "district": "鳳山區",
+      "category": "中古屋",
+      "count": 2,
+      "totalPriceWan": 1426.0,
+      "totalAreaPing": 55.3908,
+      "avgUnitPriceWanPing": 25.744
+    },
+    {
+      "month": "2026-10",
+      "district": "鼓山區",
+      "category": "5年內成屋",
+      "count": 1,
+      "totalPriceWan": 1105.005,
+      "totalAreaPing": 28.9281,
+      "avgUnitPriceWanPing": 38.198
     }
   ],
   "projectRankings": [
@@ -10297,21 +10558,121 @@
       "month": "2026-09",
       "district": "前鎮區",
       "projectName": "亞灣205",
-      "count": 16,
-      "totalPriceWan": 20458.996,
-      "totalAreaPing": 486.7528,
-      "avgUnitPriceWanPing": 42.032,
+      "count": 25,
+      "totalPriceWan": 30864.99,
+      "totalAreaPing": 742.4288,
+      "avgUnitPriceWanPing": 41.573,
       "rankInMonth": 1
+    },
+    {
+      "month": "2026-09",
+      "district": "楠梓區",
+      "projectName": "遠雄蘴靚",
+      "count": 6,
+      "totalPriceWan": 6917.995,
+      "totalAreaPing": 152.8109,
+      "avgUnitPriceWanPing": 45.272,
+      "rankInMonth": 2
     },
     {
       "month": "2026-09",
       "district": "鼓山區",
       "projectName": "國揚鉑御",
+      "count": 6,
+      "totalPriceWan": 13536.999,
+      "totalAreaPing": 183.9956,
+      "avgUnitPriceWanPing": 73.572,
+      "rankInMonth": 3
+    },
+    {
+      "month": "2026-09",
+      "district": "楠梓區",
+      "projectName": "遠雄一靚",
+      "count": 5,
+      "totalPriceWan": 6214.99,
+      "totalAreaPing": 140.8017,
+      "avgUnitPriceWanPing": 44.14,
+      "rankInMonth": 4
+    },
+    {
+      "month": "2026-09",
+      "district": "三民區",
+      "projectName": "慶旺美都高峰會",
+      "count": 4,
+      "totalPriceWan": 13074.023,
+      "totalAreaPing": 275.7348,
+      "avgUnitPriceWanPing": 47.415,
+      "rankInMonth": 5
+    },
+    {
+      "month": "2026-09",
+      "district": "仁武區",
+      "projectName": "佳鋐雄湛",
+      "count": 4,
+      "totalPriceWan": 3960.008,
+      "totalAreaPing": 121.0545,
+      "avgUnitPriceWanPing": 32.713,
+      "rankInMonth": 6
+    },
+    {
+      "month": "2026-09",
+      "district": "左營區",
+      "projectName": "鑫高鐵Ⅲ",
+      "count": 4,
+      "totalPriceWan": 3615.005,
+      "totalAreaPing": 110.6333,
+      "avgUnitPriceWanPing": 32.676,
+      "rankInMonth": 7
+    },
+    {
+      "month": "2026-09",
+      "district": "橋頭區",
+      "projectName": "達麗世界學",
+      "count": 4,
+      "totalPriceWan": 5417.999,
+      "totalAreaPing": 125.2834,
+      "avgUnitPriceWanPing": 43.246,
+      "rankInMonth": 8
+    },
+    {
+      "month": "2026-09",
+      "district": "三民區",
+      "projectName": "和築豐彩",
       "count": 3,
-      "totalPriceWan": 6767.993,
-      "totalAreaPing": 85.0267,
-      "avgUnitPriceWanPing": 79.598,
-      "rankInMonth": 2
+      "totalPriceWan": 3915.006,
+      "totalAreaPing": 90.3205,
+      "avgUnitPriceWanPing": 43.346,
+      "rankInMonth": 9
+    },
+    {
+      "month": "2026-09",
+      "district": "三民區",
+      "projectName": "立信 立.天下",
+      "count": 3,
+      "totalPriceWan": 6190.009,
+      "totalAreaPing": 119.8233,
+      "avgUnitPriceWanPing": 51.659,
+      "rankInMonth": 10
+    },
+    {
+      "month": "2026-09",
+      "district": "楠梓區",
+      "projectName": "音樂匯",
+      "count": 3,
+      "totalPriceWan": 2723.994,
+      "totalAreaPing": 85.8314,
+      "avgUnitPriceWanPing": 31.737,
+      "rankInMonth": 11
+    },
+    {
+      "month": "2026-09",
+      "district": "苓雅區",
+      "projectName": "文化星匯",
+      "count": 3,
+      "totalPriceWan": 4918.011,
+      "totalAreaPing": 104.7437,
+      "avgUnitPriceWanPing": 46.953,
+      "rankInMonth": 12
     },
     {
       "month": "2026-09",
@@ -10321,7 +10682,7 @@
       "totalPriceWan": 2059.002,
       "totalAreaPing": 44.4857,
       "avgUnitPriceWanPing": 46.285,
-      "rankInMonth": 3
+      "rankInMonth": 13
     },
     {
       "month": "2026-09",
@@ -10331,37 +10692,47 @@
       "totalPriceWan": 4334.002,
       "totalAreaPing": 85.7346,
       "avgUnitPriceWanPing": 50.551,
-      "rankInMonth": 4
+      "rankInMonth": 14
     },
     {
       "month": "2026-09",
-      "district": "三民區",
-      "projectName": "慶旺美都高峰會",
+      "district": "前鎮區",
+      "projectName": "夢安庭",
       "count": 2,
-      "totalPriceWan": 6511.01,
-      "totalAreaPing": 137.8674,
-      "avgUnitPriceWanPing": 47.227,
-      "rankInMonth": 5
+      "totalPriceWan": 1742.001,
+      "totalAreaPing": 57.3298,
+      "avgUnitPriceWanPing": 30.386,
+      "rankInMonth": 15
     },
     {
       "month": "2026-09",
-      "district": "仁武區",
-      "projectName": "佳鋐雄湛",
+      "district": "大寮區",
+      "projectName": "上學境",
       "count": 2,
-      "totalPriceWan": 2158.004,
-      "totalAreaPing": 67.4031,
-      "avgUnitPriceWanPing": 32.016,
-      "rankInMonth": 6
+      "totalPriceWan": 1365.0,
+      "totalAreaPing": 49.5556,
+      "avgUnitPriceWanPing": 27.545,
+      "rankInMonth": 16
+    },
+    {
+      "month": "2026-09",
+      "district": "大寮區",
+      "projectName": "吉隆天曜",
+      "count": 2,
+      "totalPriceWan": 1815.999,
+      "totalAreaPing": 59.4564,
+      "avgUnitPriceWanPing": 30.543,
+      "rankInMonth": 17
     },
     {
       "month": "2026-09",
       "district": "左營區",
-      "projectName": "鑫高鐵Ⅲ",
+      "projectName": "京城文學苑II",
       "count": 2,
-      "totalPriceWan": 1625.004,
-      "totalAreaPing": 47.1477,
-      "avgUnitPriceWanPing": 34.466,
-      "rankInMonth": 7
+      "totalPriceWan": 2951.999,
+      "totalAreaPing": 69.0335,
+      "avgUnitPriceWanPing": 42.762,
+      "rankInMonth": 18
     },
     {
       "month": "2026-09",
@@ -10371,37 +10742,37 @@
       "totalPriceWan": 2432.998,
       "totalAreaPing": 64.5565,
       "avgUnitPriceWanPing": 37.688,
-      "rankInMonth": 8
+      "rankInMonth": 19
     },
     {
       "month": "2026-09",
-      "district": "楠梓區",
-      "projectName": "遠雄一靚",
+      "district": "苓雅區",
+      "projectName": "京城舞極",
       "count": 2,
-      "totalPriceWan": 2617.997,
-      "totalAreaPing": 62.076,
-      "avgUnitPriceWanPing": 42.174,
-      "rankInMonth": 9
+      "totalPriceWan": 2051.001,
+      "totalAreaPing": 88.3875,
+      "avgUnitPriceWanPing": 23.205,
+      "rankInMonth": 20
     },
     {
       "month": "2026-09",
-      "district": "楠梓區",
-      "projectName": "遠雄蘴靚",
+      "district": "苓雅區",
+      "projectName": "御上立騰",
       "count": 2,
-      "totalPriceWan": 1684.0,
-      "totalAreaPing": 42.2502,
-      "avgUnitPriceWanPing": 39.858,
-      "rankInMonth": 10
+      "totalPriceWan": 2055.992,
+      "totalAreaPing": 47.4834,
+      "avgUnitPriceWanPing": 43.299,
+      "rankInMonth": 21
     },
     {
       "month": "2026-09",
-      "district": "楠梓區",
-      "projectName": "音樂匯",
+      "district": "鼓山區",
+      "projectName": "?埕",
       "count": 2,
-      "totalPriceWan": 1955.994,
-      "totalAreaPing": 60.9689,
-      "avgUnitPriceWanPing": 32.082,
-      "rankInMonth": 11
+      "totalPriceWan": 2950.003,
+      "totalAreaPing": 70.0046,
+      "avgUnitPriceWanPing": 42.14,
+      "rankInMonth": 22
     },
     {
       "month": "2026-09",
@@ -10411,17 +10782,7 @@
       "totalPriceWan": 4792.993,
       "totalAreaPing": 83.127,
       "avgUnitPriceWanPing": 57.659,
-      "rankInMonth": 12
-    },
-    {
-      "month": "2026-09",
-      "district": "三民區",
-      "projectName": "和築豐彩",
-      "count": 1,
-      "totalPriceWan": 1155.0,
-      "totalAreaPing": 27.6546,
-      "avgUnitPriceWanPing": 41.765,
-      "rankInMonth": 13
+      "rankInMonth": 23
     },
     {
       "month": "2026-09",
@@ -10431,7 +10792,7 @@
       "totalPriceWan": 1296.0,
       "totalAreaPing": 24.8141,
       "avgUnitPriceWanPing": 52.228,
-      "rankInMonth": 14
+      "rankInMonth": 24
     },
     {
       "month": "2026-09",
@@ -10441,17 +10802,17 @@
       "totalPriceWan": 1560.005,
       "totalAreaPing": 34.3791,
       "avgUnitPriceWanPing": 45.377,
-      "rankInMonth": 15
+      "rankInMonth": 25
     },
     {
       "month": "2026-09",
       "district": "三民區",
-      "projectName": "立信 立.天下",
+      "projectName": "遠雄峰蘊",
       "count": 1,
-      "totalPriceWan": 1490.002,
-      "totalAreaPing": 29.645,
-      "avgUnitPriceWanPing": 50.261,
-      "rankInMonth": 16
+      "totalPriceWan": 1657.996,
+      "totalAreaPing": 33.6955,
+      "avgUnitPriceWanPing": 49.205,
+      "rankInMonth": 26
     },
     {
       "month": "2026-09",
@@ -10461,7 +10822,7 @@
       "totalPriceWan": 2150.005,
       "totalAreaPing": 40.5955,
       "avgUnitPriceWanPing": 52.962,
-      "rankInMonth": 17
+      "rankInMonth": 27
     },
     {
       "month": "2026-09",
@@ -10471,27 +10832,7 @@
       "totalPriceWan": 1369.996,
       "totalAreaPing": 24.436,
       "avgUnitPriceWanPing": 56.065,
-      "rankInMonth": 18
-    },
-    {
-      "month": "2026-09",
-      "district": "大寮區",
-      "projectName": "上學境",
-      "count": 1,
-      "totalPriceWan": 674.997,
-      "totalAreaPing": 24.7869,
-      "avgUnitPriceWanPing": 27.232,
-      "rankInMonth": 19
-    },
-    {
-      "month": "2026-09",
-      "district": "大寮區",
-      "projectName": "吉隆天曜",
-      "count": 1,
-      "totalPriceWan": 787.999,
-      "totalAreaPing": 26.1965,
-      "avgUnitPriceWanPing": 30.08,
-      "rankInMonth": 20
+      "rankInMonth": 28
     },
     {
       "month": "2026-09",
@@ -10501,27 +10842,17 @@
       "totalPriceWan": 661.0,
       "totalAreaPing": 21.898,
       "avgUnitPriceWanPing": 30.185,
-      "rankInMonth": 21
+      "rankInMonth": 29
     },
     {
       "month": "2026-09",
-      "district": "左營區",
-      "projectName": "京城文學苑II",
+      "district": "新興區",
+      "projectName": "華雄明日之星",
       "count": 1,
-      "totalPriceWan": 1346.003,
-      "totalAreaPing": 30.8913,
-      "avgUnitPriceWanPing": 43.572,
-      "rankInMonth": 22
-    },
-    {
-      "month": "2026-09",
-      "district": "橋頭區",
-      "projectName": "達麗世界學",
-      "count": 1,
-      "totalPriceWan": 1295.002,
-      "totalAreaPing": 28.9281,
-      "avgUnitPriceWanPing": 44.766,
-      "rankInMonth": 23
+      "totalPriceWan": 1187.995,
+      "totalAreaPing": 27.9056,
+      "avgUnitPriceWanPing": 42.572,
+      "rankInMonth": 30
     },
     {
       "month": "2026-09",
@@ -10531,37 +10862,17 @@
       "totalPriceWan": 1235.997,
       "totalAreaPing": 24.2817,
       "avgUnitPriceWanPing": 50.902,
-      "rankInMonth": 24
+      "rankInMonth": 31
     },
     {
       "month": "2026-09",
       "district": "苓雅區",
-      "projectName": "京城舞極",
+      "projectName": "知道明",
       "count": 1,
-      "totalPriceWan": 936.001,
-      "totalAreaPing": 43.2817,
-      "avgUnitPriceWanPing": 21.626,
-      "rankInMonth": 25
-    },
-    {
-      "month": "2026-09",
-      "district": "苓雅區",
-      "projectName": "御上立騰",
-      "count": 1,
-      "totalPriceWan": 917.997,
-      "totalAreaPing": 21.3414,
-      "avgUnitPriceWanPing": 43.015,
-      "rankInMonth": 26
-    },
-    {
-      "month": "2026-09",
-      "district": "苓雅區",
-      "projectName": "文化星匯",
-      "count": 1,
-      "totalPriceWan": 1788.004,
-      "totalAreaPing": 38.7835,
-      "avgUnitPriceWanPing": 46.102,
-      "rankInMonth": 27
+      "totalPriceWan": 3000.008,
+      "totalAreaPing": 62.914,
+      "avgUnitPriceWanPing": 47.684,
+      "rankInMonth": 32
     },
     {
       "month": "2026-09",
@@ -10571,7 +10882,7 @@
       "totalPriceWan": 735.0,
       "totalAreaPing": 21.5108,
       "avgUnitPriceWanPing": 34.169,
-      "rankInMonth": 28
+      "rankInMonth": 33
     },
     {
       "month": "2026-09",
@@ -10581,7 +10892,7 @@
       "totalPriceWan": 1230.005,
       "totalAreaPing": 36.9927,
       "avgUnitPriceWanPing": 33.25,
-      "rankInMonth": 29
+      "rankInMonth": 34
     }
   ],
   "buildingRankings": [
@@ -11690,10 +12001,10 @@
       "district": "橋頭區",
       "category": "5年內成屋",
       "buildingName": "森花園",
-      "count": 21,
-      "totalPriceWan": 38972.997,
-      "totalAreaPing": 999.2543,
-      "avgUnitPriceWanPing": 39.002
+      "count": 22,
+      "totalPriceWan": 41622.993,
+      "totalAreaPing": 1061.9596,
+      "avgUnitPriceWanPing": 39.195
     },
     {
       "month": "2026-03",
@@ -12020,10 +12331,10 @@
       "district": "橋頭區",
       "category": "成屋",
       "buildingName": "森花園",
-      "count": 21,
-      "totalPriceWan": 38972.997,
-      "totalAreaPing": 999.2543,
-      "avgUnitPriceWanPing": 39.002
+      "count": 22,
+      "totalPriceWan": 41622.993,
+      "totalAreaPing": 1061.9596,
+      "avgUnitPriceWanPing": 39.195
     },
     {
       "month": "2026-03",
@@ -14819,6 +15130,16 @@
       "month": "2026-07",
       "district": "楠梓區",
       "category": "5年內成屋",
+      "buildingName": "COME INN",
+      "count": 1,
+      "totalPriceWan": 1110.004,
+      "totalAreaPing": 31.1091,
+      "avgUnitPriceWanPing": 35.681
+    },
+    {
+      "month": "2026-07",
+      "district": "楠梓區",
+      "category": "5年內成屋",
       "buildingName": "欣苑",
       "count": 1,
       "totalPriceWan": 730.003,
@@ -14844,6 +15165,16 @@
       "totalPriceWan": 3489.988,
       "totalAreaPing": 74.8627,
       "avgUnitPriceWanPing": 46.619
+    },
+    {
+      "month": "2026-07",
+      "district": "苓雅區",
+      "category": "5年內成屋",
+      "buildingName": "璟Light",
+      "count": 1,
+      "totalPriceWan": 1028.997,
+      "totalAreaPing": 25.0621,
+      "avgUnitPriceWanPing": 41.058
     },
     {
       "month": "2026-07",
@@ -15189,6 +15520,16 @@
       "month": "2026-07",
       "district": "楠梓區",
       "category": "成屋",
+      "buildingName": "COME INN",
+      "count": 1,
+      "totalPriceWan": 1110.004,
+      "totalAreaPing": 31.1091,
+      "avgUnitPriceWanPing": 35.681
+    },
+    {
+      "month": "2026-07",
+      "district": "楠梓區",
+      "category": "成屋",
       "buildingName": "欣苑",
       "count": 1,
       "totalPriceWan": 730.003,
@@ -15224,6 +15565,16 @@
       "totalPriceWan": 3489.988,
       "totalAreaPing": 74.8627,
       "avgUnitPriceWanPing": 46.619
+    },
+    {
+      "month": "2026-07",
+      "district": "苓雅區",
+      "category": "成屋",
+      "buildingName": "璟Light",
+      "count": 1,
+      "totalPriceWan": 1028.997,
+      "totalAreaPing": 25.0621,
+      "avgUnitPriceWanPing": 41.058
     },
     {
       "month": "2026-07",
@@ -15267,6 +15618,16 @@
     },
     {
       "month": "2026-08",
+      "district": "仁武區",
+      "category": "5年內成屋",
+      "buildingName": "澄境",
+      "count": 5,
+      "totalPriceWan": 7063.015,
+      "totalAreaPing": 234.7098,
+      "avgUnitPriceWanPing": 30.093
+    },
+    {
+      "month": "2026-08",
       "district": "三民區",
       "category": "5年內成屋",
       "buildingName": "宏森·綻",
@@ -15274,16 +15635,6 @@
       "totalPriceWan": 6313.994,
       "totalAreaPing": 136.4578,
       "avgUnitPriceWanPing": 46.271
-    },
-    {
-      "month": "2026-08",
-      "district": "仁武區",
-      "category": "5年內成屋",
-      "buildingName": "澄境",
-      "count": 3,
-      "totalPriceWan": 4241.006,
-      "totalAreaPing": 143.7359,
-      "avgUnitPriceWanPing": 29.506
     },
     {
       "month": "2026-08",
@@ -15304,6 +15655,46 @@
       "totalPriceWan": 5686.009,
       "totalAreaPing": 148.2492,
       "avgUnitPriceWanPing": 38.354
+    },
+    {
+      "month": "2026-08",
+      "district": "前鎮區",
+      "category": "5年內成屋",
+      "buildingName": "旭嵩豐",
+      "count": 2,
+      "totalPriceWan": 3663.007,
+      "totalAreaPing": 82.5613,
+      "avgUnitPriceWanPing": 44.367
+    },
+    {
+      "month": "2026-08",
+      "district": "前鎮區",
+      "category": "5年內成屋",
+      "buildingName": "瑞隆松下",
+      "count": 2,
+      "totalPriceWan": 1730.001,
+      "totalAreaPing": 58.2252,
+      "avgUnitPriceWanPing": 29.712
+    },
+    {
+      "month": "2026-08",
+      "district": "左營區",
+      "category": "5年內成屋",
+      "buildingName": "鑫悅",
+      "count": 2,
+      "totalPriceWan": 2849.995,
+      "totalAreaPing": 59.8375,
+      "avgUnitPriceWanPing": 47.629
+    },
+    {
+      "month": "2026-08",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "琢萃",
+      "count": 2,
+      "totalPriceWan": 3618.001,
+      "totalAreaPing": 99.0204,
+      "avgUnitPriceWanPing": 36.538
     },
     {
       "month": "2026-08",
@@ -15329,11 +15720,31 @@
       "month": "2026-08",
       "district": "三民區",
       "category": "5年內成屋",
+      "buildingName": "登豐29",
+      "count": 1,
+      "totalPriceWan": 1377.0,
+      "totalAreaPing": 35.6315,
+      "avgUnitPriceWanPing": 38.646
+    },
+    {
+      "month": "2026-08",
+      "district": "三民區",
+      "category": "5年內成屋",
       "buildingName": "美森園",
       "count": 1,
       "totalPriceWan": 1845.007,
       "totalAreaPing": 46.8119,
       "avgUnitPriceWanPing": 39.413
+    },
+    {
+      "month": "2026-08",
+      "district": "三民區",
+      "category": "5年內成屋",
+      "buildingName": "藏三豐",
+      "count": 1,
+      "totalPriceWan": 1553.0,
+      "totalAreaPing": 40.3989,
+      "avgUnitPriceWanPing": 38.442
     },
     {
       "month": "2026-08",
@@ -15357,23 +15768,23 @@
     },
     {
       "month": "2026-08",
-      "district": "前鎮區",
+      "district": "小港區",
       "category": "5年內成屋",
-      "buildingName": "旭嵩豐",
+      "buildingName": "寶蒔捷",
       "count": 1,
-      "totalPriceWan": 1835.005,
-      "totalAreaPing": 41.2792,
-      "avgUnitPriceWanPing": 44.454
+      "totalPriceWan": 1719.998,
+      "totalAreaPing": 47.1598,
+      "avgUnitPriceWanPing": 36.472
     },
     {
       "month": "2026-08",
-      "district": "前鎮區",
+      "district": "小港區",
       "category": "5年內成屋",
-      "buildingName": "瑞隆松下",
+      "buildingName": "百達宏邸",
       "count": 1,
-      "totalPriceWan": 889.999,
-      "totalAreaPing": 29.1126,
-      "avgUnitPriceWanPing": 30.571
+      "totalPriceWan": 1270.995,
+      "totalAreaPing": 37.1137,
+      "avgUnitPriceWanPing": 34.246
     },
     {
       "month": "2026-08",
@@ -15389,11 +15800,21 @@
       "month": "2026-08",
       "district": "左營區",
       "category": "5年內成屋",
-      "buildingName": "鑫悅",
+      "buildingName": "諾金",
       "count": 1,
-      "totalPriceWan": 1564.995,
-      "totalAreaPing": 31.0214,
-      "avgUnitPriceWanPing": 50.449
+      "totalPriceWan": 838.0,
+      "totalAreaPing": 24.1304,
+      "avgUnitPriceWanPing": 34.728
+    },
+    {
+      "month": "2026-08",
+      "district": "左營區",
+      "category": "5年內成屋",
+      "buildingName": "高鐵SONG",
+      "count": 1,
+      "totalPriceWan": 1606.004,
+      "totalAreaPing": 39.6003,
+      "avgUnitPriceWanPing": 40.555
     },
     {
       "month": "2026-08",
@@ -15424,16 +15845,6 @@
       "totalPriceWan": 1040.0,
       "totalAreaPing": 29.1913,
       "avgUnitPriceWanPing": 35.627
-    },
-    {
-      "month": "2026-08",
-      "district": "楠梓區",
-      "category": "5年內成屋",
-      "buildingName": "琢萃",
-      "count": 1,
-      "totalPriceWan": 1746.996,
-      "totalAreaPing": 49.3862,
-      "avgUnitPriceWanPing": 35.374
     },
     {
       "month": "2026-08",
@@ -15507,6 +15918,16 @@
     },
     {
       "month": "2026-08",
+      "district": "仁武區",
+      "category": "成屋",
+      "buildingName": "澄境",
+      "count": 5,
+      "totalPriceWan": 7063.015,
+      "totalAreaPing": 234.7098,
+      "avgUnitPriceWanPing": 30.093
+    },
+    {
+      "month": "2026-08",
       "district": "三民區",
       "category": "成屋",
       "buildingName": "宏森·綻",
@@ -15514,16 +15935,6 @@
       "totalPriceWan": 6313.994,
       "totalAreaPing": 136.4578,
       "avgUnitPriceWanPing": 46.271
-    },
-    {
-      "month": "2026-08",
-      "district": "仁武區",
-      "category": "成屋",
-      "buildingName": "澄境",
-      "count": 3,
-      "totalPriceWan": 4241.006,
-      "totalAreaPing": 143.7359,
-      "avgUnitPriceWanPing": 29.506
     },
     {
       "month": "2026-08",
@@ -15544,6 +15955,46 @@
       "totalPriceWan": 5686.009,
       "totalAreaPing": 148.2492,
       "avgUnitPriceWanPing": 38.354
+    },
+    {
+      "month": "2026-08",
+      "district": "前鎮區",
+      "category": "成屋",
+      "buildingName": "旭嵩豐",
+      "count": 2,
+      "totalPriceWan": 3663.007,
+      "totalAreaPing": 82.5613,
+      "avgUnitPriceWanPing": 44.367
+    },
+    {
+      "month": "2026-08",
+      "district": "前鎮區",
+      "category": "成屋",
+      "buildingName": "瑞隆松下",
+      "count": 2,
+      "totalPriceWan": 1730.001,
+      "totalAreaPing": 58.2252,
+      "avgUnitPriceWanPing": 29.712
+    },
+    {
+      "month": "2026-08",
+      "district": "左營區",
+      "category": "成屋",
+      "buildingName": "鑫悅",
+      "count": 2,
+      "totalPriceWan": 2849.995,
+      "totalAreaPing": 59.8375,
+      "avgUnitPriceWanPing": 47.629
+    },
+    {
+      "month": "2026-08",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "琢萃",
+      "count": 2,
+      "totalPriceWan": 3618.001,
+      "totalAreaPing": 99.0204,
+      "avgUnitPriceWanPing": 36.538
     },
     {
       "month": "2026-08",
@@ -15569,11 +16020,31 @@
       "month": "2026-08",
       "district": "三民區",
       "category": "成屋",
+      "buildingName": "登豐29",
+      "count": 1,
+      "totalPriceWan": 1377.0,
+      "totalAreaPing": 35.6315,
+      "avgUnitPriceWanPing": 38.646
+    },
+    {
+      "month": "2026-08",
+      "district": "三民區",
+      "category": "成屋",
       "buildingName": "美森園",
       "count": 1,
       "totalPriceWan": 1845.007,
       "totalAreaPing": 46.8119,
       "avgUnitPriceWanPing": 39.413
+    },
+    {
+      "month": "2026-08",
+      "district": "三民區",
+      "category": "成屋",
+      "buildingName": "藏三豐",
+      "count": 1,
+      "totalPriceWan": 1553.0,
+      "totalAreaPing": 40.3989,
+      "avgUnitPriceWanPing": 38.442
     },
     {
       "month": "2026-08",
@@ -15597,23 +16068,23 @@
     },
     {
       "month": "2026-08",
-      "district": "前鎮區",
+      "district": "小港區",
       "category": "成屋",
-      "buildingName": "旭嵩豐",
+      "buildingName": "寶蒔捷",
       "count": 1,
-      "totalPriceWan": 1835.005,
-      "totalAreaPing": 41.2792,
-      "avgUnitPriceWanPing": 44.454
+      "totalPriceWan": 1719.998,
+      "totalAreaPing": 47.1598,
+      "avgUnitPriceWanPing": 36.472
     },
     {
       "month": "2026-08",
-      "district": "前鎮區",
+      "district": "小港區",
       "category": "成屋",
-      "buildingName": "瑞隆松下",
+      "buildingName": "百達宏邸",
       "count": 1,
-      "totalPriceWan": 889.999,
-      "totalAreaPing": 29.1126,
-      "avgUnitPriceWanPing": 30.571
+      "totalPriceWan": 1270.995,
+      "totalAreaPing": 37.1137,
+      "avgUnitPriceWanPing": 34.246
     },
     {
       "month": "2026-08",
@@ -15629,11 +16100,21 @@
       "month": "2026-08",
       "district": "左營區",
       "category": "成屋",
-      "buildingName": "鑫悅",
+      "buildingName": "諾金",
       "count": 1,
-      "totalPriceWan": 1564.995,
-      "totalAreaPing": 31.0214,
-      "avgUnitPriceWanPing": 50.449
+      "totalPriceWan": 838.0,
+      "totalAreaPing": 24.1304,
+      "avgUnitPriceWanPing": 34.728
+    },
+    {
+      "month": "2026-08",
+      "district": "左營區",
+      "category": "成屋",
+      "buildingName": "高鐵SONG",
+      "count": 1,
+      "totalPriceWan": 1606.004,
+      "totalAreaPing": 39.6003,
+      "avgUnitPriceWanPing": 40.555
     },
     {
       "month": "2026-08",
@@ -15664,16 +16145,6 @@
       "totalPriceWan": 1040.0,
       "totalAreaPing": 29.1913,
       "avgUnitPriceWanPing": 35.627
-    },
-    {
-      "month": "2026-08",
-      "district": "楠梓區",
-      "category": "成屋",
-      "buildingName": "琢萃",
-      "count": 1,
-      "totalPriceWan": 1746.996,
-      "totalAreaPing": 49.3862,
-      "avgUnitPriceWanPing": 35.374
     },
     {
       "month": "2026-08",
@@ -15750,10 +16221,40 @@
       "district": "三民區",
       "category": "5年內成屋",
       "buildingName": "聚丰景",
+      "count": 2,
+      "totalPriceWan": 3009.998,
+      "totalAreaPing": 70.0318,
+      "avgUnitPriceWanPing": 42.98
+    },
+    {
+      "month": "2026-09",
+      "district": "鳳山區",
+      "category": "5年內成屋",
+      "buildingName": "清朗",
+      "count": 2,
+      "totalPriceWan": 2755.0,
+      "totalAreaPing": 100.1578,
+      "avgUnitPriceWanPing": 27.507
+    },
+    {
+      "month": "2026-09",
+      "district": "三民區",
+      "category": "5年內成屋",
+      "buildingName": "鑫空樹",
       "count": 1,
-      "totalPriceWan": 1435.002,
-      "totalAreaPing": 31.2483,
-      "avgUnitPriceWanPing": 45.923
+      "totalPriceWan": 990.002,
+      "totalAreaPing": 25.8789,
+      "avgUnitPriceWanPing": 38.255
+    },
+    {
+      "month": "2026-09",
+      "district": "三民區",
+      "category": "5年內成屋",
+      "buildingName": "齊樂",
+      "count": 1,
+      "totalPriceWan": 1690.0,
+      "totalAreaPing": 40.8738,
+      "avgUnitPriceWanPing": 41.347
     },
     {
       "month": "2026-09",
@@ -15767,6 +16268,26 @@
     },
     {
       "month": "2026-09",
+      "district": "仁武區",
+      "category": "5年內成屋",
+      "buildingName": "澄境",
+      "count": 1,
+      "totalPriceWan": 1200.994,
+      "totalAreaPing": 41.1733,
+      "avgUnitPriceWanPing": 29.169
+    },
+    {
+      "month": "2026-09",
+      "district": "仁武區",
+      "category": "5年內成屋",
+      "buildingName": "華雄天地",
+      "count": 1,
+      "totalPriceWan": 1239.994,
+      "totalAreaPing": 41.9991,
+      "avgUnitPriceWanPing": 29.524
+    },
+    {
+      "month": "2026-09",
       "district": "小港區",
       "category": "5年內成屋",
       "buildingName": "百達宏邸",
@@ -15774,6 +16295,16 @@
       "totalPriceWan": 1182.998,
       "totalAreaPing": 35.5105,
       "avgUnitPriceWanPing": 33.314
+    },
+    {
+      "month": "2026-09",
+      "district": "左營區",
+      "category": "5年內成屋",
+      "buildingName": "高鐵SONG",
+      "count": 1,
+      "totalPriceWan": 846.0,
+      "totalAreaPing": 22.3941,
+      "avgUnitPriceWanPing": 37.778
     },
     {
       "month": "2026-09",
@@ -15800,10 +16331,40 @@
       "district": "三民區",
       "category": "成屋",
       "buildingName": "聚丰景",
+      "count": 2,
+      "totalPriceWan": 3009.998,
+      "totalAreaPing": 70.0318,
+      "avgUnitPriceWanPing": 42.98
+    },
+    {
+      "month": "2026-09",
+      "district": "鳳山區",
+      "category": "成屋",
+      "buildingName": "清朗",
+      "count": 2,
+      "totalPriceWan": 2755.0,
+      "totalAreaPing": 100.1578,
+      "avgUnitPriceWanPing": 27.507
+    },
+    {
+      "month": "2026-09",
+      "district": "三民區",
+      "category": "成屋",
+      "buildingName": "鑫空樹",
       "count": 1,
-      "totalPriceWan": 1435.002,
-      "totalAreaPing": 31.2483,
-      "avgUnitPriceWanPing": 45.923
+      "totalPriceWan": 990.002,
+      "totalAreaPing": 25.8789,
+      "avgUnitPriceWanPing": 38.255
+    },
+    {
+      "month": "2026-09",
+      "district": "三民區",
+      "category": "成屋",
+      "buildingName": "齊樂",
+      "count": 1,
+      "totalPriceWan": 1690.0,
+      "totalAreaPing": 40.8738,
+      "avgUnitPriceWanPing": 41.347
     },
     {
       "month": "2026-09",
@@ -15817,6 +16378,26 @@
     },
     {
       "month": "2026-09",
+      "district": "仁武區",
+      "category": "成屋",
+      "buildingName": "澄境",
+      "count": 1,
+      "totalPriceWan": 1200.994,
+      "totalAreaPing": 41.1733,
+      "avgUnitPriceWanPing": 29.169
+    },
+    {
+      "month": "2026-09",
+      "district": "仁武區",
+      "category": "成屋",
+      "buildingName": "華雄天地",
+      "count": 1,
+      "totalPriceWan": 1239.994,
+      "totalAreaPing": 41.9991,
+      "avgUnitPriceWanPing": 29.524
+    },
+    {
+      "month": "2026-09",
       "district": "小港區",
       "category": "成屋",
       "buildingName": "百達宏邸",
@@ -15824,6 +16405,16 @@
       "totalPriceWan": 1182.998,
       "totalAreaPing": 35.5105,
       "avgUnitPriceWanPing": 33.314
+    },
+    {
+      "month": "2026-09",
+      "district": "左營區",
+      "category": "成屋",
+      "buildingName": "高鐵SONG",
+      "count": 1,
+      "totalPriceWan": 846.0,
+      "totalAreaPing": 22.3941,
+      "avgUnitPriceWanPing": 37.778
     },
     {
       "month": "2026-09",
@@ -15844,12 +16435,52 @@
       "totalPriceWan": 1560.003,
       "totalAreaPing": 40.6832,
       "avgUnitPriceWanPing": 38.345
+    },
+    {
+      "month": "2026-10",
+      "district": "仁武區",
+      "category": "5年內成屋",
+      "buildingName": "多城市II",
+      "count": 1,
+      "totalPriceWan": 853.999,
+      "totalAreaPing": 27.8693,
+      "avgUnitPriceWanPing": 30.643
+    },
+    {
+      "month": "2026-10",
+      "district": "楠梓區",
+      "category": "5年內成屋",
+      "buildingName": "都薈綻",
+      "count": 1,
+      "totalPriceWan": 1811.997,
+      "totalAreaPing": 47.2082,
+      "avgUnitPriceWanPing": 38.383
+    },
+    {
+      "month": "2026-10",
+      "district": "仁武區",
+      "category": "成屋",
+      "buildingName": "多城市II",
+      "count": 1,
+      "totalPriceWan": 853.999,
+      "totalAreaPing": 27.8693,
+      "avgUnitPriceWanPing": 30.643
+    },
+    {
+      "month": "2026-10",
+      "district": "楠梓區",
+      "category": "成屋",
+      "buildingName": "都薈綻",
+      "count": 1,
+      "totalPriceWan": 1811.997,
+      "totalAreaPing": 47.2082,
+      "avgUnitPriceWanPing": 38.383
     }
   ],
   "developerFirstSaleRankings": [],
   "developerFirstSaleMatchCount": 0,
   "developerFirstSaleRankingNote": "僅統計逐筆核實為建商完工後直接首售的成屋交易；不以屋齡、門牌或大量交屋推定首售，未核實者不納入。",
-  "communityMatchCount": 500,
-  "communityUnmatchedCount": 4711,
+  "communityMatchCount": 525,
+  "communityUnmatchedCount": 4910,
   "buildingRankingNote": "成屋社區排行只統計官方直接具名或經完整建物門牌人工核實的案件；未辨識社區不納入排名。"
 }
