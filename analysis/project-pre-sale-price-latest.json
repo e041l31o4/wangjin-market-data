@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "data/project_transactions.json",
-  "sourceDataUpdatedAt": "2026-11-11",
+  "sourceDataUpdatedAt": "2026-11-12",
   "coverageMonths": [
     "2026-01",
     "2026-02",
@@ -2235,7 +2235,7 @@
       "transactionFingerprint": "566074a9e19910b6c236533ba1db8a1874f20383b892cb93b40c3324f4821043",
       "aliasCandidateTransactionCount": 0,
       "latestTransactionDate": "2026-09-28",
-      "latestUnitPriceWanPing": 65.58,
+      "latestUnitPriceWanPing": 70.37,
       "averageUnitPriceWanPing": 68.52,
       "minUnitPriceWanPing": 60.39,
       "maxUnitPriceWanPing": 92.18,
@@ -2991,7 +2991,7 @@
       "transactionFingerprint": "55ee38a1340f7baa22f6248752cd3736f61f7c2a3eebddc31ee9ae63ca4ef5ea",
       "aliasCandidateTransactionCount": 0,
       "latestTransactionDate": "2026-09-24",
-      "latestUnitPriceWanPing": 38.03,
+      "latestUnitPriceWanPing": 48.1,
       "averageUnitPriceWanPing": 38.69,
       "minUnitPriceWanPing": 35.3,
       "maxUnitPriceWanPing": 48.1,
